@@ -318,7 +318,33 @@ Esta herramienta ayuda a visualizar qué tareas y objetivos son más relevantes 
  
 #### 2.3.3. User Journey Mapping
 
+*User Journey Mapping 1: Abogado*
+
+
+
+*User Journey Mapping 2: Cliente*
+
+
+
 #### 2.3.4. Empathy Mapping 
+
+En esta sección se presenta el Empathy Mapping, una herramienta que facilita la creación de un perfil detallado de los User Personas y permite desarrollar una comprensión profunda de su perspectiva y experiencia. Los diagramas de empatía proporcionan una visión completa de cómo los usuarios piensan, sienten, dicen y hacen, ayudando a captar mejor sus emociones, preocupaciones y necesidades.
+
+Para la elaboración de estos diagramas, se ha utilizado la herramienta UXPressia, que ofrece facilidades para desarrollar mapas de empatía detallados y precisos. Estos mapas incluyen:
+
+**Lo que el usuario piensa:** Reflexiones internas, creencias y actitudes.
+
+**Lo que el usuario siente:** Emociones y sentimientos predominantes.
+
+**Lo que el usuario dice:** Declaraciones y comentarios que el usuario hace sobre su experiencia.
+
+**Lo que el usuario hace:** Acciones y comportamientos observables.
+
+Este enfoque permite una comprensión más rica y matizada de los usuarios, facilitando la creación de soluciones que realmente respondan a sus necesidades y expectativas.
+
+***Empathy Mapping 1:*** *Abogado que busca expandir su clientela*
+
+***Empathy Mapping 2:*** *Cliente en busca de asesoría legal*
 
 #### 2.3.5. As-is Scenario Mapping
 
