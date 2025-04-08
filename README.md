@@ -25,7 +25,7 @@
 | Gonzalo Andre Zavala Quedena       | U202113656 |
 | Camila Cristina Loli Ramirez       |            |
 | Barbara Antonella Espinoza Delgado |            |
-| Omar Berrocal Ramirez              |            |
+| Johan Jorge Quiñones Tintaya       | U202218183 |
 
 <br> Abril 2025
 </center>  
@@ -227,6 +227,95 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 
 #### 2.3.2. User Task Matrix
 
+En esta sección se presenta el User Task Matrix, una herramienta clave centrada en los segmentos objetivos que permite identificar las tareas y objetivos principales de los usuarios. Esta matriz facilita la priorización de características y funcionalidades al momento de elaborar el product backlog.
+
+**La matriz incluye:**
+
+**Tareas:** Listado de las tareas que los usuarios necesitan realizar dentro de la plataforma.
+
+**Objetivos:** Metas que los usuarios buscan alcanzar al llevar a cabo cada tarea.
+
+**Frecuencia:** Clasificación de la frecuencia con la que los usuarios realizan cada tarea, utilizando las opciones:
+
+Never (Nunca) Rarely (Raramente) Sometimes (A veces) Often (A menudo) Always (Siempre)
+
+**Importancia:** Evaluación de la importancia de cada tarea para los usuarios, con las opciones:
+
+Low (Baja) Medium (Media) High (Alta)
+
+Esta herramienta ayuda a visualizar qué tareas y objetivos son más relevantes para los usuarios, permitiendo así una mejor planificación y priorización en el desarrollo del producto.
+
+<table border="1">
+  <tr>
+    <td></td>
+    <td colspan="2">Jean <br>(Persona en busca de asesorías legales)</td>
+    <td colspan="2">Lucía <br>(Abogada)</td>
+  </tr>
+  <tr>
+    <td>User Task</td>
+    <td>Frequency</td>
+    <td>Importance</td>
+    <td>Frequency</td>
+    <td>Importance</td>
+  </tr>
+  <tr>
+    <td>Buscar a abogados para asesoramiento legal</td>
+    <td>Sometimes</td>
+    <td>High</td>
+    <td>Never</td>
+    <td>Medium</td>
+  </tr>
+  <tr>
+    <td>Evaluar la experiencia de cada abogado</td>
+    <td>Sometimes</td>
+    <td>Medium</td>
+    <td>Never</td>
+    <td>Medium</td>
+  </tr>
+  <tr>
+    <td>Valorar a abogados por los servicios realizados</td>
+    <td>Rarely</td>
+    <td>Low</td>
+    <td>Never</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Contactar con abogado/cliente</td>
+    <td>Always</td>
+    <td>High</td>
+    <td>Always</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Explicar/escuchar problema o necesidad del cliente</td>
+    <td>Always</td>
+    <td>High</td>
+    <td>Always</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Ofrecer servicio por plataformas</td>
+    <td>Never</td>
+    <td>Low</td>
+    <td>Often</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Promocionar servicios ofrecidos</td>
+    <td>Never</td>
+    <td>Low</td>
+    <td>Sometimes</td>
+    <td>Medium</td>
+  </tr>
+  <tr>
+    <td>Realizar el servicio solicitado</td>
+    <td>Never</td>
+    <td>Low</td>
+    <td>Sometimes</td>
+    <td>High</td>
+  </tr></table>
+
+ 
 #### 2.3.3. User Journey Mapping
 
 #### 2.3.4. Empathy Mapping 
