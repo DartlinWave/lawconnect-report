@@ -348,6 +348,24 @@ Este enfoque permite una comprensión más rica y matizada de los usuarios, faci
 
 #### 2.3.5. As-is Scenario Mapping
 
+En esta sección se presentan los As-Is Scenario Mapping para ambos segmentos objetivos. Estos mapas detallan los escenarios actuales en los que los usuarios interactúan con el software, identificando y comprendiendo los puntos de contacto y las experiencias a lo largo del proceso.
+
+El As-Is Scenario Mapping incluye:
+
+**Puntos de Contacto:** Momentos clave donde los usuarios interactúan con la plataforma, como la búsqueda de información, la selección de abogados y la gestión de consultas.
+
+**Experiencias del Usuario:** Cómo los usuarios perciben y experimentan cada punto de contacto, incluyendo sus emociones y niveles de satisfacción.
+
+**Problemas y Obstáculos:** Dificultades y fricciones que los usuarios enfrentan en su interacción con el software actual.
+
+**Oportunidades de Mejora:** Áreas donde se pueden realizar mejoras para optimizar la experiencia del usuario y resolver los problemas identificados.
+
+Estos mapas ayudan a visualizar el flujo actual de interacción del usuario, permitiendo identificar áreas críticas que necesitan ser optimizadas para mejorar la experiencia general del usuario.
+
+***As-is Scenario Mapping 1:*** *Abogado que busca expandir su clientela*
+
+***As-is Scenario Mapping 2:*** *Cliente en busca de asesoría legal*
+
 ### 2.4. Ubiquitous Language 
 
 ## Capítulo III: Requirements Specificatio
