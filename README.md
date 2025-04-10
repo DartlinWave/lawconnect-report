@@ -545,7 +545,8 @@ https://cdn.www.gob.pe/uploads/document/file/1230044/Informe%20Bienal.pdf?v=1603
 
 Gobierno del Perú. (17 de marzo de 2022). _III Informe bienal sobre la realidad universitaria_. Sunedu. [https://cdn.www.gob.pe/uploads/document/file/3018068/III%20Informe%20Bienal.pdf](https://cdn.www.gob.pe/uploads/document/file/3018068/III%20Informe%20Bienal.pdf)
 
-Vallecilla, C. (21 de marzo de 2024). El desempleo en Perú dic. 2023 - feb. 2024 no varió, pero se recuperaron casi 640 mil empleos. _tyba- ¡La app de las inversiones en el Perú!_ [https://tyba.pe/blog/tasa-de-desempleo-en-peru-dic-2023-feb-2024/](https://tyba.pe/blog/tasa-de-desempleo-en-peru-dic-2023-feb-2024/)
+Pontificia Universidad Católica del Perú. (2019). _Informe del mercado laboral de Derecho_. Bolsa de Trabajo PUCP. https://cdn01.pucp.education/btpucp/2019/07/23142115/informe-del-mercado-laboral-de-derecho.pdf
 
-Pontificia Universidad Católica del Perú. ()
+Vallecilla, C. (21 de marzo de 2024). El desempleo en Perú dic. 2023 - feb. 2024 no varió, pero se recuperaron casi 640 mil empleos. _tyba- ¡La app de las inversiones en el Perú!_ https://tyba.pe/blog/tasa-de-desempleo-en-peru-dic-2023-feb-2024/
+
 ## Anexos 
