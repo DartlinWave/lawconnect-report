@@ -182,13 +182,17 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 ## Objetivos SMART
 
 ## Capítulo I: Presentación
+<p align="justify">
 En este capítulo se presentará con la startup y la previa planeación e investigación para el proyecto. Empezaremos con la explicación de nuestra startup y el equipo que la conforma, luego realizaremos un análisis sobre el problema escogido, junto con los antecedentes de este mismo. Además, utilizaremos el proceso Lean UX para planear la solución y determinar el mercado objetivo.
+</p>
 
 ### 1.1 Startup Profile
 En esta sección se detallará las características de nuestra startup, esto incluye la definición de nuestras metas como equipo, misión, visión y el perfil de los integrantes que componen el equipo.
 
 #### 1.1.1. Descripción de la Startup
+<p align="justify">
 DartlinWave es una startup compuesta por un grupo de estudiantes de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC). Estamos enfocados en la creación de herramientas tecnológicas para mejorar y actualizar el rubro de abogacía. De esta forma, con las aplicaciones que desarrollemos, buscamos optimizar los procedimientos legales que los clientes tienen actualmente. Además, también tenemos en cuenta a los abogados para generar más oportunidades laborales, ya que no se excluirán a los profesionales dependiendo de su edad o experiencia laboral. Es así que llegamos a la realización de nuestro primer proyecto, se desarrollará la aplicación móvil LawConnect. Con esta aplicación esperamos facilitar la búsqueda de abogados calificados para personas que tengan un problema legal. Asimismo, deseamos generar más oportunidades laborales para los abogados recién egresados de la universidad, lo que les permitirá empezar una carrera en el rubro, obtener más experiencia e incrementar sus ofertas de trabajo. De esta forma, perfeccionamos la comunicación entre los abogados y potenciales clientes, lo que permite a ambos segmentos lograr sus metas; así, logramos nuestra misión y nos acercamos a nuestra visión.
+</p>
 
 **Misión**: Ofrecer una comunicación eficaz entre los abogados aptos y clientes, con el objetivo de mejorar los procedimientos legales y fomentar el uso de herramientas tecnológicas en el sector de abogacía. Nuestra motivación principal es aumentar las oportunidades de trabajo para los abogados y permitir que los clientes tengan la posibilidad de encontrar un profesional que se adapte a sus requisitos.
 
@@ -213,41 +217,55 @@ En este apartado se explicará la problemática investigada para planificar la s
 
 #### 1.2.1 Antecedentes y problemática
 
+<p align="justify">
 Según Vallecilla (2024), hasta febrero del año 2024, la tasa de desempleo en Perú alcanzó el 7.30%. Esta realidad no es ajena para los egresados de la carrera de derecho, los cuales se enfrentan a desafíos para encontrar un empleo estable debido a la coyuntura actual. Acorde al Tercer Informe Bienal sobre la Realidad Universitaria en el Perú de Sunedu (2022, p. 211), se explica que a los bachilleres de leyes les demora 3,6 meses en conseguir un trabajo, lo cual impide que tengan continuidad para ejercer su carrera luego de su graduación. Asimismo, todavía hay un porcentaje de estudiantes (6.4%) en Lima que les puede tomar desde 17 a 23 meses; es por ello que deseamos disminuir esa cantidad, debido a que implica un impacto en su currículum, esto complica aún más sus oportunidades laborales porque los empleadores prefieren que sus probables trabajadores sean consistentes con su carrera laboral. También, de acuerdo con el informe de la Bolsa de Trabajo de la Pontificia Universidad Católica del Perú (PUCP), El Mercado Laboral en la Carrera de Derecho PUCP (2019, p. 14), se demostró que el más del 35% de los encuestados (sobre una base de 73 entrevistados) considera que el 30% de los abogados egresados tienen problemas para obtener un empleo acorde a su especialidad; esto se aúna con los problemas mencionados con anterioridad, pues no tener experiencia laboral que corresponda a su especialidad significa que no tienen la posibilidad de ahondar en sus conocimientos adquiridos, ponerlos a prueba y reduce sus oportunidades de lograr sus metas personales. Por otro lado, también existe la dificultad para aquellas personas con problemas legales de encontrar un abogado calificado, ya que carecen de orientación sobre dónde buscar o cómo encontrarlos.
+</p>
 
 Para realizar los antecedentes y problemáticas, se realizó con anticipación la técnica 5 ‘W’s & 2 ‘H’s:
 
-**What**: El problema es el desempleo entre los egresados de la carrera de derecho y la dificultad de las personas con problemas legales al momento de buscar abogados calificados para sus casos.
-**When**: El problema sucede desde hacer varios años atrás, según Segundo Informe Bienal sobre la Realidad Universitaria en el Perú de Sunedu (2020 p. 124), que considera un análisis del año 2012 a 2018, había una tasa de desempleo en universitarios de 8,8%, un nivel bastante alto a pesar de tener grado de bachiller.
-**Where**: Este análisis se enfoca en Lima, en este se enfrentan distintos desafíos al momento de encontrar un empleo al ser un estudiante egresado de la carrera de leyes. Asimismo, hay un grado de dificultad para acceder a los servicios legales debido a la falta de información al momento de contactar a un abogado.
-**Who**: Nos enfocamos en los egresados de la carrera de derecho que estén en búsqueda de empleo y en las personas que necesitan asistencia legal para sus respectivos casos.
-**Why**: La oferta laboral para los abogados es más alta que la demanda de trabajo, es por ello que nos enfocamos explícitamente en los egresados, porque es más difícil hallar trabajo en un rubro tan sobrepoblado. Buscamos mitigar el desempleo en el rubro de leyes.
-**How**: Desarrollaremos LawConnect para facilitar la búsqueda de abogados y aumentar la demanda laboral para los abogados. Asimismo, brindaremos la aplicación móvil a los clientes para mejorar la comunicación con abogados calificados.
+**What**: El problema es el desempleo entre los egresados de la carrera de derecho y la dificultad de las personas con problemas legales al momento de buscar abogados calificados para sus casos.  
+**When**: El problema sucede desde hacer varios años atrás, según Segundo Informe Bienal sobre la Realidad Universitaria en el Perú de Sunedu (2020 p. 124), que considera un análisis del año 2012 a 2018, había una tasa de desempleo en universitarios de 8,8%, un nivel bastante alto a pesar de tener grado de bachiller.  
+**Where**: Este análisis se enfoca en Lima, en este se enfrentan distintos desafíos al momento de encontrar un empleo al ser un estudiante egresado de la carrera de leyes. Asimismo, hay un grado de dificultad para acceder a los servicios legales debido a la falta de información al momento de contactar a un abogado.  
+**Who**: Nos enfocamos en los egresados de la carrera de derecho que estén en búsqueda de empleo y en las personas que necesitan asistencia legal para sus respectivos casos.  
+**Why**: La oferta laboral para los abogados es más alta que la demanda de trabajo, es por ello que nos enfocamos explícitamente en los egresados, porque es más difícil hallar trabajo en un rubro tan sobrepoblado. Buscamos mitigar el desempleo en el rubro de leyes.  
+**How**: Desarrollaremos LawConnect para facilitar la búsqueda de abogados y aumentar la demanda laboral para los abogados. Asimismo, brindaremos la aplicación móvil a los clientes para mejorar la comunicación con abogados calificados.  
+
 **How much**:
 
 *Estadística de la problemática*
-
+<p align="justify">
 Según el Tercer Informe Bienal sobre la Realidad Universitaria en el Perú hecho por Sunedu (2022) para analizar el estado de los estudiantes universitarios - incluye de todo tipo de instituciones, sea privada o pública y a los de otros departamentos en el país - antes, durante y después de su formación superior académica, se pueden analizar dos gráficos estadísticos que explican la gravedad de la situación de los egresados.
+</p>
 
+<p align="justify">
 Del primer gráfico analizamos la cantidad de meses que demora a un egresado de la carrera de derecho, les toma 3,6 meses a partir de la obtención de su grado (p. 211). A pesar de que no es un número tan alto como en las situaciones de las demás carreras, aún así es un tiempo preocupante debido a que varios estudiantes tienden a pagar su propia carrera, encontrando otro tipo de trabajos. Asimismo, en la página 127 del resumen ejecutivo, se señala que la tasa de desempleo de los egresados aumentó de 6.8% a 15.5% a nivel nacional, lo cual refuerza las complicaciones que tienen para encontrar un empleo formal.
+</p>
+
 
 Figura 1
 
-![Figure I](assets/images/chapter-I/figure-I.png)
+![Figure I](assets/images/chapter-I/figure-I.png)  
+
 *Nota.* Estadística sobre el tiempo promedio que toma a un estudiante egresado lograr su primer empleo asalariado formal según su carrera. Tomado de *Tercer Informe Bienal sobre la Realidad Universitaria en el Perú* (p. 211), por Sunedu, 2022.
 
+<p align="justify">
 En el segundo gráfico se muestra el tiempo que demora a los egresados encontrar trabajo luego de su graduación acorde a su experiencia laboral. A los egresados sin experiencia previa en el rubro les toma 9,4 meses encontrar un puesto para laborar; la cantidad de meses disminuye a medida que la cantidad de tiempo trabajado en prácticas pre profesionales es mayor. Al tener en cuenta estos números, se comprueba que hay más dificultad al momento de buscar trabajo sin experiencia previa.
+</p>
 
 *Figura 2*
 
-![Figure II](assets/images/chapter-I/figure-II.png)
+![Figure II](assets/images/chapter-I/figure-II.png)  
+
 *Nota.* Estadística sobre el tiempo promedio que toma a un estudiante egresado lograr su primer empleo asalariado formal según su carrera acorde a su experiencia laboral durante su trayectoria laboral. Tomado de *Tercer Informe Bienal sobre la Realidad Universitaria en el Perú* (p. 211), por Sunedu, 2022.
 
+<p align="justify">
 Asimismo, del informe de El Mercado Laboral en la Carrera de Derecho PUCP (p. 13), encontramos que el 43% de los egresados de la carrera de derecho considera que el mercado laboral está saturado, según su especialidad. Esto demuestra que gran parte de la falta de experiencia laboral y dificultad para conseguir empleo luego de egresar se debe a que la cantidad de abogados es mayor a las ofertas de trabajo disponibles en el mercado.
+</p>
 
 Figura 3
 
-![Figure III](assets/images/chapter-I/figure-III.png)
+![Figure III](assets/images/chapter-I/figure-III.png)  
+
 *Nota.* Estadística sobre la parte poco grata respecto a la especialidad según la perspectiva de los egresados de la carrera de derecho de la Pontificia Universidad Católica del Perú. Tomado de *El Mercado Laboral en la Carrera de Derecho PUCP* (p. 13), por Bolsa de Trabajo PUCP, 2019.
 #### 1.2.2 Lean UX Process
 
@@ -255,11 +273,15 @@ Figura 3
 
 **Problem Statement 1:**
 
+<p align="justify">
 El estado actual del mercado laboral para los abogados egresados en Perú ha estado centrado principalmente en profesionales con experiencia establecida, lo que causa que muchos egresados no encuentren oportunidades laborales a pesar de sus habilidades y prácticas previas. Esto se debe a la alta competencia que hay en el rubro. Lo que los productos existentes no logran abordar es una conexión efectiva entre los egresados y las ofertas de empleo adecuadas que les permita adquirir experiencia. Nuestro producto, LawConnect, abordará esta brecha mediante una plataforma digital enfocada en simplificar el proceso para que los abogados puedan ser contactados. Nuestro enfoque inicial serán los abogados desempleados que buscan integrarse al mercado laboral. Sabremos que hemos tenido éxito cuando veamos un aumento en la tasa de empleo entre los abogados egresados y una disminución en el tiempo que tardan en encontrar su primer empleo.
+</p>
 
 **Problem Statement 2:**
 
+<p align="justify">
 El estado actual de la búsqueda de servicios legales en el Perú se ha centrado principalmente en abogados de renombre, los cuales suelen ser bastante inasequible en términos de tiempo y costos, y a redes netamente profesionales con muchos años de experiencia, esto ocasiona que muchas personas con problemas legales que no posean esta ventaja, no consigan la asistencia que necesitan con tanta urgencia. Lo que los productos existentes no logran abordar es facilitar la búsqueda de abogados que sean capaces de solucionar sus problemas y que tengan la disponibilidad de tiempo que se necesita para el caso, lo cual permitiría a los clientes ahorrar tiempo al buscar un abogado y que se enfoque netamente en su caso. Nuestro producto abordará esta brecha mediante el desarrollo de nuestra aplicación móvil LawConnect, los clientes podrán contactarse con abogados calificados y que estén al tanto de sus respectivos casos. Esto mejorará la experiencia del usuario y tendrá la oportunidad de resolver su caso de manera efectiva y rápida. Nuestro enfoque inicial será las personas con problemas legales que necesiten encontrar un abogado capacitado y que brinde una solución eficaz mediante una búsqueda simple pero efectiva. Sabremos que hemos tenido éxito cuando veamos un aumento de personas satisfechas con la búsqueda de un abogado apropiado para su caso y los casos resueltos en la ciudad de Lima incremente, debido a que hay una gran cantidad que no llegan a un punto de conclusión.
+</p>
 
 ##### 1.2.2.2. Lean UX Assumptions
 
@@ -287,13 +309,17 @@ Nuestros usuarios principales son:
 * Personas con problemas legales con necesidad urgente de hallar asesoramiento legal.
 * Abogados egresados de la universidad que desean encontrar un lugar estable de trabajo.
 
-**¿Dónde encaja nuestro producto en su vida o trabajo?
+**¿Dónde encaja nuestro producto en su vida o trabajo?**
 
+<p align="justify">
 Para las personas con problemas legales: Law Connect encaja perfectamente en sus casos, el hecho de encontrar un abogado que sea calificado y resolver sus problemas es lo que más necesitan debido a que un juicio no es fácil de lidiar. Después de todo, los problemas legales no son solamente limitados a crímenes, esto también incluye incumplimiento de proveedores, demandas de trabajadores, etc.
+</p>
 
+<p align="justify">
 Para los egresados de la carrera de derecho: La aplicación móvil encaja en su rutina diaria debido a que esta va a ser su medio para conseguir distintos trabajos en varios casos. Esto permite que generen más experiencia laboral y, por lo tanto, incrementar su economía.
+</p>
 
-**¿Qué problemas tiene nuestro producto y cómo se pueden resolver?
+**¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
 
 **Problemas:**
 
@@ -314,7 +340,7 @@ LawConnect es utilizada por los clientes cuando presentan problemas legales y bu
 * La interfaz de la aplicación de ser intuitiva y amigable para ambos tipos de usuario. Los clientes deben de poder utilizar LawConnect sin problema alguno y navegar en ella con facilidad.
 * Mantener a ambos usuarios al tanto de la situación del caso. Es por ello que un tracker es indicado para la aplicación debido a que las personas con problemas legales quieren estar al tanto de sus casos mientras que los abogados quieren estar en continuo aprendizaje sobre cada caso.
 
-**¿Cómo debe verse y comportarse nuestro producto?
+**¿Cómo debe verse y comportarse nuestro producto?**
 
 * La aplicación debe verse elegante y confiable al ojo de los usuarios. Mayormente, cuando algo está relacionado al derecho, se espera que todo se tome con seriedad y eso es exactamente lo que busca transmitir LawConnect.
 * La aplicación debe estar activa en todo momento debido a la importancia que representa en los clientes. Para los abogados, es su ingreso económico y para las personas con problemas legales, es urgente que encuentren un abogado que les provea un apropiado asesoramiento para sus casos.
@@ -362,13 +388,15 @@ LawConnect es utilizada por los clientes cuando presentan problemas legales y bu
 
 **Personas con problemas legales**
 
+<p align="justify">
 Personas mayores de 18 años que se encuentren en medio de problemas legales. Buscan una forma de obtener un abogado calificado que los pueda asesorar legalmente y ayudarlos a resolver sus casos de manera calmada, seria y asequible. En este caso, los problemas legales pueden ser de cualquier tipo: familiar, laboral, corporativo, entre otros. Buscan un abogado calificado para evitar errores durante el caso y tener una defensa sólida en los posibles juicios.
-
+</p>
 
 **Abogados egresados**
 
+<p align="justify">
 Abogados egresados en búsqueda de trabajo debido a la alta oferta laboral presente en el rubro de leyes. También, esperan cultivar más experiencia para poder tener una mejor línea de carrera en la abogacía. Esta experiencia es necesaria para fortalecer su perfil profesional, tener más oportunidades laborales en el futuro. Pero, esto va a ser acorde a la especialización que decidan; por ejemplo, si son abogados familiares, solamente se enfocarán en ello dentro de la aplicación.
-
+</p>
 
 ## Capítulo II: Requirements Elicitation & Analysis
 
