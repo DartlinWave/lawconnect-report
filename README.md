@@ -508,32 +508,32 @@ En esta sección se presentarán las entrevistas realizadas a los segmentos obje
 
 #### 2.2.1. Diseño de entrevistas
 
-**Segmento objetivo 1:** Personas con problemas legales
+**SEGMENTO OBJETIVO 1:** Personas con problemas legales
 
-***Preguntas Generales***
-    1. ¿Con qué frecuencia necesita servicios legales?
-    2. ¿Cómo describiría su experiencia general al buscar asesoría legal?
-    3. ¿Qué medios utiliza habitualmente para informarse sobre cuestiones legales?
+***Preguntas Generales***  
+1. ¿Con qué frecuencia necesita servicios legales?
+2. ¿Cómo describiría su experiencia general al buscar asesoría legal?
+3. ¿Qué medios utiliza habitualmente para informarse sobre cuestiones legales?
 
-***Preguntas Específicas***
-    1. ¿Qué características considera esenciales en una plataforma digital para buscar asistencia legal?
-    2. ¿Qué dificultades ha encontrado al usar plataformas en línea para asuntos legales?
-    3. ¿Cómo prefiere comunicarse con un abogado a través de una plataforma digital? ¿Chat en vivo, email, llamadas telefónicas?
-    4. ¿Hay algún servicio adicional que le gustaría que ofreciera una plataforma de asistencia legal que no haya visto disponible actualmente?
+***Preguntas Específicas***  
+1. ¿Qué características considera esenciales en una plataforma digital para buscar asistencia legal?
+2. ¿Qué dificultades ha encontrado al usar plataformas en línea para asuntos legales?    
+3. ¿Cómo prefiere comunicarse con un abogado a través de una plataforma digital? ¿Chat en vivo, email, llamadas telefónicas?
+4. ¿Hay algún servicio adicional que le gustaría que ofreciera una plataforma de asistencia legal que no haya visto disponible actualmente?
 
-**Segmento objetivo 2:** Abogados egresados
+**SEGMENTO OBJETIVO 2:** Abogados egresados
 
-***Preguntas Generales***
-    1. ¿Qué recursos ha encontrado más útiles en su búsqueda de empleo hasta ahora?
-    2. ¿Qué desafíos específicos enfrenta al buscar oportunidades laborales en el campo legal?
-    3. ¿Cómo se mantiene actualizado con las tendencias y cambios en el ámbito legal?
+***Preguntas Generales***  
+1. ¿Qué recursos ha encontrado más útiles en su búsqueda de empleo hasta ahora?
+2. ¿Qué desafíos específicos enfrenta al buscar oportunidades laborales en el campo legal?
+3. ¿Cómo se mantiene actualizado con las tendencias y cambios en el ámbito legal?
 
-***Preguntas Específicas***
-    1. ¿Qué herramientas digitales considera importantes en una plataforma de empleo para abogados?
-    2. ¿Qué tipo de apoyo o recursos espera de una plataforma que conecta abogados con clientes?
-    3. ¿Cómo evalúa las oportunidades de trabajo en términos de desarrollo profesional y estabilidad financiera?
-    4. ¿Qué funcionalidades adicionales facilitarían su labor diaria como abogado al usar nuestra plataforma?
-    5. ¿Considera importante la capacitación continua ofrecida por la plataforma? ¿Qué tipo de cursos o formaciones le gustaría recibir?
+***Preguntas Específicas***  
+1. ¿Qué herramientas digitales considera importantes en una plataforma de empleo para abogados?
+2. ¿Qué tipo de apoyo o recursos espera de una plataforma que conecta abogados con clientes?
+3. ¿Cómo evalúa las oportunidades de trabajo en términos de desarrollo profesional y estabilidad financiera?
+4. ¿Qué funcionalidades adicionales facilitarían su labor diaria como abogado al usar nuestra plataforma?
+5. ¿Considera importante la capacitación continua ofrecida por la plataforma? ¿Qué tipo de cursos o formaciones le gustaría recibir?
 
 #### 2.2.2. Registro de entrevistas  
 
