@@ -502,6 +502,9 @@ En esta sección analizaremos nuestros competidores de manera profunda. Investig
 </table>
 
 ### 2.2. Entrevistas 
+<p align="justify">
+En esta sección se presentarán las entrevistas realizadas a los segmentos objetivos identificados en los anteriores capítulos. Con la información brindada, podremos conocer más a fondo las necesidades y expectativas de nuestros usuarios, lo que nos permitirá diseñar una solución más efectiva y centrada en sus requerimientos.
+</p>
 
 #### 2.2.1. Diseño de entrevistas
 
