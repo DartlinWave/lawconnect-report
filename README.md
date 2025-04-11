@@ -427,6 +427,8 @@ En esta sección analizaremos nuestros competidores de manera profunda. Investig
     </tr>
 </table>
 
+#### 2.1.2. Estrategias y tácticas frente a competidores  
+
 <table border="1">
     <tr>
         <td rowspan="5" width="127px">Análisis SWOT</td>
@@ -498,8 +500,6 @@ En esta sección analizaremos nuestros competidores de manera profunda. Investig
         </td>
     </tr>
 </table>
-
-#### 2.1.2. Estrategias y tácticas frente a competidores  
 
 ### 2.2. Entrevistas 
 
