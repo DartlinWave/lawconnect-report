@@ -1262,6 +1262,10 @@ Segmento Objetivo 1: Lucía Martinez - Abogada Impact Mapping
 
 <img src="https://github.com/DartlinWave/LawConnect-report/blob/eedbb12caafdb4b15be9aa3bd406d5e90c2af924/assets/images/chapter-III/Impact%20Map%20Abogado.jpg"></img>
 
+Segmento Objetivo 2: Jean Patrick Sanchez Rios - Cliente
+
+<img src="https://github.com/DartlinWave/LawConnect-report/blob/eedbb12caafdb4b15be9aa3bd406d5e90c2af924/assets/images/chapter-III/Impact%20Map%20Cliente.jpg"></img>
+
 ### 3.4. Product Backlog 
 
 <table>
