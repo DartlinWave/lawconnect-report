@@ -956,7 +956,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 
 <tr> 
     <td>HU23</td> 
-    <td>Solicitud de Cita con Abogado por npumero celular</td> 
+    <td>Solicitud de Cita con Abogado por número celular</td> 
     <td>Como cliente, quiero solicitar una cita con un abogado a través del número proporcionado en su perfil para discutir mi caso legal, para recibir asesoría legal en tiempo real.</td> 
     <td>
         Scenario 1: Solicitud de Cita
@@ -1322,160 +1322,167 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
     <tr>
         <td>10</td>
         <td>HU23</td>
+        <td>Solicitud de Cita con Abogado por número celular</td>
+        <td>Como cliente, quiero solicitar una cita con un abogado a través del número proporcionado en su perfil para discutir mi caso legal, para recibir asesoría legal en tiempo real.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>HU24</td>
         <td>Revisión del Progreso del Caso</td>
         <td>Como cliente, quiero poder revisar el progreso de mi caso a través de la aplicación para estar al tanto de los avances realizados por el abogado.</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>11</td>
+        <td>12</td>
         <td>HU03</td>
         <td>Gestión de Casos Activos</td>
         <td>Como abogado, quiero gestionar mis casos activos en la aplicación para mantener un registro organizado de mi trabajo.</td>
         <td>3</td>
     </tr>
     <tr>
-        <td>12</td>
+        <td>13</td>
         <td>HU04</td>
         <td>Publicación de Casos de Éxito</td>
         <td>Como abogado, quiero publicar casos de éxito en mi perfil para demostrar mi experiencia a potenciales clientes.</td>
         <td>3</td>
     </tr>
     <tr>
-        <td>13</td>
+        <td>14</td>
         <td>HU11</td>
         <td>Visualización de Consultas Pendientes</td>
         <td>Como abogado, quiero ver una lista de todas las consultas pendientes para gestionar mejor mi tiempo y priorizar mis tareas.</td>
         <td>3</td>
     </tr>
     <tr>
-        <td>14</td>
+        <td>15</td>
         <td>HU13</td>
         <td>Visualización de Progreso de Caso</td>
         <td>Como cliente, quiero ver el progreso actual de mi caso en tiempo real para estar al tanto de los avances y próximos pasos.</td>
         <td>3</td>
     </tr>
     <tr>
-        <td>15</td>
+        <td>16</td>
         <td>HU14</td>
         <td>Acceso a Documentos Relevantes</td>
         <td>Como cliente, quiero acceder a todos los documentos relevantes de mi caso en un solo lugar para facilitar su revisión y seguimiento.</td>
         <td>3</td>
     </tr>
     <tr>
-        <td>16</td>
+        <td>17</td>
         <td>HU20</td>
         <td>Diseño Atractivo y Responsivo</td>
         <td>Como cliente, quiero que la landing page tenga un diseño atractivo y sea responsivo para una experiencia de usuario agradable desde cualquier dispositivo.</td>
         <td>3</td>
     </tr>
     <tr>
-        <td>17</td>
-        <td>HU26</td>
+        <td>18</td>
+        <td>HU27</td>
         <td>Monitorización de Actividad</td>
         <td>Como administrador, quiero monitorizar la actividad de los usuarios en la aplicación para detectar comportamientos inusuales o potenciales amenazas de seguridad.</td>
         <td>3</td>
     </tr>
     <tr>
-        <td>18</td>
-        <td>HU30</td>
+        <td>19</td>
+        <td>HU31</td>
         <td>Implementación de Diseño Responsivo</td>
         <td>Como desarrollador, quiero implementar un diseño responsivo en la aplicación para asegurar que los usuarios puedan acceder y utilizar la aplicación desde cualquier dispositivo con facilidad.</td>
         <td>3</td>
     </tr>
     <tr>
-        <td>19</td>
+        <td>20</td>
         <td>HU01</td>
         <td>Registro de Abogado</td>
         <td>Como abogado, quiero registrarme en la aplicación para ofrecer mis servicios.</td>
         <td>2</td>
     </tr>
     <tr>
-        <td>20</td>
+        <td>21</td>
         <td>HU02</td>
         <td>Completar Perfil de Abogado</td>
         <td>Como abogado, quiero completar mi perfil con información detallada sobre mi experiencia y áreas de especialización para atraer clientes.</td>
         <td>2</td>
     </tr>
     <tr>
-        <td>21</td>
+        <td>22</td>
         <td>HU05</td>
         <td>Configuración de Disponibilidad</td>
         <td>Como abogado, quiero configurar mi disponibilidad en la aplicación para que los clientes puedan reservar citas conmigo.</td>
         <td>2</td>
     </tr>
     <tr>
-        <td>22</td>
+        <td>23</td>
         <td>HU07</td>
         <td>Registro de Cliente</td>
         <td>Como cliente, quiero registrarme en la aplicación para poder contactar a abogados que me ayuden con mis necesidades legales.</td>
         <td>2</td>
     </tr>
     <tr>
-        <td>23</td>
+        <td>24</td>
         <td>HU15</td>
         <td>Notificaciones de Actualizaciones</td>
         <td>Como cliente, quiero recibir notificaciones cuando haya actualizaciones importantes en mi caso para estar al tanto de cualquier cambio o avance.</td>
         <td>2</td>
     </tr>
     <tr>
-        <td>24</td>
-        <td>HU24</td>
+        <td>25</td>
+        <td>HU25</td>
         <td>Evaluación y Calificación del Abogado</td>
         <td>Como cliente, quiero poder evaluar y calificar al abogado después de la consulta para contribuir a la retroalimentación y calidad del servicio.</td>
         <td>2</td>
     </tr>
     <tr>
-        <td>25</td>
-        <td>HU28</td>
+        <td>26</td>
+        <td>HU29</td>
         <td>Respaldo y Recuperación de Datos</td>
         <td>Como administrador, quiero asegurar que la aplicación realice respaldos automáticos de todos los datos importantes y cuente con un sistema de recuperación para prevenir la pérdida de información.</td>
         <td>2</td>
     </tr>
     <tr>
-        <td>26</td>
-        <td>HU29</td>
+        <td>27</td>
+        <td>HU30</td>
         <td>Actualización de Seguridad</td>
         <td>Como administrador, quiero poder aplicar actualizaciones de seguridad a la aplicación para protegerla contra vulnerabilidades emergentes.</td>
         <td>2</td>
     </tr>
     <tr>
-        <td>27</td>
+        <td>28</td>
         <td>HU16</td>
         <td>Visualización de Servicios Destacados</td>
         <td>Como cliente, quiero ver los servicios legales más destacados en la landing page para entender rápidamente cómo la aplicación puede ayudarme.</td>
         <td>1</td>
     </tr>
     <tr>
-        <td>28</td>
+        <td>29</td>
         <td>HU17</td>
         <td>Testimonios de Clientes Satisfechos</td>
         <td>Como cliente, quiero leer testimonios de otros clientes satisfechos en la landing page para sentirme más confiado al contratar los servicios.</td>
         <td>1</td>
     </tr>
     <tr>
-        <td>29</td>
-        <td>HU25</td>
+        <td>30</td>
+        <td>HU26</td>
         <td>Gestión de Roles y Permisos</td>
         <td>Como administrador, quiero gestionar los roles y permisos de los usuarios en la aplicación para garantizar que cada usuario tenga acceso solo a la información y funcionalidades necesarias.</td>
         <td>1</td>
     </tr>
     <tr>
-        <td>30</td>
-        <td>HU27</td>
+        <td>31</td>
+        <td>HU28</td>
         <td>Implementación de Autenticación Multifactor</td>
         <td>Como administrador, quiero implementar la autenticación multifactor para aumentar la seguridad del acceso a la aplicación y proteger la información sensible.</td>
         <td>1</td>
     </tr>
     <tr>
-        <td>31</td>
-        <td>HU31</td>
+        <td>32</td>
+        <td>HU32</td>
         <td>Mejoras en la Interacción del Usuario</td>
         <td>Como desarrollador, quiero optimizar la interacción del usuario con la aplicación para que las acciones sean intuitivas y rápidas, mejorando la experiencia general.</td>
         <td>1</td>
     </tr>
     <tr>
-        <td>32</td>
-        <td>HU32</td>
+        <td>33</td>
+        <td>HU33</td>
         <td>Internacionalización de la aplicación</td>
         <td>Como desarrollador, quiero implementar la internacionalización en la aplicación para que sea accesible en múltiples idiomas, expandiendo el alcance a usuarios de diferentes regiones.</td>
         <td>1</td>
