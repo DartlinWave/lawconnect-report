@@ -249,6 +249,7 @@ Segmento Objetivo 2: Jean Patrick Sanchez Rios - Cliente
 <img src="https://github.com/DartlinWave/LawConnect-report/blob/da1afa056bddff9952ef8d34f5325005818f05c2/assets/images/chapter-III/To%20Be%20Cliente.png"></img>
 
 Link en miro: https://miro.com/welcomeonboard/Q21WYmhzZ3ByQktwYm0zMkVsYUpjWUVWTHJiNGVuSmFyM3BYYllaTlZHeDVZWGdtMG9abzBUQWt1K0swT0dOcU1wRzArL2crYUp4N0M2SS9VODJGdHROMnV3Tm5iYXVzQ25DbUFKWG1CNituMUgyV0tmdGVyVmszZFUvcDlyOWlyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=210891533560
+
 ### 3.2. User Stories 
 Los User Stories sirven para describir de manera más detallada las diferentes funciones de la aplicación, adaptándolas a las necesidades y prioridades de los usuarios. Estas historias también capturan el propósito de uso de las personas, brindando una comprensión más completa de cómo se relacionan con la aplicación y qué esperan lograr con ella.
 
@@ -1255,6 +1256,11 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 </table>
 
 ### 3.3. Impact Mapping 
+En esta sección, se plantearon metas de negocio utilizando los criterios SMART para elaborar el Impact Mapping en base a nuestras User Personas y User Stories.
+
+Segmento Objetivo 1: Lucía Martinez - Abogada Impact Mapping
+
+<img src="https://github.com/DartlinWave/LawConnect-report/blob/eedbb12caafdb4b15be9aa3bd406d5e90c2af924/assets/images/chapter-III/Impact%20Map%20Abogado.jpg"></img>
 
 ### 3.4. Product Backlog 
 
