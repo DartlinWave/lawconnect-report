@@ -956,6 +956,30 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 
 <tr> 
     <td>HU23</td> 
+    <td>Solicitud de Cita con Abogado por npumero celular</td> 
+    <td>Como cliente, quiero solicitar una cita con un abogado a través del número proporcionado en su perfil para discutir mi caso legal, para recibir asesoría legal en tiempo real.</td> 
+    <td>
+        Scenario 1: Solicitud de Cita
+        <br><br>
+        GIVEN un cliente interesado en un abogado específico
+        <br><br>
+        WHEN encuentra el número de contacto del abogado
+        <br><br>
+        THEN puede enviar un mensaje o llamada y comunicarse directamente.
+        <br><br>
+        Scenario 2: Cita no confirmada
+        <br><br>
+        GIVEN un cliente interesado en un abogado específico
+        <br><br>
+        WHEN no encuentra un número de contacto con el abogado
+        <br><br>
+        THEN opta por la opción de solicitud de cita programada.
+    </td> 
+    <td>EP04</td> 
+</tr>
+
+<tr> 
+    <td>HU24</td> 
     <td>Revisión del Progreso del Caso</td> 
     <td>Como cliente, quiero poder revisar el progreso de mi caso a través de la aplicación para estar al tanto de los avances realizados por el abogado, para tener control y visibilidad del estado de mi caso en cualquier momento.</td> 
     <td>
@@ -981,7 +1005,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 </tr>
 
 <tr> 
-    <td>HU24</td> 
+    <td>HU25</td> 
     <td>Evaluación y Calificación del Abogado</td> 
     <td>Como cliente, quiero poder evaluar y calificar al abogado después de la consulta para contribuir a la retroalimentación y calidad del servicio, para que otros clientes puedan tomar decisiones informadas.</td> 
     <td>
@@ -1007,7 +1031,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 </tr>
 
 <tr> 
-    <td>HU25</td> 
+    <td>HU26</td> 
     <td>Gestión de Roles y Permisos</td> 
     <td>Como administrador, quiero gestionar los roles y permisos de los usuarios en la aplicación para garantizar que cada usuario tenga acceso solo a la información y funcionalidades necesarias, para mantener la seguridad y el control de los datos.</td> 
     <td>
@@ -1033,7 +1057,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 </tr> 
 
 <tr> 
-    <td>HU26</td> 
+    <td>HU27</td> 
     <td>Monitorización de Actividad</td> 
     <td>Como administrador, quiero monitorizar la actividad de los usuarios en la aplicación para detectar comportamientos inusuales o potenciales amenazas de seguridad, para proteger los datos de los usuarios y prevenir accesos no autorizados.</td> 
     <td>
@@ -1059,7 +1083,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 </tr> 
 
 <tr> 
-    <td>HU27</td> 
+    <td>HU87</td> 
     <td>Implementación de Autenticación Multifactor</td> 
     <td>Como administrador, quiero implementar la autenticación multifactor para aumentar la seguridad del acceso a la aplicación y proteger la información sensible, para evitar accesos no autorizados y aumentar la protección de los datos.</td> 
     <td>
@@ -1083,7 +1107,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 </tr> 
 
 <tr> 
-    <td>HU28</td> 
+    <td>HU29</td> 
     <td>Respaldo y Recuperación de Datos</td> 
     <td>Como administrador, quiero asegurar que la plataforma realice respaldos automáticos de todos los datos importantes y cuente con un sistema de recuperación para prevenir la pérdida de información, garantizando la disponibilidad de los datos ante cualquier eventualidad.</td> 
     <td>
@@ -1111,7 +1135,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 </tr> 
 
 <tr> 
-    <td>HU29</td> 
+    <td>HU30</td> 
     <td>Actualización de Seguridad</td> 
     <td>Como administrador, quiero poder aplicar actualizaciones de seguridad a la aplicación para protegerla contra vulnerabilidades emergentes y mantener la integridad y seguridad de los sistemas y datos.</td> 
     <td>
@@ -1136,7 +1160,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
     <td>EP05</td> 
 </tr>
 <tr> 
-    <td>HU30</td> 
+    <td>HU31</td> 
     <td>Implementación de Diseño Responsivo</td> 
     <td>Como desarrollador, quiero implementar un diseño responsivo en la aplicación para asegurar que los usuarios puedan acceder y utilizar la plataforma desde cualquier dispositivo móvil con facilidad, para mejorar la accesibilidad y la experiencia de usuario en diferentes pantallas.</td> 
     <td>
@@ -1163,7 +1187,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 </tr> 
 
 <tr> 
-    <td>HU31</td> 
+    <td>HU32</td> 
     <td>Mejoras en la Interacción del Usuario</td> 
     <td>Como desarrollador, quiero optimizar la interacción del usuario con la aplicación para que las acciones sean intuitivas y rápidas, mejorando la experiencia general y haciendo que la navegación sea más eficiente.</td> 
     <td>
@@ -1191,7 +1215,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 </tr> 
 
 <tr> 
-    <td>HU32</td> 
+    <td>HU33</td> 
     <td>Internacionalización de la aplicación</td> 
     <td>Como desarrollador, quiero implementar la internacionalización en la aplicación para que sea accesible en múltiples idiomas, expandiendo el alcance a usuarios de diferentes regiones y permitiendo una experiencia personalizada para cada usuario.</td> 
     <td>
