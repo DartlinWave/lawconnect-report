@@ -508,32 +508,35 @@ En esta sección se presentarán las entrevistas realizadas a los segmentos obje
 
 #### 2.2.1. Diseño de entrevistas
 
+***Preguntas Generales***  
+1. ¿Cuál es su nombre?
+2. ¿Qué edad tiene?
+3. ¿Cuál es su ocupación?
+4. ¿En que sector trabajas (empresas de maquinaria/pescadores)?
+5. ¿Cuánto tiempo llevas en esta industria?
+
 **SEGMENTO OBJETIVO 1:** Personas con problemas legales
 
-***Preguntas Generales***  
+***Preguntas Específicas***
 1. ¿Con qué frecuencia necesita servicios legales?
 2. ¿Cómo describiría su experiencia general al buscar asesoría legal?
-3. ¿Qué medios utiliza habitualmente para informarse sobre cuestiones legales?
-
-***Preguntas Específicas***  
-1. ¿Qué características considera esenciales en una plataforma digital para buscar asistencia legal?
-2. ¿Qué dificultades ha encontrado al usar plataformas en línea para asuntos legales?    
-3. ¿Cómo prefiere comunicarse con un abogado a través de una plataforma digital? ¿Chat en vivo, email, llamadas telefónicas?
-4. ¿Hay algún servicio adicional que le gustaría que ofreciera una plataforma de asistencia legal que no haya visto disponible actualmente?
+3. ¿Qué medios utiliza habitualmente para informarse sobre cuestiones legales?  
+4. ¿Qué características considera esenciales en una plataforma digital para buscar asistencia legal?
+5. ¿Qué dificultades ha encontrado al usar plataformas en línea para asuntos legales?    
+6. ¿Cómo prefiere comunicarse con un abogado a través de una plataforma digital? ¿Chat en vivo, email, llamadas telefónicas?
+7. ¿Hay algún servicio adicional que le gustaría que ofreciera una plataforma de asistencia legal que no haya visto disponible actualmente?
 
 **SEGMENTO OBJETIVO 2:** Abogados egresados
 
-***Preguntas Generales***  
+***Preguntas Específicas*** 
 1. ¿Qué recursos ha encontrado más útiles en su búsqueda de empleo hasta ahora?
 2. ¿Qué desafíos específicos enfrenta al buscar oportunidades laborales en el campo legal?
-3. ¿Cómo se mantiene actualizado con las tendencias y cambios en el ámbito legal?
-
-***Preguntas Específicas***  
-1. ¿Qué herramientas digitales considera importantes en una plataforma de empleo para abogados?
-2. ¿Qué tipo de apoyo o recursos espera de una plataforma que conecta abogados con clientes?
-3. ¿Cómo evalúa las oportunidades de trabajo en términos de desarrollo profesional y estabilidad financiera?
-4. ¿Qué funcionalidades adicionales facilitarían su labor diaria como abogado al usar nuestra plataforma?
-5. ¿Considera importante la capacitación continua ofrecida por la plataforma? ¿Qué tipo de cursos o formaciones le gustaría recibir?
+3. ¿Cómo se mantiene actualizado con las tendencias y cambios en el ámbito legal? 
+4. ¿Qué herramientas digitales considera importantes en una plataforma de empleo para abogados?
+5. ¿Qué tipo de apoyo o recursos espera de una plataforma que conecta abogados con clientes?
+6. ¿Cómo evalúa las oportunidades de trabajo en términos de desarrollo profesional y estabilidad financiera?
+7. ¿Qué funcionalidades adicionales facilitarían su labor diaria como abogado al usar nuestra plataforma?
+8. ¿Considera importante la capacitación continua ofrecida por la plataforma? ¿Qué tipo de cursos o formaciones le gustaría recibir?
 
 #### 2.2.2. Registro de entrevistas  
 
@@ -542,10 +545,31 @@ En esta sección se presentarán las entrevistas realizadas a los segmentos obje
 ### 2.3. Needfinding 
 
 #### 2.3.1. User Personas  
+<p align="justify">
+En esta sección se presentan las fichas de User Persona, las cuales representan perfiles detallados de los segmentos de público objetivo identificados para nuestra aplicación web. Estos perfiles han sido elaborados a partir del análisis de entrevistas con usuarios reales y de un estudio comparativo de la competencia, con el propósito de reflejar las características, necesidades y comportamientos de nuestros usuarios.
+</p>
+
+**SEGMENTO OBJETIVO 1**  
+<p align="justify">
+La siguiente imagen representa a un abogado <b>egresado</b> que utiliza la tecnología para encontrar alguna oportunidad laboral.
+</p>
+
+<img src="/assets/images/chapter-II/userpersona-lucia-martinez.png" 
+    alt="User Persona Lucia Martinez" width="700px"/>
+
+**SEGMENTO OBJETIVO 2**  
+<p align="justify">
+La siguiente imagen representa cliente <b>con problemas legales</b> que utiliza la tecnología para encontrar algún abogado especializado en su caso.
+</p>
+
+<img src="/assets/images/chapter-II/userpersona-jean-patrick.png" 
+    alt="User Persona Lucia Martinez" width="700px"/>
 
 #### 2.3.2. User Task Matrix
 
+<p align="justify">
 En esta sección se presenta el User Task Matrix, una herramienta clave centrada en los segmentos objetivos que permite identificar las tareas y objetivos principales de los usuarios. Esta matriz facilita la priorización de características y funcionalidades al momento de elaborar el product backlog.
+</p>
 
 **La matriz incluye:**
 
@@ -561,7 +585,9 @@ Never (Nunca) Rarely (Raramente) Sometimes (A veces) Often (A menudo) Always (Si
 
 Low (Baja) Medium (Media) High (Alta)
 
+<p align="justify">
 Esta herramienta ayuda a visualizar qué tareas y objetivos son más relevantes para los usuarios, permitiendo así una mejor planificación y priorización en el desarrollo del producto.
+</p>
 
 <table border="1">
   <tr>
@@ -646,9 +672,13 @@ Esta herramienta ayuda a visualizar qué tareas y objetivos son más relevantes 
 
 #### 2.3.4. Empathy Mapping 
 
+<p align="justify">
 En esta sección se presenta el Empathy Mapping, una herramienta que facilita la creación de un perfil detallado de los User Personas y permite desarrollar una comprensión profunda de su perspectiva y experiencia. Los diagramas de empatía proporcionan una visión completa de cómo los usuarios piensan, sienten, dicen y hacen, ayudando a captar mejor sus emociones, preocupaciones y necesidades.
+</p>
 
+<p align="justify">
 Para la elaboración de estos diagramas, se ha utilizado la herramienta UXPressia, que ofrece facilidades para desarrollar mapas de empatía detallados y precisos. Estos mapas incluyen:
+</p>
 
 **Lo que el usuario piensa:** Reflexiones internas, creencias y actitudes.
 
@@ -658,7 +688,9 @@ Para la elaboración de estos diagramas, se ha utilizado la herramienta UXPressi
 
 **Lo que el usuario hace:** Acciones y comportamientos observables.
 
+<p align="justify">
 Este enfoque permite una comprensión más rica y matizada de los usuarios, facilitando la creación de soluciones que realmente respondan a sus necesidades y expectativas.
+</p>
 
 ***Empathy Mapping 1:*** *Abogado que busca expandir su clientela*
 
@@ -666,19 +698,31 @@ Este enfoque permite una comprensión más rica y matizada de los usuarios, faci
 
 #### 2.3.5. As-is Scenario Mapping
 
+<p align="justify">
 En esta sección se presentan los As-Is Scenario Mapping para ambos segmentos objetivos. Estos mapas detallan los escenarios actuales en los que los usuarios interactúan con el software, identificando y comprendiendo los puntos de contacto y las experiencias a lo largo del proceso.
+</p>
 
 El As-Is Scenario Mapping incluye:
 
-**Puntos de Contacto:** Momentos clave donde los usuarios interactúan con la plataforma, como la búsqueda de información, la selección de abogados y la gestión de consultas.
+<p align="justify">
+<b>Puntos de Contacto:</b> Momentos clave donde los usuarios interactúan con la plataforma, como la búsqueda de información, la selección de abogados y la gestión de consultas.
+</p>
 
-**Experiencias del Usuario:** Cómo los usuarios perciben y experimentan cada punto de contacto, incluyendo sus emociones y niveles de satisfacción.
+<p align="justify">
+<b>Experiencias del Usuario:</b> Cómo los usuarios perciben y experimentan cada punto de contacto, incluyendo sus emociones y niveles de satisfacción.
+</p>
 
-**Problemas y Obstáculos:** Dificultades y fricciones que los usuarios enfrentan en su interacción con el software actual.
+<p align="justify">
+<b>Problemas y Obstáculos:</b> Dificultades y fricciones que los usuarios enfrentan en su interacción con el software actual.
+</p>
 
-**Oportunidades de Mejora:** Áreas donde se pueden realizar mejoras para optimizar la experiencia del usuario y resolver los problemas identificados.
+<p align="justify">
+<b>Oportunidades de Mejora:</b> Áreas donde se pueden realizar mejoras para optimizar la experiencia del usuario y resolver los problemas identificados.
+</p>
 
+<p align="justify">
 Estos mapas ayudan a visualizar el flujo actual de interacción del usuario, permitiendo identificar áreas críticas que necesitan ser optimizadas para mejorar la experiencia general del usuario.
+</p>
 
 ***As-is Scenario Mapping 1:*** *Abogado que busca expandir su clientela*
 
