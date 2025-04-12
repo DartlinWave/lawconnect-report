@@ -408,7 +408,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 <tr> 
     <td>HU03</td> 
     <td>Gestión de Casos Activos</td> 
-    <td>Como abogado, quiero gestionar mis casos activos en la aplicación para mantener un registro organizado y actualizado de mi trabajo, lo que me permitirá priorizar mis tareas eficientemente.</td> 
+    <td>Como abogado, quiero gestionar mis casos activos en la aplicación para mantener un registro organizado y actualizado de mi trabajo.</td> 
     <td>
         Scenario 1: Gestión de Casos Activos
         <br><br>
@@ -462,7 +462,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 <tr> 
     <td>HU05</td> 
     <td>Configuración de Disponibilidad</td> 
-    <td>Como abogado, quiero configurar mi disponibilidad en la aplicación para que los clientes puedan agendar citas conmigo en los horarios correctos, para maximizar el uso eficiente de mi tiempo.</td> 
+    <td>Como abogado, quiero configurar mi disponibilidad en la aplicación para que los clientes puedan reservar citas conmigo en los horarios correctos.</td> 
     <td>
         Scenario 1: Configuración de Disponibilidad
         <br><br>
@@ -489,7 +489,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 <tr> 
     <td>HU06</td> 
     <td>Gestión de Documentos Personales</td> 
-    <td>Como abogado, quiero poder subir y gestionar documentos personales relacionados con mis casos para tener todo centralizado en un solo lugar, para acceder de forma rápida y eficiente a la documentación relevante.</td> 
+    <td>Como abogado, quiero poder subir y gestionar documentos personales relacionados con mis casos para tener todo centralizado en un solo lugar y acceder de forma rápida y eficiente a la documentación relevante.</td> 
     <td>
         Scenario 1: Gestión de Documentos Personales
         <br><br>
@@ -597,21 +597,21 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 <tr> 
     <td>HU10</td> 
     <td>Agendamiento de Cita</td> 
-    <td>Como cliente, quiero poder agendar una cita con un abogado para discutir mi caso en un horario conveniente, con la posibilidad de recibir una confirmación automática y reprogramar si es necesario.</td> 
+    <td>Como cliente, quiero poder reservar una cita con un abogado para discutir mi caso en un horario conveniente, con la posibilidad de recibir una confirmación automática y reprogramar si es necesario.</td> 
     <td>
-        Scenario 1: Agendamiento de Cita
+        Scenario 1: Reservación de Cita
         <br><br>
         GIVEN un cliente ha seleccionado un abogado
         <br><br>
         WHEN elige un horario disponible para la cita
         <br><br>
-        THEN la cita se agenda y ambas partes reciben una confirmación automática por correo y notificación en la aplicación
+        THEN la cita se reserva y ambas partes reciben una confirmación automática por correo y notificación en la aplicación
         <br><br>
         AND la aplicación permite reprogramar la cita si es necesario.
         <br><br>
-        Scenario 2: Error al agendar por conflicto de horario
+        Scenario 2: Error al reservar por conflicto de horario
         <br><br>
-        GIVEN un cliente que intenta agendar una cita
+        GIVEN un cliente que intenta reservar una cita
         <br><br>
         WHEN selecciona un horario que ya está reservado
         <br><br>
@@ -652,7 +652,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 <tr> 
     <td>HU12</td> 
     <td>Visualización de Historial de Consultas</td> 
-    <td>Como cliente, quiero ver el historial de todas las consultas anteriores para tener un registro de mis interacciones legales y casos tratados, lo que me permitirá dar seguimiento a cada proceso de manera más eficiente.</td> 
+    <td>Como cliente, quiero ver el historial de todas las consultas anteriores para tener un registro de mis interacciones legales y casos tratados.</td> 
     <td>
         Scenario 1: Visualización de Historial de Consultas
         <br><br>
@@ -680,7 +680,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 <tr> 
     <td>HU13</td> 
     <td>Visualización de Progreso de Caso</td> 
-    <td>Como cliente, quiero ver el progreso actual de mi caso en tiempo real para estar al tanto de los avances y próximos pasos, para poder tomar decisiones informadas.</td> 
+    <td>Como cliente, quiero ver el progreso actual de mi caso en tiempo real para estar al tanto de los avances y próximos pasos.</td> 
     <td>
         Scenario 1: Visualización de Progreso de Caso
         <br><br>
@@ -708,7 +708,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 <tr> 
     <td>HU14</td> 
     <td>Acceso a Documentos Relevantes</td> 
-    <td>Como cliente, quiero acceder a todos los documentos relevantes de mi caso en un solo lugar para facilitar su revisión y seguimiento, lo que me permitirá tener toda la información centralizada.</td> 
+    <td>Como cliente, quiero acceder a todos los documentos relevantes de mi caso en un solo lugar para facilitar su revisión y seguimiento.</td> 
     <td>
         Scenario 1: Acceso a Documentos Relevantes
         <br><br>
@@ -792,7 +792,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 <tr> 
     <td>HU17</td> 
     <td>Testimonios de Clientes Satisfechos</td> 
-    <td>Como cliente, quiero leer testimonios de otros clientes satisfechos en la landing page para sentirme más confiado al contratar los servicios, lo que me ayudará a tomar una decisión informada.</td> 
+    <td>Como cliente, quiero leer testimonios de otros clientes satisfechos en la landing page para sentirme más confiado al contratar los servicios.</td> 
     <td>
         Scenario 1: Visualización de Testimonios
         <br><br>
@@ -903,7 +903,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 <tr> 
     <td>HU21</td> 
     <td>Consulta de Disponibilidad de Abogados</td> 
-    <td>Como cliente, quiero poder consultar la disponibilidad de los abogados en tiempo real para agendar una cita en el momento que mejor me convenga, para que pueda organizar mis consultas de manera eficiente.</td> 
+    <td>Como cliente, quiero poder consultar la disponibilidad de los abogados en tiempo real para reservar una cita en el momento que mejor me convenga y pueda organizar mis consultas de manera eficiente.</td> 
     <td>
         Scenario 1: Consulta de Disponibilidad
         <br><br>
@@ -913,7 +913,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
         <br><br>
         THEN puede ver las fechas y horarios disponibles de cada abogado, con opciones para filtrar por disponibilidad
         <br><br>
-        AND puede seleccionar una fecha para agendar directamente desde el calendario.
+        AND puede seleccionar una fecha para reservar directamente desde el calendario.
         <br><br>
         Scenario 2: No hay disponibilidad inmediata
         <br><br>
@@ -1113,7 +1113,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 <tr> 
     <td>HU29</td> 
     <td>Actualización de Seguridad</td> 
-    <td>Como administrador, quiero poder aplicar actualizaciones de seguridad a la aplicación para protegerla contra vulnerabilidades emergentes, para mantener la integridad y seguridad de los sistemas y datos.</td> 
+    <td>Como administrador, quiero poder aplicar actualizaciones de seguridad a la aplicación para protegerla contra vulnerabilidades emergentes y mantener la integridad y seguridad de los sistemas y datos.</td> 
     <td>
         Scenario 1: Actualización de Seguridad
         <br><br>
@@ -1216,6 +1216,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
         AND el cambio se guarda como preferencia para futuros accesos.
     </td> 
     <td>EP06</td> 
+    
 </tr> 
 </table>
 
@@ -1256,7 +1257,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
         <td>4</td>
         <td>HU10</td>
         <td>Agendamiento de Cita</td>
-        <td>Como cliente, quiero poder agendar una cita con un abogado para discutir mi caso en un horario conveniente.</td>
+        <td>Como cliente, quiero poder reservar una cita con un abogado para discutir mi caso en un horario conveniente.</td>
         <td>5</td>
     </tr>
     <tr>
@@ -1284,7 +1285,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
         <td>8</td>
         <td>HU21</td>
         <td>Consulta de Disponibilidad de Abogados</td>
-        <td>Como cliente, quiero poder consultar la disponibilidad de los abogados en la aplicación para agendar una cita en el momento que mejor me convenga.</td>
+        <td>Como cliente, quiero poder consultar la disponibilidad de los abogados en la aplicación para reservar una cita en el momento que mejor me convenga.</td>
         <td>5</td>
     </tr>
     <tr>
@@ -1375,7 +1376,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
         <td>21</td>
         <td>HU05</td>
         <td>Configuración de Disponibilidad</td>
-        <td>Como abogado, quiero configurar mi disponibilidad en la aplicación para que los clientes puedan agendar citas conmigo.</td>
+        <td>Como abogado, quiero configurar mi disponibilidad en la aplicación para que los clientes puedan reservar citas conmigo.</td>
         <td>2</td>
     </tr>
     <tr>
