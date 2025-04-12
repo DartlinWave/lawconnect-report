@@ -238,7 +238,17 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 ## Capítulo III: Requirements Specificatio
 
 ### 3.1. To-Be Scenario Mapping    
+Luego de realizar el as-is con sus fases propuestas, para el to-be se realizaron nuevos procesos enfocados en mejorar las fases de los segmentos objetivos con nuestro proyecto.
 
+Segmento Objetivo 1: Lucía Martinez - Abogada
+
+<img src="https://github.com/DartlinWave/LawConnect-report/blob/da1afa056bddff9952ef8d34f5325005818f05c2/assets/images/chapter-III/To%20Be%20Abogado.png"></img>
+
+Segmento Objetivo 2: Jean Patrick Sanchez Rios - Cliente
+
+<img src="https://github.com/DartlinWave/LawConnect-report/blob/da1afa056bddff9952ef8d34f5325005818f05c2/assets/images/chapter-III/To%20Be%20Cliente.png"></img>
+
+Link en miro: https://miro.com/welcomeonboard/Q21WYmhzZ3ByQktwYm0zMkVsYUpjWUVWTHJiNGVuSmFyM3BYYllaTlZHeDVZWGdtMG9abzBUQWt1K0swT0dOcU1wRzArL2crYUp4N0M2SS9VODJGdHROMnV3Tm5iYXVzQ25DbUFKWG1CNituMUgyV0tmdGVyVmszZFUvcDlyOWlyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=210891533560
 ### 3.2. User Stories 
 Los User Stories sirven para describir de manera más detallada las diferentes funciones de la aplicación, adaptándolas a las necesidades y prioridades de los usuarios. Estas historias también capturan el propósito de uso de las personas, brindando una comprensión más completa de cómo se relacionan con la aplicación y qué esperan lograr con ella.
 
