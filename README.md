@@ -734,7 +734,13 @@ Estos mapas ayudan a visualizar el flujo actual de interacción del usuario, per
 
 ***As-is Scenario Mapping 1:*** *Abogado que busca expandir su clientela*
 
+<img src="/assets/images/chapter-II/as-is-mapping-abogado.png" 
+    alt="User Persona Lucia Martinez" width="700px"/>
+
 ***As-is Scenario Mapping 2:*** *Cliente en busca de asesoría legal*
+
+<img src="/assets/images/chapter-II/as-is-mapping-cliente.png" 
+    alt="User Persona Lucia Martinez" width="700px"/>
 
 ### 2.4. Ubiquitous Language 
 
