@@ -744,6 +744,91 @@ Estos mapas ayudan a visualizar el flujo actual de interacción del usuario, per
 
 ### 2.4. Ubiquitous Language 
 
+En esta sección se presenta el glosario de términos utilizados en el dominio del producto **LawConnect**, el cual busca facilitar la comunicación clara y sin ambigüedades entre todos los stakeholders del proyecto.
+
+<table border="1">
+  <tr>
+    <td>Término (EN)</td>
+    <td>Término (ES)</td>
+    <td>Definición</td>
+  </tr>
+  <tr>
+    <td><strong>Legal Advice</strong></td>
+    <td>Asesoría Legal</td>
+    <td>Orientación proporcionada por un abogado a un cliente en relación a un problema jurídico específico.</td>
+  </tr>
+  <tr>
+    <td><strong>Client</strong></td>
+    <td>Cliente</td>
+    <td>Persona que busca asistencia legal para resolver un problema jurídico.</td>
+  </tr>
+  <tr>
+    <td><strong>Lawyer</strong></td>
+    <td>Abogado</td>
+    <td>Profesional del derecho que brinda servicios legales a los clientes.</td>
+  </tr>
+  <tr>
+    <td><strong>Legal Case</strong></td>
+    <td>Caso Legal</td>
+    <td>Situación específica con implicancias legales que requiere la intervención de un abogado.</td>
+  </tr>
+  <tr>
+    <td><strong>Legal Services</strong></td>
+    <td>Servicios Legales</td>
+    <td>Conjunto de actividades realizadas por un abogado para asistir a un cliente, incluyendo representación, asesoría y redacción de documentos.</td>
+  </tr>
+  <tr>
+    <td><strong>Specialization Area</strong></td>
+    <td>Área de Especialización</td>
+    <td>Campo específico del derecho en el que un abogado se desempeña (ej. derecho laboral, penal, civil, etc.).</td>
+  </tr>
+  <tr>
+    <td><strong>Legal Profile</strong></td>
+    <td>Perfil Legal</td>
+    <td>Información profesional de un abogado, incluyendo experiencia, especialización, educación y valoraciones de clientes.</td>
+  </tr>
+  <tr>
+    <td><strong>Rating</strong></td>
+    <td>Calificación</td>
+    <td>Evaluación cuantitativa de los servicios recibidos, realizada por un cliente después de utilizar la plataforma.</td>
+  </tr>
+  <tr>
+    <td><strong>Review</strong></td>
+    <td>Reseña</td>
+    <td>Comentario cualitativo emitido por un cliente sobre la experiencia con un abogado.</td>
+  </tr>
+  <tr>
+    <td><strong>Legal Consultation</strong></td>
+    <td>Consulta Legal</td>
+    <td>Primera reunión o interacción entre abogado y cliente para entender el problema legal y definir una posible solución.</td>
+  </tr>
+  <tr>
+    <td><strong>Matching Algorithm</strong></td>
+    <td>Algoritmo de Emparejamiento</td>
+    <td>Mecanismo que conecta automáticamente a un cliente con abogados que se ajustan a sus necesidades.</td>
+  </tr>
+  <tr>
+    <td><strong>Legal Marketplace</strong></td>
+    <td>Mercado Legal</td>
+    <td>Entorno digital donde clientes y abogados se encuentran para ofrecer o recibir servicios legales.</td>
+  </tr>
+  <tr>
+    <td><strong>Service Request</strong></td>
+    <td>Solicitud de Servicio</td>
+    <td>Acción de un cliente al requerir asistencia legal a través de la plataforma.</td>
+  </tr>
+  <tr>
+    <td><strong>Availability</strong></td>
+    <td>Disponibilidad</td>
+    <td>Horarios en los que un abogado está habilitado para brindar atención legal.</td>
+  </tr>
+  <tr>
+    <td><strong>Verification</strong></td>
+    <td>Verificación</td>
+    <td>Proceso mediante el cual se valida la identidad y credenciales del abogado antes de permitirle ofrecer servicios en la plataforma.</td>
+  </tr>
+</table>
+
 ## Capítulo III: Requirements Specificatio
 
 ### 3.1. To-Be Scenario Mapping    
