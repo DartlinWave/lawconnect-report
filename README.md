@@ -664,11 +664,13 @@ Esta herramienta ayuda a visualizar qué tareas y objetivos son más relevantes 
 
 *User Journey Mapping 1: Abogado*
 
-
+<img src="/assets/images/chapter-II/journeymapping-abogado.png" 
+    alt="User Persona Lucia Martinez" width="700px"/>
 
 *User Journey Mapping 2: Cliente*
 
-
+<img src="/assets/images/chapter-II/journey-mapping-cliente.png" 
+    alt="User Persona Lucia Martinez" width="700px"/>
 
 #### 2.3.4. Empathy Mapping 
 
