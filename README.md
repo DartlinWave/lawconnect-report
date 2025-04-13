@@ -696,7 +696,13 @@ Este enfoque permite una comprensión más rica y matizada de los usuarios, faci
 
 ***Empathy Mapping 1:*** *Abogado que busca expandir su clientela*
 
+<img src="/assets/images/chapter-II/empathy-mapping-abogado.png" 
+    alt="User Persona Lucia Martinez" width="700px"/>
+
 ***Empathy Mapping 2:*** *Cliente en busca de asesoría legal*
+
+<img src="/assets/images/chapter-II/empathy-mapping-cliente.png" 
+    alt="User Persona Lucia Martinez" width="700px"/>
 
 #### 2.3.5. As-is Scenario Mapping
 
