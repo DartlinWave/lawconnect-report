@@ -145,28 +145,28 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 
 [6.1. Software Configuration Management](#61-software-configuration-management)
 
-[6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
-[6.1.2. Source Code Management](#612-source-code-management)
-[6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide-conventions)
-[6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+[6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)  
+[6.1.2. Source Code Management](#612-source-code-management)  
+[6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide-conventions)  
+[6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)  
 
-[6.2. Landing Page & Mobile Application Implementation](#62-landing-page-and-mobile-application-implementation)
+[6.2. Landing Page & Mobile Application Implementation](#62-landing-page-and-mobile-application-implementation)  
 
-[6.2.X. Sprint n](#62x-sprint-n)
-[6.2.X.1. Sprint Planning n](#62x1-sprint-planning-n)
-[6.2.X.2. Sprint Backlog n](#62x2-sprint-backlog-n)
-[6.2.X.3. Development Evidence for Sprint Review](#62x3-development-evidence-for-sprint-review)
-[6.2.X.4. Testing Suite Evidence for Sprint Review](#62x4-testing-suite-evidence-for-sprint-review)
-[6.2.X.5. Execution Evidence for Sprint Review](#62x5-execution-evidence-for-sprint-review)
-[6.2.X.6. Services Documentation Evidence for Sprint Review](#62x6-services-documentation-evidence-for-sprint-review)
-[6.2.X.7. Software Deployment Evidence for Sprint Review](#62x7-software-deployment-evidence-for-sprint-review)
-[6.2.X.8. Team Collaboration Insights during Sprint](#62x8-team-collaboration-insights-during-sprint)
+[6.2.X. Sprint n](#62x-sprint-n)  
+[6.2.X.1. Sprint Planning n](#62x1-sprint-planning-n)  
+[6.2.X.2. Sprint Backlog n](#62x2-sprint-backlog-n)  
+[6.2.X.3. Development Evidence for Sprint Review](#62x3-development-evidence-for-sprint-review)  
+[6.2.X.4. Testing Suite Evidence for Sprint Review](#62x4-testing-suite-evidence-for-sprint-review)  
+[6.2.X.5. Execution Evidence for Sprint Review](#62x5-execution-evidence-for-sprint-review)  
+[6.2.X.6. Services Documentation Evidence for Sprint Review](#62x6-services-documentation-evidence-for-sprint-review)  
+[6.2.X.7. Software Deployment Evidence for Sprint Review](#62x7-software-deployment-evidence-for-sprint-review)    
+[6.2.X.8. Team Collaboration Insights during Sprint](#62x8-team-collaboration-insights-during-sprint)  
 
-[6.3. Validation Interviews](#63-validation-interviews)
+[6.3. Validation Interviews](#63-validation-interviews)  
 
-[6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
-[6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
-[6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-segun-heuristicas)
+[6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)  
+[6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)  
+[6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-segun-heuristicas)  
 
 [6.4. Video About-the-Product](#64-video-about-the-product)
 
@@ -904,12 +904,12 @@ Esta herramienta ayuda a visualizar qué tareas y objetivos son más relevantes 
 *User Journey Mapping 1: Abogado*
 
 <img src="/assets/images/chapter-II/journey-mapping-abogado.png" 
-    alt="User Persona Lucia Martinez" width="700px"/>
+    alt="User Persona Lucia Martinez" width="980px"/>
 
 *User Journey Mapping 2: Cliente*
 
 <img src="/assets/images/chapter-II/journey-mapping-cliente.png" 
-    alt="User Persona Lucia Martinez" width="700px"/>
+    alt="User Persona Lucia Martinez" width="980px"/>
 
 #### 2.3.4. Empathy Mapping 
 
