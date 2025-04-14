@@ -201,15 +201,61 @@ DartlinWave es una startup compuesta por un grupo de estudiantes de la carrera d
 #### 1.1.2. Perfiles de integrantes del equipo
 A continuación, se presentará a cada miembro del equipo de DartlinWave:
 
-|                          **U202113656**                           |                                                                                                                                                                                                                                                                                                                   **Zavala Quedena, Gonzalo Andre**                                                                                                                                                                                                                                                                                                                   |
-| :---------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|   ![Gonzalo Zavala](assets/images/chapter-I/GonzaloZavala.jpeg)   |                                                                                                                            *Ingeniería de Software*<br><br>Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), con una gran pasión por la tecnología y un fuerte compromiso con el aprendizaje continuo. Estoy enfocado en seguir desarrollándome profesionalmente, adquiriendo conocimientos y habilidades que me permitan enfrentar nuevos desafíos en el mundo del desarrollo de software.                                                                                                                             |
-|                          **U202110385**                           |                                                                                                                                                                                                                                                                                                                   **Loli Ramirez, Camila Cristina**                                                                                                                                                                                                                                                                                                                   |
-|      ![Camila Loli](assets/images/chapter-I/CamilaLoli.jpg)       |                                              *Ingeniería de Software*<br><br>Soy Camila Cristina Loli Ramirez, tengo 20 años y soy estudiante de la carrera Ingeniería de Software. Mi carrera se basa en los conocimientos y técnicas científicas para crear un programa informático. Tengo experiencia con el trabajo en equipo, creación de proyectos y creación de programas básicos. Aportaré al equipo mi creatividad, compromiso de trabajo en equipo, puntualidad y responsabilidad. Me comprometo a trabajar constantemente para mejorar nuestro proyecto y a generar un entorno de trabajo sano con mi grupo.                                               |
-|                          **U201911727**                           |                                                                                                                                                                                                                                                                                                                **Espinoza Delgado, Bárbara Antonella**                                                                                                                                                                                                                                                                                                                |
-| ![Barbara Espinoza](assets/images/chapter-I/BarbaraEspinoza.jpeg) |                                                                                                                                                                                                    *Ingeniería de Software*<br><br>Mi nombre es Bárbara Antonella Espinoza Delgado, soy estudiante de Ingeniería de Software de 8vo ciclo. Y tengo experiencia en el uso de Cisco, SQL, redacción, búsqueda de información, exposiciones y cumplimiento de tareas                                                                                                                                                                                                     |
-|                          **U202218183**                           |                                                                                                                                                                                                                                                                                                                   **Quiñones Tintaya, Johan Jorge**                                                                                                                                                                                                                                                                                                                   |
-|   ![Johan Quiñones](assets/images/chapter-I/JohanQuinones.jpeg)   | *Ingeniería de Software*<br><br>Mi nombre es Johan Jorge Quiñones Tintaya, tengo 19 años y soy estudiante de ingeniería de software en la UPC, cursando el quinto ciclo. He adquirido una base sólida en algoritmos y programación orientada a objetos, lo que me permite enfrentar desafíos de desarrollo con eficacia. Además, me destaco por mi capacidad para trabajar en equipo, manteniendo una comunicación clara y efectiva que facilita la colaboración. Estoy comprometido con mi crecimiento profesional y busco constantemente mejorar mis habilidades para contribuir de manera significativa en proyectos y equipos, ofreciendo soluciones innovadoras. |
+<table>
+    <th>
+        <td>Name</td>
+        <td>Code</td>
+        <td>Description</td>
+    </th>
+    <tr>
+        <td>
+            <img src="/assets/images/chapter-I/GonzaloZavala.jpeg" alt="Gonzalo Zavala Photo" width="600px"/>
+        </td>
+        <td align="center">Gonzalo Andre Zavala Quedena</td>
+        <td align="center">u202113656</td>
+        <td>
+            <p align="justify">
+                Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), con una gran pasión por la tecnología y un fuerte compromiso con el aprendizaje continuo. Estoy enfocado en seguir desarrollándome profesionalmente, adquiriendo conocimientos y habilidades que me permitan enfrentar nuevos desafíos en el mundo del desarrollo de software. 
+            </p>     
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="/assets/images/chapter-I/CamilaLoli.jpg" alt="Camila Loli Photo" width="600px"/>
+        </td>
+        <td align="center">CLoli Ramirez, Camila Cristina</td>
+        <td align="center">u202110385</td>
+        <td>
+            <p align="justify">
+                Soy Camila Cristina Loli Ramirez, tengo 20 años y soy estudiante de la carrera Ingeniería de Software. Mi carrera se basa en los conocimientos y técnicas científicas para crear un programa informático. Tengo experiencia con el trabajo en equipo, creación de proyectos y creación de programas básicos. Aportaré al equipo mi creatividad, compromiso de trabajo en equipo, puntualidad y responsabilidad. Me comprometo a trabajar constantemente para mejorar nuestro proyecto y a generar un entorno de trabajo sano con mi grupo.
+            </p>     
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="/assets/images/chapter-I/BarbaraEspinoza.jpeg" alt="Barbara Espinoza Photo" width="600px"/>
+        </td>
+        <td align="center">Espinoza Delgado, Bárbara Antonella</td>
+        <td align="center">u201911727</td>
+        <td>
+            <p align="justify">
+                Mi nombre es Bárbara Antonella Espinoza Delgado, soy estudiante de Ingeniería de Software de 8vo ciclo. Y tengo experiencia en el uso de Cisco, SQL, redacción, búsqueda de información, exposiciones y cumplimiento de tareas
+            </p>     
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="/assets/images/chapter-I/JohanQuinones.jpeg" alt="Johan Quinones Photo" width="600px"/>
+        </td>
+        <td align="center">Quiñones Tintaya, Johan Jorge</td>
+        <td align="center">u202218183</td>
+        <td>
+            <p align="justify">
+                Mi nombre es Johan Jorge Quiñones Tintaya, tengo 19 años y soy estudiante de ingeniería de software en la UPC, cursando el quinto ciclo. He adquirido una base sólida en algoritmos y programación orientada a objetos, lo que me permite enfrentar desafíos de desarrollo con eficacia. Además, me destaco por mi capacidad para trabajar en equipo, manteniendo una comunicación clara y efectiva que facilita la colaboración. Estoy comprometido con mi crecimiento profesional y busco constantemente mejorar mis habilidades para contribuir de manera significativa en proyectos y equipos, ofreciendo soluciones innovadoras.
+            </p>     
+        </td>
+    </tr>
+</table>
 
 
 ### 1.2. Solution Profile
