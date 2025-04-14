@@ -24,7 +24,7 @@
 |------------------------------------|------------|
 | Gonzalo Andre Zavala Quedena       | U202113656 |
 | Camila Cristina Loli Ramirez       | U202110385 |
-| Barbara Antonella Espinoza Delgado |            |
+| Barbara Antonella Espinoza Delgado | u201911727 |
 | Johan Jorge Quiñones Tintaya       | U202218183 |
 
 <br> Abril 2025
@@ -32,9 +32,13 @@
 
 
 ## Registro de Versiones del Informe  
-| Version | Fecha      | Autor                           | Descripción de Modificación                  |
-|---------|------------|---------------------------------|----------------------------------------------|
-|         |            |                                 |                                              |
+| Version | Fecha      | Autor                              | Descripción de Modificación                      |
+|---------|------------|------------------------------------|--------------------------------------------------|
+| 1.0.0   | 09/04/2025 | Camila Cristina Loli Ramirez       | Desarrollo completo del **Capítulo I**           |
+| 1.1.0   | 10/04/2025 | Zavala Quedena Gonzalo Andre       | Desarrollo parcial del **Capítulo II**           |
+| 1.2.0   | 12/04/2025 | Barbara Antonella Espinoza Delgado | Desarrollo completo del **Capítulo III**         |
+| 1.3.0   | 13/04/2025 | Johan Jorge Quiñones Tintaya       | Desarrollo parcial del **Capítulo II**           |
+| 1.4.0   | 14/04/2025 | Zavala Quedena Gonzalo Andre       | Fusión de capítulos a la rama principal **main** |
 
 ## Project Report Collaboration Insights  
 Analiza cómo la colaboración y la gestión de tareas influyeron en los resultados del proyecto, destacando fortalezas y áreas de mejora para optimizar futuras estrategias.
