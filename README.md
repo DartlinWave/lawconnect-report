@@ -974,12 +974,12 @@ Estos mapas ayudan a visualizar el flujo actual de interacción del usuario, per
 ***As-is Scenario Mapping 1:*** *Abogado que busca expandir su clientela*
 
 <img src="/assets/images/chapter-II/as-is-mapping-abogado.png" 
-    alt="User Persona Lucia Martinez" width="700px"/>
+    alt="User Persona Lucia Martinez" width="980px"/>
 
 ***As-is Scenario Mapping 2:*** *Cliente en busca de asesoría legal*
 
 <img src="/assets/images/chapter-II/as-is-mapping-cliente.png" 
-    alt="User Persona Lucia Martinez" width="700px"/>
+    alt="User Persona Lucia Martinez" width="980px"/>
 
 ### 2.4. Ubiquitous Language 
 
@@ -1073,20 +1073,20 @@ En esta sección se presenta el glosario de términos utilizados en el dominio d
 ### 3.1. To-Be Scenario Mapping    
 Luego de realizar el as-is con sus fases propuestas, para el to-be se realizaron nuevos procesos enfocados en mejorar las fases de los segmentos objetivos con nuestro proyecto.
 
-Segmento Objetivo 1: Lucía Martinez - Abogada
+***Segmento Objetivo 1:*** *Lucía Martinez - Abogada*
 
-<img src="https://github.com/DartlinWave/LawConnect-report/blob/da1afa056bddff9952ef8d34f5325005818f05c2/assets/images/chapter-III/To%20Be%20Abogado.png"></img>
+<img src="/assets/images/chapter-III/To Be Abogado.png" alt="To Be Lawyer" width="980px"/>
 
-Segmento Objetivo 2: Jean Patrick Sanchez Rios - Cliente
+***Segmento Objetivo 2:*** *Jean Patrick Sanchez Rios - Cliente*
 
-<img src="https://github.com/DartlinWave/LawConnect-report/blob/da1afa056bddff9952ef8d34f5325005818f05c2/assets/images/chapter-III/To%20Be%20Cliente.png"></img>
+<img src="/assets/images/chapter-III/To Be Cliente.png" alt="To Be Customer" width="980px"/>
 
-Link en miro: https://miro.com/welcomeonboard/Q21WYmhzZ3ByQktwYm0zMkVsYUpjWUVWTHJiNGVuSmFyM3BYYllaTlZHeDVZWGdtMG9abzBUQWt1K0swT0dOcU1wRzArL2crYUp4N0M2SS9VODJGdHROMnV3Tm5iYXVzQ25DbUFKWG1CNituMUgyV0tmdGVyVmszZFUvcDlyOWlyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=210891533560
+**Link en Miro:**https://miro.com/welcomeonboard/Q21WYmhzZ3ByQktwYm0zMkVsYUpjWUVWTHJiNGVuSmFyM3BYYllaTlZHeDVZWGdtMG9abzBUQWt1K0swT0dOcU1wRzArL2crYUp4N0M2SS9VODJGdHROMnV3Tm5iYXVzQ25DbUFKWG1CNituMUgyV0tmdGVyVmszZFUvcDlyOWlyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=210891533560
 
 ### 3.2. User Stories 
 Los User Stories sirven para describir de manera más detallada las diferentes funciones de la aplicación, adaptándolas a las necesidades y prioridades de los usuarios. Estas historias también capturan el propósito de uso de las personas, brindando una comprensión más completa de cómo se relacionan con la aplicación y qué esperan lograr con ella.
 
-# Epic Stories
+#### Epic Stories
 
 <table> 
     <tr> 
@@ -1185,7 +1185,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
     </tr> 
 </table>
 
-# User Stories
+#### User Stories
 
 <table> 
     <tr> 
