@@ -664,7 +664,7 @@ Esta herramienta ayuda a visualizar qué tareas y objetivos son más relevantes 
 
 *User Journey Mapping 1: Abogado*
 
-<img src="/assets/images/chapter-II/journeymapping-abogado.png" 
+<img src="/assets/images/chapter-II/journey-mapping-abogado.png" 
     alt="User Persona Lucia Martinez" width="700px"/>
 
 *User Journey Mapping 2: Cliente*
