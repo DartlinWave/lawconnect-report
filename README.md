@@ -336,6 +336,11 @@ Supervisa el avance de los casos ya asignados. Incluye hitos, comentarios, y act
 
 
 #### 4.1.2. Context Mapping
+<p align="justify">
+En esta sección veremos ell proceso se llevó a cabo en <b>Miro</b> mediante sesiones de análisis colaborativo que incluyeron preguntas clave que nos ayudaron a evaluar posibles reorganizaciones de capacidades.
+</p>
+
+<img src="/assets/images/chapter-iv/context-mapping.png" alt="Context Mapping" width="650"/>
 
 #### 4.1.3. Software Architecture 
 
