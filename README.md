@@ -260,6 +260,53 @@ EventStorming es una técnica visual y colaborativa que permite descubrir y ente
 <img src="/assets/images/chapter-iv/event-storming.jpg" alt="Event Storming" width="750"/>
 
 ##### 4.1.1.1. Candidate Context Discovery
+<p align="justify">
+Para esta sesión, el equipo utilizó la herramienta Miro y tuvo una duración de aproximadamente una hora y media. A partir del EventStorming inicial, se aplicó la técnica Start with Value, enfocándonos en las partes del dominio que representan mayor valor para el negocio. Esto permitió identificar las áreas funcionales críticas para el funcionamiento de la aplicación.
+</p>
+
+**Técnica aplicada: Start with Value**
+<p align="justify">
+Dado que el propósito de la aplicación es conectar abogados recién egresados con usuarios que buscan asistencia legal rápida, se priorizaron las siguientes áreas:
+</p>
+
+* **Gestión de Casos Legales:** Núcleo de valor, ya que representa el servicio principal del sistema.
+
+* **Asignación de Abogados:** Proceso clave que permite emparejar de forma eficiente a los profesionales con los clientes.
+
+* **Gestión de Usuarios y Autenticación:** Soporte esencial para la interacción en la plataforma.
+
+* **Calificaciones y Reseñas:** Relevante para la confianza y transparencia del servicio.
+
+<p align="justify">
+A partir del análisis de los eventos identificados en el EventStorming, y guiándonos por los eventos que generaban transiciones de responsabilidad o cambios significativos de estado (como "Caso creado", "Abogado asignado", "Caso cerrado", "Usuario registrado"), se establecieron límites naturales entre contextos funcionales.
+</p>
+
+**Candidate Bounded Contexts Identificados**
+**1. Cases:** Gestión de casos legales publicados por clientes y postulaciones de abogados.
+**2. Matchmaking:** Lógica para sugerencias inteligentes, filtros por calificación, especialidad, etc.
+**3. Tracking:** Seguimiento de la evolución del caso aceptado (progreso, actualizaciones, cierre).
+
+<p align="justify">
+La sesión permitió al equipo tener una visión clara de los componentes clave del sistema y sentar las bases para la definición de los Bounded Contexts. Esta claridad será fundamental para aplicar patrones de comunicación entre contextos y mantener la cohesión interna de cada uno.
+</p>
+
+
+##### 4.1.1.2. Domain Message Flows Modeling
+<p align="justify">
+Una vez identificados los Bounded Contexts, el equipo procedió a modelar cómo estos deben colaborar entre sí para resolver los escenarios clave del negocio. Para ello se utilizó la técnica de Domain Storytelling, que permitió representar de forma clara y narrativa el flujo de mensajes y responsabilidades entre los distintos contextos del dominio.
+</p>
+
+**Técnica aplicada: Domain Storytelling**
+<p align="justify">
+El enfoque se basó en describir casos reales de uso desde la perspectiva de los actores del sistema (clientes, abogados y la plataforma) a través de pasos secuenciales que reflejan las interacciones entre los Bounded Contexts. Esto permitió visualizar cómo fluye la información y qué mensajes deben intercambiarse para cumplir con los objetivos funcionales del sistema.
+</p>
+
+**Diagramas y visualización**
+<p align="justify"> 
+Cada uno de estos escenarios fue representado en <b>Miro</b> como un diagrama de Domain Storytelling, utilizando íconos, actores y flechas que describen la interacción paso a paso. Esta visualización ayudó al equipo a identificar claramente qué Bounded Contexts se comunican, qué datos deben compartirse y en qué orden ocurren las acciones.
+</p>
+
+<img src="/assets/images/chapter-iv/storytelling.png" alt="Domain Storytelling" width="700"/>
 
 ##### 4.1.1.3. Bounded Context Canvases
 
