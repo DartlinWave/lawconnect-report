@@ -248,12 +248,18 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 ## Capítulo IV: Solution Software Design
 
 ### 4.1. Strategic-Level Domain-Driven Design
+<p align="justify">
+El diseño estratégico en Domain-Driven Design se enfoca en definir los límites y relaciones entre distintos subdominios del sistema. Esta etapa permitió identificar Bounded Contexts, establecer una visión clara del dominio y organizar los equipos y responsabilidades de forma alineada con el negocio.
+</p>
 
 #### 4.1.1. EventStorming  
+<p align="justify">
+EventStorming es una técnica visual y colaborativa que permite descubrir y entender procesos del dominio a través de eventos clave. Fue utilizada para alinear al equipo y definir los flujos principales del sistema desde una perspectiva de negocio.
+</p>
+
+<img src="/assets/images/chapter-iv/event-storming.jpg" alt="Event Storming" width="750"/>
 
 ##### 4.1.1.1. Candidate Context Discovery
-
-##### 4.1.1.2. Domain Message Flows Modeling
 
 ##### 4.1.1.3. Bounded Context Canvases
 
