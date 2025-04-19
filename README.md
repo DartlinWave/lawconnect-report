@@ -309,6 +309,31 @@ Cada uno de estos escenarios fue representado en <b>Miro</b> como un diagrama de
 <img src="/assets/images/chapter-iv/storytelling.png" alt="Domain Storytelling" width="700"/>
 
 ##### 4.1.1.3. Bounded Context Canvases
+<p align="justify">
+En esta sección se presentan los Canvases de los bounded contexts identificados durante las actividades previas. Cada Canvas detalla su propósito, reglas de negocio, lenguaje ubicuo, capacidades, dependencias, y una revisión crítica de su diseño, siguiendo un proceso iterativo para refinar su definición.
+</p>
+
+**Bounded Context Cases**
+<p align="justify">
+Encargado de la gestión de los casos legales creados por los clientes. Abarca el proceso de publicación, visualización por parte de los abogados, postulación, selección y aceptación de abogados para un caso.
+</p>
+
+<img src="/assets/images/chapter-iv/canvas-cases.png" alt="Canvas Bounded Context Cases" width="800"/>
+
+**Bounded Context Matchmaking**
+<p align="justify">
+Encargado de sugerir abogados relevantes a los clientes, usando filtros, puntuaciones y lógica de recomendación. Optimiza el proceso de búsqueda y selección.
+</p>
+
+<img src="/assets/images/chapter-iv/canvas-matchmaking.png" alt="Canvas Bounded Context Matchmaking" width="800"/>
+
+**Bounded Context Tracking**
+<p align="justify">
+Supervisa el avance de los casos ya asignados. Incluye hitos, comentarios, y actualizaciones de progreso hasta su cierre.
+</p>
+
+<img src="/assets/images/chapter-iv/canvas-tracking.png" alt="Canvas Bounded Context Tracking" width="800"/>
+
 
 #### 4.1.2. Context Mapping
 
