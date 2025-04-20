@@ -273,7 +273,10 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 
 ##### 4.2.X.1. Domain Layer  
 
-**Aggregate Root Analytic:** Entidad raíz que representa un seguimiento de caso legal. Contiene estado, timestamps, e IDs relevantes. Tiene lógica interna para construir y actualizarse con los comandos correspondientes.
+La capa de Dominio es la capa que contiene el núcleo del modelo de negocio y la lógica de dominio.
+
+**Aggregate Root:** 
+- Analytic: Entidad raíz que representa un seguimiento de caso legal. Contiene estado, timestamps, e IDs relevantes. Tiene lógica interna para construir y actualizarse con los comandos correspondientes.
 
 **Interfaces:**
 - AnalyticCommandService: Define las operaciones del dominio para aplicar comandos: handle(CreateAnalyticCommand) y handle(UpdateAnalyticCommand)
@@ -291,6 +294,8 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 - GetAnalyticsByUserIdQuery: Objeto para solicitar todas las analíticas asociadas a un ID de usuario.
 
 ##### 4.2.X.2. Interface Layer  
+
+La capa de Interfaz es la capa responsable de exponer el API al exterior y transformar los datos entre el modelo de dominio y los recursos HTTP.
 
 **Controlador:****
 - AnalyticController: Controlador que representa los metodos que se van a exponer  a la web, esta clase se encarga de interactuar con el usuario mediante  HTTP. Esta clase tiene dependencias con los transformadores y los contratos definidos para cada servicio, esto porque los transformadores tienen la responsabilidad de serializar las clases que representan respuestas del servicio en commandos o en la entidad principal.
@@ -311,7 +316,15 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 
 ##### 4.2.X.3. Application Layer  
 
+La capa de Aplicación es la capa que contiene la lógica de aplicación, orquesta las operaciones entre capas externas y el dominio.
+
+
 ##### 4.2.X.4. Infrastructure Layer  
+
+La capa de Infraestructura es la capa encargada de la persistencia y conexión con sistemas externos.
+
+**Repositorio:**
+- AnalyticRepository: Interfaz que define operaciones de acceso a datos sobre la entidad Analytic. Su implementación concreta se encargará de interactuar con la base de datos.
 
 ##### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams  
 
