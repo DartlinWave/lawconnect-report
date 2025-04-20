@@ -356,6 +356,12 @@ Link LucidChart: https://lucid.app/lucidchart/2f24abad-a0f7-43a4-88aa-75a9815572
 
 ###### 4.2.5.6.2. Bounded Context Database Design Diagram
 
+A continuación se muestra el diagrama de Base de Datos realizado para el Bounded Context "Tracking".
+
+<img src="https://github.com/DartlinWave/LawConnect-report/blob/edaf54c5befb52142eaa78b74721ff1139ffabe9/assets/images/bc-tracking/TrackingBD.png"></img><br>
+
+Link Vertabelo: https://my.vertabelo.com/doc/ljhlltORV7P42DB1eXIYnSo56Gft5W2d 
+
 ## Capítulo V: Solution UI/UX Design 
 
 ### 5.1. Product Design
