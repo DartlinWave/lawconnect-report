@@ -269,7 +269,7 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
-#### 4.2.X. Bounded Context: \<Bounded Context Name\>
+#### 4.2.X. Bounded Context: Tracking
 
 ##### 4.2.X.1. Domain Layer  
 
@@ -284,6 +284,12 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 ##### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams  
+
+A continuación se muestra el diagrama de clases realizado para el Bounded Context "Tracking".
+
+<img src="https://github.com/DartlinWave/LawConnect-report/blob/8bf7d02fba5e57f1a3017861b4d25f67cf22e4e5/assets/images/bc-tracking/Tracking%20BC%20Diagram.png"></img><br>
+
+Link LucidChart: https://lucid.app/lucidchart/2f24abad-a0f7-43a4-88aa-75a98155725e/edit?viewport_loc=1513%2C-2244%2C5287%2C2801%2C0_0&invitationId=inv_fec486bd-cd05-4ba0-a373-c0d6f0b3cc42 
 
 ###### 4.2.X.6.2. Bounded Context Database Design Diagram
 
