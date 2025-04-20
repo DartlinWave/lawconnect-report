@@ -292,6 +292,23 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 
 ##### 4.2.X.2. Interface Layer  
 
+**Controlador:****
+- AnalyticController: Controlador que representa los metodos que se van a exponer  a la web, esta clase se encarga de interactuar con el usuario mediante  HTTP. Esta clase tiene dependencias con los transformadores y los contratos definidos para cada servicio, esto porque los transformadores tienen la responsabilidad de serializar las clases que representan respuestas del servicio en commandos o en la entidad principal.
+
+**Recursos:**
+- CreateAnalyticResource: Objeto que representa los datos enviados por el cliente para crear un seguimiento.
+
+- UpdateAnalyticResource: Objeto que representa los datos enviados por el cliente para actualizar un seguimiento.
+
+- AnalyticResource: Representación del seguimiento de caso devuelta al cliente tras una operación o consulta.
+
+**Assemblers (Transformadores):**
+- CreateAnalyticCommandFromResourceAssembler: Convierte CreateAnalyticResource en CreateAnalyticCommand.
+
+- UpdateAnalyticCommandFromResourceAssembler: Convierte UpdateAnalyticResource en UpdateAnalyticCommand.
+
+- AnalyticResourceFromEntityAssembler: Transforma un objeto del dominio Analytic en un AnalyticResource para ser enviado al cliente.
+
 ##### 4.2.X.3. Application Layer  
 
 ##### 4.2.X.4. Infrastructure Layer  
