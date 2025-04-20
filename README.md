@@ -273,6 +273,23 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 
 ##### 4.2.X.1. Domain Layer  
 
+**Aggregate Root Analytic:** Entidad raíz que representa un seguimiento de caso legal. Contiene estado, timestamps, e IDs relevantes. Tiene lógica interna para construir y actualizarse con los comandos correspondientes.
+
+**Interfaces:**
+- AnalyticCommandService: Define las operaciones del dominio para aplicar comandos: handle(CreateAnalyticCommand) y handle(UpdateAnalyticCommand)
+
+- AnalyticQueryService: Define las operaciones del dominio para ejecutar consultas: handle(GetAnalyticByCaseIdQuery) y handle(GetAnalyticsByUserIdQuery)
+
+**Comandos:**
+- CreateAnalyticCommand: Objeto que encapsula los datos necesarios para crear una nueva instancia de Analytic.
+
+- UpdateAnalyticCommand: Objeto que encapsula los datos necesarios para actualizar una instancia existente de Analytic.
+
+**Consultas:**
+- GetAnalyticByCaseIdQuery: Objeto para solicitar una analítica por ID de caso.
+
+- GetAnalyticsByUserIdQuery: Objeto para solicitar todas las analíticas asociadas a un ID de usuario.
+
 ##### 4.2.X.2. Interface Layer  
 
 ##### 4.2.X.3. Application Layer  
