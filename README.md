@@ -297,7 +297,7 @@ La capa de Dominio es la capa que contiene el núcleo del modelo de negocio y la
 
 La capa de Interfaz es la capa responsable de exponer el API al exterior y transformar los datos entre el modelo de dominio y los recursos HTTP.
 
-**Controlador:****
+**Controlador:**
 - AnalyticController: Controlador que representa los metodos que se van a exponer  a la web, esta clase se encarga de interactuar con el usuario mediante  HTTP. Esta clase tiene dependencias con los transformadores y los contratos definidos para cada servicio, esto porque los transformadores tienen la responsabilidad de serializar las clases que representan respuestas del servicio en commandos o en la entidad principal.
 
 **Recursos:**
@@ -318,6 +318,19 @@ La capa de Interfaz es la capa responsable de exponer el API al exterior y trans
 
 La capa de Aplicación es la capa que contiene la lógica de aplicación, orquesta las operaciones entre capas externas y el dominio.
 
+**Interfaces:**
+- ExternalCaseService: Define el método updateCaseStatus para sincronizar el estado del caso con sistemas externos.
+
+- ExternalUserService: Define el método isUserExist para verificar si un usuario existe externamente.
+
+**Implementaciones:**
+- AnalyticCommandServiceImpl: Implementa la lógica para crear y actualizar seguimientos de casos (Analytic) usando comandos.
+
+- AnalyticQueryServiceImpl: Implementa las consultas sobre los seguimientos.
+
+- ExternalCaseServiceImpl: Implementa el cambio de estado de un caso en el sistema externo.
+
+- ExternalUserServiceImpl: Implementa la validación de usuarios consultando una fuente externa.
 
 ##### 4.2.X.4. Infrastructure Layer  
 
