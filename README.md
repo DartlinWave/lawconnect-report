@@ -343,10 +343,23 @@ En esta sección veremos ell proceso se llevó a cabo en <b>Miro</b> mediante se
 <img src="/assets/images/chapter-iv/context-mapping.png" alt="Context Mapping" width="650"/>
 
 #### 4.1.3. Software Architecture 
+<p align="justify">
+Esta sección describe la arquitectura del sistema utilizando el modelo C4, alineado con Domain-Driven Design. Se incluyen los niveles de contexto, contenedores y despliegue para mostrar cómo se estructura y ejecuta la solución.
+</p>
 
 ##### 4.1.3.1. Software Architecture Context Level Diagrams 
+<p align="justify">
+Este apartado muestra el diagrama de contexto, donde se representa cómo el sistema interactúa con los actores y sistemas externos. Define los límites del sistema y su relación con el entorno.
+</p>
+
+<img src="/assets/images/chapter-iv/context-level-diagram.png" alt="Context Level Diagram" width="700"/>
 
 ##### 4.1.3.2. Software Architecture Container Level Diagrams
+<p align="justify">
+Aquí se presenta el diagrama de contenedores, detallando los componentes principales del sistema, su organización interna y cómo colaboran para cumplir los objetivos funcionales.
+</p>
+
+<img src="/assets/images/chapter-iv/container-level-diagram.png" alt="Container Level Diagram" width="700"/>
 
 ##### 4.1.3.3. Software Architecture Deployment Diagrams
 
