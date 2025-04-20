@@ -281,6 +281,9 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 
 ##### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams  
 
+A continuación se muestra el diagrama de componentes realizado para el Bounded Context "Tracking".
+<img src="https://github.com/DartlinWave/LawConnect-report/blob/9647f528c63122a43ca09847b6f9c96a766f096b/assets/images/bc-tracking/Component%20Diagram%20Tracking%20BC.jpg"></img><br>
+
 ##### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams  
