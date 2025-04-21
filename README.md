@@ -269,23 +269,191 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
-#### 4.2.X. Bounded Context: \<Bounded Context Name\>
+#### 4.2.3. Bounded Context: Cases
 
-##### 4.2.X.1. Domain Layer  
+##### 4.2.3.1. Domain Layer  
 
-##### 4.2.X.2. Interface Layer  
+### Entities
 
-##### 4.2.X.3. Application Layer  
+**Legal Case**
+- **Propósito:** Representa un caso legal publicado por un cliente
+- **Atributos:**
+    - ```Id: UUID```
+    - ```ClientId: UUID```
+    - ```Title: string```
+    - ```Description: string```
+    - ```Category: LegalCategory```
+    - ```Status: CaseStatus```
+    - ```BudgetRange: BudgetRange```
+    - ```RequiredDocuments: List<DocumentRequirement>```
+    - ```CreatedAt: DateTim```
+    - ```UpdatedAt: DateTime```
+- **Métodos:**
+    - ```Publish():``` Transiciona el caso a estado "publicado"
+    - ```AddDocumentRequirement():``` Añade un documento requerido
+    - ```Close():``` Cierra el caso
 
-##### 4.2.X.4. Infrastructure Layer  
+**CaseApplication**
+- **Propósito:** Representa la postulación de un abogado a un caso
+- **Atributos:**
+    - ```Id: UUID```
+    - ```CaseId: UUID```
+    - ```LawyerId: UUID```
+    - ```ProposalText: string```
+    - ```ProposedFee: decimal```
+    - ```Status: ApplicationStatus```
+    - ```CreatedAt: DateTime```
+    - ```UpdatedAt: DateTime```
+- **Métodos:**
+    - ```Accept():``` Acepta la postulación
+    - ```Reject():``` Rechaza la postulación
 
-##### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams  
+### Value Objects
 
-##### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
+**BudgetRange**
+- **Atributos:**
+    - ```MinAmount: decimal```
+    - ```MaxAmount: decimal```
+    - ```Currency: string```
+- **Métodos:**
+    - ```IsWithinRange():``` Verifica si un monto está dentro del rango
 
-###### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams  
+**DocumentRequirement**
+- **Atributos:**
+    - ```Description: string```
+    - ```IsMandatory: bool```
 
-###### 4.2.X.6.2. Bounded Context Database Design Diagram
+### Aggregates
+
+**LegalCaseAggregate**
+
+- **Raíz agregada:** LegalCase
+- **Contiene:** CaseApplications asociadas
+- **Reglas de invariante:**
+    - Solo permite una postulación aceptada por caso
+    - No permite modificaciones después de publicación
+
+### Domain Services
+
+**CasePublishingService**
+- **Métodos:**
+    - ```ValidateAndPublish():``` Valida y publica un caso
+
+**CaseAssignmentService**
+- **Métodos:**
+    - ```AssignLawyer():``` Asigna abogado a caso
+
+### Repository Interfaces
+
+**ILegalCaseRepository**
+```
+public interface ILegalCaseRepository {
+    LegalCase GetById(UUID id);
+    void Add(LegalCase legalCase);
+    void Update(LegalCase legalCase);
+}
+```
+
+**ICaseApplicationRepository**
+```
+public interface ICaseApplicationRepository {
+    List<CaseApplication> GetByCaseId(UUID caseId);
+    void Add(CaseApplication application);
+    void Update(CaseApplication application);
+}
+```
+
+##### 4.2.3.2. Interface Layer  
+
+### Controllers
+**CasesController**
+```
+[ApiController]
+[Route("api/cases")]
+public class CasesController : ControllerBase {
+    private readonly ICommandHandler<PublishCaseCommand> _publishHandler;
+    
+    [HttpPost]
+    public async Task<IActionResult> CreateCase([FromBody] CreateCaseDto dto) {
+        // Lógica del endpoint
+    }
+    
+    [HttpPut("{id}/publish")]
+    public async Task<IActionResult> PublishCase(Guid id) {
+        // Lógica de publicación
+    }
+}
+```
+
+##### 4.2.3.3. Application Layer  
+
+### Command Handlers
+
+**PublishCaseCommandHandler**
+```
+public class PublishCaseCommandHandler : ICommandHandler<PublishCaseCommand> {
+    private readonly ILegalCaseRepository _repository;
+    private readonly CasePublishingService _publishingService;
+    
+    public async Task Handle(PublishCaseCommand command) {
+        var legalCase = await _repository.GetById(command.CaseId);
+        _publishingService.ValidateAndPublish(legalCase);
+        await _repository.Update(legalCase);
+        // Disparar eventos de dominio
+    }
+}
+```
+
+### Event Handlers
+
+**CasePublishedEventHandler**
+```
+public class CasePublishedEventHandler : IEventHandler<CasePublishedEvent> {
+    private readonly IMatchmakingService _matchmakingService;
+    
+    public async Task Handle(CasePublishedEvent @event) {
+        await _matchmakingService.NotifyNewCase(@event.CaseId);
+    }
+}
+```
+
+##### 4.2.3.4. Infrastructure Layer  
+
+### Implementations
+
+**LegalCaseRepositoryEF**
+```
+public class LegalCaseRepositoryEF : ILegalCaseRepository {
+    private readonly AppDbContext _context;
+    
+    public LegalCase GetById(UUID id) {
+        return _context.LegalCases
+            .Include(c => c.Applications)
+            .FirstOrDefault(c => c.Id == id);
+    }
+    
+    // Resto de implementaciones...
+}
+```
+
+**DomainEventDispatcher**
+```
+public class DomainEventDispatcher : IDomainEventDispatcher {
+    private readonly IMessageBus _bus;
+    
+    public async Task Dispatch(IDomainEvent @event) {
+        await _bus.Publish(@event);
+    }
+}
+```
+
+##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams  
+
+##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+###### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams  
+
+###### 4.2.3.6.2. Bounded Context Database Design Diagram
 
 ## Capítulo V: Solution UI/UX Design 
 
