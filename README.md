@@ -345,7 +345,7 @@ A continuación se muestra el diagrama de componentes realizado para el Bounded 
 
 ##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 <p align="justify">
-Esta sección presenta una vista detallada a nivel de código de la arquitectura interna de los Bounded Contexts definidos en el sistema. El objetivo es mostrar cómo se estructuran los elementos fundamentales dentro de cada contexto, desde las clases del dominio hasta el diseño de la base de datos, siguiendo los principios de Domain-Driven Design (DDD).
+Esta sección presenta una vista detallada a nivel de código de la arquitectura interna del bounded context "Iam". El objetivo es mostrar cómo se estructuran los elementos fundamentales dentro de cada contexto, desde las clases del dominio hasta el diseño de la base de datos, siguiendo los principios de Domain-Driven Design (DDD).
 </p>
 
 ###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams  
@@ -358,6 +358,90 @@ A continuación se muestra el diagrama de Base de Datos realizado para el Bounde
 
 <center>
 <img src="/assets/images/chapter-iv/iam-database-diagram.png" alt="IAM Database Diagram" width="150"/>
+</center>
+
+#### 4.2.2. Bounded Context: Profiles
+
+##### 4.2.2.1. Domain Layer
+La capa de Dominio es la capa que contiene el núcleo del modelo de negocio y la lógica de dominio.
+
+**Aggregate Root:**
+
+* **Profile:** Entidad raíz que representa los datos de un usuario (Abogado/Cliente). Contiene datos personales. Tiene lógica interna para su construcción correspondiente.
+
+**Interfaces:**
+
+* **ProfileCommandService:** Define las operaciones del dominio para aplicar comandos: handle(CreateProfileCommand).  
+* **ProfileQueryService:** Define las operaciones del dominio para ejecutar consultas: handle(GetProfileByIdQuery) y handle(GetProfileByUserIdQuery).
+
+**Comandos:**
+
+* **CreateProfileCommand:** Objeto inmutable que encapsula los datos necesarios para crear una nueva instancia de Profile.
+
+**Consultas:**
+
+* **GetProfileByIdQuery:** Objeto inmutable para solicitar un perfil por ID.  
+* **GetProfileByUserIdQuery:** Objeto inmutable para solicitar perfil por el userId.
+
+##### 4.2.2.2. Interface Layer
+La capa de Interfaz es la capa responsable de exponer el API al exterior y transformar los datos entre el modelo de dominio y los recursos HTTP.
+
+**ProfilesController:**  
+<p align="justify">
+Controlador que representa los metodos que se van a exponer a la web, esta clase se encarga de interactuar con el usuario mediante HTTP. Esta clase tiene dependencias con los transformadores y los contratos definidos para cada servicio, esto porque los transformadores tienen la responsabilidad de serializar las clases que representan respuestas del servicio en commandos o en la entidad principal.  
+</p>
+
+**Recursos:**
+
+* **ProfileResource:** Objeto inmutable que representa los datos enviados por el cliente para un perfil de usuario.
+
+**Assemblers (Transformadores):**
+
+* **ProfileFromEntityAssembler:** Transforma un objeto del dominio User en un ProfileResource para ser enviado al cliente.
+
+##### 4.2.2.3. Application Layer
+<p align="justify">
+La capa de Aplicación es la capa que contiene la lógica de aplicación, orquesta las operaciones entre capas externas y el dominio.
+</p>
+
+**Interfaces:**
+
+* **ExternalUserService:** Define método para validar el perfil de un usuario.
+
+**Implementaciones:**
+
+* **UserCommandServiceImpl:** Implementa la lógica para registrar un usuario o iniciar sesión.
+
+##### 4.2.2.4. Infrastructure Layer
+La capa de Infraestructura es la capa encargada de la persistencia y conexión con sistemas externos.
+
+**Repositorio:**
+
+* **ProfileRepository:** Interfaz que define operaciones de acceso a datos sobre la entidad User. Su implementación concreta se encargará de interactuar con la base de datos.
+
+##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+<p align="justify">
+A continuación se muestra el diagrama de componentes realizado para el Bounded Context <b>"Profiles"</b>, mostrando los componentes que lo conformarn.
+</p>
+
+<img src="/assets/images/chapter-iv/profiles-component-level-diagram.png" alt="Profiles Component Level Diagram" width="900"/>
+
+##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+<p align="justify">
+Esta sección presenta una vista detallada a nivel de código de la arquitectura interna del bounded context "Profiles". El objetivo es mostrar cómo se estructuran los elementos fundamentales dentro de cada contexto, desde las clases del dominio hasta el diseño de la base de datos, siguiendo los principios de Domain-Driven Design (DDD).
+</p>
+
+###### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+A continuación se muestra el diagrama de clases realizado para el Bounded Context "Profiles".
+
+<img src="/assets/images/chapter-iv/profiles-class-diagram.png" alt="Profile Class Diagram" width="850"/>
+
+
+###### 4.2.2.6.2. Bounded Context Database Design Diagram
+A continuación se muestra el diagrama de Base de Datos realizado para el Bounded Context "Profiles".
+
+<center>
+<img src="/assets/images/chapter-iv/profiles-database-diagram.png" alt="Profiles Database Diagram" width="400"/>
 </center>
 
 ## Capítulo V: Solution UI/UX Design 
