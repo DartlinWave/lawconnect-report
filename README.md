@@ -269,23 +269,130 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
-#### 4.2.X. Bounded Context: \<Bounded Context Name\>
+En esta sección se explicará el nivel táctico del diseño de nuestro proyecto. A continuación se explicará el diseño para cada bounded context presente en nuestra aplicación.
 
-##### 4.2.X.1. Domain Layer  
+### 4.2. Tactical-Level Domain-Driven Design
 
-##### 4.2.X.2. Interface Layer  
+En esta sección se explicará el nivel táctico del diseño de nuestro proyecto. A continuación se explicará el diseño para cada bounded context presente en nuestra aplicación.
 
-##### 4.2.X.3. Application Layer  
+#### 4.2.4. Bounded Context: Matchmaking
+En esta parte el informe se describirá el proceso de diseño a nivel táctico del bounded context "Matchmaking", el cual permitirá a los clientes tener un abogado acorde al caso que presenta.
 
-##### 4.2.X.4. Infrastructure Layer  
+##### 4.2.4.1. Domain Layer
+Aquí se explicará el núcleo del negocio utilizado en "Matchmaking". También se mostrarán los modelos y reglas de negocio aplicadas al bounded context.
 
-##### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams  
+**Model**
+*Aggregates*
+`Match`: Este aggregate root, representado por una clase, es la relación entre un cliente y su abogado respecto a la recomendación producida en la entidad `Recommendation`.
 
-##### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
+*Entities*
+`Recommendation`: Esta clase representa una sugerencia basada en los criterios definidos en el value object `SearchCriteria`.
 
-###### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams  
+*Value Objects*
+`SearchCriteria`: Esta clase va procesar el criterio de búsqueda dependiendo de la puntuación, especialidad y ubicación del abogado respecto al cliente.
 
-###### 4.2.X.6.2. Bounded Context Database Design Diagram
+`MatchStatus`: Esta clase enum representa los posibles estados de un Match; esto define si la sugerencia fue rechazada (REJECTED), aceptada (ACCEPTED) o si sigue pendiente (SUGGESTED).
+
+*Commands*
+`CreateMatchCommand`: Este comando es para crear un match nuevo.
+
+`AcceptMatchCommand`: Este es un comando para designar que el match ha sido aceptado por el cliente.
+
+`RejectMatchCommand`: Este comando es para designar que el match ha sido rechazado por el cliente.
+
+`CreateRecommendationCommand`: Este es un comando para crear una recomendación a partir de la información del cliente y abogado.
+
+*Queries*
+`GetMatchByIdQuery`: Esta consulta recupera un match específico por su Id (único).
+
+`GetMatchByClientIdAndLawyerIdQuery`: Esta consulta devuelve el match respecto al Id del cliente y del abogado.
+
+`GetAllMatchesByClientIdQuery`: Esta consulta lee todos los matches por el Id del cliente.
+
+`GetAllMatchesByLawyerIdQuery`: Esta consulta lee todos los matches por el Id del abogado.
+
+`GetAllRejectedMatchesByClientIdQuery`: Esta consulta lee todos los matches rechazados por el Id del cliente.
+
+`GetAllAcceptedMatchesByClientIdQuery`: Esta consulta lee todos los matches aceptados por el Id del cliente.
+
+`GetAllSuggestedMatchesByClientIdQuery`: Esta consulta lee todos los matches por el Id del cliente.
+
+`GetAllRecommendedLawyersQuery`: Esta consulta recupera todos los abogados recomendados acorde al criterio de búsqueda.
+
+*Events*
+`SuggestedLawyerEvent`: Este evento representa el evento de la sugerencia de un abogado para el cliente respecto al caso.
+
+**Services**
+*Command Service*
+`MatchmakingCommandService`: Interfaz que define las operaciones relacionadas al bounded context.
+
+*Query Service*
+`MatchmakingQueryService`: Interfaz que define los queries del bounded context,
+
+##### 4.2.4.2. Interface Layer
+Aquí se presentarán las clases pertenecientes al API que interactúan directamente con el exterior, los transformadores y controladores.
+
+**RESTful API**
+*Controller*
+`MatchmakingController`: Este es el controlador que expone los endpoints RESTful, permite a los usuarios interactuar con el bounded context. Aquí se tienen en cuenta las consultas y comandos realizados por los usuarios.
+
+*Resources*
+`MatchResource`: Recurso que representa el match generado al cliente.
+
+`CreateMatchResource`: Este recurso permite que se genere el match acorde a los datos ingresados por el cliente y caso.
+
+`RecommendationResource`: Este recurso permite presentar las recomendaciones hechas para el cliente.
+
+`CreateRecommendationResource`: Este recurso permite crear la recomendación a partir de los datos ingresados por el cliente y caso.
+
+*Assemblers*
+`MatchResourceFromEntityAssembler`: Transforma la entidad de Match a MatchResource.
+
+`CreateMatchCommandFromResourceAssembler` Transforma el recurso de creación de Match en el comando de creación.
+
+`RecommendationResourceFromEntityAssembler`: Transforma la entidad de Recommendation a RecommendationResource.
+`CreateRecommendationCommandFromResourceAssembler`: Transforma el recurso de creación de Recommendation en el comando de creación.
+
+**ACL**
+`MatchmakingContextFacade`: Se utiliza esta clase para exponer la información de Matchmaking para los otros bounded contexts que lo necesiten.
+
+Se utiliza ACL para proteger el bounded context; así, no se acoplará directamente a los otros bounded contexts que lo utilice.
+
+##### 4.2.4.3. Application Layer
+En esta capa se presentarán los flujos de negocios en el bounded context.
+
+**Internal**
+*Command Services*
+`MatchmakingCommandServiceImpl`: Esta es la implementación del servicio de comandos del bounded context.
+
+*Query Services*
+`MatchmakingQueryServiceImpl`: Esta es la implementación del servicio de consultas del bounded context.
+
+*Outbound Services*
+`ExternalCaseService`: Se utiliza esta clase para obtener la información de los casos en el bounded context Cases.
+
+`ExternalProfileService`: Esta clase se encarga de obtener la información relevante y necesaria del bounded context Profiles para los filtros de Matchmaking.
+
+*Event Handlers*
+`SuggestedLawyerEventHandler`: Esta clase maneja el evento de la sugerencia de abogado al cliente.
+##### 4.2.4.4. Infrastructure Layer
+En esta sección se presentará el repositorio para el bounded context.
+
+**Repository**
+`MatchRepository`: Esta interfaz es el repositorio para la entidad Match, en la cual se definen los métodos necesarios para realizar consultas y operaciones.
+
+##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+
+##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+
+###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+
+###### 4.2.4.6.2. Bounded Context Database Design Diagram
+
+
 
 ## Capítulo V: Solution UI/UX Design 
 
@@ -375,4 +482,4 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 
 ## Bibliografía
 
-## Anexos 
+## Anexos
