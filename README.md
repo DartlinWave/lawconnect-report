@@ -449,11 +449,23 @@ public class DomainEventDispatcher : IDomainEventDispatcher {
 
 ##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams  
 
+<img src="/assets/images/chapter-IV/bc-cases/cases-component-diagram.png" alt="bc-cases-component-diagram"/>
+
+El diagrama de componentes del Bounded Context Cases representa la estructura interna organizada en cuatro capas principales: Interface (controladores API), Application (manejadores de comandos/eventos), Domain (modelo central con los agregados LegalCase y CaseApplication) e Infrastructure (repositorios e integraciones externas). Muestra cómo se articulan los componentes clave para gestionar casos legales, desde la recepción de peticiones hasta el procesamiento de reglas de negocio y persistencia de datos, siguiendo los principios de Domain-Driven Design. La arquitectura en capas permite una clara separación de responsabilidades, donde el dominio central mantiene su independencia de la infraestructura y los mecanismos de entrega.
+
 ##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams  
 
+<img src="/assets/images/chapter-IV/bc-cases/cases-context-diagram.png" alt="bc-cases-context-diagram"/>
+
+
+
 ###### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+<img src="/assets/images/chapter-IV/bc-cases/cases-database-diagram.png" alt="bc-cases-database-diagram"/>
+
+
 
 ## Capítulo V: Solution UI/UX Design 
 
