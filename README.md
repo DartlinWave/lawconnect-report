@@ -327,7 +327,7 @@ Aquí se explicará el núcleo del negocio utilizado en "Matchmaking". También 
 `MatchmakingCommandService`: Interfaz que define las operaciones relacionadas al bounded context.
 
 *Query Service*
-`MatchmakingQueryService`: Interfaz que define los queries del bounded context,
+`MatchmakingQueryService`: Interfaz que define los queries del bounded context.
 
 ##### 4.2.4.2. Interface Layer
 Aquí se presentarán las clases pertenecientes al API que interactúan directamente con el exterior, los transformadores y controladores.
@@ -383,6 +383,9 @@ En esta sección se presentará el repositorio para el bounded context.
 
 ##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 
+En esta sección se presenta el diagrama C4 en el nivel de componente para explicar el funcionamiento del bounded context.
+
+![Component Diagram for Matchmaking](assets/images/chapter-IV/bc-matchmaking/component-diagram-bc-matchmaking.png)
 
 ##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
