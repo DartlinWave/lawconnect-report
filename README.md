@@ -385,13 +385,23 @@ En esta sección se presentará el repositorio para el bounded context.
 
 En esta sección se presenta el diagrama C4 en el nivel de componente para explicar el funcionamiento del bounded context.
 
-![Component Diagram for Matchmaking](assets/images/chapter-IV/bc-matchmaking/component-diagram-bc-matchmaking.png)
+![Component Diagram for Matchmaking](assets/images/chapter-IV/bc-matchmaking/component-diagram-bc-matchmaking.png)  
+
 
 ##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+En esta sección del informe, se presentarán los diagramas a nivel de programación para tener una guía del funcionamiento de la aplicación y que se detalle las características del bounded context.
 
 
 ###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
 
+En este diagrama se muestra la relación entre las clases que pertenecen al bounded context Matchmaking.
+
+
+![Class Diagram for Matchmaking](assets/images/chapter-IV/bc-matchmaking/LawConnect-class-diagram-bc-matchmaking.png)
+
+
+Enlace del diagrama en Lucidchart: https://lucid.app/lucidchart/f562fb42-f94d-4840-be83-ef1c400180f5/edit?viewport_loc=-16%2C283%2C1727%2C1241%2CHWEp-vi-RSFO&invitationId=inv_f78a52cc-3e46-4d38-ac9a-28478a2a2a48
 
 ###### 4.2.4.6.2. Bounded Context Database Design Diagram
 
