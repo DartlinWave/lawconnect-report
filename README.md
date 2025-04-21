@@ -459,13 +459,13 @@ El diagrama de componentes del Bounded Context Cases representa la estructura in
 
 <img src="/assets/images/chapter-IV/bc-cases/cases-context-diagram.png" alt="bc-cases-context-diagram"/>
 
-
+El diagrama de contexto del sistema presenta una visión global de los actores principales (clientes y abogados) y los sistemas involucrados. Los clientes publican casos legales y revisan postulaciones, mientras que los abogados aplican a casos y gestionan sus asignaciones. El sistema central se integra con el módulo IAM para autenticación y autorización, y con el módulo Profiles para validar especialidades y calificaciones de los abogados. Este diagrama enfatiza las interacciones clave entre usuarios y sistemas, destacando el flujo de información esencial para el funcionamiento de la plataforma.
 
 ###### 4.2.3.6.2. Bounded Context Database Design Diagram
 
 <img src="/assets/images/chapter-IV/bc-cases/cases-database-diagram.png" alt="bc-cases-database-diagram"/>
 
-
+El diagrama de base de datos del Bounded Context Cases define la estructura de persistencia para los casos legales y sus relaciones. La tabla principal ```LEGAL_CASES``` almacena la información básica de cada caso (título, descripción, presupuesto y estado), mientras que ```CASE_APPLICATIONS``` gestiona las postulaciones de los abogados, incluyendo propuestas económicas y estados de aceptación. La tabla ```CASE_DOCUMENTS_REQ``` registra los documentos requeridos para cada caso. Las relaciones has y requires reflejan la vinculación entre entidades, asegurando la integridad referencial y soportando consultas eficientes para el emparejamiento (matchmaking) y seguimiento de casos.
 
 ## Capítulo V: Solution UI/UX Design 
 
