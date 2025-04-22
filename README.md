@@ -275,8 +275,7 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 
 ### Entities
 
-**Legal Case**
-- **Propósito:** Representa un caso legal publicado por un cliente
+**Legal Case:** Representa un caso legal publicado por un cliente
 - **Atributos:**
     - ```Id: UUID```
     - ```ClientId: UUID```
@@ -293,8 +292,7 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
     - ```AddDocumentRequirement():``` Añade un documento requerido
     - ```Close():``` Cierra el caso
 
-**CaseApplication**
-- **Propósito:** Representa la postulación de un abogado a un caso
+**CaseApplication:** Representa la postulación de un abogado a un caso
 - **Atributos:**
     - ```Id: UUID```
     - ```CaseId: UUID```
@@ -346,106 +344,84 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 ### Repository Interfaces
 
 **ILegalCaseRepository**
-```
-public interface ILegalCaseRepository {
-    LegalCase GetById(UUID id);
-    void Add(LegalCase legalCase);
-    void Update(LegalCase legalCase);
-}
-```
+
+Define las operaciones para la gestión de casos legales desde la capa de infraestructura.
+
+- **Métodos:**
+    - ```GetById(id: UUID): LegalCase``` – Obtiene un caso legal por su identificador único.
+    - ```Add(legalCase: LegalCase)``` – Agrega un nuevo caso legal al sistema.
+    - ```Update(legalCase: LegalCase)``` – Actualiza la información de un caso legal existente.
 
 **ICaseApplicationRepository**
-```
-public interface ICaseApplicationRepository {
-    List<CaseApplication> GetByCaseId(UUID caseId);
-    void Add(CaseApplication application);
-    void Update(CaseApplication application);
-}
-```
+
+Gestiona las postulaciones de abogados a los casos legales.
+
+- **Métodos:**
+    - ```GetByCaseId(caseId: UUID): List<CaseApplication>``` – Retorna todas las postulaciones asociadas a un caso.
+    - ```Add(application: CaseApplication)``` – Agrega una nueva postulación.
+    - ```Update(application: CaseApplication)``` – Actualiza una postulación existente.
 
 ##### 4.2.3.2. Interface Layer  
 
 ### Controllers
 **CasesController**
-```
-[ApiController]
-[Route("api/cases")]
-public class CasesController : ControllerBase {
-    private readonly ICommandHandler<PublishCaseCommand> _publishHandler;
-    
-    [HttpPost]
-    public async Task<IActionResult> CreateCase([FromBody] CreateCaseDto dto) {
-        // Lógica del endpoint
-    }
-    
-    [HttpPut("{id}/publish")]
-    public async Task<IActionResult> PublishCase(Guid id) {
-        // Lógica de publicación
-    }
-}
-```
+
+Controlador que expone los endpoints relacionados con los casos legales.
+
+- **Rutas y métodos:**
+    - ```POST /api/cases``` – Crea un nuevo caso legal a partir de un DTO recibido.
+    - ```PUT /api/cases/{id}/publish``` – Publica un caso legal con el identificador proporcionado.
+- **Dependencias:**
+    - ```ICommandHandler<PublishCaseCommand>``` – Encargado de ejecutar la lógica de publicación del caso.
 
 ##### 4.2.3.3. Application Layer  
 
 ### Command Handlers
 
 **PublishCaseCommandHandler**
-```
-public class PublishCaseCommandHandler : ICommandHandler<PublishCaseCommand> {
-    private readonly ILegalCaseRepository _repository;
-    private readonly CasePublishingService _publishingService;
-    
-    public async Task Handle(PublishCaseCommand command) {
-        var legalCase = await _repository.GetById(command.CaseId);
-        _publishingService.ValidateAndPublish(legalCase);
-        await _repository.Update(legalCase);
-        // Disparar eventos de dominio
-    }
-}
-```
+
+Maneja la lógica de publicación de un caso legal como respuesta a un comando.
+
+- **Métodos:**
+    - ```Handle(command: PublishCaseCommand)``` – Recupera el caso desde el repositorio, valida la publicación, actualiza el estado y dispara eventos de dominio.
+- **Dependencias:**
+    - ```ILegalCaseRepository```
+    - ```CasePublishingService```
 
 ### Event Handlers
 
 **CasePublishedEventHandler**
-```
-public class CasePublishedEventHandler : IEventHandler<CasePublishedEvent> {
-    private readonly IMatchmakingService _matchmakingService;
-    
-    public async Task Handle(CasePublishedEvent @event) {
-        await _matchmakingService.NotifyNewCase(@event.CaseId);
-    }
-}
-```
+
+Maneja el evento que se genera al publicar un caso legal.
+
+- **Métodos:**
+    - ```Handle(event: CasePublishedEvent)``` – Notifica al servicio de emparejamiento sobre un nuevo caso publicado.
+- **Dependencias:**
+    - ```IMatchmakingService```
 
 ##### 4.2.3.4. Infrastructure Layer  
 
 ### Implementations
 
 **LegalCaseRepositoryEF**
-```
-public class LegalCaseRepositoryEF : ILegalCaseRepository {
-    private readonly AppDbContext _context;
-    
-    public LegalCase GetById(UUID id) {
-        return _context.LegalCases
-            .Include(c => c.Applications)
-            .FirstOrDefault(c => c.Id == id);
-    }
-    
-    // Resto de implementaciones...
-}
-```
+
+Implementación de ILegalCaseRepository usando Entity Framework.
+
+- **Métodos:**
+    - ```GetById(id: UUID): LegalCase``` – Recupera un caso desde la base de datos, incluyendo sus postulaciones.
+    - ```Add(legalCase: LegalCase)``` – Persiste un nuevo caso.
+    - ```Update(legalCase: LegalCase)``` – Actualiza los datos del caso en la base de datos.
+- **Dependencias:**
+    - ```AppDbContext```
 
 **DomainEventDispatcher**
-```
-public class DomainEventDispatcher : IDomainEventDispatcher {
-    private readonly IMessageBus _bus;
-    
-    public async Task Dispatch(IDomainEvent @event) {
-        await _bus.Publish(@event);
-    }
-}
-```
+
+Encargado de propagar eventos de dominio al sistema de mensajería.
+
+- **Métodos:**
+    - ```Dispatch(event: IDomainEvent)``` – Publica el evento en el bus de mensajes.
+- **Dependencias:**
+    - ```IMessageBus```
 
 ##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams  
 
@@ -459,7 +435,7 @@ El diagrama de componentes del Bounded Context Cases representa la estructura in
 
 <img src="/assets/images/chapter-IV/bc-cases/cases-context-diagram.png" alt="bc-cases-context-diagram"/>
 
-El diagrama de contexto del sistema presenta una visión global de los actores principales (clientes y abogados) y los sistemas involucrados. Los clientes publican casos legales y revisan postulaciones, mientras que los abogados aplican a casos y gestionan sus asignaciones. El sistema central se integra con el módulo IAM para autenticación y autorización, y con el módulo Profiles para validar especialidades y calificaciones de los abogados. Este diagrama enfatiza las interacciones clave entre usuarios y sistemas, destacando el flujo de información esencial para el funcionamiento de la plataforma.
+El diagrama de contexto del sistema presenta una visión gl os. Los clientes publican casos legales y revisan postulaciones, mientras que los abogados aplican a casos y gestionan sus asignaciones. El sistema central se integra con el módulo IAM para autenticación y autorización, y con el módulo Profiles para validar especialidades y calificaciones de los abogados. Este diagrama enfatiza las interacciones clave entre usuarios y sistemas, destacando el flujo de información esencial para el funcionamiento de la plataforma.
 
 ###### 4.2.3.6.2. Bounded Context Database Design Diagram
 
