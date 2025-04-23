@@ -342,7 +342,10 @@ La capa de Infraestructura es la capa encargada de la persistencia y conexión c
 ##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams  
 
 A continuación se muestra el diagrama de componentes realizado para el Bounded Context "Tracking".
+
 <img src="https://github.com/DartlinWave/LawConnect-report/blob/9647f528c63122a43ca09847b6f9c96a766f096b/assets/images/bc-tracking/Component%20Diagram%20Tracking%20BC.jpg"></img><br>
+
+<img src="https://github.com/DartlinWave/LawConnect-report/blob/8b8a6dc41c3b97b9d2bc02231460cb05aace8f4d/assets/images/bc-tracking/Tracking%20BC%20Component%20Diagram%202.jpg"></img><br>
 
 ##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
