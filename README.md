@@ -350,7 +350,8 @@ Aquí se presentarán las clases pertenecientes al API que interactúan directam
 
 `CreateMatchCommandFromResourceAssembler` Transforma el recurso de creación de Match en el comando de creación.
 
-`RecommendationResourceFromEntityAssembler`: Transforma la entidad de Recommendation a RecommendationResource.
+`RecommendationResourceFromEntityAssembler`: Transforma la entidad de Recommendation a RecommendationResource.  
+
 `CreateRecommendationCommandFromResourceAssembler`: Transforma el recurso de creación de Recommendation en el comando de creación.
 
 **ACL**  
