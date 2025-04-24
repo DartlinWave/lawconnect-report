@@ -540,6 +540,180 @@ A continuación se muestra el diagrama de Base de Datos realizado para el Bounde
 <img src="/assets/images/chapter-iv/profiles-database-diagram.png" alt="Profiles Database Diagram" width="400"/>
 </center>
 
+#### 4.2.3. Bounded Context: Cases
+
+##### 4.2.3.1. Domain Layer  
+
+### Entities
+
+**Legal Case:** Representa un caso legal publicado por un cliente
+- **Atributos:**
+    - ```Id: UUID```
+    - ```ClientId: UUID```
+    - ```Title: string```
+    - ```Description: string```
+    - ```Category: LegalCategory```
+    - ```Status: CaseStatus```
+    - ```BudgetRange: BudgetRange```
+    - ```RequiredDocuments: List<DocumentRequirement>```
+    - ```CreatedAt: DateTim```
+    - ```UpdatedAt: DateTime```
+- **Métodos:**
+    - ```Publish():``` Transiciona el caso a estado "publicado"
+    - ```AddDocumentRequirement():``` Añade un documento requerido
+    - ```Close():``` Cierra el caso
+
+**CaseApplication:** Representa la postulación de un abogado a un caso
+- **Atributos:**
+    - ```Id: UUID```
+    - ```CaseId: UUID```
+    - ```LawyerId: UUID```
+    - ```ProposalText: string```
+    - ```ProposedFee: decimal```
+    - ```Status: ApplicationStatus```
+    - ```CreatedAt: DateTime```
+    - ```UpdatedAt: DateTime```
+- **Métodos:**
+    - ```Accept():``` Acepta la postulación
+    - ```Reject():``` Rechaza la postulación
+
+### Value Objects
+
+**BudgetRange**
+- **Atributos:**
+    - ```MinAmount: decimal```
+    - ```MaxAmount: decimal```
+    - ```Currency: string```
+- **Métodos:**
+    - ```IsWithinRange():``` Verifica si un monto está dentro del rango
+
+**DocumentRequirement**
+- **Atributos:**
+    - ```Description: string```
+    - ```IsMandatory: bool```
+
+### Aggregates
+
+**LegalCaseAggregate**
+
+- **Raíz agregada:** LegalCase
+- **Contiene:** CaseApplications asociadas
+- **Reglas de invariante:**
+    - Solo permite una postulación aceptada por caso
+    - No permite modificaciones después de publicación
+
+### Domain Services
+
+**CasePublishingService**
+- **Métodos:**
+    - ```ValidateAndPublish():``` Valida y publica un caso
+
+**CaseAssignmentService**
+- **Métodos:**
+    - ```AssignLawyer():``` Asigna abogado a caso
+
+### Repository Interfaces
+
+**ILegalCaseRepository**
+
+Define las operaciones para la gestión de casos legales desde la capa de infraestructura.
+
+- **Métodos:**
+    - ```GetById(id: UUID): LegalCase``` – Obtiene un caso legal por su identificador único.
+    - ```Add(legalCase: LegalCase)``` – Agrega un nuevo caso legal al sistema.
+    - ```Update(legalCase: LegalCase)``` – Actualiza la información de un caso legal existente.
+
+**ICaseApplicationRepository**
+
+Gestiona las postulaciones de abogados a los casos legales.
+
+- **Métodos:**
+    - ```GetByCaseId(caseId: UUID): List<CaseApplication>``` – Retorna todas las postulaciones asociadas a un caso.
+    - ```Add(application: CaseApplication)``` – Agrega una nueva postulación.
+    - ```Update(application: CaseApplication)``` – Actualiza una postulación existente.
+
+##### 4.2.3.2. Interface Layer  
+
+### Controllers
+**CasesController**
+
+Controlador que expone los endpoints relacionados con los casos legales.
+
+- **Rutas y métodos:**
+    - ```POST /api/cases``` – Crea un nuevo caso legal a partir de un DTO recibido.
+    - ```PUT /api/cases/{id}/publish``` – Publica un caso legal con el identificador proporcionado.
+- **Dependencias:**
+    - ```ICommandHandler<PublishCaseCommand>``` – Encargado de ejecutar la lógica de publicación del caso.
+
+##### 4.2.3.3. Application Layer  
+
+### Command Handlers
+
+**PublishCaseCommandHandler**
+
+Maneja la lógica de publicación de un caso legal como respuesta a un comando.
+
+- **Métodos:**
+    - ```Handle(command: PublishCaseCommand)``` – Recupera el caso desde el repositorio, valida la publicación, actualiza el estado y dispara eventos de dominio.
+- **Dependencias:**
+    - ```ILegalCaseRepository```
+    - ```CasePublishingService```
+
+### Event Handlers
+
+**CasePublishedEventHandler**
+
+Maneja el evento que se genera al publicar un caso legal.
+
+- **Métodos:**
+    - ```Handle(event: CasePublishedEvent)``` – Notifica al servicio de emparejamiento sobre un nuevo caso publicado.
+- **Dependencias:**
+    - ```IMatchmakingService```
+
+##### 4.2.3.4. Infrastructure Layer  
+
+### Implementations
+
+**LegalCaseRepositoryEF**
+
+Implementación de ILegalCaseRepository usando Entity Framework.
+
+- **Métodos:**
+    - ```GetById(id: UUID): LegalCase``` – Recupera un caso desde la base de datos, incluyendo sus postulaciones.
+    - ```Add(legalCase: LegalCase)``` – Persiste un nuevo caso.
+    - ```Update(legalCase: LegalCase)``` – Actualiza los datos del caso en la base de datos.
+- **Dependencias:**
+    - ```AppDbContext```
+
+**DomainEventDispatcher**
+
+Encargado de propagar eventos de dominio al sistema de mensajería.
+
+- **Métodos:**
+    - ```Dispatch(event: IDomainEvent)``` – Publica el evento en el bus de mensajes.
+- **Dependencias:**
+    - ```IMessageBus```
+
+##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams  
+
+<img src="/assets/images/chapter-IV/bc-cases/cases-component-diagram.png" alt="bc-cases-component-diagram"/>
+
+Este diagrama de componentes representa la estructura interna del módulo de gestión de casos legales en LawConnect, organizado en capas. El flujo comienza con el Cases Controller que recibe peticiones HTTP y las deriva al Case Service, el cual orquesta la lógica principal utilizando los modelos del Domain Layer (entidades como LegalCase y CaseApplication). El servicio interactúa con múltiples repositorios (Case Repository, Application Repository, Client Repository y Lawyer Repository) para persistir datos en la base de datos, manteniendo una separación clara entre la lógica de negocio y el acceso a datos. Este diseño sigue principios DDD, con componentes especializados que permiten escalabilidad y facilitan la integración con otros contextos del sistema, todo ello representado visualmente mediante relaciones que muestran el flujo de datos y dependencias entre los distintos elementos arquitectónicos.
+
+##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+###### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams  
+
+<img src="/assets/images/chapter-IV/bc-cases/cases-class-diagram.png" alt="bc-cases-class-diagram"/>
+
+Este diagrama modela el dominio específico de gestión de casos legales en LawConnect, estructurado bajo los principios de Domain-Driven Design. Representa las entidades centrales (LegalCase como raíz de agregado y CaseApplication para postulaciones), objetos valor (BudgetRange, DocumentRequirement) y servicios de dominio (CasePublishingService, CaseAssignmentService) que encapsulan la lógica para publicar casos, gestionar postulaciones y realizar asignaciones. El diseño muestra las relaciones entre estos componentes, las invariantes del negocio (como la restricción de una única postulación aceptada por caso) y las interfaces clave (repositorios) que permiten la integración con otros contextos del sistema, manteniendo un límite bien definido alrededor de este subdominio específico de la aplicación.
+
+###### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+<img src="/assets/images/chapter-IV/bc-cases/cases-database-diagram.png" alt="bc-cases-database-diagram" width="500"/>
+
+Este diagrama de base de datos del Bounded Context Cases define la estructura de persistencia para los casos legales y sus relaciones. La tabla principal ```LEGAL_CASES``` almacena la información básica de cada caso (título, descripción, presupuesto y estado), mientras que ```CASE_APPLICATIONS``` gestiona las postulaciones de los abogados, incluyendo propuestas económicas y estados de aceptación. La tabla ```CASE_DOCUMENTS_REQ``` registra los documentos requeridos para cada caso. Las relaciones has y requires reflejan la vinculación entre entidades, asegurando la integridad referencial y soportando consultas eficientes para el emparejamiento (matchmaking) y seguimiento de casos.
+
 ## Capítulo V: Solution UI/UX Design 
 
 ### 5.1. Product Design
