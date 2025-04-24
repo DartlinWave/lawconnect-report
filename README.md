@@ -41,7 +41,16 @@
 | 1.4.0   | 14/04/2025 | Zavala Quedena Gonzalo Andre       | Fusión de capítulos a la rama principal **main** |
 
 ## Project Report Collaboration Insights  
-Analiza cómo la colaboración y la gestión de tareas influyeron en los resultados del proyecto, destacando fortalezas y áreas de mejora para optimizar futuras estrategias.
+**TB1:**  
+En esta entrega el equipo definió las bases del tema que se trabajará en el ciclo, sus segmentos objetivo, Lean UX, requisitos y bounded contexts.
+
+- Camila Cristina Loli Ramirez: Desarrollo completo del Capítulo I y BC Matchmaking.  
+- Zavala Quedena Gonzalo Andre: Desarrollo parcial del Capítulo II, BC Profile e IAM.  
+- Bárbara Antonella Espinoza Delgado: Desarrollo completo del Capítulo III y BC Tracking.  
+- Johan Jorge Quiñones Tintaya: Desarrollo parcial del Capítulo II y BC Cases.  
+
+![image](https://github.com/DartlinWave/LawConnect-report/blob/68dcd6bf6027912a64b4465d259f313219a35742/assets/images/chapter-I/Commits%20tb1%20report.png)
+
 
 ## Contenido
 
