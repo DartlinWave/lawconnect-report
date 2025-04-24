@@ -183,7 +183,77 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 
 ## Student Outcome
 
+ABET - EAC - Student Outcome 7 
+
+Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.
+
+| **Criterio específico**                                                                                                                 | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | **Conclusiones**                                                                                                                                                                                                                                                                                             |
+|-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | **Zavala Quedena, Gonzalo Andre**<br>*TB1*<br><br>Actualicé y apliqué conceptos clave en el proyecto LawConnect, liderando la organización del equipo, el análisis competitivo y la definición de user personas; realicé asimismo el análisis de las capas Domain, Application, Infrastructure e Interfaces en los bounded contexts IAM y Profiles.<br><br>**Loli Ramirez, Camila Cristina**<br>*TB1*<br><br>Actualicé mis conocimientos en la creación de los diferentes diagramas, investigué distintos patrones para agregarlos. De esta forma, pude crear una mejor planeación para nuestro proyecto. También, realicé la estructura del bounded context Matchmaking y definí cada capa del mismo (domain, application, infrastructure, interfaces). Además, agregué nueva información al apartado How Much de 5W's y 2H's.<br><br>**Espinoza Delgado, Barbara Antonella**<br>*TB1*<br><br>Realicé los user stories y todo lo relacionado a la obtención de requisitos para que las ideas de nuestra solución estén justificadas además de definir las clases que se usarán en el quinto bounded context Tracking.<br><br>**Quiñones Tintaya, Johan Jorge**<br>*TB1*<br><br>Contribuí al proyecto LawConnect aplicando herramientas de diseño centrado en el usuario como user task matrix, journey mapping, empathy mapping y as-is scenario mapping. Participé en la definición de user personas y en el análisis de las capas Domain, Application, Infrastructure e Interfaces en los bounded contexts IAM y Profiles. | **TB1**<br>Para esta entrega, realizamos distintas actualizaciones en el proyecto para que se mantenga relevante durante estos tiempos de innovadoras tendencias tecnológicas. Con esta aplicación móvil, esperamos llegar a más alcance de usuarios debido a la facilidad que brinda a ellos.               |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.  | **Zavala Quedena Gonzalo Andre**<br>*TB1*<br><br>Reconocí la necesidad del aprendizaje permanente para mantener actualizadas mis competencias técnicas y metodológicas, incorporando nuevas herramientas y buenas prácticas que optimizan el desempeño profesional y fortalecen el desarrollo de soluciones de software.<br><br>**Loli Ramirez, Camila Cristina**<br>*TB1*<br><br>Reconocí que es importante aprender constantemente nuevas técnicas para realizar los proyectos, como llevar cursos de distintos lenguajes o algoritmos para hacer un trabajo conciso y con base sólida.<br><br>**Espinoza Delgado, Barbara Antonella**<br>*TB1*<br><br>Reconocí la importancia de mantener actualizado nuestros conocimientos y analizar las nuevas tendencias en el desarrollo de software para poder aplicarlas al proyecto.<br><br>**Quiñones Tintaya, Johan Jorge**<br>*TB1*<br><br>Me mantuve en aprendizaje constante, incorporando nuevas herramientas y buenas prácticas de UX que mejoraron mis competencias técnicas y el desarrollo de soluciones centradas en el usuario.                                                                                                                                                                                                                                                                                                                                                                                                                                       | **TB1**<br>Tenemos que investigar constantemente nuevas técnicas, metodologías y habilidades para mantener nuestros proyectos útiles y funcionales. Asimismo, entendemos que las soluciones deben de ser escalables para poder seguir agregando nuevas opciones que llamen la atención de nuestros usuarios. |
+
 ## Objetivos SMART
+
+**Objetivos SMART para Gonzalo Andre Zavala Quedena**    
+1.	Lanzar un sitio web personal con diseño responsivo e interacción básica
+*	Específico: Desarrollar y desplegar un sitio web que incluya las secciones “Inicio”, “Sobre mí”, “Proyectos” y un formulario de contacto funcional.
+*	Medible: Implementar las 4 secciones y verificar el envío de mensajes con al menos 3 pruebas de usuario exitosas.
+*	Alcanzable: Dedicando 4 horas semanales a maquetación, desarrollo e integración del formulario.
+*	Relevante: Mejora mi dominio de desarrollo web y fortalece mi presencia profesional online.
+*	Temporizado: Completar y publicar antes del 31 de julio de 2025.   
+
+2. Crear y validar un prototipo de aplicación móvil con flujos esenciales de usuario  
+*	Específico: Diseñar e implementar un prototipo que cubra los flujos de incorporación, autenticación y vista principal de contenido.
+*	Medible: Tener 3 flujos operativos y recibir feedback de 5 usuarios beta con una satisfacción mínima del 80 %.
+*	Alcanzable: Reservando 5 horas semanales para desarrollo de interfaces, gestión de estado y pruebas.
+*	Relevante: Refuerza mis habilidades en desarrollo móvil y me prepara para proyectos reales.
+*	Temporizado: Finalizar el prototipo y completar la fase de prueba antes del 30 de octubre de 2025.
+
+**Objetivos SMART para Camila Cristina Loli Ramirez**    
+1. Realizar un informe de análisis forense de software  
+* Específico: Desarrollar un informe de análisis forense digital con una estructura apropiada, que es reconocer incidentes de ciberseguridad, tener en cuenta el proceso de recopilación y el funcionamiento del software (si es vulnerable a distintos ataques ya investigados con anterioridad).
+* Medible: Recopilar por lo menos 3 fuentes confiables para tener una base sólida de investigación al momento de examinar el software.
+* Alcanzable: Investigar y analizar el software escogido por 4 horas semanales.
+* Relevante: Me permitirá incrementar mi habilidad de investigación y la manera de asegurar un software u organización con los respectivos frameworks.
+* Temporizado: Inicios del mes de Julio de 2025  
+
+2. Mejorar mis habilidades de programación en Full Stack.  
+*  Específico: Mejorar mis habilidades de programación en Full Stack para poder crear un diseño eficaz y tener más rapidez al momento de desarrollarlas.
+* Medible: Realizar, como mínimo, tres proyectos que sean con distintos lenguajes de programación. Y que, con cada uno vaya aumentando el nivel de dificultad (básico, intermedio, avanzado).
+* Alcanzable: Realizar ocho horas semanales de práctica.
+* Relevante: Los proyectos me permitirán desarrollarme laboralmente, realizar distintos productos viables y escalables.
+* Temporizado: Finales de Diciembre del 2025.
+
+
+**Objetivos SMART para Barbara Antonella Espinoza Delgado**  
+1. Aprender y comprender como utilizar Flutter.
+* Especifico: Adquirir habilidades básicas en Flutter para desarrollar aplicaciones móviles con interfaces atractivas y funcionales.
+* Medible: Desarrollar un ejercicio con Flutter de la clase e implementar funcionalidades adicionales.
+* Alcanzable: Dedicar 3 horas semanales al estudio del curso
+* Relevante: Contribuye en un porcentaje a las exigencias de las empresas al contratar practicantes de Flutter
+* Temporizado: Fin de ciclo.    
+
+2. Aprender y comprender como utilizar Kotlin.   
+* Especifico: Adquirir habilidades básicas en Kotlin para desarrollar aplicaciones móviles con interfaces atractivas y funcionales.
+* Medible: Desarrollar un ejercicio con Kotlin de la clase e implementar funcionalidades adicionales.
+* Alcanzable: Dedicar 3 horas semanales al estudio del curso
+* Relevante: Contribuye en un porcentaje a las exigencias de las empresas al contratar practicantes de kotlin
+* Temporizado: Fin de ciclo.  
+
+**Objetivos SMART para Johan Jorge Quiñones Tintaya**   
+1. Implementar pruebas unitarias y de integración en un proyecto de software  
+* Específico: Desarrollar y ejecutar pruebas unitarias y de integración para al menos 3 módulos de un proyecto existente utilizando JUnit (para Java) o Jest (para JavaScript).
+* Medible: Cubrir al menos un 80% del código con pruebas automatizadas y asegurar que todas las pruebas pasen correctamente antes de la entrega.
+* Alcanzable: Dedicando 4 horas semanales al desarrollo y la escritura de pruebas para los módulos de la aplicación.
+* Relevante: Mejora la calidad del código, reduce errores en el futuro y refuerza mis competencias en pruebas y desarrollo de software robusto.
+* Temporizado: Completar la implementación y ejecución de las pruebas antes del 30 de noviembre de 2025.
+
+2. Desarrollar un backend sólido y escalable para una aplicación web personal  
+* Específico: Diseñar e implementar un backend completo usando Node.js y Express, con estructura modular, base de datos relacional y autenticación segura.
+* Medible: Implementar al menos 5 endpoints funcionales, pruebas unitarias para cada uno y documentación técnica básica.
+* Alcanzable: Dedicando 3 horas semanales al desarrollo, pruebas y mejoras durante 2 meses.
+* Relevante: Mejora mis habilidades en arquitectura backend y fortalece mi portafolio técnico.
+* Temporizado: Completar y documentar el backend antes del 30 de septiembre de 2025.
 
 ## Capítulo I: Presentación
 <p align="justify">
@@ -227,7 +297,7 @@ A continuación, se presentará a cada miembro del equipo de DartlinWave:
         <td>
             <img src="/assets/images/chapter-I/CamilaLoli.jpg" alt="Camila Loli Photo" width="600px"/>
         </td>
-        <td align="center">CLoli Ramirez, Camila Cristina</td>
+        <td align="center">Loli Ramirez, Camila Cristina</td>
         <td align="center">u202110385</td>
         <td>
             <p align="justify">
