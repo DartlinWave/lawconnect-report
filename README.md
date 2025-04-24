@@ -106,16 +106,16 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 [4.1.3.2. Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)  
 [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
 
-[4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-[4.2.X. Bounded Context: \<Bounded Context Name\>](#42x-bounded-context-bounded-context-name)  
-[4.2.X.1. Domain Layer](#42x1-domain-layer)  
-[4.2.X.2. Interface Layer](#42x2-interface-layer)  
-[4.2.X.3. Application Layer](#42x3-application-layer)  
-[4.2.X.4. Infrastructure Layer](#42x4-infrastructure-layer)  
-[4.2.X.5. Bounded Context Software Architecture Component Level Diagrams](#42x5-bounded-context-software-architecture-component-level-diagrams)  
-[4.2.X.6. Bounded Context Software Architecture Code Level Diagrams](#42x6-bounded-context-software-architecture-code-level-diagrams)  
-[4.2.X.6.1. Bounded Context Domain Layer Class Diagrams](#42x61-bounded-context-domain-layer-class-diagrams)  
-[4.2.X.6.2. Bounded Context Database Design Diagram](#42x62-bounded-context-database-design-diagram)
+[4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)  
+[4.2.5. Bounded Context: Tracking](#425-bounded-context-tracking)  
+[4.2.5.1. Domain Layer](#4251-domain-layer)  
+[4.2.5.2. Interface Layer](#4252-interface-layer)  
+[4.2.5.3. Application Layer](#4253-application-layer)  
+[4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)  
+[4.2.5.5. Bounded Context Software Architecture Component Level Diagrams](#4255-bounded-context-software-architecture-component-level-diagrams)  
+[4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)  
+[4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)  
+[4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)
 
 [Capítulo V: Solution UI/UX Design](#capitulo-v-solution-ui-ux-design)  
 
@@ -145,10 +145,10 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 
 [6.1. Software Configuration Management](#61-software-configuration-management)
 
-[6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
-[6.1.2. Source Code Management](#612-source-code-management)
-[6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide-conventions)
-[6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+[6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)  
+[6.1.2. Source Code Management](#612-source-code-management)  
+[6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide-conventions)  
+[6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)  
 
 [6.2. Landing Page & Mobile Application Implementation](#62-landing-page-and-mobile-application-implementation)
 
@@ -857,6 +857,103 @@ En esta sección se presenta el diseño de la base de datos para el bounded cont
 
 Enlace del diagrama en Vertabelo: https://my.vertabelo.com/doc/OI6qkFKkRmRYm4KuK5dY1njVWEKdF68Z  
 
+#### 4.2.5. Bounded Context: Tracking
+
+##### 4.2.5.1. Domain Layer  
+
+La capa de Dominio es la capa que contiene el núcleo del modelo de negocio y la lógica de dominio.
+
+**Aggregate Root:** 
+- Analytic: Entidad raíz que representa un seguimiento de caso legal. Contiene estado, timestamps, e IDs relevantes. Tiene lógica interna para construir y actualizarse con los comandos correspondientes.
+
+**Interfaces:**
+- AnalyticCommandService: Define las operaciones del dominio para aplicar comandos: handle(CreateAnalyticCommand) y handle(UpdateAnalyticCommand)
+
+- AnalyticQueryService: Define las operaciones del dominio para ejecutar consultas: handle(GetAnalyticByCaseIdQuery) y handle(GetAnalyticsByUserIdQuery)
+
+**Comandos:**
+- CreateAnalyticCommand: Objeto que encapsula los datos necesarios para crear una nueva instancia de Analytic.
+
+- UpdateAnalyticCommand: Objeto que encapsula los datos necesarios para actualizar una instancia existente de Analytic.
+
+**Consultas:**
+- GetAnalyticByCaseIdQuery: Objeto para solicitar una analítica por ID de caso.
+
+- GetAnalyticsByUserIdQuery: Objeto para solicitar todas las analíticas asociadas a un ID de usuario.
+
+##### 4.2.5.2. Interface Layer  
+
+La capa de Interfaz es la capa responsable de exponer el API al exterior y transformar los datos entre el modelo de dominio y los recursos HTTP.
+
+**Controlador:**
+- AnalyticController: Controlador que representa los metodos que se van a exponer  a la web, esta clase se encarga de interactuar con el usuario mediante  HTTP. Esta clase tiene dependencias con los transformadores y los contratos definidos para cada servicio, esto porque los transformadores tienen la responsabilidad de serializar las clases que representan respuestas del servicio en commandos o en la entidad principal.
+
+**Recursos:**
+- CreateAnalyticResource: Objeto que representa los datos enviados por el cliente para crear un seguimiento.
+
+- UpdateAnalyticResource: Objeto que representa los datos enviados por el cliente para actualizar un seguimiento.
+
+- AnalyticResource: Representación del seguimiento de caso devuelta al cliente tras una operación o consulta.
+
+**Assemblers (Transformadores):**
+- CreateAnalyticCommandFromResourceAssembler: Convierte CreateAnalyticResource en CreateAnalyticCommand.
+
+- UpdateAnalyticCommandFromResourceAssembler: Convierte UpdateAnalyticResource en UpdateAnalyticCommand.
+
+- AnalyticResourceFromEntityAssembler: Transforma un objeto del dominio Analytic en un AnalyticResource para ser enviado al cliente.
+
+##### 4.2.5.3. Application Layer  
+
+La capa de Aplicación es la capa que contiene la lógica de aplicación, orquesta las operaciones entre capas externas y el dominio.
+
+**Interfaces:**
+- ExternalCaseService: Define el método updateCaseStatus para sincronizar el estado del caso con sistemas externos.
+
+- ExternalUserService: Define el método isUserExist para verificar si un usuario existe externamente.
+
+**Implementaciones:**
+- AnalyticCommandServiceImpl: Implementa la lógica para crear y actualizar seguimientos de casos (Analytic) usando comandos.
+
+- AnalyticQueryServiceImpl: Implementa las consultas sobre los seguimientos.
+
+- ExternalCaseServiceImpl: Implementa el cambio de estado de un caso en el sistema externo.
+
+- ExternalUserServiceImpl: Implementa la validación de usuarios consultando una fuente externa.
+
+##### 4.2.5.4. Infrastructure Layer  
+
+La capa de Infraestructura es la capa encargada de la persistencia y conexión con sistemas externos.
+
+**Repositorio:**
+- AnalyticRepository: Interfaz que define operaciones de acceso a datos sobre la entidad Analytic. Su implementación concreta se encargará de interactuar con la base de datos.
+
+##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams  
+
+A continuación se muestra el diagrama de componentes realizado para el Bounded Context "Tracking".
+
+<img src="/assets/images/bc-tracking/Component%20Diagram%20Tracking%20BC.jpg" width="500"/>  
+
+
+<img src="/assets/images/bc-tracking/Tracking%20BC%20Component%20Diagram%202.jpg" width="500"/>
+
+##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+###### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams  
+
+A continuación se muestra el diagrama de clases realizado para el Bounded Context "Tracking".
+
+<img src="/assets/images/bc-tracking/Tracking%20BC%20Diagram.png" width="500"/>
+
+Link LucidChart: https://lucid.app/lucidchart/2f24abad-a0f7-43a4-88aa-75a98155725e/edit?viewport_loc=1513%2C-2244%2C5287%2C2801%2C0_0&invitationId=inv_fec486bd-cd05-4ba0-a373-c0d6f0b3cc42 
+
+###### 4.2.5.6.2. Bounded Context Database Design Diagram
+
+A continuación se muestra el diagrama de Base de Datos realizado para el Bounded Context "Tracking".
+
+<img src="/assets/images/bc-tracking/TrackingBD.png" width="500"></img><br>
+
+Link Vertabelo: https://my.vertabelo.com/doc/ljhlltORV7P42DB1eXIYnSo56Gft5W2d 
+
 ## Capítulo V: Solution UI/UX Design 
 
 ### 5.1. Product Design
@@ -945,4 +1042,8 @@ Enlace del diagrama en Vertabelo: https://my.vertabelo.com/doc/OI6qkFKkRmRYm4KuK
 
 ## Bibliografía
 
+<<<<<<< HEAD
 ## Anexos
+=======
+## Anexos 
+>>>>>>> feature/bc-tracking
