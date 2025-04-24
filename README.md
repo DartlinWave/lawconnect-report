@@ -2550,6 +2550,8 @@ Segmento Objetivo 2: Jean Patrick Sanchez Rios - Cliente
 ## Conclusiones
 
 ## Conclusiones y recomendaciones 
+A partir del proceso para completar la primera entrega del proyecto, entendemos que necesitamos una base concisa y clara para poder empezar con la creación de nuestro producto. Empezamos con el Lean UX Process, lo que nos permitió conocer de forma exacta nuestro público objetivo. Continuamos con los gráficos AS-IS y TO-BE, de esta manera pudimos representar el estado actual y futuro del flujo que habrá dentro de la aplicación. Asimismo, con las entrevistas a nuestros segmentos objetivos previamente identificados, logramos entender sus necesidades y reforzar nuestro diseño de aplicación web. A partir de ello, pudimos crear nuestras User Stories que definirán cómo continuaremos el proyecto y qué debemos cumplir al momento de finalizarlo. 
+Y finalmente cada integrante se encargó de definir las clases que tendra cada Bounded Context y realizar los diagramas solicitados. En resumen, esta primera entrega nos permitió tener una base firme, que se alinea con nuestras metas como empresa y los beneficios que esperamos brindar a los usuarios. 
 
 ## Video About-the-Team
 
