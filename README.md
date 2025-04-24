@@ -284,6 +284,10 @@ DartlinWave es una startup compuesta por un grupo de estudiantes de la carrera d
 #### 1.1.2. Perfiles de integrantes del equipo
 A continuación, se presentará a cada miembro del equipo de DartlinWave:
 
+***Tabla 1***
+
+*Perfiles de integrantes del equipo*
+
 <table>
     <th>
         <td>Name</td>
@@ -371,7 +375,7 @@ Del primer gráfico analizamos la cantidad de meses que demora a un egresado de 
 </p>
 
 
-Figura 1
+***Figura 1.*** Tiempo promedio hasta la consecución del primer empleo asalariado formal, según su campo de la educación. 
 
 ![Figure I](assets/images/chapter-I/figure-I.png)  
 
@@ -381,7 +385,7 @@ Figura 1
 En el segundo gráfico se muestra el tiempo que demora a los egresados encontrar trabajo luego de su graduación acorde a su experiencia laboral. A los egresados sin experiencia previa en el rubro les toma 9,4 meses encontrar un puesto para laborar; la cantidad de meses disminuye a medida que la cantidad de tiempo trabajado en prácticas pre profesionales es mayor. Al tener en cuenta estos números, se comprueba que hay más dificultad al momento de buscar trabajo sin experiencia previa.
 </p>
 
-*Figura 2*
+***Figura 2.*** Tiempo promedio hasta la consecución del primer empleo asalariado formal, segpun tiempo de experiencia laboral previa.
 
 ![Figure II](assets/images/chapter-I/figure-II.png)  
 
@@ -391,7 +395,7 @@ En el segundo gráfico se muestra el tiempo que demora a los egresados encontrar
 Asimismo, del informe de El Mercado Laboral en la Carrera de Derecho PUCP (p. 13), encontramos que el 43% de los egresados de la carrera de derecho considera que el mercado laboral está saturado, según su especialidad. Esto demuestra que gran parte de la falta de experiencia laboral y dificultad para conseguir empleo luego de egresar se debe a que la cantidad de abogados es mayor a las ofertas de trabajo disponibles en el mercado.
 </p>
 
-Figura 3
+***Figura 3.*** Gráfica parte poco grata de la especialidad escogida por egresados de derecho.
 
 ![Figure III](assets/images/chapter-I/figure-III.png)  
 
@@ -501,6 +505,10 @@ LawConnect es utilizada por los clientes cuando presentan problemas legales y bu
 
 ##### 1.2.2.4. Lean UX Canvas
 
+***Tabla 2.***
+
+*Representación del Lean UX Canvas en tabla*
+
 | 1. Business Problem                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | 5. Solution Ideas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | 2. Business Outcomes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Abogados recién egresados no suelen contar con las posibilidades de ser contratados apenas reciben su diploma de graduación. Esto complica que puedan construir una carrera estable en el rubro debido a la gran oferta laboral que está experimentando. Esto conlleva a que varios egresados tengan problemas al momento de querer encontrar un trabajo estable. <br><br>Las personas con problemas legales suelen tener problemas para encontrar un abogado calificado accesible y no tan costoso. Después de todo, un proceso judicial toma bastante tiempo y dinero, aparte de los gastos que puedan tener día a día. Eso causa que, a veces, las personas simplemente dejen pasar el juicio o caso por el hecho de que es mucho más costoso debatirlo que dejarlo pasar. A pesar de que pueden haber peores consecuencias debido a eso. | Una aplicación móvil que mejore la comunicación entre personas que necesitan ayuda legal para sus casos y los abogados egresados que tienen un gran ímpetu de empezar su vida laboral.<br><br>Desde la cuenta del abogado:<br>Los abogados deben de tener a su disposición todos los documentos utilizados en cada caso de manera organizada. Esto es para evitar problemas con respecto a la documentación debido a que son archivos muy delicados.<br><br>Tener la oportunidad de presentar sus casos exitosos en sus cuentas mientras que se mantiene oculta la información de sus clientes. La privacidad es muy importante y LawConnect busca salvaguardarla. De esta forma, conseguirán más contratos sin necesidad de exponer sus casos.<br><br>Acorde a su especialidad, que le aparezcan casos en relación a ello; esto se debe a que les permitirá ganar más experiencia durante su trayecto en LawConnect.<br><br>Desde la cuenta de un cliente con problemas legales:<br>Los clientes tendrán la facilidad de hallar a un abogado calificado para su caso debido a los filtros de búsqueda presentes en la aplicación. No solo eso, la comunicación será más directa al momento de interactuar con ellos porque es inmediato y mediante la aplicación.<br><br>Tener un historial de consultas en este caso es importante para mantener una guía de todos sus casos tratados. Asimismo, se mostrará la información de cada abogado que se encargó del caso, lo que permite que el cliente pueda volver a interactuar con este.<br><br>Un tracker es primordial para este usuario. Visualizar el progreso de su caso es completamente importante debido a la magnitud que los juicios tienen. Por ello, buscamos que el usuario pueda estar al tanto de qué documentación se está utilizando y cómo va avanzando este. | Al disminuir el tiempo necesario para que los abogados egresados consigan empleo, mejoraremos su calidad de vida y aumentar su experiencia laboral. Esto se debe a que el estrés por encontrar un empleo ya no sea tan grave o simplemente desaparezca.<br><br>Mejorar la situación de las personas con problemas legales, evitar que se generen más consecuencias a futuro a partir de que eviten ignorar sus casos o juicios. Asimismo, permitir que tengan más ímpetu de denunciar las injusticias que vivan sin necesidad de dejarlas pasar por lo costoso que puede ser el proceso. |
@@ -535,6 +543,10 @@ Abogados egresados en búsqueda de trabajo debido a la alta oferta laboral prese
 En esta sección explicaremos quienes son nuestros principales competidores y descripción principal, con esto podremos
 manejar una buena estrategia y planeación de nuestro producto, ya que es importante saber a quienes nos enfretaremos en el rubro.
 </p>
+
+***Tabla 3.***
+
+*Competidores de LawConnect*
 
 <table border="1">
     <tr>
@@ -585,6 +597,10 @@ manejar una buena estrategia y planeación de nuestro producto, ya que es import
 <p align="justify">
 En esta sección analizaremos nuestros competidores de manera profunda. Investigaremos sobre su <b>FODA</b>, perfil de la empresa y la solución. Así, podemos refinar nuestras características y saber que es lo que tenemos en nuestro producto que capte más la atención de nuestro mercado objetivo.
 </p>
+
+***Tabla 4.***
+
+*Análisis competitivo de nuestros competidores*
 
 <table border="1">
   <tr>
@@ -751,6 +767,10 @@ En esta sección analizaremos nuestros competidores de manera profunda. Investig
 
 #### 2.1.2. Estrategias y tácticas frente a competidores  
 
+***Tabla 5.***
+
+*Análisis FODA de nuestros competidores*
+
 <table border="1">
     <tr>
         <td rowspan="5" width="127px">Análisis SWOT</td>
@@ -876,16 +896,24 @@ En esta sección se presentan las fichas de User Persona, las cuales representan
 La siguiente imagen representa a un abogado <b>egresado</b> que utiliza la tecnología para encontrar alguna oportunidad laboral.
 </p>
 
+***Figura 7.*** *User Persona: Lucia Martinez*
+
 <img src="/assets/images/chapter-II/userpersona-lucia-martinez.png" 
     alt="User Persona Lucia Martinez" width="700px"/>
+
+*Nota.* Este user persona representa al segmento: abogado egresado.
 
 **SEGMENTO OBJETIVO 2**  
 <p align="justify">
 La siguiente imagen representa cliente <b>con problemas legales</b> que utiliza la tecnología para encontrar algún abogado especializado en su caso.
 </p>
 
+***Figura 8.*** *User Persona: Jean Patrick*
+
 <img src="/assets/images/chapter-II/userpersona-jean-patrick.png" 
     alt="User Persona Lucia Martinez" width="700px"/>
+
+*Nota.* Este user persona representa al segmento: cliente con problemas legales.
 
 #### 2.3.2. User Task Matrix
 
@@ -910,6 +938,10 @@ Low (Baja) Medium (Media) High (Alta)
 <p align="justify">
 Esta herramienta ayuda a visualizar qué tareas y objetivos son más relevantes para los usuarios, permitiendo así una mejor planificación y priorización en el desarrollo del producto.
 </p>
+
+***Tabla 6.***
+
+*User Task Matrix*
 
 <table border="1">
   <tr>
@@ -984,15 +1016,19 @@ Esta herramienta ayuda a visualizar qué tareas y objetivos son más relevantes 
  
 #### 2.3.3. User Journey Mapping
 
-*User Journey Mapping 1: Abogado*
+***Figura 9.*** *User Journey Mapping 1: Abogado*
 
 <img src="/assets/images/chapter-II/journey-mapping-abogado.png" 
     alt="User Persona Lucia Martinez" width="980px"/>
 
-*User Journey Mapping 2: Cliente*
+*Nota.* Representación visual de la experiencia de un abogado egresado en la aplicación móvil.
+
+***Figura 10.*** *User Journey Mapping 2: Cliente*
 
 <img src="/assets/images/chapter-II/journey-mapping-cliente.png" 
     alt="User Persona Lucia Martinez" width="980px"/>
+
+*Nota.* Representación visual de la experiencia de un cliente con problemas legales en la aplicación móvil.
 
 #### 2.3.4. Empathy Mapping 
 
@@ -1016,15 +1052,19 @@ Para la elaboración de estos diagramas, se ha utilizado la herramienta UXPressi
 Este enfoque permite una comprensión más rica y matizada de los usuarios, facilitando la creación de soluciones que realmente respondan a sus necesidades y expectativas.
 </p>
 
-***Empathy Mapping 1:*** *Abogado que busca expandir su clientela*
+***Figura 11.*** *Empathy Mapping 1: Abogado que busca expandir su clientela*
 
 <img src="/assets/images/chapter-II/empathy-mapping-abogado.png" 
     alt="User Persona Lucia Martinez" width="700px"/>
 
-***Empathy Mapping 2:*** *Cliente en busca de asesoría legal*
+*Nota.* Mapa de empatía para entender los sentimientos, pensamientos y comportamientos de nuestro segmento objetivo: abogado egresado.
+
+***Figura 12.*** *Empathy Mapping 2: Cliente en busca de asesoría legal*
 
 <img src="/assets/images/chapter-II/empathy-mapping-cliente.png" 
     alt="User Persona Lucia Martinez" width="700px"/>
+
+*Nota.* Mapa de empatía para entender los sentimientos, pensamientos y comportamientos de nuestro segmento objetivo: cliente con problemas legales.
 
 #### 2.3.5. As-is Scenario Mapping
 
@@ -1054,19 +1094,27 @@ El As-Is Scenario Mapping incluye:
 Estos mapas ayudan a visualizar el flujo actual de interacción del usuario, permitiendo identificar áreas críticas que necesitan ser optimizadas para mejorar la experiencia general del usuario.
 </p>
 
-***As-is Scenario Mapping 1:*** *Abogado que busca expandir su clientela*
+***Figura 13.*** *As-is Scenario Mapping 1: Abogado que busca expandir su clientela*
 
 <img src="/assets/images/chapter-II/as-is-mapping-abogado.png" 
     alt="User Persona Lucia Martinez" width="980px"/>
 
-***As-is Scenario Mapping 2:*** *Cliente en busca de asesoría legal*
+*Nota.* Mapa hecho para entender la situación actual del abogado egresado.
+
+***Figura 14.*** *As-is Scenario Mapping 2: Cliente en busca de asesoría legal*
 
 <img src="/assets/images/chapter-II/as-is-mapping-cliente.png" 
     alt="User Persona Lucia Martinez" width="980px"/>
 
+*Nota.* Mapa hecho para entender la situación actual del cliente con problemas legales.
+
 ### 2.4. Ubiquitous Language 
 
 En esta sección se presenta el glosario de términos utilizados en el dominio del producto **LawConnect**, el cual busca facilitar la comunicación clara y sin ambigüedades entre todos los stakeholders del proyecto.
+
+***Tabla 7.***
+
+*Glosario de términos utilizados para el Ubiquitous Language de LawConnect*
 
 <table border="1">
   <tr>
@@ -1156,20 +1204,28 @@ En esta sección se presenta el glosario de términos utilizados en el dominio d
 ### 3.1. To-Be Scenario Mapping    
 Luego de realizar el as-is con sus fases propuestas, para el to-be se realizaron nuevos procesos enfocados en mejorar las fases de los segmentos objetivos con nuestro proyecto.
 
-***Segmento Objetivo 1:*** *Lucía Martinez - Abogada*
+***Figura 15.*** *Segmento Objetivo 1: Lucía Martinez - Abogada*
 
 <img src="/assets/images/chapter-III/To Be Abogado.png" alt="To Be Lawyer" width="980px"/>
 
-***Segmento Objetivo 2:*** *Jean Patrick Sanchez Rios - Cliente*
+*Nota.* Mapa hecho para entender la situación futura del abogado egresado dentro de la aplicación móvil.
+
+***Figura 16.*** *Segmento Objetivo 2: Jean Patrick Sanchez Rios - Cliente*
 
 <img src="/assets/images/chapter-III/To Be Cliente.png" alt="To Be Customer" width="980px"/>
 
-**Link en Miro:**https://miro.com/welcomeonboard/Q21WYmhzZ3ByQktwYm0zMkVsYUpjWUVWTHJiNGVuSmFyM3BYYllaTlZHeDVZWGdtMG9abzBUQWt1K0swT0dOcU1wRzArL2crYUp4N0M2SS9VODJGdHROMnV3Tm5iYXVzQ25DbUFKWG1CNituMUgyV0tmdGVyVmszZFUvcDlyOWlyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=210891533560
+*Nota.* Mapa hecho para entender la situación futura del cliente con problemas legales dentro de la aplicación móvil.
+
+**Enlace en Miro:** https://miro.com/welcomeonboard/Q21WYmhzZ3ByQktwYm0zMkVsYUpjWUVWTHJiNGVuSmFyM3BYYllaTlZHeDVZWGdtMG9abzBUQWt1K0swT0dOcU1wRzArL2crYUp4N0M2SS9VODJGdHROMnV3Tm5iYXVzQ25DbUFKWG1CNituMUgyV0tmdGVyVmszZFUvcDlyOWlyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=210891533560
 
 ### 3.2. User Stories 
 Los User Stories sirven para describir de manera más detallada las diferentes funciones de la aplicación, adaptándolas a las necesidades y prioridades de los usuarios. Estas historias también capturan el propósito de uso de las personas, brindando una comprensión más completa de cómo se relacionan con la aplicación y qué esperan lograr con ella.
 
 #### Epic Stories
+
+***Tabla 8.***
+
+*Epic Stories para la aplicación móvil*
 
 <table> 
     <tr> 
@@ -1269,6 +1325,10 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 </table>
 
 #### User Stories
+
+***Tabla 9.***
+
+*User Stories para la aplicación móvil*
 
 <table> 
     <tr> 
@@ -2174,15 +2234,23 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 ### 3.3. Impact Mapping 
 En esta sección, se plantearon metas de negocio utilizando los criterios SMART para elaborar el Impact Mapping en base a nuestras User Personas y User Stories.
 
-Segmento Objetivo 1: Lucía Martinez - Abogada Impact Mapping
+***Figura 17.*** *Segmento Objetivo 1: Lucía Martinez - Abogada Impact Mapping*
 
 <img src="https://github.com/DartlinWave/LawConnect-report/blob/eedbb12caafdb4b15be9aa3bd406d5e90c2af924/assets/images/chapter-III/Impact%20Map%20Abogado.jpg"></img>
 
-Segmento Objetivo 2: Jean Patrick Sanchez Rios - Cliente
+*Nota. Mapa realizado para ver cómo los procesos del proyecto se alinean con los objetivos SMART de la startup para los abogados egresados.*
+
+***Figura 18.*** *Segmento Objetivo 2: Jean Patrick Sanchez Rios - Cliente*
 
 <img src="https://github.com/DartlinWave/LawConnect-report/blob/eedbb12caafdb4b15be9aa3bd406d5e90c2af924/assets/images/chapter-III/Impact%20Map%20Cliente.jpg"></img>
 
+*Nota. Mapa realizado para ver cómo los procesos del proyecto se alinean con los objetivos SMART de la startup para los clientes que buscan abogados.*
+
 ### 3.4. Product Backlog 
+
+***Tabla 10***
+
+*Product Backlog de la aplicación móvil*
 
 <table>
     <tr>
@@ -2437,7 +2505,11 @@ El diseño estratégico en Domain-Driven Design se enfoca en definir los límite
 EventStorming es una técnica visual y colaborativa que permite descubrir y entender procesos del dominio a través de eventos clave. Fue utilizada para alinear al equipo y definir los flujos principales del sistema desde una perspectiva de negocio.
 </p>
 
+***Figura 19.*** *Event Storming del proyecto*
+
 <img src="/assets/images/chapter-iv/event-storming.jpg" alt="Event Storming" width="750"/>
+
+*Nota.* El event storming fue hecho para organizar las ideas para la creación del proyecto.
 
 ##### 4.1.1.1. Candidate Context Discovery
 <p align="justify">
@@ -2486,41 +2558,46 @@ El enfoque se basó en describir casos reales de uso desde la perspectiva de los
 Cada uno de estos escenarios fue representado en <b>Miro</b> como un diagrama de Domain Storytelling, utilizando íconos, actores y flechas que describen la interacción paso a paso. Esta visualización ayudó al equipo a identificar claramente qué Bounded Contexts se comunican, qué datos deben compartirse y en qué orden ocurren las acciones.
 </p>
 
+***Figura 20.*** *Domain Storytelling del proyecto*
+
 <img src="/assets/images/chapter-iv/storytelling.png" alt="Domain Storytelling" width="700"/>
+
+*Nota.* El Domain Storytelling fue para transformar las ideas del dominio al software de la aplicación.
 
 ##### 4.1.1.3. Bounded Context Canvases
 <p align="justify">
 En esta sección se presentan los Canvases de los bounded contexts identificados durante las actividades previas. Cada Canvas detalla su propósito, reglas de negocio, lenguaje ubicuo, capacidades, dependencias, y una revisión crítica de su diseño, siguiendo un proceso iterativo para refinar su definición.
 </p>
 
-**Bounded Context Cases**
-<p align="justify">
-Encargado de la gestión de los casos legales creados por los clientes. Abarca el proceso de publicación, visualización por parte de los abogados, postulación, selección y aceptación de abogados para un caso.
-</p>
+***Figura 21.*** *Bounded Context Cases*
 
 <img src="/assets/images/chapter-iv/canvas-cases.png" alt="Canvas Bounded Context Cases" width="800"/>
 
-**Bounded Context Matchmaking**
-<p align="justify">
-Encargado de sugerir abogados relevantes a los clientes, usando filtros, puntuaciones y lógica de recomendación. Optimiza el proceso de búsqueda y selección.
-</p>
+*Nota.* Encargado de la gestión de los casos legales creados por los clientes. Abarca el proceso de publicación, visualización por parte de los abogados, postulación, selección y aceptación de abogados para un caso.
+
+***Figura 22.*** *Bounded Context Matchmaking*
+
 
 <img src="/assets/images/chapter-iv/canvas-matchmaking.png" alt="Canvas Bounded Context Matchmaking" width="800"/>
 
-**Bounded Context Tracking**
-<p align="justify">
-Supervisa el avance de los casos ya asignados. Incluye hitos, comentarios, y actualizaciones de progreso hasta su cierre.
-</p>
+*Nota.* Encargado de sugerir abogados relevantes a los clientes, usando filtros, puntuaciones y lógica de recomendación. Optimiza el proceso de búsqueda y selección.
+
+***Figura 23.*** *Bounded Context Tracking*
 
 <img src="/assets/images/chapter-iv/canvas-tracking.png" alt="Canvas Bounded Context Tracking" width="800"/>
 
+*Nota.* Supervisa el avance de los casos ya asignados. Incluye hitos, comentarios, y actualizaciones de progreso hasta su cierre.
 
 #### 4.1.2. Context Mapping
 <p align="justify">
 En esta sección veremos ell proceso se llevó a cabo en <b>Miro</b> mediante sesiones de análisis colaborativo que incluyeron preguntas clave que nos ayudaron a evaluar posibles reorganizaciones de capacidades.
 </p>
 
+***Figura 24.*** *Context Mapping del proyecto*
+
 <img src="/assets/images/chapter-iv/context-mapping.png" alt="Context Mapping" width="650"/>
+
+*Nota*. Este diagrama fue hecho para ver cómo los bounded contexts interactúan entre sí y cómo se comunican.
 
 #### 4.1.3. Software Architecture 
 <p align="justify">
@@ -2532,14 +2609,22 @@ Esta sección describe la arquitectura del sistema utilizando el modelo C4, alin
 Este apartado muestra el diagrama de contexto, donde se representa cómo el sistema interactúa con los actores y sistemas externos. Define los límites del sistema y su relación con el entorno.
 </p>
 
+***Figura 25.*** *Context Level Diagram del proyecto*
+
 <img src="/assets/images/chapter-iv/context-level-diagram.png" alt="Context Level Diagram" width="700"/>
+
+*Nota.* Este diagrama es para ver cómo los usuarios (abogados egresados y clientes con problemas legales) interactúan con la aplicación.
 
 ##### 4.1.3.2. Software Architecture Container Level Diagrams
 <p align="justify">
 Aquí se presenta el diagrama de contenedores, detallando los componentes principales del sistema, su organización interna y cómo colaboran para cumplir los objetivos funcionales.
 </p>
 
+***Figura 26.*** *Container Level Diagram del proyecto*
+
 <img src="/assets/images/chapter-iv/container-level-diagram.png" alt="Container Level Diagram" width="700"/>
+
+*Nota.* Este diagrama es para ver los contenedores dentro de la aplicación y cómo van a interactuar entre ellos.
 
 ##### 4.1.3.3. Software Architecture Deployment Diagrams
 
