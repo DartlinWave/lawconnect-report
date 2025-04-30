@@ -287,25 +287,190 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 
 ###### 4.2.X.6.2. Bounded Context Database Design Diagram
 
-## Capítulo V: Solution UI/UX Design 
+## Capítulo V: Solution UI/UX Design
+En este capítulo nos vamos a enfocar en el desarrolló del diseño de la solución planteada para el proyecto: LawConnect. Para esto nos estamos basando en los estilos y reglas necesarias para hacer un diseño sólido y llamativo para nuestros usuarios.
 
 ### 5.1. Product Design
 
-#### 5.1.1. Style Guidelines 
+En esta parte del capítulo se desarrollará el proceso de diseño de los productos creados por DartlinWave. En este caso se incluye la arquitectura de la información y diseño visual que se utilizarán para crear las interfaces y experiencias de usuario (UI y UX, respectivamente).
+#### 5.1.1. Style Guidelines
 
+En esta sección se explicarán las guías de estilo para la landing page y mobile application. De esta manera mantendremos coherencia en las vistas de los productos y crear un estilo reconocible para los usuarios.
 ##### 5.1.1.1. General Style Guidelines
 
-#### 5.1.2. Information Architecture  
+**Branding:**
 
-##### 5.1.2.1. Organization Systems 
+*Brand Overview*
+
+LawConnect es una aplicación móvil diseñada para mejorar la comunicación entre abogados egresados y clientes con problemas legales. Nuestro objetivo como startup es facilitar la oportunidad de crear ofertas laborales para abogados egresados debido a la creciente falta de puestos de trabajo disponibles para ellos. Asimismo, nos enfocamos que los clientes tengan la opción de escoger un abogado calificado para su caso de manera eficaz y rápida, que se acomode a sus necesidades.
+
+*Brand Name*
+
+LawConnect utiliza "Law" y "Connect" ("ley" y "conectar" en su traducción al español) para transmitir la noción de lo que brindará la aplicación. En este caso, tener "law" como la primera parte del nombre del producto, permite a los usuarios entender de manera rápida que está dedicado al rubro de leyes. Asimismo, esta situación se repite con "connect", debido a que representa cómo la conexión entre abogados calificados y clientes es realizada por la aplicación de manera eficiente. Al combinar ambas palabras, los usuarios sabrán, inmediatamente, que el producto está dedicado a hacer conexiones entre ellos dentro del marco del sector de abogacía. Este nombre fue escogido debido a que es bastante atractivo para los usuarios, ya que evoca los puntos más importantes y representativos de la aplicación en una sola palabra.
+
+A continuación, se mostrará el logo diseñado para LawConnect:
+
+***Figura .*** Logo de LawConnect.
+
+![LawConnect Logo](assets/images/chapter-V/LogoLawConnect.png)
+
+Para la creación del logo nos enfocamos en determinar que sea representativo a lo que brindamos. Así llegamos a la idea de utilizar la balanza de la justicia, ya que engloba todo lo relacionado a leyes, abogados. Asimismo, representa nuestro compromiso de brindar una oportunidad de acceso a la justicia a los clientes con problemas legales, debido a que el proceso es transparente y claro para ellos, de esta manera, tomarán una decisión acorde a lo que necesiten al momento de escoger un abogado para sus casos. También, el color escogido, que es un amarillo ligero, transmite calma, que es el efecto exacto que buscamos causar en nuestros usuarios.
+
+**Typography:**
+
+Para la tipografía de los productos, se ha escogido Plus Jakarta Sans debido a la legibilidad que presenta y facilidad al momento de leer. Asimismo, es llamativo a plena vista del usuario. Para su implementación, hemos utilizado los cuatro niveles de encabezado como guía, los subtítulos, botones, cuerpo de texto, descripciones, etc.
+
+***Figura .*** Type scale de Plus Jakarta Sans.
+
+![Type Scale of Plus Jakarta Sans Part 1](assets/images/chapter-V/TypeScaleP1.png)  
+![Type Scale of Plus Jakarta Sans Part 2](assets/images/chapter-V/TypeScaleP2.png)
+
+*Nota.* Listado de la representación de la fuente Plus Jakarta Sans. Tomado de _The type system_, por Google (https://m2.material.io/design/typography/the-type-system.html#type-scale), 2025.
+
+**Colors:**
+
+Para la elección de los colores representativos para los productos, escogimos investigar la reacción que causaría en los usuarios durante el uso de la aplicación o landing page. En este proyecto, se decidió utilizar los colores negro y rojo, con esto creamos la paleta de colores característica de LawConnect. Con estos colores esperamos transmitir un sentido de modernidad y calidez. En este caso, escogimos negro para tener una base sólida, también, transmite un aire de confianza, que es justamente lo que esperamos con hacer por la importancia de la aplicación en la vida de nuestros usuarios; así, también tiene un toque de elegancia y seriedad. Además, utilizamos rojo suave para que transmita energía, algo que llama bastante la atención de los usuarios. Por eso es que será utilizado en las llamadas de acción, botones y puntos clave de la aplicación. En sí, buscamos que haya un balance y armonía visual en el diseño de los productos y lo logramos con ambos colores.
+
+***Figura .*** Paleta de Colores creada con Material Design
+
+![Color Palette made in Material Design](assets/images/chapter-V/ColorPaletteMaterialDesign.png)  
+
+*Nota.* Demostración usable creada por Google para cumplir el estándar de accesibilidad al momento de crear la paleta de colores. Tomado de _The color system_, por Google (https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors), 2025.
+
+***Figura .*** Paleta de Colores completa.
+
+![Color Palette](assets/images/chapter-V/ColorPaletteLawConnect.png)
+
+*Nota.* En esta paleta de colores, reunimos todos los colores que vamos a utilizar en nuestros productos.
+
+**Spacing:**
+
+El spacing a utilizar se presentará en los siguientes puntos, estos varían dependiendo de el lenguaje o sistema operativo utilizado. De esta manera, permitimos que la información se vea ordenada.
+
+Para Landing Page:
+- Button padding:
+    - Vertical: 12px
+    - Horizontal: 24px
+- Input fields:
+    - Altura: 48px
+    - Espacio entre campos: 16px
+- Margin entre secciones: 64px
+- Height entre textos: 30px
+
+Para Android:
+- Button padding:
+    - Vertical: 12dp
+    - Horizontal: 18dp
+- Input fields:
+    - Altura: 40dp
+    - Espacio entre campos: 16dp
+- Margin entre secciones:
+    - Principales: 32dp a 38dp
+    - Internas: 16dp
+- Spacing entre textos:
+    - Título y subtítulos: 16dp
+    - Párrafos: 12dp
+
+Para iOS:
+- Button padding: 12pt (vertical), 20pt (horizontal)
+- Input fields: 56pt (altura), 16pt (espacio entre campos)
+- Margin entre secciones:
+    - Principales: 32pt a 38pt
+    - Internas: 16pt
+- Spacing entre textos:
+    - Título y subtítulo: 16pt
+    - Párrafos: 12pt
+
+
+**Dimensions:**
+
+Se prefirió usar un tono ligeramente formal, y amigable; pero, de igual manera, se mantiene el respeto hacia los usuarios. Con LawConnect, preferimos utilizar un lenguaje más serio debido a la importancia de los temas que se tratan. Después de todo, buscamos que el usuario confíe en nuestra aplicación; en el caso de los clientes con problemas legales, que encuentren a un abogado calificado y que los egresados puedan tener ofertas laborales.
+#### 5.1.2. Information Architecture
+
+En esta parte del informe se presentará la arquitectura de información (incluye etiquetas, forma de navegación, organización de la información, sistema de búsqueda), planeada para los productos que forman parte de LawConnect (Landing Page y aplicación móvil). Así, cumplimos nuestro objetivo de crear una interfaz amigable e intuitiva para nuestros segmentos objetivos.
+##### 5.1.2.1. Organization Systems
+
+**Organización Visual**
+Se escogió la jerarquía visual para permitir que el usuario pueda seguir el contenido de la página o aplicación de manera correcta, en el orden de importancia. Por eso, se utilizan distintos tipos de tamaño de texto para asegurarnos de que la diferencia de la importancia de cada oración sea clara y precisa para que los clientes entiendan fácilmente. Por ejemplo, acorde a lo mencionado, se utilizaría un tamaño de letra más grande para los títulos y uno más ligero y pequeño para los subtítulos; esto sería aún más notorio con los párrafos.
+
+También contamos con la organización secuencial, para que los clientes que tienen problemas legales puedan saber el orden preciso para crear su caso en la aplicación y escoger al abogado de su preferencia a través de las recomendaciones brindadas.
+
+**Esquema de Categorización**:
+
+Para categorizar la información, escogimos tres esquemas importantes:
+* Alfabético: Para la lista de opciones del menú (se usa el menú hamburguesa), se utilizará el orden alfabético para la presentación de cada sección.
+* Por tópico: Esta categorización está presente en la lista de especialidades disponibles durante la creación del caso (por ejemplo, familiar, penal, laboral, civil).
+* Cronológico: Se utiliza al momento de hacer el proceso de creación de caso, que es el primer paso en la aplicación. A partir de esa información, pasa al segundo fase que es la elección de abogado, que se genera con un algoritmo para crear un emparejamiento y el cliente pueda escoger acorde a lo que prefiera.
+* Audiencia: Lo utilizamos para hacer la diferenciación entre los abogados egresados y los clientes que buscan uno; la presentación de sus pantallas e información van a ser distintas debido a que los objetivos que tienen lo son. El abogado busca ser contratado mientras el cliente espera conseguir un profesional adecuado que lleve su caso.
 
 ##### 5.1.2.2. Labelling Systems
 
-##### 5.1.2.3. SEO Tags and Meta Tags 
+Para el sistema de etiquetas (que permitirá que la información sea clara de diferenciar y entender), decidimos utilizar íconos. Las íconos son ampliamente conocidos por facilitar el entendimiento de los funcionamientos presentes en las aplicaciones. En este caso, hemos decidido escoger los íconos de Material Design, presentes en *Compose Material 3* (https://developer.android.com/develop/ui/compose/graphics/images/material?hl=es-419) para la aplicación móvil en Android y para iOS decidimos utilizar Flutter, Cupertino (https://docs.flutter.dev/ui/design/cupertino), que permitirá seguir la guía de estilo del sistema operativo.
 
-##### 5.1.2.4. Searching Systems  
+Asimismo, vamos a utilizar distintas etiquetas breves para la landing page:
+* "Beneficios"
+* "Testimonios"
+* "Sobre nosotros"
+* "Contáctanos"
+* "Pruébalo"
+* "Inicia Sesión"
+
+En el caso de la aplicación móvil, tendremos en cuenta las etiquetas básicas como:
+* "Guardar"
+* "Cancelar"
+* "Crear Caso"
+* "Mis Casos"
+* "Escoger" ("Match")
+* "Seguimiento" ("Tracker")
+
+##### 5.1.2.3. SEO Tags and Meta Tags
+
+Para los SEO Tags y Meta Tags hemos decidido implementar palabras claves para que mejoren la probabilidad de encontrar LawConnect en los motores de búsqueda.
+
+**Landing Page:**
+
+```
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LawConnect - Asesoría legal a la palma de tu mano</title>
+<meta name="description" content="Conecta con abogados calificados de manera rápida y eficaz.>
+<meta name="keywords" content="asesoría legal, abogados, consulta legal, online, LawConnect">
+<meta name="author" content="LawConnect">
+```
+
+Con estos Tags tendremos la oportunidad de que nuestra landing page sea una de las primeras opciones al momento de buscar una solución para asesoría legal.
+
+**Aplicación Móvil (App Store Optimization):**
+
+* App Title: LawConnect - Asesoría Legal Eficaz
+* App Subtitle: Consulta legal rápida, segura y personalizada
+* App Keywords: abogado, consulta legal, leyes, asesoría legal, online
+* App Description: "LawConnect te permite encontrar abogados calificados para tu caso legal y hacer su respectivo seguimiento en tiempo real. Una solución fácil y confiable."
+
+##### 5.1.2.4. Searching Systems
+
+En esta ocasión, la landing page no contará con una barra de búsqueda, solo tendrá disponibles secciones claras, y botones "call to action" para llevarlos a la aplicación móvil.
+
+En el caso de la aplicación móvil, sería en dos ocasiones:  
+* El abogado tendrá la opción de buscar entre sus casos, para encontrarlos con mayor facilidad. Por ejemplo, puede buscar el nombre del cliente, y le aparecerá el caso relacionado.
+* Para el cliente habrá la opción de buscar los casos que tiene en el momento. Por ejemplo, si tiene una palabra clave que recuerde del caso, inmediatamente, saldrá la lista de búsqueda.
 
 ##### 5.1.2.5. Navigation Systems
+
+Para el sistema de navegación hemos preferido mantener una navegación jerárquica para la landing page, en donde "Pruébalo" e "Iniciar Sesión" son los principales "call to action"; también, escogimos distintos patrones conocidos de *Mobile UI*.
+
+A continuación se va a explicar cómo será el funcionamiento de cada uno en la aplicación móvil:
+
+*  Content-based Navigation: Una implementación de este tipo de navegación sería que, a partir de la tarjeta del abogado, el cliente pueda tocarla y pasar al perfil del abogado (que cuenta con su forma de contacto); otra situación es cuando el abogado desea ver más información del caso y toca la tarjeta del mismo.
+* Morphing Controls: En este caso, lo usaremos para el botón de "crear caso", este pasará a ser el de "guardar caso" y, finalmente, "escoger abogado" (a partir de matchmaking).
+* "Sticky" Fixed Navigation: Se considera usar un menú inferior fijo que cuente con botones de "Inicio" y "Casos".
+* Vertical Navigation: Usaremos este tipo de navegación para que los usuarios visualicen la lista casos.
+* Popovers: Se utilizarán las ventanas emergentes en distintos casos:
+    * Asegurarse de si el cliente quiere deshacer la creación del caso.
+    * Si quiere terminar el caso, lo cual implicaría que el caso fue resuelto.
+    * Si está seguro de que adjuntó toda la información necesaria para el caso.
+    * Si está seguro de aceptar o rechazar el emparejamiento hecho por la aplicación.
+* Sidebars: En este caso, usaremos el "menú hamburguesa", que anida "Mi Cuenta", "Soporte" y "Cerrar Sesión".
 
 #### 5.1.3. Landing Page UI Design  
 
