@@ -492,7 +492,9 @@ Para navegador de móvil:
 ![Wireframe of Landing Page for Mobile](assets/images/chapter-V/WireframeLandingPageMobile.png)
 
 ##### 5.1.3.2. Landing Page Mock-up
-En esta parte se presentará el mock-up de la landing page, que es el equema de alta fidelidad. Esto nos permite tener un modelo exacto de cómo deberíamos crear la página web, ya que incluye imágenes, paleta de colores, tipografía, etiquetas, etc. Todo está basado acorde a las guías de estilo explicadas con anterioridad. Enlace al diseño en Figma: https://www.figma.com/design/JZae3tfE2O0QIgquMoexvX/DesignProduct?node-id=3-13&t=vLKUyiUl3yOqKCJS-1
+En esta parte se presentará el mock-up de la landing page, que es el equema de alta fidelidad. Esto nos permite tener un modelo exacto de cómo deberíamos crear la página web, ya que incluye imágenes, paleta de colores, tipografía, etiquetas, etc. Todo está basado acorde a las guías de estilo explicadas con anterioridad. Enlace al diseño en Figma: https://www.figma.com/design/JZae3tfE2O0QIgquMoexvX/DesignProduct?node-id=3-13&t=vLKUyiUl3yOqKCJS-1  
+
+
 Para navegador de escritorio:
 
 ***Figura .*** Mock-up de Landing Page de LawConnect para navegador de escritorio.
