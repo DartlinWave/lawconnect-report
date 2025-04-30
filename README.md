@@ -472,11 +472,39 @@ A continuación se va a explicar cómo será el funcionamiento de cada uno en la
     * Si está seguro de aceptar o rechazar el emparejamiento hecho por la aplicación.
 * Sidebars: En este caso, usaremos el "menú hamburguesa", que anida "Mi Cuenta", "Soporte" y "Cerrar Sesión".
 
-#### 5.1.3. Landing Page UI Design  
+#### 5.1.3. Landing Page UI Design
 
-##### 5.1.3.1. Landing Page Wireframe 
+Para el diseño de la interfaz de la landing page de LawConnect hemos seguido la guía de estilos para mantener coherencia entre los productos y permita que haya relación con la aplicación móvil. Durante esta sección se presentarán el wireframe y mock-up de la landing page, para proceder con su creación.
+##### 5.1.3.1. Landing Page Wireframe
+
+En esta sección se presentará el wireframe para la landing page, este es un esquema de baja fidelidad que solo nos ayudará para tener una estructura definida al momento de crear la página web. No se considera la paleta de colores, imágenes a usar, tipografía o texto. Enlace al diseño en Figma: https://www.figma.com/design/JZae3tfE2O0QIgquMoexvX/DesignProduct?node-id=3-12&t=eLq4SylKlmEwIeqj-1
+
+Para navegador de escritorio:
+
+***Figura .*** Wireframe de Landing Page de LawConnect para navegador de escritorio.
+
+![Wireframe of Landing Page for Desktop](assets/images/chapter-V/WireframeLandingPageDesktop.png)
+
+Para navegador de móvil:
+
+***Figura .*** Wireframe de Landing Page de LawConnect para navegador de móvil.
+
+![Wireframe of Landing Page for Mobile](assets/images/chapter-V/WireframeLandingPageMobile.png)
 
 ##### 5.1.3.2. Landing Page Mock-up
+En esta parte se presentará el mock-up de la landing page, que es el equema de alta fidelidad. Esto nos permite tener un modelo exacto de cómo deberíamos crear la página web, ya que incluye imágenes, paleta de colores, tipografía, etiquetas, etc. Todo está basado acorde a las guías de estilo explicadas con anterioridad. Enlace al diseño en Figma: https://www.figma.com/design/JZae3tfE2O0QIgquMoexvX/DesignProduct?node-id=3-13&t=vLKUyiUl3yOqKCJS-1
+Para navegador de escritorio:
+
+***Figura .*** Mock-up de Landing Page de LawConnect para navegador de escritorio.
+
+![Mock-up of Landing Page for Desktop](assets/images/chapter-V/MockUpLandingPageDesktop.png)
+
+Para navegador de móvil:
+
+***Figura .*** Mock-up de Landing Page de LawConnect para navegador de móvil.
+
+![Mock-up of Landing Page for Mobile](assets/images/chapter-V/MockUpLandingPageMobile.png)
+
 
 #### 5.1.4. Mobile Applications UX/UI Design 
 
