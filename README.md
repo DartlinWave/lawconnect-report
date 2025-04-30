@@ -433,7 +433,7 @@ Para los SEO Tags y Meta Tags hemos decidido implementar palabras claves para qu
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>LawConnect - Asesoría legal a la palma de tu mano</title>
-<meta name="description" content="Conecta con abogados calificados de manera rápida y eficaz.>
+<meta name="description" content="Conecta con abogados calificados de manera rápida y eficaz".>
 <meta name="keywords" content="asesoría legal, abogados, consulta legal, online, LawConnect">
 <meta name="author" content="LawConnect">
 ```
