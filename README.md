@@ -514,6 +514,79 @@ Para navegador de móvil:
 
 ##### 5.1.4.2. Mobile Applications Wireflow Diagrams  
 
+En este apartado se presentarán los wireflow diagrams, estos explican cómo es la navegación en la aplicación móvil.
+Esto nos permite entender la experiencia de los usuarios y cuáles son sus objetivos con la aplicación.
+
+Abogados egresados:
+
+User goal 1: Como abogado quiero poder iniciar sesión, inscribirme a Law Connect, recuperar mi contraseña, crear mi perfil, incluir mi descripción y especialidad para ingresar a la aplicación móvil.  
+
+***Figura .*** Representación del User Goal 1 de abogado egresado en la aplicación móvil.
+
+[User Goal 1 | Abogados egresados](assets/images/chapter-V/WireflowDiagrams/Wireflow1.png)
+
+User goal 2: Como abogado quiero ver la lista de casos disponibles y aplicar a uno para poder trabajar con diferentes clientes.
+
+***Figura .*** Representación del User Goal 2 de abogado egresado en la aplicación móvil.
+
+[User Goal 2 | Abogados egresados](assets/images/chapter-V/WireflowDiagrams/Wireflow2.png)
+
+User goal 3: Como abogado quiero poder ver la lista de invitaciones a casos y poder aceptar o declinar uno para poder tener un manejo de los casos que llevo en la aplicación.
+
+***Figura .*** Representación del User Goal 3 de abogado egresado en la aplicación móvil.
+
+[User Goal 3 | Abogados egresados](assets/images/chapter-V/WireflowDiagrams/Wireflow3.png)
+
+User goal 4: Como abogado quiero tener un seguimiento de los casos que llevo y actualizar su estado para tener una línea de tiempo sobre cómo van los casos y para gestionar un debido tiempo para cada uno.
+
+***Figura .*** Representación del User Goal 4 de abogado egresado en la aplicación móvil.
+
+[User Goal 4 | Abogados egresados](assets/images/chapter-V/WireflowDiagrams/Wireflow4.png)
+
+Clientes: 
+
+User goal 1: Como cliente quiero poder iniciar sesión, inscribirme a Law Connect, recuperar mi contraseña, crear mi perfil para ingresar a la aplicación móvil.
+
+***Figura .*** Representación del User Goal 1 de cliente en la aplicación móvil.
+
+[User Goal 1 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow5.png)
+
+User goal 2: Como cliente quiero poder crear un caso para poder conectar con un abogado calificado.
+
+***Figura .*** Representación del User Goal 2 de cliente en la aplicación móvil.
+
+[User Goal 2 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow6.png)
+
+User goal 3: Como cliente quiero visualizar mi lista de casos y ver el seguimiento de los mismos para manejar de manera organizada los tiempos de cada uno.
+
+***Figura .*** Representación del User Goal 3 de cliente en la aplicación móvil.
+
+[User Goal 3 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow7.png)
+
+User goal 4: Como cliente quiero cambiar el estado del caso para poder seguir el caso con un abogado y no se muestre como disponible para otros abogados.
+
+***Figura .*** Representación del User Goal 4 de cliente en la aplicación móvil.
+
+[User Goal 4 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow8.png)
+
+User goal 5: Como cliente quiero ver la lista de abogados, utilizar filtros, e invitar a un abogado al caso creado para llevarlo con el abogado de mi elección.
+
+***Figura .*** Representación del User Goal 5 de cliente en la aplicación móvil.
+
+[User Goal 5 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow9.png)
+
+User goal 6: Como cliente quiero tener una lista de postulantes para mi caso, para escoger uno de ellos acorde a mis preferencias.
+
+***Figura .*** Representación del User Goal 6 de cliente en la aplicación móvil.
+
+[User Goal 6 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow10.png)
+
+User goal 7: Como cliente quiero poder cerrar un caso para señalar que el proceso legal a terminado.
+
+***Figura .*** Representación del User Goal 7 de cliente en la aplicación móvil.
+
+[User Goal 7 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow11.png)
+
 ##### 5.1.4.3. Mobile Applications Mock-ups 
 
 ##### 5.1.4.4. Mobile Applications User Flow Diagrams 
