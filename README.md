@@ -3111,6 +3111,7 @@ En este diagrama se muestra la relación entre las clases que pertenecen al boun
 
 ![Class Diagram for Matchmaking](assets/images/chapter-IV/bc-matchmaking/LawConnect-class-diagram-bc-matchmaking.png)  
 
+##### 4.2.X.2. Interface Layer  
 
 Enlace del diagrama en Lucidchart: https://lucid.app/lucidchart/f562fb42-f94d-4840-be83-ef1c400180f5/edit?viewport_loc=-16%2C283%2C1727%2C1241%2CHWEp-vi-RSFO&invitationId=inv_f78a52cc-3e46-4d38-ac9a-28478a2a2a48
 
@@ -3219,37 +3220,305 @@ A continuación se muestra el diagrama de Base de Datos realizado para el Bounde
 
 Link Vertabelo: https://my.vertabelo.com/doc/ljhlltORV7P42DB1eXIYnSo56Gft5W2d 
 
-## Capítulo V: Solution UI/UX Design 
+## Capítulo V: Solution UI/UX Design
+En este capítulo nos vamos a enfocar en el desarrolló del diseño de la solución planteada para el proyecto: LawConnect. Para esto nos estamos basando en los estilos y reglas necesarias para hacer un diseño sólido y llamativo para nuestros usuarios.
 
 ### 5.1. Product Design
 
-#### 5.1.1. Style Guidelines 
+En esta parte del capítulo se desarrollará el proceso de diseño de los productos creados por DartlinWave. En este caso se incluye la arquitectura de la información y diseño visual que se utilizarán para crear las interfaces y experiencias de usuario (UI y UX, respectivamente).
+#### 5.1.1. Style Guidelines
 
+En esta sección se explicarán las guías de estilo para la landing page y mobile application. De esta manera mantendremos coherencia en las vistas de los productos y crear un estilo reconocible para los usuarios.
 ##### 5.1.1.1. General Style Guidelines
 
-#### 5.1.2. Information Architecture  
+**Branding:**
 
-##### 5.1.2.1. Organization Systems 
+*Brand Overview*
+
+LawConnect es una aplicación móvil diseñada para mejorar la comunicación entre abogados egresados y clientes con problemas legales. Nuestro objetivo como startup es facilitar la oportunidad de crear ofertas laborales para abogados egresados debido a la creciente falta de puestos de trabajo disponibles para ellos. Asimismo, nos enfocamos que los clientes tengan la opción de escoger un abogado calificado para su caso de manera eficaz y rápida, que se acomode a sus necesidades.
+
+*Brand Name*
+
+LawConnect utiliza "Law" y "Connect" ("ley" y "conectar" en su traducción al español) para transmitir la noción de lo que brindará la aplicación. En este caso, tener "law" como la primera parte del nombre del producto, permite a los usuarios entender de manera rápida que está dedicado al rubro de leyes. Asimismo, esta situación se repite con "connect", debido a que representa cómo la conexión entre abogados calificados y clientes es realizada por la aplicación de manera eficiente. Al combinar ambas palabras, los usuarios sabrán, inmediatamente, que el producto está dedicado a hacer conexiones entre ellos dentro del marco del sector de abogacía. Este nombre fue escogido debido a que es bastante atractivo para los usuarios, ya que evoca los puntos más importantes y representativos de la aplicación en una sola palabra.
+
+A continuación, se mostrará el logo diseñado para LawConnect:
+
+***Figura .*** Logo de LawConnect.
+
+![LawConnect Logo](assets/images/chapter-V/LogoLawConnect.png)
+
+Para la creación del logo nos enfocamos en determinar que sea representativo a lo que brindamos. Así llegamos a la idea de utilizar la balanza de la justicia, ya que engloba todo lo relacionado a leyes, abogados. Asimismo, representa nuestro compromiso de brindar una oportunidad de acceso a la justicia a los clientes con problemas legales, debido a que el proceso es transparente y claro para ellos, de esta manera, tomarán una decisión acorde a lo que necesiten al momento de escoger un abogado para sus casos. También, el color escogido, que es un amarillo ligero, transmite calma, que es el efecto exacto que buscamos causar en nuestros usuarios.
+
+**Typography:**
+
+Para la tipografía de los productos, se ha escogido Plus Jakarta Sans debido a la legibilidad que presenta y facilidad al momento de leer. Asimismo, es llamativo a plena vista del usuario. Para su implementación, hemos utilizado los cuatro niveles de encabezado como guía, los subtítulos, botones, cuerpo de texto, descripciones, etc.
+
+***Figura .*** Type scale de Plus Jakarta Sans.
+
+![Type Scale of Plus Jakarta Sans Part 1](assets/images/chapter-V/TypeScaleP1.png)  
+![Type Scale of Plus Jakarta Sans Part 2](assets/images/chapter-V/TypeScaleP2.png)
+
+*Nota.* Listado de la representación de la fuente Plus Jakarta Sans. Tomado de _The type system_, por Google (https://m2.material.io/design/typography/the-type-system.html#type-scale), 2025.
+
+**Colors:**
+
+Para la elección de los colores representativos para los productos, escogimos investigar la reacción que causaría en los usuarios durante el uso de la aplicación o landing page. En este proyecto, se decidió utilizar los colores negro y rojo, con esto creamos la paleta de colores característica de LawConnect. Con estos colores esperamos transmitir un sentido de modernidad y calidez. En este caso, escogimos negro para tener una base sólida, también, transmite un aire de confianza, que es justamente lo que esperamos con hacer por la importancia de la aplicación en la vida de nuestros usuarios; así, también tiene un toque de elegancia y seriedad. Además, utilizamos rojo suave para que transmita energía, algo que llama bastante la atención de los usuarios. Por eso es que será utilizado en las llamadas de acción, botones y puntos clave de la aplicación. En sí, buscamos que haya un balance y armonía visual en el diseño de los productos y lo logramos con ambos colores. Enlace al diseño en Figma: https://www.figma.com/design/JZae3tfE2O0QIgquMoexvX/DesignProduct?node-id=8-2&t=eLq4SylKlmEwIeqj-1
+
+***Figura .*** Paleta de Colores creada con Material Design
+
+![Color Palette made in Material Design](assets/images/chapter-V/ColorPaletteMaterialDesign.png)  
+
+*Nota.* Demostración usable creada por Google para cumplir el estándar de accesibilidad al momento de crear la paleta de colores. Tomado de _The color system_, por Google (https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors), 2025.
+
+***Figura .*** Paleta de Colores completa.
+
+![Color Palette](assets/images/chapter-V/ColorPaletteLawConnect.png)
+
+*Nota.* En esta paleta de colores, reunimos todos los colores que vamos a utilizar en nuestros productos.
+
+**Spacing:**
+
+El spacing a utilizar se presentará en los siguientes puntos, estos varían dependiendo de el lenguaje o sistema operativo utilizado. De esta manera, permitimos que la información se vea ordenada.
+
+Para Landing Page:
+- Button padding:
+    - Vertical: 12px
+    - Horizontal: 24px
+- Input fields:
+    - Altura: 48px
+    - Espacio entre campos: 16px
+- Margin entre secciones: 64px
+- Height entre textos: 30px
+
+Para Android:
+- Button padding:
+    - Vertical: 12dp
+    - Horizontal: 18dp
+- Input fields:
+    - Altura: 40dp
+    - Espacio entre campos: 16dp
+- Margin entre secciones:
+    - Principales: 32dp a 38dp
+    - Internas: 16dp
+- Spacing entre textos:
+    - Título y subtítulos: 16dp
+    - Párrafos: 12dp
+
+Para iOS:
+- Button padding: 12pt (vertical), 20pt (horizontal)
+- Input fields: 56pt (altura), 16pt (espacio entre campos)
+- Margin entre secciones:
+    - Principales: 32pt a 38pt
+    - Internas: 16pt
+- Spacing entre textos:
+    - Título y subtítulo: 16pt
+    - Párrafos: 12pt
+
+
+**Dimensions:**
+
+Se prefirió usar un tono ligeramente formal, y amigable; pero, de igual manera, se mantiene el respeto hacia los usuarios. Con LawConnect, preferimos utilizar un lenguaje más serio debido a la importancia de los temas que se tratan. Después de todo, buscamos que el usuario confíe en nuestra aplicación; en el caso de los clientes con problemas legales, que encuentren a un abogado calificado y que los egresados puedan tener ofertas laborales.
+#### 5.1.2. Information Architecture
+
+En esta parte del informe se presentará la arquitectura de información (incluye etiquetas, forma de navegación, organización de la información, sistema de búsqueda), planeada para los productos que forman parte de LawConnect (Landing Page y aplicación móvil). Así, cumplimos nuestro objetivo de crear una interfaz amigable e intuitiva para nuestros segmentos objetivos.
+##### 5.1.2.1. Organization Systems
+
+**Organización Visual**
+Se escogió la jerarquía visual para permitir que el usuario pueda seguir el contenido de la página o aplicación de manera correcta, en el orden de importancia. Por eso, se utilizan distintos tipos de tamaño de texto para asegurarnos de que la diferencia de la importancia de cada oración sea clara y precisa para que los clientes entiendan fácilmente. Por ejemplo, acorde a lo mencionado, se utilizaría un tamaño de letra más grande para los títulos y uno más ligero y pequeño para los subtítulos; esto sería aún más notorio con los párrafos.
+
+También contamos con la organización secuencial, para que los clientes que tienen problemas legales puedan saber el orden preciso para crear su caso en la aplicación y escoger al abogado de su preferencia a través de las recomendaciones brindadas.
+
+**Esquema de Categorización**:
+
+Para categorizar la información, escogimos tres esquemas importantes:
+* Alfabético: Para la lista de opciones del menú (se usa el menú hamburguesa), se utilizará el orden alfabético para la presentación de cada sección.
+* Por tópico: Esta categorización está presente en la lista de especialidades disponibles durante la creación del caso (por ejemplo, familiar, penal, laboral, civil).
+* Cronológico: Se utiliza al momento de hacer el proceso de creación de caso, que es el primer paso en la aplicación. A partir de esa información, pasa al segundo fase que es la elección de abogado, que se genera con un algoritmo para crear un emparejamiento y el cliente pueda escoger acorde a lo que prefiera.
+* Audiencia: Lo utilizamos para hacer la diferenciación entre los abogados egresados y los clientes que buscan uno; la presentación de sus pantallas e información van a ser distintas debido a que los objetivos que tienen lo son. El abogado busca ser contratado mientras el cliente espera conseguir un profesional adecuado que lleve su caso.
 
 ##### 5.1.2.2. Labelling Systems
 
-##### 5.1.2.3. SEO Tags and Meta Tags 
+Para el sistema de etiquetas (que permitirá que la información sea clara de diferenciar y entender), decidimos utilizar íconos. Las íconos son ampliamente conocidos por facilitar el entendimiento de los funcionamientos presentes en las aplicaciones. En este caso, hemos decidido escoger los íconos de Material Design, presentes en *Compose Material 3* (https://developer.android.com/develop/ui/compose/graphics/images/material?hl=es-419) para la aplicación móvil en Android y para iOS decidimos utilizar Flutter, Cupertino (https://docs.flutter.dev/ui/design/cupertino), que permitirá seguir la guía de estilo del sistema operativo.
 
-##### 5.1.2.4. Searching Systems  
+Asimismo, vamos a utilizar distintas etiquetas breves para la landing page:
+* "Beneficios"
+* "Testimonios"
+* "Sobre nosotros"
+* "Contáctanos"
+* "Pruébalo"
+* "Inicia Sesión"
+
+En el caso de la aplicación móvil, tendremos en cuenta las etiquetas básicas como:
+* "Guardar"
+* "Cancelar"
+* "Crear Caso"
+* "Mis Casos"
+* "Escoger" ("Match")
+* "Seguimiento" ("Tracker")
+
+##### 5.1.2.3. SEO Tags and Meta Tags
+
+Para los SEO Tags y Meta Tags hemos decidido implementar palabras claves para que mejoren la probabilidad de encontrar LawConnect en los motores de búsqueda.
+
+**Landing Page:**
+
+```
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LawConnect - Asesoría legal a la palma de tu mano</title>
+<meta name="description" content="Conecta con abogados calificados de manera rápida y eficaz".>
+<meta name="keywords" content="asesoría legal, abogados, consulta legal, online, LawConnect">
+<meta name="author" content="LawConnect">
+```
+
+Con estos Tags tendremos la oportunidad de que nuestra landing page sea una de las primeras opciones al momento de buscar una solución para asesoría legal.
+
+**Aplicación Móvil (App Store Optimization):**
+
+* App Title: LawConnect - Asesoría Legal Eficaz
+* App Subtitle: Consulta legal rápida, segura y personalizada
+* App Keywords: abogado, consulta legal, leyes, asesoría legal, online
+* App Description: "LawConnect te permite encontrar abogados calificados para tu caso legal y hacer su respectivo seguimiento en tiempo real. Una solución fácil y confiable."
+
+##### 5.1.2.4. Searching Systems
+
+En esta ocasión, la landing page no contará con una barra de búsqueda, solo tendrá disponibles secciones claras, y botones "call to action" para llevarlos a la aplicación móvil.
+
+En el caso de la aplicación móvil, sería en dos ocasiones:  
+* El abogado tendrá la opción de buscar entre sus casos, para encontrarlos con mayor facilidad. Por ejemplo, puede buscar el nombre del cliente, y le aparecerá el caso relacionado.
+* Para el cliente habrá la opción de buscar los casos que tiene en el momento. Por ejemplo, si tiene una palabra clave que recuerde del caso, inmediatamente, saldrá la lista de búsqueda.
 
 ##### 5.1.2.5. Navigation Systems
 
-#### 5.1.3. Landing Page UI Design  
+Para el sistema de navegación hemos preferido mantener una navegación jerárquica para la landing page, en donde "Pruébalo" e "Iniciar Sesión" son los principales "call to action"; también, escogimos distintos patrones conocidos de *Mobile UI*.
 
-##### 5.1.3.1. Landing Page Wireframe 
+A continuación se va a explicar cómo será el funcionamiento de cada uno en la aplicación móvil:
+
+*  Content-based Navigation: Una implementación de este tipo de navegación sería que, a partir de la tarjeta del abogado, el cliente pueda tocarla y pasar al perfil del abogado (que cuenta con su forma de contacto); otra situación es cuando el abogado desea ver más información del caso y toca la tarjeta del mismo.
+* Morphing Controls: En este caso, lo usaremos para el botón de "crear caso", este pasará a ser el de "guardar caso" y, finalmente, "escoger abogado" (a partir de matchmaking).
+* "Sticky" Fixed Navigation: Se considera usar un menú inferior fijo que cuente con botones de "Inicio" y "Casos".
+* Vertical Navigation: Usaremos este tipo de navegación para que los usuarios visualicen la lista casos.
+* Popovers: Se utilizarán las ventanas emergentes en distintos casos:
+    * Asegurarse de si el cliente quiere deshacer la creación del caso.
+    * Si quiere terminar el caso, lo cual implicaría que el caso fue resuelto.
+    * Si está seguro de que adjuntó toda la información necesaria para el caso.
+    * Si está seguro de aceptar o rechazar el emparejamiento hecho por la aplicación.
+* Sidebars: En este caso, usaremos el "menú hamburguesa", que anida "Mi Cuenta", "Soporte" y "Cerrar Sesión".
+
+#### 5.1.3. Landing Page UI Design
+
+Para el diseño de la interfaz de la landing page de LawConnect hemos seguido la guía de estilos para mantener coherencia entre los productos y permita que haya relación con la aplicación móvil. Durante esta sección se presentarán el wireframe y mock-up de la landing page, para proceder con su creación.
+##### 5.1.3.1. Landing Page Wireframe
+
+En esta sección se presentará el wireframe para la landing page, este es un esquema de baja fidelidad que solo nos ayudará para tener una estructura definida al momento de crear la página web. No se considera la paleta de colores, imágenes a usar, tipografía o texto. Enlace al diseño en Figma: https://www.figma.com/design/JZae3tfE2O0QIgquMoexvX/DesignProduct?node-id=3-12&t=eLq4SylKlmEwIeqj-1
+
+Para navegador de escritorio:
+
+***Figura .*** Wireframe de Landing Page de LawConnect para navegador de escritorio.
+
+![Wireframe of Landing Page for Desktop](assets/images/chapter-V/WireframeLandingPageDesktop.png)
+
+Para navegador de móvil:
+
+***Figura .*** Wireframe de Landing Page de LawConnect para navegador de móvil.
+
+![Wireframe of Landing Page for Mobile](assets/images/chapter-V/WireframeLandingPageMobile.png)
 
 ##### 5.1.3.2. Landing Page Mock-up
+En esta parte se presentará el mock-up de la landing page, que es el equema de alta fidelidad. Esto nos permite tener un modelo exacto de cómo deberíamos crear la página web, ya que incluye imágenes, paleta de colores, tipografía, etiquetas, etc. Todo está basado acorde a las guías de estilo explicadas con anterioridad. Enlace al diseño en Figma: https://www.figma.com/design/JZae3tfE2O0QIgquMoexvX/DesignProduct?node-id=3-13&t=vLKUyiUl3yOqKCJS-1  
+
+
+Para navegador de escritorio:
+
+***Figura .*** Mock-up de Landing Page de LawConnect para navegador de escritorio.
+
+![Mock-up of Landing Page for Desktop](assets/images/chapter-V/MockUpLandingPageDesktop.png)
+
+Para navegador de móvil:
+
+***Figura .*** Mock-up de Landing Page de LawConnect para navegador de móvil.
+
+![Mock-up of Landing Page for Mobile](assets/images/chapter-V/MockUpLandingPageMobile.png)
+
 
 #### 5.1.4. Mobile Applications UX/UI Design 
 
 ##### 5.1.4.1. Mobile Applications Wireframes
 
 ##### 5.1.4.2. Mobile Applications Wireflow Diagrams  
+
+En este apartado se presentarán los wireflow diagrams, estos explican cómo es la navegación en la aplicación móvil.
+Esto nos permite entender la experiencia de los usuarios y cuáles son sus objetivos con la aplicación.
+
+Abogados egresados:
+
+User goal 1: Como abogado quiero poder iniciar sesión, inscribirme a Law Connect, recuperar mi contraseña, crear mi perfil, incluir mi descripción y especialidad para ingresar a la aplicación móvil.  
+
+***Figura .*** Representación del User Goal 1 de abogado egresado en la aplicación móvil.
+
+[User Goal 1 | Abogados egresados](assets/images/chapter-V/WireflowDiagrams/Wireflow1.png)
+
+User goal 2: Como abogado quiero ver la lista de casos disponibles y aplicar a uno para poder trabajar con diferentes clientes.
+
+***Figura .*** Representación del User Goal 2 de abogado egresado en la aplicación móvil.
+
+[User Goal 2 | Abogados egresados](assets/images/chapter-V/WireflowDiagrams/Wireflow2.png)
+
+User goal 3: Como abogado quiero poder ver la lista de invitaciones a casos y poder aceptar o declinar uno para poder tener un manejo de los casos que llevo en la aplicación.
+
+***Figura .*** Representación del User Goal 3 de abogado egresado en la aplicación móvil.
+
+[User Goal 3 | Abogados egresados](assets/images/chapter-V/WireflowDiagrams/Wireflow3.png)
+
+User goal 4: Como abogado quiero tener un seguimiento de los casos que llevo y actualizar su estado para tener una línea de tiempo sobre cómo van los casos y para gestionar un debido tiempo para cada uno.
+
+***Figura .*** Representación del User Goal 4 de abogado egresado en la aplicación móvil.
+
+[User Goal 4 | Abogados egresados](assets/images/chapter-V/WireflowDiagrams/Wireflow4.png)
+
+Clientes: 
+
+User goal 1: Como cliente quiero poder iniciar sesión, inscribirme a Law Connect, recuperar mi contraseña, crear mi perfil para ingresar a la aplicación móvil.
+
+***Figura .*** Representación del User Goal 1 de cliente en la aplicación móvil.
+
+[User Goal 1 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow5.png)
+
+User goal 2: Como cliente quiero poder crear un caso para poder conectar con un abogado calificado.
+
+***Figura .*** Representación del User Goal 2 de cliente en la aplicación móvil.
+
+[User Goal 2 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow6.png)
+
+User goal 3: Como cliente quiero visualizar mi lista de casos y ver el seguimiento de los mismos para manejar de manera organizada los tiempos de cada uno.
+
+***Figura .*** Representación del User Goal 3 de cliente en la aplicación móvil.
+
+[User Goal 3 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow7.png)
+
+User goal 4: Como cliente quiero cambiar el estado del caso para poder seguir el caso con un abogado y no se muestre como disponible para otros abogados.
+
+***Figura .*** Representación del User Goal 4 de cliente en la aplicación móvil.
+
+[User Goal 4 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow8.png)
+
+User goal 5: Como cliente quiero ver la lista de abogados, utilizar filtros, e invitar a un abogado al caso creado para llevarlo con el abogado de mi elección.
+
+***Figura .*** Representación del User Goal 5 de cliente en la aplicación móvil.
+
+[User Goal 5 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow9.png)
+
+User goal 6: Como cliente quiero tener una lista de postulantes para mi caso, para escoger uno de ellos acorde a mis preferencias.
+
+***Figura .*** Representación del User Goal 6 de cliente en la aplicación móvil.
+
+[User Goal 6 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow10.png)
+
+User goal 7: Como cliente quiero poder cerrar un caso para señalar que el proceso legal a terminado.
+
+***Figura .*** Representación del User Goal 7 de cliente en la aplicación móvil.
+
+[User Goal 7 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow11.png)
 
 ##### 5.1.4.3. Mobile Applications Mock-ups 
 
@@ -3285,7 +3554,53 @@ Link Vertabelo: https://my.vertabelo.com/doc/ljhlltORV7P42DB1eXIYnSo56Gft5W2d
 
 ##### 6.2.X.6. Services Documentation Evidence for Sprint Review
 
+Para la documentación de los servicios, se utilizó Swagger. Este servicio nos permite documentar los endpoints disponibles en la API.
+Swagger es una herramienta de código abierto que permite crear documentación interactiva para API RESTful.
+En este proyecto, estamos utilizando la version 3 de Swagger, que es la más reciente. Las anotaciones utilizadas para la documentación fueron:
+```@Tag``` y ```@Operation```.
+
+Acorde a los bounded context que tenemos en el proyecto, se crearon los siguientes endpoints:  
+
+**IAM**  
+
+Este bounded context se encarga de la gestión de usuarios y su respectiva autenticación. De esta manera, nos aseguramos que los usuarios tengan acceso a la aplicación y puedan crear su cuenta.
+Asimismo, se encarga de manejar los roles disponibles en la aplicación, en este caso, abogado o cliente.  
+
+**Profiles**  
+Este bounded context se encarga de la gestión de los perfiles de los usuarios. Así, los usuarios pueden visualizar su información y editarla.
+De esta manera, por ejemplo, los abogados pueden mostrar su especialidad y su información de contacto.
+
+**Cases**  
+Este bounded context se encarga de la gestión de los casos. Se gestiona la creación de los casos, la invitación a los abogados y postulación de los mismos.
+
+**Matchmaking**  
+Este bounded context se encarga de la gestión del emparejamiento entre abogados y clientes. Maneja aceptar a un abogado para un caso, así como también rechazarlo.
+Y también cuando un cliente acepta a un abogado para su caso o lo rechaza.
+
+
+| Endpoint                                             | Método  | Descripción                                  | Parámetros                 | Ejemplo de llamada                                 | Ejemplo de respuesta              |
+|------------------------------------------------------|---------|----------------------------------------------|----------------------------|----------------------------------------------------|-----------------------------------|
+| `/api/v1/matches`                                    | `POST`  | Crear un nuevo match entre cliente y abogado | Body: `caseId`, `lawyerId` | `POST /api/v1/matches`                             | `201 Created`                     |
+| `/api/v1/matches/{matchId}`                          | `GET`   | Obtener match por Id                         | `matchId` en path          | `GET /api/v1/matches/2`                            | `200 OK`                          |
+| `/api/v1/matches/{matchId}/accept-lawyer-by-client`  | `PATCH` | Cliente acepta postulación de abogado        | `matchId` en path          | `PATCH /api/v1/matches/2/accept-lawyer-by-client`  | `200 OK "Client approved lawyer"` |
+| `/api/v1/matches/{matchId}/decline-lawyer-by-client` | `PATCH` | Cliente rechaza postulación de abogado       | `matchId` en path          | `PATCH /api/v1/matches/2/decline-lawyer-by-client` | `200 OK "Client declined lawyer"` |
+| `/api/v1/matches/{matchId}/accept-case-by-lawyer`    | `PATCH` | Abogado acepta invitación de cliente         | `matchId` en path          | `PATCH /api/v1/matches/2/accept-case-by-lawyer`    | `200 OK "Lawyer accepted case"`   |
+| `/api/v1/matches/{matchId}/reject-case-by-lawyer`    | `PATCH` | Abogado rechaza invitación de cliente        | `matchId` en path          | `PATCH /api/v1/matches/2/reject-case-by-lawyer`    | `200 OK "Lawyer declined case"`   |
+| `/api/v1/matches/lawyerId/{lawyerId}/pending`        | `GET`   | Lista de matches pendientes de un abogado    | `lawyerId` en path         | `GET /api/v1/matches/lawyer/3/pending`             | `200 OK`                          |
+| `/api/v1/matches/caseId/{caseId}/pending`            | `GET`   | Lista de matches pendientes de un caso       | `caseId` en path           | `GET /api/v1/matches/case/4/pending`               | `200 OK`                          |
+
+
+**Tracking**  
+Este bounded context se encarga de la gestión del seguimiento de los casos. Permite que los usuarios puedan actualizar el estado de los casos.
+
+
 ##### 6.2.X.7. Software Deployment Evidence for Sprint Review
+
+Para el despliegue de la Landing Page creada por el equipo, se utilizó GitHub Pages. 
+Para esto, se creó un repositorio en GitHub, donde se subieron todos los archivos de la landing page. 
+Luego, se configuró el repositorio para que GitHub Pages lo despliegue automáticamente.
+Este servicio de GitHub permite que cualquier repositorio público pueda ser desplegado como una página web estática, es un proceso sencillo y rápido. 
+Asimismo, permite que las actualizaciones realizadas en el repositorio se reflejen automáticamente en la página web.
 
 ##### 6.2.X.8. Team Collaboration Insights during Sprint
 
