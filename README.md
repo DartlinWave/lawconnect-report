@@ -621,7 +621,52 @@ User goal 7: Como cliente quiero poder cerrar un caso para señalar que el proce
 
 ##### 6.2.X.6. Services Documentation Evidence for Sprint Review
 
+Para la documentación de los servicios, se utilizó Swagger. Este servicio nos permite documentar los endpoints disponibles en la API.
+Swagger es una herramienta de código abierto que permite crear documentación interactiva para API RESTful.
+En este proyecto, estamos utilizando la version 3 de Swagger, que es la más reciente. Las anotaciones utilizadas para la documentación fueron:
+```@Tag``` y ```@Operation```.
+
+Acorde a los bounded context que tenemos en el proyecto, se crearon los siguientes endpoints:  
+
+**IAM**  
+
+Este bounded context se encarga de la gestión de usuarios y su respectiva autenticación. De esta manera, nos aseguramos que los usuarios tengan acceso a la aplicación y puedan crear su cuenta.
+Asimismo, se encarga de manejar los roles disponibles en la aplicación, en este caso, abogado o cliente.  
+
+**Profiles**  
+Este bounded context se encarga de la gestión de los perfiles de los usuarios. Así, los usuarios pueden visualizar su información y editarla.
+De esta manera, por ejemplo, los abogados pueden mostrar su especialidad y su información de contacto.
+
+**Cases**  
+Este bounded context se encarga de la gestión de los casos. Se gestiona la creación de los casos, la invitación a los abogados y postulación de los mismos.
+
+**Matchmaking**  
+Este bounded context se encarga de la gestión del emparejamiento entre abogados y clientes. Maneja aceptar a un abogado para un caso, así como también rechazarlo.
+Y también cuando un cliente acepta a un abogado para su caso o lo rechaza.
+
+
+**Tracking**  
+Este bounded context se encarga de la gestión del seguimiento de los casos. Permite que los usuarios puedan actualizar el estado de los casos.
+
+
 ##### 6.2.X.7. Software Deployment Evidence for Sprint Review
+
+Para el despliegue de la Landing Page creada por el equipo, se utilizó GitHub Pages. 
+Para esto, se creó un repositorio en GitHub, donde se subieron todos los archivos de la landing page. 
+Luego, se configuró el repositorio para que GitHub Pages lo despliegue automáticamente.
+Este servicio de GitHub permite que cualquier repositorio público pueda ser desplegado como una página web estática, es un proceso sencillo y rápido. 
+Asimismo, permite que las actualizaciones realizadas en el repositorio se reflejen automáticamente en la página web.
+
+| Endpoint                                             | Método  | Descripción                                  | Parámetros                 | Ejemplo de llamada                                 | Ejemplo de respuesta              |
+|------------------------------------------------------|---------|----------------------------------------------|----------------------------|----------------------------------------------------|-----------------------------------|
+| `/api/v1/matches`                                    | `POST`  | Crear un nuevo match entre cliente y abogado | Body: `caseId`, `lawyerId` | `POST /api/v1/matches`                             | `201 Created`                     |
+| `/api/v1/matches/{matchId}`                          | `GET`   | Obtener match por Id                         | `matchId` en path          | `GET /api/v1/matches/2`                            | `200 OK`                          |
+| `/api/v1/matches/{matchId}/accept-lawyer-by-client`  | `PATCH` | Cliente acepta postulación de abogado        | `matchId` en path          | `PATCH /api/v1/matches/2/accept-lawyer-by-client`  | `200 OK "Client approved lawyer"` |
+| `/api/v1/matches/{matchId}/decline-lawyer-by-client` | `PATCH` | Cliente rechaza postulación de abogado       | `matchId` en path          | `PATCH /api/v1/matches/2/decline-lawyer-by-client` | `200 OK "Client declined lawyer"` |
+| `/api/v1/matches/{matchId}/accept-case-by-lawyer`    | `PATCH` | Abogado acepta invitación de cliente         | `matchId` en path          | `PATCH /api/v1/matches/2/accept-case-by-lawyer`    | `200 OK "Lawyer accepted case"`   |
+| `/api/v1/matches/{matchId}/reject-case-by-lawyer`    | `PATCH` | Abogado rechaza invitación de cliente        | `matchId` en path          | `PATCH /api/v1/matches/2/reject-case-by-lawyer`    | `200 OK "Lawyer declined case"`   |
+| `/api/v1/matches/lawyerId/{lawyerId}/pending`        | `GET`   | Lista de matches pendientes de un abogado    | `lawyerId` en path         | `GET /api/v1/matches/lawyer/3/pending`             | `200 OK`                          |
+| `/api/v1/matches/caseId/{caseId}/pending`            | `GET`   | Lista de matches pendientes de un caso       | `caseId` en path           | `GET /api/v1/matches/case/4/pending`               | `200 OK`                          |
 
 ##### 6.2.X.8. Team Collaboration Insights during Sprint
 
