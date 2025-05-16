@@ -3568,6 +3568,22 @@ User goal 7: Como cliente quiero poder cerrar un caso para señalar que el proce
 
 ##### 6.2.1.2. Sprint Backlog 1
 
+
+| User Story                                           | Work-item/Task                                                            | Description                                                                                                                     | Estimation (Hours) | Assigned To | Status |
+|------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|--------------------|-------------|--------|
+| HU02 - Completar Perfil de Abogado                   | W01 Complete lawyer's profile feature in backend                          | Implementar de manera completa la función que permite al abogado crear su perfil                                                | 1                  | Gonzalo     | Done   |
+| HU03 - Gestión de Casos Activos                      | W02 Create cases management feature in backend                            | Implementar la función que permite a los abogados tener gestión de sus casos activos                                            | 2                  | Gonzalo     | Done   |
+| HU05 - Configuración de Disponibilidad               | W03 Set up the availability of the lawyer feature in the backend          | Implementar la configuración que permite a los abogados mostrar su disponibilidad                                               | 2                  | Gonzalo     | Done   |
+| HU07 - Registro de Cliente                           | W04 Register a client feature in backend                                  | Implementar la función de registro de cliente en el backend                                                                     | 1                  | Gonzalo     | Done   |
+| HU10 - Agendamiento de Cita                          | W05 Make an appointment with lawyer feature in backend                    | Implementar función que hace que el cliente agende una cita con el abogado                                                      | 1                  | Gonzalo     | Done   |
+| HU17 - Testimonios de Clientes Satisfechos           | W06 Testimonials section in Landing Page                                  | Implementar una sección de testimonios de usuarios en la landing page                                                           | 1                  | Bárbara     | Done   |
+| HU18 - Acceso Rápido a Funcionalidades Principales   | W07 Funcionality and quick access in Landing Page                         | Implementar botones "call-to-action" para llamar la atención de los usuarios y sea más fácil que ingresen a la aplicación móvil | 1                  | Camila      | Done   |
+| HU19 - Información Clara y Concisa sobre el Servicio | W08 Have clear and solid information about the mobile app in Landing Page | Agregar información clara para que los usuarios entiendan el funcionamiento de la aplicación de manera rápida                   | 1                  | Camila      | Done   |
+| HU20 - Diseño Atractivo y Responsivo                 | W09 Eye-catching design and responsive in Landing Page                    | Crear un diseño llamativo para los usuarios y quela landing page se adapte a sus dispositivos                                   | 1                  | Johan       | Done   |
+| HU26 - Gestión de Roles y Permisos                   | W010 Create management of roles and permissions in backend                | Implementar la gestión de roles y permisos en el backend                                                                        | 2                  | Gonzalo     | Done   |
+
+
+
 ##### 6.2.1.3. Development Evidence for Sprint Review
 
 ##### 6.2.1.4. Testing Suite Evidence for Sprint Review
