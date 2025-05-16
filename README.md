@@ -340,6 +340,52 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 
 #### 6.1.1. Software Development Environment Configuration
 
+Project Management
+
+Github: (https://github.com/)
+
+Es donde organizamos el proyecto. Aquí está la organización, la cual contiene 4 repositorios: Informe, Landing Page, Frontend y Backend
+
+Requirements Management
+
+Pivotal Tracker: (https://www.pivotaltracker.com/)
+
+Es un software que usamos para gestionar los proyectos y establecer las historias de usuario del proyecto
+
+Product UX/UI Design
+
+UXPressia: (https://uxpressia.com/)
+
+Acá diseñamos las User Persona, User Journey Mapping y Empathy Mapping
+
+Figma: (https://www.figma.com/es-es/)
+
+Acá hicimos los diseños de la landing page y de la aplicación web (wireframes, mockups y prototipos)
+
+Software Development
+
+Git: Es un software de control de versiones para desarrollar el proyecto.
+
+Github: Es un sistema de control de versiones de Git.
+
+HTML5: Es un lenguaje de marcado que sirve para estructurar la página.
+
+CSS3: Es un lenguaje de hojas de estilo en cascada que le da estilo a la página (hace que una página sea visualmente más atractiva).
+
+JavaScript: Es un lenguje de programación que genera interactividad y dinamismo a una sitio web.
+
+VSCode: Es el editor de código fuente para el desarrollo de la landing page.
+
+Android Studio: Es el editor de codigo fuente para el desarrollo del frontend.
+
+IntelliJ: Es el IDE para el desarrollo del backend.
+
+Kotlin: Es un framework que usaremos para el desarrollo frontend de la aplicación móvil.
+
+Software Deployment
+
+Github Pages: Plataforma para desplegar la landing page.
+
 #### 6.1.2. Source Code Management
 
 #### 6.1.3. Source Code Style Guide & Conventions
