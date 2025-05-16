@@ -344,6 +344,68 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 
 #### 6.1.3. Source Code Style Guide & Conventions
 
+En este apartado se indicarán las referencias que adoptaremos para nombrar elementos y algunas convenciones que emplearemos durante el desarrollo del proyecto utilizando Angular y Spring Boot:
+
+**HTML**
+- Utilizar letras en minúscula para nombrar elementos y atributos.
+- Colocar siempre entre comillas los valores de los atributos, especialmente si contienen espacios.
+- Especificar los atributos alt (nombre alternativo), width (ancho) y height (alto) para las imágenes.
+- No usar espacios en blanco alrededor del signo "=".
+- Usar cuatro espacios de sangría.
+- No omitir nunca el elemento <title></title>.
+- Eliminar los espacios en blanco finales.
+- Usar la sintaxis de HTML5.
+- Evitar el uso innecesario de atributos "id". En su lugar, usar atributos "class" para estilos y el atributo "data" para scripts.
+- Usar una nueva línea para cada elemento de bloque, lista o tabla, y aplicar sangría a cada elemento secundario.
+
+Referencias:
+- [HTML5 Syntax - W3Schools](https://www.w3schools.com/html/html5_syntax.asp)
+- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+
+**CSS**
+- Usar nombres de clase genéricos o significativos, que representen el propósito del elemento.
+- Separar las palabras en nombres de clases con un guión (-) cuando el nombre tenga más de una palabra.
+- Incluir siempre el número cero inicial en los valores decimales. Ejemplo: ```font-size: 0.7em```.
+- Preferir la notación hexadecimal de 3 caracteres cuando sea posible.
+- Evitar el uso de la declaración ```!important```. En su lugar, usar la especificidad del selector.
+- Usar punto y coma (```;```) al final de cada declaración.
+- Colocar un espacio después de los dos puntos (```:```) en el nombre de la propiedad.
+- Preferir las comillas simples (```' '```) sobre las dobles (```" "```) para selectores de atributos y valores de propiedades.
+
+Referencia: [Google CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+
+**Kotlin con Android Studio**
+- Usar ```camelCase``` para nombrar funciones, variables y propiedades.
+- Usar ```PascalCase``` para nombrar clases, interfaces y objetos.
+- Usar ```UPPER_SNAKE_CASE``` para constantes (```const val```).
+- Preferir ```val``` sobre ```var``` cuando el valor no cambie.
+- Evitar el uso de tipos nulos (```NullPointerException```) utilizando operadores seguros como ```?.```, ```?:``` y ```!!``` solo cuando sea estrictamente necesario.
+- Usar ```data class``` para modelos y POJOs.
+- Aplicar el principio de inmutabilidad siempre que sea posible.
+- Usar string resources (```strings.xml```) en lugar de cadenas hardcodeadas.
+- Mantener una sangría de 4 espacios (sin tabs).
+- Colocar espacios alrededor de operadores (```=```, ```+```, ```-```, ```*```, ```/```) y después de comas.
+- Usar plantillas de strings (```"${variable}"```) en lugar de concatenación con +.
+- Preferir when sobre if-else para condiciones múltiples.
+
+Referencias:
+- [Kotlin Coding Conventions](https://kotlinlang.org/docs/coding-conventions.html)
+- [Android Kotlin Style Guide](https://developer.android.com/kotlin/style-guide?hl=es-419)
+- [Android Architecture Guidelines](https://developer.android.com/topic/architecture?hl=es-419)
+
+**Java con Spring Boot**
+- Usar camelCase para nombrar métodos y variables.
+- Usar PascalCase para nombrar clases y interfaces.
+- Preferir los tipos de datos primitivos sobre sus contrapartes de objetos cuando sea posible Ejemplo: usar ```int``` en lugar de ```Integer```.
+- Utilizar la anotación ```@Autowired``` para la inyección de dependencias.
+- Usar ```@GetMapping```, ```@PostMapping```, ```@PutMapping```, y ```@DeleteMapping``` para mapear las solicitudes HTTP a los métodos del controlador.
+- Organizar las aplicaciones en paquetes que reflejen su funcionalidad.
+- Utilizar Lombok para minimizar el código repetitivo de getters, setters, y constructores.
+
+Referencias:
+- [Spring Boot Reference Documentation](https://docs.spring.io/spring-boot/index.html)
+- [Java Nut and Bolts](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html)
+
 #### 6.1.4. Software Deployment Configuration
 
 ### 6.2. Landing Page & Mobile Application Implementation
