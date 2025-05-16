@@ -409,6 +409,23 @@ La rama "Develop" se usa para realizar los cambios hechos en el código sin afec
 
 Además, usamos la rama temporal "Feature" para llevar a cabo las nuevas funciones del proyecto sin que este afecte a las ramas principales. En nuestro caso, dividimos las "Feature" por capítulos para el informe. De esa manera tendremos un mejor orden y estructura del proyecto. Los "Feature" los nombramos de la siguiente manera: "Feature/chapter#" donde el signo "#" representa el número del capítulo que se trabajó.
 
+Semantic Versioning 2.0.0
+
+Según el Semantic Versioning 2.0.0 (https://semver.org/), los "Releases" se nombran de la siguiente manera:
+
+MAJOR version: Al realizar los cambios de APIs incompatiblesMINOR version: Al agregar funcionalidades compatibles con versiones anterioresPATCH version: Al realizar correcciones de errores compatibles con versiones anteriores
+
+Conventional Commits
+
+Para los textos de mensajes en commits se aplican los "Conventional Commits" (https://www.conventionalcommits.org/) de la siguiente manera (omitir las comillas simples):
+
+<'type'>[optional scope]: <'description'>
+
+Donde:
+
+<'type'>: Representa la palabra inicial que indica la clase de commit a emplear. Ejemplos: fix, feat, build, chore, docs, refactor, etc.[optional scope]: Representa el alcance del commit y no es obligatorio.<'description'>: Representa la descripción detallada del commit, así como las acciones realizadas.
+
+
 #### 6.1.3. Source Code Style Guide & Conventions
 
 #### 6.1.4. Software Deployment Configuration
