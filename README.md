@@ -3699,7 +3699,14 @@ Link del video: https://www.youtube.com/watch?v=B1CFfRD_VAM
 Para la documentación de los servicios, se utilizó Swagger. Este servicio nos permite documentar los endpoints disponibles en la API.
 Swagger es una herramienta de código abierto que permite crear documentación interactiva para API RESTful.
 En este proyecto, estamos utilizando la version 3 de Swagger, que es la más reciente. Las anotaciones utilizadas para la documentación fueron:
-```@Tag``` y ```@Operation```.
+```@Tag```, ```@Operation``` y ```@ApiResponse```.
+
+Para el entorno de desarrollo, que hemos utilizado SwaggerUI para el desarrollo, su URL local es: http://localhost:8080/swagger-ui/index.html
+
+Los commits relevantes, para determinar los controladores, son:
+*
+
+El repositorio en donde se encuentra este servicio es: https://github.com/DartlinWave/LawConnect-platform
 
 Acorde a los bounded context que tenemos en el proyecto, se crearon los siguientes endpoints:  
 
@@ -3708,33 +3715,101 @@ Acorde a los bounded context que tenemos en el proyecto, se crearon los siguient
 Este bounded context se encarga de la gestión de usuarios y su respectiva autenticación. De esta manera, nos aseguramos que los usuarios tengan acceso a la aplicación y puedan crear su cuenta.
 Asimismo, se encarga de manejar los roles disponibles en la aplicación, en este caso, abogado o cliente.  
 
+***Tabla .***
+
+*Endpoints de Authentication, Roles y Users*
+
+| Endpoint                                | Método | Descripción                               | Parámetros                                                                                                                     | Ejemplo de llamada                           | Respuesta     |
+|-----------------------------------------|--------|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|---------------|
+| `/api/v1/authentication/sign-in`        | `POST` | Autenticar usuario con email y contraseña | Body: `email`, `password` (`SignInResource`)                                                                                   | `POST /api/v1/authentication/sign-in`        | `200 OK`      |
+| `/api/v1/authentication/sign-up/lawyer` | `POST` | Registro de nuevo abogado                 | Body: `name`, `lastname`, `specialties`, `description`, `phone`, `dni`, `username`, `password` (`SignUpLawyerCommandResource`) | `POST /api/v1/authentication/sign-up/lawyer` | `201 Created` |
+| `/api/v1/authentication/sign-up/client` | `POST` | Registro de nuevo cliente                 | Body: `name`, `lastname`, `phone`, `dni`, `username`, `password` (`SignUpClientResource`)                                      | `POST /api/v1/authentication/sign-up/client` | `201 Created` |
+| `/api/v1/roles`                         | `GET`  | Obtener todos los roles disponibles       | Ninguno                                                                                                                        | `GET /api/v1/roles`                          | `200 OK`      |
+| `/api/v1/users/{userId}`                | `GET`  | Obtener información de usuario por Id     | Path: `userId`                                                                                                                 | `GET /api/v1/users/1`                        | `200 OK`      |
+
+***Figura .*** Visualización de Authentication en Swagger
+
+![Authentication](assets/images/chapter-VI/authentication-endpoints.png)
+
+***Figura .*** Visualización de Roles en Swagger
+
+![Roles](assets/images/chapter-VI/roles-endpoints.png)
+
+***Figura .*** Visualización de Users en Swagger
+
+![Users](assets/images/chapter-VI/users-endpoints.png)
+
 **Profiles**  
 Este bounded context se encarga de la gestión de los perfiles de los usuarios. Así, los usuarios pueden visualizar su información y editarla.
 De esta manera, por ejemplo, los abogados pueden mostrar su especialidad y su información de contacto.
 
-**Cases**  
+***Tabla .***  
+
+*Endpoints de Profiles*  
+
+| Endpoint                           | Método | Descripción                                    | Parámetros     | Cómo llamar                     | Respuesta |
+|------------------------------------|--------|------------------------------------------------|----------------|---------------------------------|-----------|
+| `/api/v1/profiles/client/{userId}` | `GET`  | Obtener un perfil de cliente por Id de usuario | Path: `userId` | `GET /api/v1/profiles/client/1` | `200 OK`  |
+| `/api/v1/profiles/lawyer/{userId}` | `GET`  | Obtener un perfil de abogado por Id de usuario | Path: `userId` | `GET /api/v1/profiles/lawyer/2` | `200 OK`  |
+
+***Figura .*** Visualización de Profiles en Swagger  
+
+![Profiles](assets/images/chapter-VI/profiles-endpoints.png)
+
+**Cases**    
 Este bounded context se encarga de la gestión de los casos. Se gestiona la creación de los casos, la invitación a los abogados y postulación de los mismos.
+
+***Tabla .***
+
+*Endpoints de Cases*  
+
+| Endpoint                 | Método | Descripción                                     | Parámetros                                                                                                      | Cómo llamar           | Respuesta     |
+|--------------------------|--------|-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|-----------------------|---------------|
+| `/api/v1/cases`          | `POST` | Crear un nuevo caso legal                       | Body: `clientId`, `title`, `description`, `requiredSpecialty`, `status`, `applicantsIds` (`CreateCaseResource`) | `POST /api/v1/cases`  | `201 Created` |
+| `/api/v1/cases/{caseId}` | `GET`  | Obtener todos los casos de un cliente por su Id | Path: `caseId`                                                                                                  | `GET /api/v1/cases/1` | `200 OK`      |
+
+***Figura .*** Visualización de Cases en Swagger
+
+![Cases](assets/images/chapter-VI/cases-endpoints.png)
 
 **Matchmaking**  
 Este bounded context se encarga de la gestión del emparejamiento entre abogados y clientes. Maneja aceptar a un abogado para un caso, así como también rechazarlo.
 Y también cuando un cliente acepta a un abogado para su caso o lo rechaza.
 
+***Tabla .***
 
-| Endpoint                                             | Método  | Descripción                                  | Parámetros                 | Ejemplo de llamada                                 | Ejemplo de respuesta              |
-|------------------------------------------------------|---------|----------------------------------------------|----------------------------|----------------------------------------------------|-----------------------------------|
-| `/api/v1/matches`                                    | `POST`  | Crear un nuevo match entre cliente y abogado | Body: `caseId`, `lawyerId` | `POST /api/v1/matches`                             | `201 Created`                     |
-| `/api/v1/matches/{matchId}`                          | `GET`   | Obtener match por Id                         | `matchId` en path          | `GET /api/v1/matches/2`                            | `200 OK`                          |
-| `/api/v1/matches/{matchId}/accept-lawyer-by-client`  | `PATCH` | Cliente acepta postulación de abogado        | `matchId` en path          | `PATCH /api/v1/matches/2/accept-lawyer-by-client`  | `200 OK "Client approved lawyer"` |
-| `/api/v1/matches/{matchId}/decline-lawyer-by-client` | `PATCH` | Cliente rechaza postulación de abogado       | `matchId` en path          | `PATCH /api/v1/matches/2/decline-lawyer-by-client` | `200 OK "Client declined lawyer"` |
-| `/api/v1/matches/{matchId}/accept-case-by-lawyer`    | `PATCH` | Abogado acepta invitación de cliente         | `matchId` en path          | `PATCH /api/v1/matches/2/accept-case-by-lawyer`    | `200 OK "Lawyer accepted case"`   |
-| `/api/v1/matches/{matchId}/reject-case-by-lawyer`    | `PATCH` | Abogado rechaza invitación de cliente        | `matchId` en path          | `PATCH /api/v1/matches/2/reject-case-by-lawyer`    | `200 OK "Lawyer declined case"`   |
-| `/api/v1/matches/lawyerId/{lawyerId}/pending`        | `GET`   | Lista de matches pendientes de un abogado    | `lawyerId` en path         | `GET /api/v1/matches/lawyer/3/pending`             | `200 OK`                          |
-| `/api/v1/matches/caseId/{caseId}/pending`            | `GET`   | Lista de matches pendientes de un caso       | `caseId` en path           | `GET /api/v1/matches/case/4/pending`               | `200 OK`                          |
+*Endpoints de Matchmaking*
 
+| Endpoint                                             | Método  | Descripción                                  | Parámetros                                            | Cómo llamar                                        | Respuesta     |
+|------------------------------------------------------|---------|----------------------------------------------|-------------------------------------------------------|----------------------------------------------------|---------------|
+| `/api/v1/matches`                                    | `POST`  | Crear un nuevo match entre cliente y abogado | Body: `caseId`, `lawyerId` (`CreatePreMatchResource`) | `POST /api/v1/matches`                             | `201 Created` |
+| `/api/v1/matches/{matchId}`                          | `GET`   | Obtener match por Id                         | Path: `matchId`                                       | `GET /api/v1/matches/2`                            | `200 OK`      |
+| `/api/v1/matches/{matchId}/accept-lawyer-by-client`  | `PATCH` | Cliente acepta postulación de abogado        | Path: `matchId`                                       | `PATCH /api/v1/matches/2/accept-lawyer-by-client`  | `200 OK `     |
+| `/api/v1/matches/{matchId}/decline-lawyer-by-client` | `PATCH` | Cliente rechaza postulación de abogado       | Path: `matchId`                                       | `PATCH /api/v1/matches/2/decline-lawyer-by-client` | `200 OK `     |
+| `/api/v1/matches/{matchId}/accept-case-by-lawyer`    | `PATCH` | Abogado acepta invitación de cliente         | Path: `matchId`                                       | `PATCH /api/v1/matches/2/accept-case-by-lawyer`    | `200 OK `     |
+| `/api/v1/matches/{matchId}/reject-case-by-lawyer`    | `PATCH` | Abogado rechaza invitación de cliente        | Path: `matchId`                                       | `PATCH /api/v1/matches/2/reject-case-by-lawyer`    | `200 OK `     |
+| `/api/v1/matches/lawyerId/{lawyerId}/pending`        | `GET`   | Lista de matches pendientes de un abogado    | Path: `lawyerId`                                      | `GET /api/v1/matches/lawyer/3/pending`             | `200 OK`      |
+| `/api/v1/matches/caseId/{caseId}/pending`            | `GET`   | Lista de matches pendientes de un caso       | Path: `caseId`                                        | `GET /api/v1/matches/case/4/pending`               | `200 OK`      |
 
-**Tracking**  
+***Figura .*** Visualización de Matchmaking en Swagger
+
+![Matchmaking](assets/images/chapter-VI/matchmaking-endpoints.png)
+
+**Tracking**   
 Este bounded context se encarga de la gestión del seguimiento de los casos. Permite que los usuarios puedan actualizar el estado de los casos.
 
+***Tabla .***  
+
+*Endpoints de Tracking*  
+
+| Endpoint                          | Método | Descripción                                    | Parámetros                                             | Cómo llamar                         | Respuesta     |
+|-----------------------------------|--------|------------------------------------------------|--------------------------------------------------------|-------------------------------------|---------------|
+| `/api/v1/status`                  | `POST` | Crear un nuevo estado del caso                 | Body: `legalCaseId`, `status` (`CreateStatusResource`) | `POST /api/v1/status`               | `201 Created` |
+| `/api/v1/status?legalCaseId={id}` | `GET`  | Obtener todos los estados de un caso por su Id | Query param: `legalCaseId`                             | `GET /api/v1/status?legalCaseId=12` | `200 OK`      |
+
+***Figura .*** Visualización de Tracking en Swagger
+
+![Tracking](assets/images/chapter-VI/tracking-endpoints.png)
 
 ##### 6.2.1.7. Software Deployment Evidence for Sprint Review
 
