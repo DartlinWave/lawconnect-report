@@ -669,9 +669,9 @@ User goal 2: Como cliente quiero poder crear un caso para poder conectar con un 
 
 ***Figura .*** Representación del User Goal 2 de cliente en la aplicación móvil.
 
-![User Goal 2 | Clientes](assets/images/chapter-V/Userflow5.jpg)
+![User Goal 2 | Clientes](assets/images/chapter-V/Userflow5.png)
 
-[User Goal 2 | Clientes](assets/images/chapter-V/Userflow5.jpg)
+[User Goal 2 | Clientes](assets/images/chapter-V/Userflow5.png)
 
 User goal 3: Como cliente quiero visualizar mi lista de casos y ver el seguimiento de los mismos para manejar de manera organizada los tiempos de cada uno.
 
