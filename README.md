@@ -615,6 +615,8 @@ User goal 7: Como cliente quiero poder cerrar un caso para señalar que el proce
 
 ##### 5.1.4.3. Mobile Applications Mock-ups 
 
+![MObile Mockups](assets/images/chapter-V/MobileMockups.png)
+
 ##### 5.1.4.4. Mobile Applications User Flow Diagrams 
 
 ##### 5.1.4.5. Mobile Applications Prototyping
