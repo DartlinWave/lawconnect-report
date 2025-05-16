@@ -512,6 +512,10 @@ Para navegador de móvil:
 
 ##### 5.1.4.1. Mobile Applications Wireframes
 
+***Figura .*** Wireframes de la aplicación móvil.
+
+![Mobile Wireframes](assets/images/chapter-V/MobileWireframes.png)
+
 ##### 5.1.4.2. Mobile Applications Wireflow Diagrams  
 
 En este apartado se presentarán los wireflow diagrams, estos explican cómo es la navegación en la aplicación móvil.
