@@ -219,8 +219,17 @@ Analiza cómo la colaboración y la gestión de tareas influyeron en los resulta
 
 #### 2.2.2. Registro de entrevistas  
 
+| Entrevistado | Christian Andre, Matos Fernandez |
+|--|--|
+| Edad | 24 |
+| Link | https://drive.google.com/file/d/1e3GpSuxFyhxeMzBt9iF-DuoUMY6x8CjO/view?usp=sharing |
+| Minuto | 0:30 |
+
 #### 2.2.3. Análisis de entrevistas 
 
+| Entrevista | Christian Andre, Matos Fernandez |
+|--|--|
+|  | A partir de la entrevista realizada, se identifican varios aspectos clave sobre el comportamiento y las necesidades de personas con problemas legales. El entrevistado suele buscar asesoría legal cuando enfrenta conflictos relacionados con contratos o deudas, y su experiencia general al buscar ayuda ha sido complicada, marcada por la falta de confianza, desconocimiento y miedo a los altos costos. El primer paso que da es consultar con personas cercanas, y si no obtiene respuestas, recurre a internet o redes sociales, aunque se siente inseguro respecto a la información que encuentra. Valora mucho que una plataforma digital sea clara, sencilla y le permita comunicarse fácilmente con abogados, siendo el chat su canal preferido, aunque también recurre a llamadas o videollamadas si el caso es complejo. Entre las principales dificultades al usar plataformas digitales, menciona el lenguaje técnico, la falta de accesibilidad en el celular y la desconfianza en el servicio. Además, señala que funcionalidades como un seguimiento de caso, notificaciones y la posibilidad de subir documentos desde el celular facilitarían mucho su experiencia. Todo esto refuerza la importancia de que LawConnect se enfoque en una interfaz amigable, comunicación efectiva, confianza y herramientas prácticas adaptadas al contexto digital de este segmento. |
 ### 2.3. Needfinding 
 
 #### 2.3.1. User Personas  
