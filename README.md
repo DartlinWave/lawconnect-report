@@ -388,6 +388,27 @@ Github Pages: Plataforma para desplegar la landing page.
 
 #### 6.1.2. Source Code Management
 
+Utilizamos Github como plataforma, así como un sistema de control de versiones.
+Para ello se creó una organización para el proyecto del equipo. En esta organización, se crearon 4 repositorios, los cuales corresponden al informe del proyecto, la landing page, el frontend y el backend. 
+
+Organización del proyecto: https://github.com/DartlinWave
+
+Informe: https://github.com/DartlinWave/LawConnect-report
+
+Landing page: https://github.com/DartlinWave/LawConnect-LandingPage
+
+Frontend: https://github.com/DartlinWave/LawConnect
+
+Backend: https://github.com/DartlinWave/LawConnect-platform 
+
+Usamos Gitflow para tener un mejor manejo del código usado en el proyecto. En Gitflow se establecieron dos ramas principales, las cuales son "main" y "Develop". 
+
+La rama "main" contiene la versión final del informe y de la landing page. 
+
+La rama "Develop" se usa para realizar los cambios hechos en el código sin afectar al "main". También se usa para integrar nuevas funcionalidades del proyecto. 
+
+Además, usamos la rama temporal "Feature" para llevar a cabo las nuevas funciones del proyecto sin que este afecte a las ramas principales. En nuestro caso, dividimos las "Feature" por capítulos para el informe. De esa manera tendremos un mejor orden y estructura del proyecto. Los "Feature" los nombramos de la siguiente manera: "Feature/chapter#" donde el signo "#" representa el número del capítulo que se trabajó.
+
 #### 6.1.3. Source Code Style Guide & Conventions
 
 #### 6.1.4. Software Deployment Configuration
