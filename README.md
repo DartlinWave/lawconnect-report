@@ -843,42 +843,47 @@ En esta sección analizaremos nuestros competidores de manera profunda. Investig
     </tr>
 </table>
 
-### 2.2. Entrevistas 
-<p align="justify">
-En esta sección se presentarán las entrevistas realizadas a los segmentos objetivos identificados en los anteriores capítulos. Con la información brindada, podremos conocer más a fondo las necesidades y expectativas de nuestros usuarios, lo que nos permitirá diseñar una solución más efectiva y centrada en sus requerimientos.
-</p>
+### 2.2. Entrevistas
+<p align="justify">  
+En esta sección se presentarán las entrevistas realizadas a los segmentos objetivos identificados en los anteriores capítulos. Con la información brindada, podremos conocer más a fondo las necesidades y expectativas de nuestros usuarios, lo que nos permitirá diseñar una solución más efectiva y centrada en sus requerimientos.  
+</p>  
 
 #### 2.2.1. Diseño de entrevistas
 
-***Preguntas Generales***  
+***Preguntas Generales***
 1. ¿Cuál es su nombre?
 2. ¿Qué edad tiene?
 3. ¿Cuál es su ocupación?
-4. ¿En que sector trabajas (empresas de maquinaria/pescadores)?
-5. ¿Cuánto tiempo llevas en esta industria?
+4. ¿En que sector trabajas laboral se desempeña? (Se asume que el abogado egresado está, al momento de la entrevista, trabajando en el sector de leyes)
+5. ¿Cuánto tiempo lleva trabajando en en su sector?
 
 **SEGMENTO OBJETIVO 1:** Personas con problemas legales
 
+Con estas preguntas, esperamos entender los comportamientos, motivaciones y dificultades de personas que requieren ayuda legal para sus problemas legales.
+
 ***Preguntas Específicas***
-1. ¿Con qué frecuencia necesita servicios legales?
-2. ¿Cómo describiría su experiencia general al buscar asesoría legal?
-3. ¿Qué medios utiliza habitualmente para informarse sobre cuestiones legales?  
-4. ¿Qué características considera esenciales en una plataforma digital para buscar asistencia legal?
-5. ¿Qué dificultades ha encontrado al usar plataformas en línea para asuntos legales?    
-6. ¿Cómo prefiere comunicarse con un abogado a través de una plataforma digital? ¿Chat en vivo, email, llamadas telefónicas?
-7. ¿Hay algún servicio adicional que le gustaría que ofreciera una plataforma de asistencia legal que no haya visto disponible actualmente?
+
+1. ¿En qué situaciones ha necesitado servicios legales, últimamente?
+2. ¿Cómo describiría su experiencia general al buscar asesoría legal? ¿Qué pasos suele seguir para encontrar la ayuda que necesita?
+3. ¿A qué medios suele recurrir para informarse sobre cuestiones legales? (contacto personal, búsqueda en internet, redes sociales)
+4. ¿Qué características considera esenciales en una plataforma digital para buscar asistencia legal en línea? (disponibilidad, amigable para el usuario)
+5. ¿Qué dificultades ha encontrado al usar plataformas en línea para asuntos legales?
+6. ¿Qué canales de comunicación digital considera más cómodos para tratar con asuntos legales? (videollamada, chat, correo electrónico, llamada telefónica)
+7. ¿Qué funcionalidades adicionales le facilitarían la experiencia al usar una plataforma digital para asistencia legal?
 
 **SEGMENTO OBJETIVO 2:** Abogados egresados
 
-***Preguntas Específicas*** 
-1. ¿Qué recursos ha encontrado más útiles en su búsqueda de empleo hasta ahora?
-2. ¿Qué desafíos específicos enfrenta al buscar oportunidades laborales en el campo legal?
-3. ¿Cómo se mantiene actualizado con las tendencias y cambios en el ámbito legal? 
-4. ¿Qué herramientas digitales considera importantes en una plataforma de empleo para abogados?
-5. ¿Qué tipo de apoyo o recursos espera de una plataforma que conecta abogados con clientes?
-6. ¿Cómo evalúa las oportunidades de trabajo en términos de desarrollo profesional y estabilidad financiera?
-7. ¿Qué funcionalidades adicionales facilitarían su labor diaria como abogado al usar nuestra plataforma?
-8. ¿Considera importante la capacitación continua ofrecida por la plataforma? ¿Qué tipo de cursos o formaciones le gustaría recibir?
+Con este diseño de entrevista, buscamos entender las frustraciones, necesidades y preferencias de abogados recién egresados que desean empezar su carrera laboral.
+
+***Preguntas Específicas***
+1. ¿Qué recursos ha encontrado más útiles en su búsqueda de empleo en el sector legal desde que egresó?
+2. ¿Qué desafíos ha enfrentado al buscar oportunidades laborales en el campo legal?
+3. ¿Cómo se mantiene actualizado con las tendencias en el ámbito legal y oportunidades legales?
+4. ¿Qué funcionalidades considera importantes en una plataforma que conecta a los abogados con potenciales clientes de manera rápida y eficaz?
+5. ¿Qué tipo de servicios o recursos esperaría de una plataforma le ofreciera para apoyar su carrera?
+6. ¿Qué factores toma en cuenta al evaluar una oportunidad profesional? (remuneración, experiencia, flexibilidad)
+7. ¿Qué funcionalidades adicionales podrían hacer más eficiente su trabajo diario si las tuviera integradas en una plataforma? (gestión de casos, seguimiento de los mismos)
+8. ¿Qué herramientas digitales creen que facilitarían su interacción con los clientes o su experiencia en la plataforma? (por ejemplo, sistema de seguimiento de casos, lista de oportunidades)
 
 #### 2.2.2. Registro de entrevistas  
 
