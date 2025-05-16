@@ -3624,6 +3624,20 @@ Luego, se configuró el repositorio para que GitHub Pages lo despliegue automát
 Este servicio de GitHub permite que cualquier repositorio público pueda ser desplegado como una página web estática, es un proceso sencillo y rápido. 
 Asimismo, permite que las actualizaciones realizadas en el repositorio se reflejen automáticamente en la página web.
 
+El primer paso consiste en ir a la pestaña de *Settings* dentro del repositorio de la Landing Page, ya deben de estar incluidos los materiales necesarios para su despliegue.  
+
+![Step 1](assets/images/chapter-VI/Step1.png)  
+
+Continuamos con la pestaña *Pages*, ahí es donde empezaremos el proceso de despliegue, escoger la rama que va a ser utilizada.  
+
+![Step 2](assets/images/chapter-VI/Step2.png)  
+
+Terminamos al dar clic al botón *Save*, luego de escoger la rama y carpeta a desplegar. Así, tenemos lista la landing page, desplegada, y que todos los usuarios puedan conocer la aplicación antes de descargarla a sus móviles.  
+
+![Step 3](assets/images/chapter-VI/Step3.png)  
+
+El enlace a la landing page es el siguiente: https://dartlinwave.github.io/LawConnect-LandingPage/
+
 ##### 6.2.1.8. Team Collaboration Insights during Sprint
 
 ### 6.3. Validation Interviews
