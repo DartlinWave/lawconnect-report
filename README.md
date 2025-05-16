@@ -3230,10 +3230,12 @@ En este capítulo nos vamos a enfocar en el desarrolló del diseño de la soluci
 
 ### 5.1. Product Design
 
-En esta parte del capítulo se desarrollará el proceso de diseño de los productos creados por DartlinWave. En este caso se incluye la arquitectura de la información y diseño visual que se utilizarán para crear las interfaces y experiencias de usuario (UI y UX, respectivamente).
+En esta parte del capítulo se desarrollará el proceso de diseño de los productos creados por DartlinWave. En este caso se incluye la arquitectura de la información y diseño visual que se utilizarán para crear las interfaces y experiencias de usuario (UI y UX, respectivamente).  
+
 #### 5.1.1. Style Guidelines
 
-En esta sección se explicarán las guías de estilo para la landing page y mobile application. De esta manera mantendremos coherencia en las vistas de los productos y crear un estilo reconocible para los usuarios.
+En esta sección se explicarán las guías de estilo para la landing page y mobile application. De esta manera mantendremos coherencia en las vistas de los productos y crear un estilo reconocible para los usuarios.  
+
 ##### 5.1.1.1. General Style Guidelines
 
 **Branding:**
@@ -3545,19 +3547,34 @@ User goal 7: Como cliente quiero poder cerrar un caso para señalar que el proce
 
 ### 6.2. Landing Page & Mobile Application Implementation
 
-#### 6.2.X. Sprint n
+#### 6.2.1. Sprint 1
 
-##### 6.2.X.1. Sprint Planning n
+##### 6.2.1.1. Sprint Planning 1
 
-##### 6.2.X.2. Sprint Backlog n
 
-##### 6.2.X.3. Development Evidence for Sprint Review
+| Sprint #                           | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Date                               | 2025-04-28                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Time                               | 10 AM                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Location                           | Google Meet                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Prepared By                        | Gonzalo Zavala                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Attendees (to planning meeting)    | Camila Loli, Bárbara Espinoza, Johan Tintaya                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Sprint n – 1 Review Summary        | Esta entrega no cuenta con un sprint anterior.                                                                                                                                                                                                                                                                                                                                                                                                |
+| Sprint n – 1 Retrospective Summary | Esta entrega no cuenta con un sprint anterior.                                                                                                                                                                                                                                                                                                                                                                                                |
+| Sprint 1 Goal                      | Nuestro enfoque está en crear la estructura interna y externa (backend y frontend) de la aplicación móvil para los abogados.<br>Consideramos que causa a los abogados un sentido de satisfacción y alegría debido a que tienen la posibilidad de probar la aplicación a modo de prueba por el momento.<br>Esto será confirmado cuando los abogados expresen su deseo de utilizar la aplicación en el momento que ya esté en su versión final. |
+| Sprint 1 Velocity                  | 8                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Sum of Story points                | 8 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
-##### 6.2.X.4. Testing Suite Evidence for Sprint Review
 
-##### 6.2.X.5. Execution Evidence for Sprint Review
+##### 6.2.1.2. Sprint Backlog 1
 
-##### 6.2.X.6. Services Documentation Evidence for Sprint Review
+##### 6.2.1.3. Development Evidence for Sprint Review
+
+##### 6.2.1.4. Testing Suite Evidence for Sprint Review
+
+##### 6.2.1.5. Execution Evidence for Sprint Review
+
+##### 6.2.1.6. Services Documentation Evidence for Sprint Review
 
 Para la documentación de los servicios, se utilizó Swagger. Este servicio nos permite documentar los endpoints disponibles en la API.
 Swagger es una herramienta de código abierto que permite crear documentación interactiva para API RESTful.
@@ -3599,7 +3616,7 @@ Y también cuando un cliente acepta a un abogado para su caso o lo rechaza.
 Este bounded context se encarga de la gestión del seguimiento de los casos. Permite que los usuarios puedan actualizar el estado de los casos.
 
 
-##### 6.2.X.7. Software Deployment Evidence for Sprint Review
+##### 6.2.1.7. Software Deployment Evidence for Sprint Review
 
 Para el despliegue de la Landing Page creada por el equipo, se utilizó GitHub Pages. 
 Para esto, se creó un repositorio en GitHub, donde se subieron todos los archivos de la landing page. 
@@ -3607,7 +3624,7 @@ Luego, se configuró el repositorio para que GitHub Pages lo despliegue automát
 Este servicio de GitHub permite que cualquier repositorio público pueda ser desplegado como una página web estática, es un proceso sencillo y rápido. 
 Asimismo, permite que las actualizaciones realizadas en el repositorio se reflejen automáticamente en la página web.
 
-##### 6.2.X.8. Team Collaboration Insights during Sprint
+##### 6.2.1.8. Team Collaboration Insights during Sprint
 
 ### 6.3. Validation Interviews
 
