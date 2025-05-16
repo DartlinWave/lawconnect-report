@@ -408,6 +408,10 @@ Referencias:
 
 #### 6.1.4. Software Deployment Configuration
 
+Para desplegar la landing page, se usará Github Pages, herramienta que nos permitirá desplegar la página a partir de un repositorio.
+
+Para ello creamos el repositorio de la landing page, luego configuramos aquel repositorio en el que se desplegará la landing page, subimos los archivos con su respectivo commit y copiamos el nombre del repositorio que se encuentra en la página de configuración. Ya estaría listo para visualizarse en el navegador.
+
 ### 6.2. Landing Page & Mobile Application Implementation
 
 #### 6.2.X. Sprint n
@@ -416,17 +420,63 @@ Referencias:
 
 ##### 6.2.X.2. Sprint Backlog n
 
-##### 6.2.X.3. Development Evidence for Sprint Review
+##### 6.2.1.3. Development Evidence for Sprint Review
 
-##### 6.2.X.4. Testing Suite Evidence for Sprint Review
+| **Repository** | 	**Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|--|--|--|--|--|--|
+| Landing-Page | main | 8bda2cc | feature: | feat(repo): add README | 14/05/2025 |
+| Landing-Page | main | e07f6e5 | feature: | feat: add about us and img | 14/05/2025 |
+| Landing-Page | main | f552720 | feature: | feat: add scrollrevel.min.js | 14/05/2025 |
+| Landing-Page | main | 6024458 | feature: | feat: add main.js | 14/05/2025 |
+| Landing-Page | main | 2337505 | feature: | feat: add images | 14/05/2025 |
+| Landing-Page | main | f1a0a7c | feature: | feat: add style.css | 14/05/2025 |
+| Landing-Page | main | 8bda2cc | feature: | feat: add index.html | 14/05/2025 |
 
-##### 6.2.X.5. Execution Evidence for Sprint Review
+##### 6.2.1.4. Testing Suite Evidence for Sprint Review
+
+En este sprint todavía no se desarrolla el Testing, solo la landing page
+
+##### 6.2.1.5. Execution Evidence for Sprint Review
+
+Por este primer sprint, se muestra las capturas de la landing page
+
+**Home**
+---
+<img src="/assets/images/chapter-VI/Home.png" alt="Home-LandingPage"/>
+
+**Benefits**
+---
+<img src="/assets/images/chapter-VI/Benefits.png" alt="Benefits-LandingPage"/>
+
+**Testimonials**
+---
+<img src="/assets/images/chapter-VI/Testimonials.png" alt="Testimonials-LandingPage"/>
+
+**About Us**
+---
+<img src="/assets/images/chapter-VI/AboutUs.png" alt="About-LandingPage"/>
+
+**Videos**
+---
+<img src="/assets/images/chapter-VI/Videos.png" alt="Videos-LandingPage"/>
+
+**Contact Us**
+---
+<img src="/assets/images/chapter-VI/ContactUs.png" alt="ContactUs-LandingPage"/>
+
+**Footer**
+---
+<img src="/assets/images/chapter-VI/Footer.png" alt="Footer-LandingPage"/>
 
 ##### 6.2.X.6. Services Documentation Evidence for Sprint Review
 
 ##### 6.2.X.7. Software Deployment Evidence for Sprint Review
 
-##### 6.2.X.8. Team Collaboration Insights during Sprint
+##### 6.2.1.8. Team Collaboration Insights during Sprint
+
+Aquí se encuentra la captura de las contribuciones de la landing page
+
+<img src="/assets/images/chapter-VI/Insights.png" alt="Commits-Insights"/>
 
 ### 6.3. Validation Interviews
 
