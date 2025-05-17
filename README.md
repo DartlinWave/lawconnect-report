@@ -3713,7 +3713,73 @@ Para los textos de mensajes en commits se aplican los "Conventional Commits" (ht
 
 #### 6.1.3. Source Code Style Guide & Conventions
 
+En este apartado se indicarán las referencias que adoptaremos para nombrar elementos y algunas convenciones que emplearemos durante el desarrollo del proyecto utilizando Angular y Spring Boot:
+
+**HTML**
+- Utilizar letras en minúscula para nombrar elementos y atributos.
+- Colocar siempre entre comillas los valores de los atributos, especialmente si contienen espacios.
+- Especificar los atributos alt (nombre alternativo), width (ancho) y height (alto) para las imágenes.
+- No usar espacios en blanco alrededor del signo "=".
+- Usar cuatro espacios de sangría.
+- No omitir nunca el elemento <title></title>.
+- Eliminar los espacios en blanco finales.
+- Usar la sintaxis de HTML5.
+- Evitar el uso innecesario de atributos "id". En su lugar, usar atributos "class" para estilos y el atributo "data" para scripts.
+- Usar una nueva línea para cada elemento de bloque, lista o tabla, y aplicar sangría a cada elemento secundario.
+
+Referencias:
+- [HTML5 Syntax - W3Schools](https://www.w3schools.com/html/html5_syntax.asp)
+- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+
+**CSS**
+- Usar nombres de clase genéricos o significativos, que representen el propósito del elemento.
+- Separar las palabras en nombres de clases con un guión (-) cuando el nombre tenga más de una palabra.
+- Incluir siempre el número cero inicial en los valores decimales. Ejemplo: ```font-size: 0.7em```.
+- Preferir la notación hexadecimal de 3 caracteres cuando sea posible.
+- Evitar el uso de la declaración ```!important```. En su lugar, usar la especificidad del selector.
+- Usar punto y coma (```;```) al final de cada declaración.
+- Colocar un espacio después de los dos puntos (```:```) en el nombre de la propiedad.
+- Preferir las comillas simples (```' '```) sobre las dobles (```" "```) para selectores de atributos y valores de propiedades.
+
+Referencia: [Google CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+
+**Kotlin con Android Studio**
+- Usar ```camelCase``` para nombrar funciones, variables y propiedades.
+- Usar ```PascalCase``` para nombrar clases, interfaces y objetos.
+- Usar ```UPPER_SNAKE_CASE``` para constantes (```const val```).
+- Preferir ```val``` sobre ```var``` cuando el valor no cambie.
+- Evitar el uso de tipos nulos (```NullPointerException```) utilizando operadores seguros como ```?.```, ```?:``` y ```!!``` solo cuando sea estrictamente necesario.
+- Usar ```data class``` para modelos y POJOs.
+- Aplicar el principio de inmutabilidad siempre que sea posible.
+- Usar string resources (```strings.xml```) en lugar de cadenas hardcodeadas.
+- Mantener una sangría de 4 espacios (sin tabs).
+- Colocar espacios alrededor de operadores (```=```, ```+```, ```-```, ```*```, ```/```) y después de comas.
+- Usar plantillas de strings (```"${variable}"```) en lugar de concatenación con +.
+- Preferir when sobre if-else para condiciones múltiples.
+
+Referencias:
+- [Kotlin Coding Conventions](https://kotlinlang.org/docs/coding-conventions.html)
+- [Android Kotlin Style Guide](https://developer.android.com/kotlin/style-guide?hl=es-419)
+- [Android Architecture Guidelines](https://developer.android.com/topic/architecture?hl=es-419)
+
+**Java con Spring Boot**
+- Usar camelCase para nombrar métodos y variables.
+- Usar PascalCase para nombrar clases y interfaces.
+- Preferir los tipos de datos primitivos sobre sus contrapartes de objetos cuando sea posible Ejemplo: usar ```int``` en lugar de ```Integer```.
+- Utilizar la anotación ```@Autowired``` para la inyección de dependencias.
+- Usar ```@GetMapping```, ```@PostMapping```, ```@PutMapping```, y ```@DeleteMapping``` para mapear las solicitudes HTTP a los métodos del controlador.
+- Organizar las aplicaciones en paquetes que reflejen su funcionalidad.
+- Utilizar Lombok para minimizar el código repetitivo de getters, setters, y constructores.
+
+Referencias:
+- [Spring Boot Reference Documentation](https://docs.spring.io/spring-boot/index.html)
+- [Java Nut and Bolts](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html)
+
 #### 6.1.4. Software Deployment Configuration
+
+Para desplegar la landing page, se usará Github Pages, herramienta que nos permitirá desplegar la página a partir de un repositorio.
+
+Para ello creamos el repositorio de la landing page, luego configuramos aquel repositorio en el que se desplegará la landing page, subimos los archivos con su respectivo commit y copiamos el nombre del repositorio que se encuentra en la página de configuración. Ya estaría listo para visualizarse en el navegador.
 
 ### 6.2. Landing Page & Mobile Application Implementation
 
@@ -3756,9 +3822,51 @@ Para los textos de mensajes en commits se aplican los "Conventional Commits" (ht
 
 ##### 6.2.1.3. Development Evidence for Sprint Review
 
+| **Repository** | 	**Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|--|--|--|--|--|--|
+| Landing-Page | main | 8bda2cc | feature: | feat(repo): add README | 14/05/2025 |
+| Landing-Page | main | e07f6e5 | feature: | feat: add about us and img | 14/05/2025 |
+| Landing-Page | main | f552720 | feature: | feat: add scrollrevel.min.js | 14/05/2025 |
+| Landing-Page | main | 6024458 | feature: | feat: add main.js | 14/05/2025 |
+| Landing-Page | main | 2337505 | feature: | feat: add images | 14/05/2025 |
+| Landing-Page | main | f1a0a7c | feature: | feat: add style.css | 14/05/2025 |
+| Landing-Page | main | 8bda2cc | feature: | feat: add index.html | 14/05/2025 |
+
 ##### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
+En este sprint todavía no se desarrolla el Testing, solo la landing page
+
 ##### 6.2.1.5. Execution Evidence for Sprint Review
+
+Por este primer sprint, se muestra las capturas de la landing page
+
+**Home**
+---
+<img src="/assets/images/chapter-VI/Home.png" alt="Home-LandingPage"/>
+
+**Benefits**
+---
+<img src="/assets/images/chapter-VI/Benefits.png" alt="Benefits-LandingPage"/>
+
+**Testimonials**
+---
+<img src="/assets/images/chapter-VI/Testimonials.png" alt="Testimonials-LandingPage"/>
+
+**About Us**
+---
+<img src="/assets/images/chapter-VI/AboutUs.png" alt="AboutUs-LandingPage"/>
+
+**Videos**
+---
+<img src="/assets/images/chapter-VI/Videos.png" alt="Videos-LandingPage"/>
+
+**Contact Us**
+---
+<img src="/assets/images/chapter-VI/ContactUs.png" alt="ContactUs-LandingPage"/>
+
+**Footer**
+---
+<img src="/assets/images/chapter-VI/Footer.png" alt="Footer-LandingPage"/>
 
 ##### 6.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -3900,6 +4008,10 @@ Terminamos al dar clic al botón *Save*, luego de escoger la rama y carpeta a de
 El enlace a la landing page es el siguiente: https://dartlinwave.github.io/LawConnect-LandingPage/
 
 ##### 6.2.1.8. Team Collaboration Insights during Sprint
+
+Aquí se encuentra la captura de las contribuciones de la landing page
+
+<img src="/assets/images/chapter-VI/Insights.png" alt="Commits-Insights"/>
 
 ### 6.3. Validation Interviews
 
