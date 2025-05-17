@@ -3896,7 +3896,13 @@ En este proyecto, estamos utilizando la version 3 de Swagger, que es la más rec
 Para el entorno de desarrollo, que hemos utilizado SwaggerUI para el desarrollo, su URL local es: http://localhost:8080/swagger-ui/index.html
 
 Los commits relevantes, para determinar los controladores, son:
-*
+* Adición de controlador para authentication: 0c30547c7dd55bceb8b0e9c1952878370226a4a4
+* Adición de controlador para roles: 3dd8ec8ee6297e2a35ba43e4714e482299ccd414
+* Adición de controlador para users: 2e1a9ab78f3a1c6a741a8625511f50048bbd3d24
+* Adición de controlador para profiles: cabc166c7ee6cd6298b11e26d66779b331c05e7c
+* Adición de controlador para cases: 6ede0f91e0c9f20a7290ee8ff2047db561a4a571
+* Adición de controlador para matchmaking: 4982fec4054a3b0621ed82e89c7541168234147d
+* Adición de controlador para tracking: fed7c59abd5061b9d8402aef93c5b7e1a8771c7a
 
 El repositorio en donde se encuentra este servicio es: https://github.com/DartlinWave/LawConnect-platform
 
