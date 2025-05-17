@@ -44,13 +44,13 @@
 **TB1:**  
 En esta entrega el equipo definió las bases del tema que se trabajará en el ciclo, sus segmentos objetivo, Lean UX, requisitos y bounded contexts.
 
-- Camila Cristina Loli Ramirez: Desarrollo completo del Capítulo I y BC Matchmaking.  
-- Zavala Quedena Gonzalo Andre: Desarrollo parcial del Capítulo II, BC Profile e IAM.  
-- Bárbara Antonella Espinoza Delgado: Desarrollo completo del Capítulo III y BC Tracking.  
-- Johan Jorge Quiñones Tintaya: Desarrollo parcial del Capítulo II y BC Cases.  
+<img src="/assets/images/chapter-I/Commits tb1 report.png" alt="Commits TB1 Report" width="600"/>
 
-![image](https://github.com/DartlinWave/LawConnect-report/blob/68dcd6bf6027912a64b4465d259f313219a35742/assets/images/chapter-I/Commits%20tb1%20report.png)
+## Project Report Collaboration Insights  
+**TP:**  
+En esta entrega el equipo definió los wireframes, mockups, prototypes y product implementation, validation & deployment.
 
+<img src="/assets/images/chapter-I/Commits tp report.png" alt="Commits TP Report" width="600"/>
 
 ## Contenido
 
@@ -3687,8 +3687,6 @@ Link del video: https://www.youtube.com/watch?v=B1CFfRD_VAM
 | HU20 - Diseño Atractivo y Responsivo                 | W09 Eye-catching design and responsive in Landing Page                    | Crear un diseño llamativo para los usuarios y quela landing page se adapte a sus dispositivos                                   | 1                  | Johan       | Done   |
 | HU26 - Gestión de Roles y Permisos                   | W010 Create management of roles and permissions in backend                | Implementar la gestión de roles y permisos en el backend                                                                        | 2                  | Gonzalo     | Done   |
 
-
-
 ##### 6.2.1.3. Development Evidence for Sprint Review
 
 ##### 6.2.1.4. Testing Suite Evidence for Sprint Review
@@ -3847,6 +3845,9 @@ El enlace a la landing page es el siguiente: https://dartlinwave.github.io/LawCo
 ### 6.4. Video About-the-Product
 
 ## Conclusiones
+<p align="justify">
+A partir de la primera entrega, se consolidó una base sólida en TB1 al definir de forma precisa los segmentos objetivo, establecer las bases del Lean UX y actualizar conceptos esenciales que permitieron identificar las necesidades y retos del mercado, mientras que en TP se avanzó en la concreción de la solución mediante wireframes, mockups y prototipos, lo que evidenció un fuerte compromiso con la usabilidad y la experiencia del usuario. En conjunto, ambas fases reflejan la sinergia entre el análisis profundo y la materialización de ideas, permitiendo no solo validar las suposiciones iniciales sino también ofrecer una visión clara y coherente del producto final, orientado a conectar de manera efectiva a abogados egresados con clientes que requieren asesoría legal. Este enfoque integral sienta las bases para futuras iteraciones, garantizando que la solución tecnológica se ajuste a las necesidades reales de los usuarios y promueva un desarrollo ágil y enfocado en la mejora continua.
+</p>
 
 ## Conclusiones y recomendaciones 
 <p align="justify">
