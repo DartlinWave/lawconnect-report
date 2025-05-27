@@ -101,14 +101,14 @@ En esta entrega el equipo definió los wireframes, mockups, prototypes y product
 
 [2.4. Ubiquitous Language](#24-ubiquitous-language)  
 
-[Capítulo III: Requirements Specificatio](#capítulo-iii-requirements-specification)  
+[Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)  
 
 [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)    
 [3.2. User Stories](#32-user-stories)  
 [3.3. Impact Mapping](#33-impact-mapping)  
 [3.4. Product Backlog](#34-product-backlog)  
 
-[Capítulo IV: Solution Software Design](#capitulo-iv-solution-software-design)
+[Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
 
 [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
 
@@ -125,6 +125,18 @@ En esta entrega el equipo definió los wireframes, mockups, prototypes y product
 [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
 
 [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)  
+
+[4.2.5. Bounded Context: Tracking](#425-bounded-context-tracking)  
+[4.2.5.1. Domain Layer](#4251-domain-layer)  
+[4.2.5.2. Interface Layer](#4252-interface-layer)  
+[4.2.5.3. Application Layer](#4253-application-layer)  
+[4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)  
+[4.2.5.5. Bounded Context Software Architecture Component Level Diagrams](#4255-bounded-context-software-architecture-component-level-diagrams)  
+[4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)  
+[4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)  
+[4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)
+
+
 [4.2.5. Bounded Context: Tracking](#425-bounded-context-tracking)  
 [4.2.5.1. Domain Layer](#4251-domain-layer)  
 [4.2.5.2. Interface Layer](#4252-interface-layer)  
@@ -170,6 +182,16 @@ En esta entrega el equipo definió los wireframes, mockups, prototypes y product
 
 [6.2. Landing Page & Mobile Application Implementation](#62-landing-page-and-mobile-application-implementation)  
 
+[6.2.X. Sprint 1](#621-sprint-1)  
+[6.2.X.1. Sprint Planning 1](#62x1-sprint-planning-1)  
+[6.2.X.2. Sprint Backlog 1](#62x2-sprint-backlog-n)  
+[6.2.X.3. Development Evidence for Sprint Review](#62x3-development-evidence-for-sprint-review)  
+[6.2.X.4. Testing Suite Evidence for Sprint Review](#62x4-testing-suite-evidence-for-sprint-review)  
+[6.2.X.5. Execution Evidence for Sprint Review](#62x5-execution-evidence-for-sprint-review)  
+[6.2.X.6. Services Documentation Evidence for Sprint Review](#62x6-services-documentation-evidence-for-sprint-review)  
+[6.2.X.7. Software Deployment Evidence for Sprint Review](#62x7-software-deployment-evidence-for-sprint-review)    
+[6.2.X.8. Team Collaboration Insights during Sprint](#62x8-team-collaboration-insights-during-sprint)
+
 [6.2.X. Sprint n](#62x-sprint-n)  
 [6.2.X.1. Sprint Planning n](#62x1-sprint-planning-n)  
 [6.2.X.2. Sprint Backlog n](#62x2-sprint-backlog-n)  
@@ -178,7 +200,7 @@ En esta entrega el equipo definió los wireframes, mockups, prototypes y product
 [6.2.X.5. Execution Evidence for Sprint Review](#62x5-execution-evidence-for-sprint-review)  
 [6.2.X.6. Services Documentation Evidence for Sprint Review](#62x6-services-documentation-evidence-for-sprint-review)  
 [6.2.X.7. Software Deployment Evidence for Sprint Review](#62x7-software-deployment-evidence-for-sprint-review)    
-[6.2.X.8. Team Collaboration Insights during Sprint](#62x8-team-collaboration-insights-during-sprint)  
+[6.2.X.8. Team Collaboration Insights during Sprint](#62x8-team-collaboration-insights-during-sprint)
 
 [6.3. Validation Interviews](#63-validation-interviews)  
 
@@ -1219,7 +1241,7 @@ En esta sección se presenta el glosario de términos utilizados en el dominio d
   </tr>
 </table>
 
-## Capítulo III: Requirements Specificatio
+## Capítulo III: Requirements Specification
 
 ### 3.1. To-Be Scenario Mapping    
 Luego de realizar el as-is con sus fases propuestas, para el to-be se realizaron nuevos procesos enfocados en mejorar las fases de los segmentos objetivos con nuestro proyecto.
