@@ -2762,7 +2762,7 @@ La capa de Infraestructura es la capa encargada de la persistencia y conexión c
 A continuación se muestra el diagrama de componentes realizado para el Bounded Context <b>"Iam"</b>, mostrando los componentes que lo conformarn.
 </p>
 
-<img src="/assets/images/chapter-iv/bc-iam/iam-component-level-diagram.png" alt="IAM Component Level Diagram"/>
+<img src="https://raw.githubusercontent.com/DartlinWave/LawConnect-report/refs/heads/main/assets/images/chapter-IV/bc-iam/iam-component-level-diagram.png" alt="IAM Component Level Diagram"/>
 
 ##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 <p align="justify">
@@ -2773,14 +2773,14 @@ Esta sección presenta una vista detallada a nivel de código de la arquitectura
 A continuación se muestra el diagrama de clases realizado para el Bounded Context "Iam".
 
 <center>
-<img src="/assets/images/chapter-iv/bc-iam/iam-class-diagram.png" alt="IAM Class Diagram" width="450"/>
+<img src="https://raw.githubusercontent.com/DartlinWave/LawConnect-report/refs/heads/main/assets/images/chapter-IV/bc-iam/iam-class-diagram.png" alt="IAM Class Diagram" width="450"/>
 </center>
 
 ###### 4.2.1.6.2. Bounded Context Database Design Diagram
 A continuación se muestra el diagrama de Base de Datos realizado para el Bounded Context "Iam".
 
 <center>
-<img src="/assets/images/chapter-iv/bc-iam/iam-database-diagram.png" alt="IAM Database Diagram" width="450"/>
+<img src="https://raw.githubusercontent.com/DartlinWave/LawConnect-report/refs/heads/main/assets/images/chapter-IV/bc-iam/iam-database-diagram.png" alt="IAM Database Diagram" width="450"/>
 </center>
 
 #### 4.2.2. Bounded Context: Profiles
@@ -2847,7 +2847,7 @@ La capa de Infraestructura es la capa encargada de la persistencia y conexión c
 A continuación se muestra el diagrama de componentes realizado para el Bounded Context <b>"Profiles"</b>, mostrando los componentes que lo conformarn.
 </p>
 
-<img src="/assets/images/chapter-iv/bc-profiles/profiles-component-level-diagram.png" alt="Profiles Component Level Diagram" width="900"/>
+<img src="https://raw.githubusercontent.com/DartlinWave/LawConnect-report/refs/heads/main/assets/images/chapter-IV/bc-profiles/profiles-component-level-diagram.png" alt="Profiles Component Level Diagram" width="900"/>
 
 ##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 <p align="justify">
@@ -2858,7 +2858,7 @@ Esta sección presenta una vista detallada a nivel de código de la arquitectura
 A continuación se muestra el diagrama de clases realizado para el Bounded Context "Profiles".
 
 <center>
-<img src="/assets/images/chapter-iv/bc-profiles/profiles-class-diagram.png" alt="Profile Class Diagram" width="450"/>
+<img src="https://raw.githubusercontent.com/DartlinWave/LawConnect-report/refs/heads/main/assets/images/chapter-IV/bc-profiles/profiles-class-diagram.png" alt="Profile Class Diagram" width="450"/>
 </center>
 
 
@@ -2866,7 +2866,7 @@ A continuación se muestra el diagrama de clases realizado para el Bounded Conte
 A continuación se muestra el diagrama de Base de Datos realizado para el Bounded Context "Profiles".
 
 <center>
-<img src="/assets/images/chapter-iv/bc-profiles/profiles-database-diagram.png" alt="Profiles Database Diagram" width="450"/>
+<img src="https://raw.githubusercontent.com/DartlinWave/LawConnect-report/refs/heads/main/assets/images/chapter-IV/bc-profiles/profiles-database-diagram.png" alt="Profiles Database Diagram" width="450"/>
 </center>
 
 #### 4.2.3. Bounded Context: Cases
