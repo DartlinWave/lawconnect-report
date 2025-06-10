@@ -2605,9 +2605,8 @@ A partir del análisis de los eventos identificados en el EventStorming, y guiá
 </p>
 
 **Candidate Bounded Contexts Identificados**
-**1. Cases:** Gestión de casos legales publicados por clientes y postulaciones de abogados.
-**2. Matchmaking:** Lógica para sugerencias inteligentes, filtros por calificación, especialidad, etc.
-**3. Tracking:** Seguimiento de la evolución del caso aceptado (progreso, actualizaciones, cierre).
+**1. IAM:** Gestión de registro e inicio de sesión del clientes & abogados.
+**2. Cases:** Gestión de casos legales publicados por clientes y postulaciones de abogados, realizando match & seguimiendo de los abogados hacia sus clientes.
 
 <p align="justify">
 La sesión permitió al equipo tener una visión clara de los componentes clave del sistema y sentar las bases para la definición de los Bounded Contexts. Esta claridad será fundamental para aplicar patrones de comunicación entre contextos y mantener la cohesión interna de cada uno.
@@ -2646,25 +2645,12 @@ En esta sección se presentan los Canvases de los bounded contexts identificados
 
 *Nota.* Encargado de la gestión de los casos legales creados por los clientes. Abarca el proceso de publicación, visualización por parte de los abogados, postulación, selección y aceptación de abogados para un caso.
 
-***Figura 22.*** *Bounded Context Matchmaking*
-
-
-<img src="/assets/images/chapter-iv/canvas-matchmaking.png" alt="Canvas Bounded Context Matchmaking" width="800"/>
-
-*Nota.* Encargado de sugerir abogados relevantes a los clientes, usando filtros, puntuaciones y lógica de recomendación. Optimiza el proceso de búsqueda y selección.
-
-***Figura 23.*** *Bounded Context Tracking*
-
-<img src="/assets/images/chapter-iv/canvas-tracking.png" alt="Canvas Bounded Context Tracking" width="800"/>
-
-*Nota.* Supervisa el avance de los casos ya asignados. Incluye hitos, comentarios, y actualizaciones de progreso hasta su cierre.
-
 #### 4.1.2. Context Mapping
 <p align="justify">
 En esta sección veremos ell proceso se llevó a cabo en <b>Miro</b> mediante sesiones de análisis colaborativo que incluyeron preguntas clave que nos ayudaron a evaluar posibles reorganizaciones de capacidades.
 </p>
 
-***Figura 24.*** *Context Mapping del proyecto*
+***Figura 22.*** *Context Mapping del proyecto*
 
 <img src="/assets/images/chapter-iv/context-mapping.png" alt="Context Mapping" width="650"/>
 
@@ -2680,9 +2666,9 @@ Esta sección describe la arquitectura del sistema utilizando el modelo C4, alin
 Este apartado muestra el diagrama de contexto, donde se representa cómo el sistema interactúa con los actores y sistemas externos. Define los límites del sistema y su relación con el entorno.
 </p>
 
-***Figura 25.*** *Context Level Diagram del proyecto*
+***Figura 23.*** *Context Level Diagram del proyecto*
 
-<img src="/assets/images/chapter-iv/context-level-diagram.png" alt="Context Level Diagram" width="700"/>
+<img src="/assets/images/chapter-iv/context-level-diagram.png" alt="Context Level Diagram" width="500"/>
 
 *Nota.* Este diagrama es para ver cómo los usuarios (abogados egresados y clientes con problemas legales) interactúan con la aplicación.
 
@@ -2691,9 +2677,9 @@ Este apartado muestra el diagrama de contexto, donde se representa cómo el sist
 Aquí se presenta el diagrama de contenedores, detallando los componentes principales del sistema, su organización interna y cómo colaboran para cumplir los objetivos funcionales.
 </p>
 
-***Figura 26.*** *Container Level Diagram del proyecto*
+***Figura 24.*** *Container Level Diagram del proyecto*
 
-<img src="/assets/images/chapter-iv/container-level-diagram.png" alt="Container Level Diagram" width="700"/>
+<img src="/assets/images/chapter-iv/container-level-diagram.png" alt="Container Level Diagram" width="500"/>
 
 *Nota.* Este diagrama es para ver los contenedores dentro de la aplicación y cómo van a interactuar entre ellos.
 
@@ -2776,7 +2762,7 @@ La capa de Infraestructura es la capa encargada de la persistencia y conexión c
 A continuación se muestra el diagrama de componentes realizado para el Bounded Context <b>"Iam"</b>, mostrando los componentes que lo conformarn.
 </p>
 
-<img src="/assets/images/chapter-iv/iam-component-level-diagram.png" alt="IAM Component Level Diagram"/>
+<img src="/assets/images/chapter-iv/bc-iam/iam-component-level-diagram.png" alt="IAM Component Level Diagram"/>
 
 ##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 <p align="justify">
@@ -2786,13 +2772,15 @@ Esta sección presenta una vista detallada a nivel de código de la arquitectura
 ###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams  
 A continuación se muestra el diagrama de clases realizado para el Bounded Context "Iam".
 
-<img src="/assets/images/chapter-iv/iam-class-diagram.png" alt="IAM Class Diagram" width="850"/>
+<center>
+<img src="/assets/images/chapter-iv/bc-iam/iam-class-diagram.png" alt="IAM Class Diagram" width="450"/>
+</center>
 
 ###### 4.2.1.6.2. Bounded Context Database Design Diagram
 A continuación se muestra el diagrama de Base de Datos realizado para el Bounded Context "Iam".
 
 <center>
-<img src="/assets/images/chapter-iv/iam-database-diagram.png" alt="IAM Database Diagram" width="150"/>
+<img src="/assets/images/chapter-iv/bc-iam/iam-database-diagram.png" alt="IAM Database Diagram" width="450"/>
 </center>
 
 #### 4.2.2. Bounded Context: Profiles
@@ -2859,7 +2847,7 @@ La capa de Infraestructura es la capa encargada de la persistencia y conexión c
 A continuación se muestra el diagrama de componentes realizado para el Bounded Context <b>"Profiles"</b>, mostrando los componentes que lo conformarn.
 </p>
 
-<img src="/assets/images/chapter-iv/profiles-component-level-diagram.png" alt="Profiles Component Level Diagram" width="900"/>
+<img src="/assets/images/chapter-iv/bc-profiles/profiles-component-level-diagram.png" alt="Profiles Component Level Diagram" width="900"/>
 
 ##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 <p align="justify">
@@ -2869,14 +2857,16 @@ Esta sección presenta una vista detallada a nivel de código de la arquitectura
 ###### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 A continuación se muestra el diagrama de clases realizado para el Bounded Context "Profiles".
 
-<img src="/assets/images/chapter-iv/profiles-class-diagram.png" alt="Profile Class Diagram" width="850"/>
+<center>
+<img src="/assets/images/chapter-iv/bc-profiles/profiles-class-diagram.png" alt="Profile Class Diagram" width="450"/>
+</center>
 
 
 ###### 4.2.2.6.2. Bounded Context Database Design Diagram
 A continuación se muestra el diagrama de Base de Datos realizado para el Bounded Context "Profiles".
 
 <center>
-<img src="/assets/images/chapter-iv/profiles-database-diagram.png" alt="Profiles Database Diagram" width="400"/>
+<img src="/assets/images/chapter-iv/bc-profiles/profiles-database-diagram.png" alt="Profiles Database Diagram" width="450"/>
 </center>
 
 #### 4.2.3. Bounded Context: Cases
@@ -3043,253 +3033,21 @@ Este diagrama de componentes representa la estructura interna del módulo de ges
 
 ###### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams  
 
-<img src="/assets/images/chapter-IV/bc-cases/cases-class-diagram.png" alt="bc-cases-class-diagram"/>
+<center>
+<img src="/assets/images/chapter-IV/bc-cases/cases-class-diagram.png" alt="bc-cases-class-diagram" width="450px"/>
+</center>
 
+<p align="justify">
 Este diagrama modela el dominio específico de gestión de casos legales en LawConnect, estructurado bajo los principios de Domain-Driven Design. Representa las entidades centrales (LegalCase como raíz de agregado y CaseApplication para postulaciones), objetos valor (BudgetRange, DocumentRequirement) y servicios de dominio (CasePublishingService, CaseAssignmentService) que encapsulan la lógica para publicar casos, gestionar postulaciones y realizar asignaciones. El diseño muestra las relaciones entre estos componentes, las invariantes del negocio (como la restricción de una única postulación aceptada por caso) y las interfaces clave (repositorios) que permiten la integración con otros contextos del sistema, manteniendo un límite bien definido alrededor de este subdominio específico de la aplicación.
+</p>
 
 ###### 4.2.3.6.2. Bounded Context Database Design Diagram
 
-<img src="/assets/images/chapter-IV/bc-cases/cases-database-diagram.png" alt="bc-cases-database-diagram" width="500"/>
+<center>
+<img src="/assets/images/chapter-IV/bc-cases/cases-database-diagram.png" alt="bc-cases-database-diagram" width="450"/>
+</center>
 
 Este diagrama de base de datos del Bounded Context Cases define la estructura de persistencia para los casos legales y sus relaciones. La tabla principal ```LEGAL_CASES``` almacena la información básica de cada caso (título, descripción, presupuesto y estado), mientras que ```CASE_APPLICATIONS``` gestiona las postulaciones de los abogados, incluyendo propuestas económicas y estados de aceptación. La tabla ```CASE_DOCUMENTS_REQ``` registra los documentos requeridos para cada caso. Las relaciones has y requires reflejan la vinculación entre entidades, asegurando la integridad referencial y soportando consultas eficientes para el emparejamiento (matchmaking) y seguimiento de casos.
-
-#### 4.2.4. Bounded Context: Matchmaking  
-En esta parte el informe se describirá el proceso de diseño a nivel táctico del bounded context "Matchmaking", el cual permitirá a los clientes tener un abogado acorde al caso que presenta.
-
-##### 4.2.4.1. Domain Layer  
-Aquí se explicará el núcleo del negocio utilizado en "Matchmaking". También se mostrarán los modelos y reglas de negocio aplicadas al bounded context.
-
-**Model**  
-*Aggregates*  
-`Match`: Este aggregate root, representado por una clase, es la relación entre un cliente y su abogado respecto a la recomendación producida en la entidad `Recommendation`.
-
-*Entities*  
-`Recommendation`: Esta clase representa una sugerencia basada en los criterios definidos en el value object `SearchCriteria`.
-
-*Value Objects*  
-`SearchCriteria`: Esta clase va procesar el criterio de búsqueda dependiendo de la puntuación, especialidad y ubicación del abogado respecto al cliente.
-
-`MatchStatus`: Esta clase enum representa los posibles estados de un Match; esto define si la sugerencia fue rechazada (REJECTED), aceptada (ACCEPTED) o si sigue pendiente (SUGGESTED).
-
-*Commands*  
-`CreateMatchCommand`: Este comando es para crear un match nuevo.
-
-`AcceptMatchCommand`: Este es un comando para designar que el match ha sido aceptado por el cliente.
-
-`RejectMatchCommand`: Este comando es para designar que el match ha sido rechazado por el cliente.
-
-`CreateRecommendationCommand`: Este es un comando para crear una recomendación a partir de la información del cliente y abogado.
-
-*Queries*  
-`GetMatchByIdQuery`: Esta consulta recupera un match específico por su Id (único).
-
-`GetMatchByClientIdAndLawyerIdQuery`: Esta consulta devuelve el match respecto al Id del cliente y del abogado.
-
-`GetAllMatchesByClientIdQuery`: Esta consulta lee todos los matches por el Id del cliente.
-
-`GetAllMatchesByLawyerIdQuery`: Esta consulta lee todos los matches por el Id del abogado.
-
-`GetAllRejectedMatchesByClientIdQuery`: Esta consulta lee todos los matches rechazados por el Id del cliente.
-
-`GetAllAcceptedMatchesByClientIdQuery`: Esta consulta lee todos los matches aceptados por el Id del cliente.
-
-`GetAllSuggestedMatchesByClientIdQuery`: Esta consulta lee todos los matches por el Id del cliente.
-
-`GetAllRecommendedLawyersQuery`: Esta consulta recupera todos los abogados recomendados acorde al criterio de búsqueda.
-
-*Events*  
-`SuggestedLawyerEvent`: Este evento representa el evento de la sugerencia de un abogado para el cliente respecto al caso.
-
-**Services**  
-*Command Service*  
-`MatchmakingCommandService`: Interfaz que define las operaciones relacionadas al bounded context.
-
-*Query Service*  
-`MatchmakingQueryService`: Interfaz que define los queries del bounded context.
-
-##### 4.2.4.2. Interface Layer
-Aquí se presentarán las clases pertenecientes al API que interactúan directamente con el exterior, los transformadores y controladores.
-
-**RESTful API**  
-*Controller*  
-`MatchmakingController`: Este es el controlador que expone los endpoints RESTful, permite a los usuarios interactuar con el bounded context. Aquí se tienen en cuenta las consultas y comandos realizados por los usuarios.
-
-*Resources*  
-`MatchResource`: Recurso que representa el match generado al cliente.
-
-`CreateMatchResource`: Este recurso permite que se genere el match acorde a los datos ingresados por el cliente y caso.
-
-`RecommendationResource`: Este recurso permite presentar las recomendaciones hechas para el cliente.
-
-`CreateRecommendationResource`: Este recurso permite crear la recomendación a partir de los datos ingresados por el cliente y caso.
-
-*Assemblers*  
-`MatchResourceFromEntityAssembler`: Transforma la entidad de Match a MatchResource.
-
-`CreateMatchCommandFromResourceAssembler` Transforma el recurso de creación de Match en el comando de creación.
-
-`RecommendationResourceFromEntityAssembler`: Transforma la entidad de Recommendation a RecommendationResource.  
-
-`CreateRecommendationCommandFromResourceAssembler`: Transforma el recurso de creación de Recommendation en el comando de creación.
-
-**ACL**  
-`MatchmakingContextFacade`: Se utiliza esta clase para exponer la información de Matchmaking para los otros bounded contexts que lo necesiten.
-
-Se utiliza ACL para proteger el bounded context; así, no se acoplará directamente a los otros bounded contexts que lo utilice.
-
-##### 4.2.4.3. Application Layer
-En esta capa se presentarán los flujos de negocios en el bounded context.
-
-**Internal**  
-*Command Services*  
-`MatchmakingCommandServiceImpl`: Esta es la implementación del servicio de comandos del bounded context.
-
-*Query Services*  
-`MatchmakingQueryServiceImpl`: Esta es la implementación del servicio de consultas del bounded context.
-
-*Outbound Services*  
-`ExternalCaseService`: Se utiliza esta clase para obtener la información de los casos en el bounded context Cases.
-
-`ExternalProfileService`: Esta clase se encarga de obtener la información relevante y necesaria del bounded context Profiles para los filtros de Matchmaking.
-
-*Event Handlers*  
-`SuggestedLawyerEventHandler`: Esta clase maneja el evento de la sugerencia de abogado al cliente.
-##### 4.2.4.4. Infrastructure Layer
-En esta sección se presentará el repositorio para el bounded context.
-
-**Repository**  
-`MatchRepository`: Esta interfaz es el repositorio para la entidad Match, en la cual se definen los métodos necesarios para realizar consultas y operaciones.
-
-##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
-
-En este diagrama se muestra la relación entre las clases que pertenecen al bounded context Matchmaking.  
-
-![Container Diagram for Matchmaking](assets/images/chapter-IV/bc-matchmaking/container-diagram-bc-matchmaking.png)  
-
-
-![Component Diagram for Matchmaking](assets/images/chapter-IV/bc-matchmaking/component-diagram-bc-matchmaking.png)  
-
-
-##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
-
-En esta sección del informe, se presentarán los diagramas a nivel de programación para tener una guía del funcionamiento de la aplicación y que se detalle las características del bounded context.
-
-
-###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
-
-En este diagrama se muestra la relación entre las clases que pertenecen al bounded context Matchmaking.
-
-
-![Class Diagram for Matchmaking](assets/images/chapter-IV/bc-matchmaking/LawConnect-class-diagram-bc-matchmaking.png)  
-
-##### 4.2.X.2. Interface Layer  
-
-Enlace del diagrama en Lucidchart: https://lucid.app/lucidchart/f562fb42-f94d-4840-be83-ef1c400180f5/edit?viewport_loc=-16%2C283%2C1727%2C1241%2CHWEp-vi-RSFO&invitationId=inv_f78a52cc-3e46-4d38-ac9a-28478a2a2a48
-
-###### 4.2.4.6.2. Bounded Context Database Design Diagram
-
-En esta sección se presenta el diseño de la base de datos para el bounded context Matchmaking
-
-![Database Diagram for Matchmaking](assets/images/chapter-IV/bc-matchmaking/LawConnect-database-diagram-bc-matchmaking.png)  
-
-Enlace del diagrama en Vertabelo: https://my.vertabelo.com/doc/OI6qkFKkRmRYm4KuK5dY1njVWEKdF68Z  
-
-#### 4.2.5. Bounded Context: Tracking
-
-##### 4.2.5.1. Domain Layer  
-
-La capa de Dominio es la capa que contiene el núcleo del modelo de negocio y la lógica de dominio.
-
-**Aggregate Root:** 
-- Analytic: Entidad raíz que representa un seguimiento de caso legal. Contiene estado, timestamps, e IDs relevantes. Tiene lógica interna para construir y actualizarse con los comandos correspondientes.
-
-**Interfaces:**
-- AnalyticCommandService: Define las operaciones del dominio para aplicar comandos: handle(CreateAnalyticCommand) y handle(UpdateAnalyticCommand)
-
-- AnalyticQueryService: Define las operaciones del dominio para ejecutar consultas: handle(GetAnalyticByCaseIdQuery) y handle(GetAnalyticsByUserIdQuery)
-
-**Comandos:**
-- CreateAnalyticCommand: Objeto que encapsula los datos necesarios para crear una nueva instancia de Analytic.
-
-- UpdateAnalyticCommand: Objeto que encapsula los datos necesarios para actualizar una instancia existente de Analytic.
-
-**Consultas:**
-- GetAnalyticByCaseIdQuery: Objeto para solicitar una analítica por ID de caso.
-
-- GetAnalyticsByUserIdQuery: Objeto para solicitar todas las analíticas asociadas a un ID de usuario.
-
-##### 4.2.5.2. Interface Layer  
-
-La capa de Interfaz es la capa responsable de exponer el API al exterior y transformar los datos entre el modelo de dominio y los recursos HTTP.
-
-**Controlador:**
-- AnalyticController: Controlador que representa los metodos que se van a exponer  a la web, esta clase se encarga de interactuar con el usuario mediante  HTTP. Esta clase tiene dependencias con los transformadores y los contratos definidos para cada servicio, esto porque los transformadores tienen la responsabilidad de serializar las clases que representan respuestas del servicio en commandos o en la entidad principal.
-
-**Recursos:**
-- CreateAnalyticResource: Objeto que representa los datos enviados por el cliente para crear un seguimiento.
-
-- UpdateAnalyticResource: Objeto que representa los datos enviados por el cliente para actualizar un seguimiento.
-
-- AnalyticResource: Representación del seguimiento de caso devuelta al cliente tras una operación o consulta.
-
-**Assemblers (Transformadores):**
-- CreateAnalyticCommandFromResourceAssembler: Convierte CreateAnalyticResource en CreateAnalyticCommand.
-
-- UpdateAnalyticCommandFromResourceAssembler: Convierte UpdateAnalyticResource en UpdateAnalyticCommand.
-
-- AnalyticResourceFromEntityAssembler: Transforma un objeto del dominio Analytic en un AnalyticResource para ser enviado al cliente.
-
-##### 4.2.5.3. Application Layer  
-
-La capa de Aplicación es la capa que contiene la lógica de aplicación, orquesta las operaciones entre capas externas y el dominio.
-
-**Interfaces:**
-- ExternalCaseService: Define el método updateCaseStatus para sincronizar el estado del caso con sistemas externos.
-
-- ExternalUserService: Define el método isUserExist para verificar si un usuario existe externamente.
-
-**Implementaciones:**
-- AnalyticCommandServiceImpl: Implementa la lógica para crear y actualizar seguimientos de casos (Analytic) usando comandos.
-
-- AnalyticQueryServiceImpl: Implementa las consultas sobre los seguimientos.
-
-- ExternalCaseServiceImpl: Implementa el cambio de estado de un caso en el sistema externo.
-
-- ExternalUserServiceImpl: Implementa la validación de usuarios consultando una fuente externa.
-
-##### 4.2.5.4. Infrastructure Layer  
-
-La capa de Infraestructura es la capa encargada de la persistencia y conexión con sistemas externos.
-
-**Repositorio:**
-- AnalyticRepository: Interfaz que define operaciones de acceso a datos sobre la entidad Analytic. Su implementación concreta se encargará de interactuar con la base de datos.
-
-##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams  
-
-A continuación se muestra el diagrama de componentes realizado para el Bounded Context "Tracking".
-
-<img src="/assets/images/bc-tracking/Component%20Diagram%20Tracking%20BC.jpg" width="500"/>  
-
-
-<img src="/assets/images/bc-tracking/Tracking%20BC%20Component%20Diagram%202.jpg" width="500"/>
-
-##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
-
-###### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams  
-
-A continuación se muestra el diagrama de clases realizado para el Bounded Context "Tracking".
-
-<img src="/assets/images/bc-tracking/Tracking%20BC%20Diagram.png" width="500"/>
-
-Link LucidChart: https://lucid.app/lucidchart/2f24abad-a0f7-43a4-88aa-75a98155725e/edit?viewport_loc=1513%2C-2244%2C5287%2C2801%2C0_0&invitationId=inv_fec486bd-cd05-4ba0-a373-c0d6f0b3cc42 
-
-###### 4.2.5.6.2. Bounded Context Database Design Diagram
-
-A continuación se muestra el diagrama de Base de Datos realizado para el Bounded Context "Tracking".
-
-<img src="/assets/images/bc-tracking/TrackingBD.png" width="500"></img><br>
-
-Link Vertabelo: https://my.vertabelo.com/doc/ljhlltORV7P42DB1eXIYnSo56Gft5W2d 
 
 ## Capítulo V: Solution UI/UX Design
 En este capítulo nos vamos a enfocar en el desarrolló del diseño de la solución planteada para el proyecto: LawConnect. Para esto nos estamos basando en los estilos y reglas necesarias para hacer un diseño sólido y llamativo para nuestros usuarios.
@@ -3308,23 +3066,31 @@ En esta sección se explicarán las guías de estilo para la landing page y mobi
 
 *Brand Overview*
 
+<p align="justify">
 LawConnect es una aplicación móvil diseñada para mejorar la comunicación entre abogados egresados y clientes con problemas legales. Nuestro objetivo como startup es facilitar la oportunidad de crear ofertas laborales para abogados egresados debido a la creciente falta de puestos de trabajo disponibles para ellos. Asimismo, nos enfocamos que los clientes tengan la opción de escoger un abogado calificado para su caso de manera eficaz y rápida, que se acomode a sus necesidades.
+</p>
 
 *Brand Name*
 
+<p align="justify">
 LawConnect utiliza "Law" y "Connect" ("ley" y "conectar" en su traducción al español) para transmitir la noción de lo que brindará la aplicación. En este caso, tener "law" como la primera parte del nombre del producto, permite a los usuarios entender de manera rápida que está dedicado al rubro de leyes. Asimismo, esta situación se repite con "connect", debido a que representa cómo la conexión entre abogados calificados y clientes es realizada por la aplicación de manera eficiente. Al combinar ambas palabras, los usuarios sabrán, inmediatamente, que el producto está dedicado a hacer conexiones entre ellos dentro del marco del sector de abogacía. Este nombre fue escogido debido a que es bastante atractivo para los usuarios, ya que evoca los puntos más importantes y representativos de la aplicación en una sola palabra.
+</p>
 
 A continuación, se mostrará el logo diseñado para LawConnect:
 
 ***Figura .*** Logo de LawConnect.
 
-![LawConnect Logo](assets/images/chapter-V/LogoLawConnect.png)
+<img src="assets/images/chapter-V/LogoLawConnect.png" width="150" alt="LawConnect Logo"/>
 
+<p align="justify">
 Para la creación del logo nos enfocamos en determinar que sea representativo a lo que brindamos. Así llegamos a la idea de utilizar la balanza de la justicia, ya que engloba todo lo relacionado a leyes, abogados. Asimismo, representa nuestro compromiso de brindar una oportunidad de acceso a la justicia a los clientes con problemas legales, debido a que el proceso es transparente y claro para ellos, de esta manera, tomarán una decisión acorde a lo que necesiten al momento de escoger un abogado para sus casos. También, el color escogido, que es un amarillo ligero, transmite calma, que es el efecto exacto que buscamos causar en nuestros usuarios.
+</p>
 
 **Typography:**
 
+<p align="justify">
 Para la tipografía de los productos, se ha escogido Plus Jakarta Sans debido a la legibilidad que presenta y facilidad al momento de leer. Asimismo, es llamativo a plena vista del usuario. Para su implementación, hemos utilizado los cuatro niveles de encabezado como guía, los subtítulos, botones, cuerpo de texto, descripciones, etc.
+</p>
 
 ***Figura .*** Type scale de Plus Jakarta Sans.
 
@@ -3335,7 +3101,12 @@ Para la tipografía de los productos, se ha escogido Plus Jakarta Sans debido a 
 
 **Colors:**
 
-Para la elección de los colores representativos para los productos, escogimos investigar la reacción que causaría en los usuarios durante el uso de la aplicación o landing page. En este proyecto, se decidió utilizar los colores negro y rojo, con esto creamos la paleta de colores característica de LawConnect. Con estos colores esperamos transmitir un sentido de modernidad y calidez. En este caso, escogimos negro para tener una base sólida, también, transmite un aire de confianza, que es justamente lo que esperamos con hacer por la importancia de la aplicación en la vida de nuestros usuarios; así, también tiene un toque de elegancia y seriedad. Además, utilizamos rojo suave para que transmita energía, algo que llama bastante la atención de los usuarios. Por eso es que será utilizado en las llamadas de acción, botones y puntos clave de la aplicación. En sí, buscamos que haya un balance y armonía visual en el diseño de los productos y lo logramos con ambos colores. Enlace al diseño en Figma: https://www.figma.com/design/JZae3tfE2O0QIgquMoexvX/DesignProduct?node-id=8-2&t=eLq4SylKlmEwIeqj-1
+<p align="justify">
+Para la elección de los colores representativos para los productos, escogimos investigar la reacción que causaría en los usuarios durante el uso de la aplicación o landing page. En este proyecto, se decidió utilizar los colores negro y rojo, con esto creamos la paleta de colores característica de LawConnect. Con estos colores esperamos transmitir un sentido de modernidad y calidez. En este caso, escogimos negro para tener una base sólida, también, transmite un aire de confianza, que es justamente lo que esperamos con hacer por la importancia de la aplicación en la vida de nuestros usuarios; así, también tiene un toque de elegancia y seriedad. Además, utilizamos rojo suave para que transmita energía, algo que llama bastante la atención de los usuarios. Por eso es que será utilizado en las llamadas de acción, botones y puntos clave de la aplicación. En sí, buscamos que haya un balance y armonía visual en el diseño de los productos y lo logramos con ambos colores. 
+</p>
+
+Enlace al diseño en Figma: 
+https://www.figma.com/design/JZae3tfE2O0QIgquMoexvX/DesignProduct?node-id=8-2&t=eLq4SylKlmEwIeqj-1
 
 ***Figura .*** Paleta de Colores creada con Material Design
 
@@ -3351,7 +3122,9 @@ Para la elección de los colores representativos para los productos, escogimos i
 
 **Spacing:**
 
+<p align="justify">
 El spacing a utilizar se presentará en los siguientes puntos, estos varían dependiendo de el lenguaje o sistema operativo utilizado. De esta manera, permitimos que la información se vea ordenada.
+</p>
 
 Para Landing Page:
 - Button padding:
@@ -3390,16 +3163,26 @@ Para iOS:
 
 **Dimensions:**
 
+<p align="justify">
 Se prefirió usar un tono ligeramente formal, y amigable; pero, de igual manera, se mantiene el respeto hacia los usuarios. Con LawConnect, preferimos utilizar un lenguaje más serio debido a la importancia de los temas que se tratan. Después de todo, buscamos que el usuario confíe en nuestra aplicación; en el caso de los clientes con problemas legales, que encuentren a un abogado calificado y que los egresados puedan tener ofertas laborales.
+</p>
+
 #### 5.1.2. Information Architecture
 
+<p align="justify">
 En esta parte del informe se presentará la arquitectura de información (incluye etiquetas, forma de navegación, organización de la información, sistema de búsqueda), planeada para los productos que forman parte de LawConnect (Landing Page y aplicación móvil). Así, cumplimos nuestro objetivo de crear una interfaz amigable e intuitiva para nuestros segmentos objetivos.
+</p>
+
 ##### 5.1.2.1. Organization Systems
 
 **Organización Visual**
+<p align="justify">
 Se escogió la jerarquía visual para permitir que el usuario pueda seguir el contenido de la página o aplicación de manera correcta, en el orden de importancia. Por eso, se utilizan distintos tipos de tamaño de texto para asegurarnos de que la diferencia de la importancia de cada oración sea clara y precisa para que los clientes entiendan fácilmente. Por ejemplo, acorde a lo mencionado, se utilizaría un tamaño de letra más grande para los títulos y uno más ligero y pequeño para los subtítulos; esto sería aún más notorio con los párrafos.
+</p>
 
+<p align="justify">
 También contamos con la organización secuencial, para que los clientes que tienen problemas legales puedan saber el orden preciso para crear su caso en la aplicación y escoger al abogado de su preferencia a través de las recomendaciones brindadas.
+</p>
 
 **Esquema de Categorización**:
 
@@ -4091,18 +3874,56 @@ Aquí se encuentra la captura de las contribuciones de la landing page
 
 ##### 6.2.2.1. Sprint Planning 2
 
-| Sprint #                           | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Date                               | 2025-05-22                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Time                               | 16:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Location                           | Google Meet                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Prepared By                        | Gonzalo Zavala                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Attendees (to planning meeting)    | Camila Loli, Bárbara Espinoza, Johan Quiñones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Sprint 1 – 2 Review Summary        | Durante el Sprint 1, se entregó el informe del proyecto con los capítulos desarrollados para la actividad. Asimismo, se implementaron funcionalidades clave para la creación de la aplicación móvil: autenticación, creación de cuentas para los segmentos objetivos (cliente y abogado) y la visualización del mismo. También, avanzó el desarrolló de la landing page. Por último, el *Product Owner* expresó satisfacción con el avance que se presentó. Brindó un feedback respecto al desarrollo del backend y del backlog para el sprint anterior.                                                                                                                                                                                                                                                                                                                                                                                |
-| Sprint 1 – 2 Retrospective Summary | Como equipo, hemos notado que necesitamos mejorar la comunicación para establecer una base para los siguientes avances. Como solución, para avanzar de manera eficaz, decidimos determinar un horario fijo para las tareas a cumplir de manera semanal y tener una reunión después de cada una para asegurarnos de que los avances son coherentes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Sprint 2 Goal                      | Nuestro enfoque está en completar la implementación del backend de la aplicación móvil (LawConnect), finalizar con la versión de la aplicación para los abogados en Kotlin y empezar el desarrollo del frontend en Flutter para la versión de los clientes.<br>Consideramos que esto proporciona una base sólida para la interacción entre abogados y clientes, debido a que permite validar el flujo completo de la interacción de los usuarios desde la creación de sus cuentas en la aplicación hasta la gestión de casos (los abogados serían capaces de recibir invitaciones, postular a casos, manejar los estados de sus casos; los clientes podrían crear los casos, invitar abogados, aceptar o rechazar una postulación).<br>Esto será confirmado cuando se despliegue la versión funcional de la aplicación para los abogados, y se pueda visualizar las principales pantallas para el cliente (inicio de sesión, registro). |
-| Sprint 2 Velocity                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Sum of Story points                | Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+<table>
+    <tr>
+        <th>Sprint #</th>
+        <th>Sprint 2</th>
+    </tr>
+    <tr>
+        <td>Date</td>
+        <td>16:00 PM</td>
+    </tr>
+    <tr>
+        <td>Location</td>
+        <td>Google Meet</td>
+    </tr>
+    <tr>
+        <td>Prepared By</td>
+        <td>Gonzalo Zavala</td>
+    </tr>
+    <tr>
+        <td>Attendees (to planning meeting)</td>
+        <td>Camila Loli, Bárbara Espinoza, Johan Quiñones</td>
+    </tr>
+    <tr align="justify">
+        <td>Sprint 1 – 2 Review Summary</td>
+        <td>
+            Durante el Sprint 1, se entregó el informe del proyecto con los capítulos desarrollados para la actividad. Asimismo, se implementaron funcionalidades clave para la creación de la aplicación móvil: autenticación, creación de cuentas para los segmentos objetivos (cliente y abogado) y la visualización del mismo. También, avanzó el desarrolló de la landing page. Por último, el Product Owner expresó satisfacción con el avance que se presentó. Brindó un feedback respecto al desarrollo del backend y del backlog para el sprint anterior.
+        </td>
+    </tr>
+    <tr align="justify">
+        <td>Sprint 1 – 2 Retrospective Summary</td>
+        <td>
+            Como equipo, hemos notado que necesitamos mejorar la comunicación para establecer una base para los siguientes avances. Como solución, para avanzar de manera eficaz, decidimos determinar un horario fijo para las tareas a cumplir de manera semanal y tener una reunión después de cada una para asegurarnos de que los avances son coherentes.
+        </td>
+    </tr>
+        <tr align="justify">
+        <td>Sprint 2 Goal</td>
+        <td>
+            Nuestro enfoque está en completar la implementación del backend de la aplicación móvil (LawConnect), finalizar con la versión de la aplicación para los abogados en Kotlin y empezar el desarrollo del frontend en Flutter para la versión de los clientes.
+            Consideramos que esto proporciona una base sólida para la interacción entre abogados y clientes, debido a que permite validar el flujo completo de la interacción de los usuarios desde la creación de sus cuentas en la aplicación hasta la gestión de casos (los abogados serían capaces de recibir invitaciones, postular a casos, manejar los estados de sus casos; los clientes podrían crear los casos, invitar abogados, aceptar o rechazar una postulación).
+            Esto será confirmado cuando se despliegue la versión funcional de la aplicación para los abogados, y se pueda visualizar las principales pantallas para el cliente (inicio de sesión, registro).
+        </td>
+    </tr>
+    <tr>
+        <td>Sprint 2 Velocity</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Sum of Story points</td>
+        <td>Story Points</td>
+    </tr>
+</table>
 
 ##### 6.2.2.2. Sprint Backlog 2
 
