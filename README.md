@@ -3948,46 +3948,46 @@ En esta parte se listan las preguntas a realizar a nuestros entrevistados de amb
 3. ¿Qué dificultades encuentras al intentar contactar a un abogado?
 
 **Preguntas sobre la Landing Page**  
-4. ¿Qué le parece la apariencia general de nuestra página web?
-5. ¿Considera que falta información?
-6. ¿Las funcionalidades de la aplicación a utilizar están claras?
-7. ¿Hay algún aspecto en la página web que le parezca confuso?
-8. ¿Hay algo que mejoraría de la presentación de la página web?
-
+  4. ¿Qué le parece la apariencia general de nuestra página web? 
+  5. ¿Considera que falta información?  
+  6. ¿Las funcionalidades de la aplicación a utilizar están claras?  
+  7. ¿Hay algún aspecto en la página web que le parezca confuso?  
+  8. ¿Hay algo que mejoraría de la presentación de la página web?  
+  
 **Preguntas sobre la aplicación móvil**  
-9. ¿Tuvo dificultades para crear un caso y escoger un abogado de su elección?
-10. ¿Considera relevante la funcionalidad de invitar un abogado de su preferencia a su caso?
-11. ¿La aplicación le transmite confianza al momento de tomar decisiones?
-12. ¿Pudo identificar fácilmente los estados de su caso?
-13. ¿Cómo calificaría su experiencia de usuario? ¿Fue una navegación intuitiva?
-14. ¿Pudo completar las tareas sin ayuda?
-15. ¿Considera que los tiempos de carga o interacciones razonable?
-16. ¿Recomendaría esta solución a alguien en su situación?
-17. ¿Qué características le gustaría ver en una versión futura?
+  9. ¿Tuvo dificultades para crear un caso y escoger un abogado de su elección?  
+  10. ¿Considera relevante la funcionalidad de invitar un abogado de su preferencia a su caso?  
+  11. ¿La aplicación le transmite confianza al momento de tomar decisiones?  
+  12. ¿Pudo identificar fácilmente los estados de su caso?  
+  13. ¿Cómo calificaría su experiencia de usuario? ¿Fue una navegación intuitiva?  
+  14. ¿Pudo completar las tareas sin ayuda?  
+  15. ¿Considera que los tiempos de carga o interacciones razonable?  
+  16. ¿Recomendaría esta solución a alguien en su situación?  
+  17. ¿Qué características le gustaría ver en una versión futura?  
 
 **SEGMENTO OBJETIVO 2:** Abogados egresados  
-**Preguntas específicas sobre su situación actual** (Para recapitular la entrevista anterior)
-1. ¿Qué medios utiliza actualmente para conseguir clientes o casos?
-2. ¿Cuáles son sus mayores frustraciones al intentar conseguir trabajo en el rubro legal?
-3. ¿Qué características considera que son necesarias para ser contratado?
+**Preguntas específicas sobre su situación actual** (Para recapitular la entrevista anterior)  
+1. ¿Qué medios utiliza actualmente para conseguir clientes o casos?  
+2. ¿Cuáles son sus mayores frustraciones al intentar conseguir trabajo en el rubro legal?  
+3. ¿Qué características considera que son necesarias para ser contratado?  
 
 **Preguntas sobre la Landing Page**  
-4. ¿Qué le parece la apariencia general de nuestra página web?
-5. ¿Considera que falta información?
-6. ¿Las funcionalidades de la aplicación a utilizar están claras?
-7. ¿Hay algún aspecto en la página web que le parezca confuso?
-8. ¿Hay algo que mejoraría de la presentación de la página web?
+  4. ¿Qué le parece la apariencia general de nuestra página web?  
+  5. ¿Considera que falta información?  
+  6. ¿Las funcionalidades de la aplicación a utilizar están claras?  
+  7. ¿Hay algún aspecto en la página web que le parezca confuso?  
+  8. ¿Hay algo que mejoraría de la presentación de la página web?  
 
 **Preguntas sobre la aplicación móvil**  
-9. ¿La experiencia fue clara al momento de completar su perfil profesional?
-10. ¿Qué tan útil le pareció la opción de aceptar o rechazar invitaciones a casos de clientes desde la aplicación?
-11. ¿La búsqueda de casos y forma de aplicación a los mismo fue entendible a medida que realizó las acciones?
-12. ¿Pudo identificar fácilmente los estados de su caso?
-13. ¿Cómo calificaría su experiencia de usuario? ¿Fue una navegación intuitiva?
-14. ¿Pudo completar las tareas sin ayuda?
-15. ¿Considera que los tiempos de carga o interacciones fueron razonables?
-16. ¿Recomendaría esta solución a alguien en su situación?
-17. ¿Qué características le gustaría ver en una versión futura?
+  9. ¿La experiencia fue clara al momento de completar su perfil profesional?  
+  10. ¿Qué tan útil le pareció la opción de aceptar o rechazar invitaciones a casos de clientes desde la aplicación?  
+  11. ¿La búsqueda de casos y forma de aplicación a los mismo fue entendible a medida que realizó las acciones?  
+  12. ¿Pudo identificar fácilmente los estados de su caso?  
+  13. ¿Cómo calificaría su experiencia de usuario? ¿Fue una navegación intuitiva?  
+  14. ¿Pudo completar las tareas sin ayuda?  
+  15. ¿Considera que los tiempos de carga o interacciones fueron razonables?  
+  16. ¿Recomendaría esta solución a alguien en su situación?  
+  17. ¿Qué características le gustaría ver en una versión futura?  
 
 #### 6.3.2. Registro de Entrevistas
 
