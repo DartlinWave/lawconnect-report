@@ -3945,15 +3945,15 @@ Aquí se encuentra la captura de las contribuciones de la landing page
 
 | **Repository**             | 	**Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
 |----------------------------|-------------|---------------|--------------------|-------------------------|------------------------|
-| LawConnect-AcceptanceTests | main        | 429b823       | docs: add HU02     | -                       | 16/05/2025             |
-| LawConnect-AcceptanceTests | main        | 75d69e1       | docs: add HU03     | -                       | 16/05/2025             |
-| LawConnect-AcceptanceTests | main        | 35d3daf       | docs: add HU05     | -                       | 16/05/2025             |
-| LawConnect-AcceptanceTests | main        | 3cc8808       | docs: add HU07     | -                       | 16/05/2025             |
-| LawConnect-AcceptanceTests | main        | d16684d       | docs: add HU17     | -                       | 16/05/2025             |
-| LawConnect-AcceptanceTests | main        | 032f6d4       | docs: add HU18     | -                       | 16/05/2025             |
-| LawConnect-AcceptanceTests | main        | 20b5b68       | docs: add HU19     | -                       | 16/05/2025             |
-| LawConnect-AcceptanceTests | main        | 1d2cc0c       | docs: add HU20     | -                       | 16/05/2025             |
-| LawConnect-AcceptanceTests | main        | 131097c       | docs: add HU26     | -                       | 16/05/2025             |
+| LawConnect-AcceptanceTests | main        | bac474e       | docs: add HU08     | -                       | 17/06/2025             |
+| LawConnect-AcceptanceTests | main        | e5d9801       | docs: add HU09     | -                       | 17/06/2025             |
+| LawConnect-AcceptanceTests | main        | 191d1bf       | docs: add HU11     | -                       | 17/06/2025             |
+| LawConnect-AcceptanceTests | main        | 740fa2b       | docs: add HU12     | -                       | 17/06/2025             |
+| LawConnect-AcceptanceTests | main        | 7f88066       | docs: add HU13     | -                       | 17/06/2025             |
+| LawConnect-AcceptanceTests | main        | 1d991dd       | docs: add HU21     | -                       | 17/06/2025             |
+| LawConnect-AcceptanceTests | main        | 468c8e0       | docs: add HU22     | -                       | 17/06/2025             |
+| LawConnect-AcceptanceTests | main        | b32125f       | docs: add HU23     | -                       | 17/06/2025             |
+| LawConnect-AcceptanceTests | main        | 354bd88       | docs: add HU24     | -                       | 17/06/2025             |
 
 Link de GitHub: https://github.com/DartlinWave/LawConnect-AcceptanceTests
 ##### 6.2.2.5. Execution Evidence for Sprint Review
