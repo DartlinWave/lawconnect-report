@@ -3927,10 +3927,35 @@ Aquí se encuentra la captura de las contribuciones de la landing page
 
 ##### 6.2.2.2. Sprint Backlog 2
 
+| User Story                                              | Work-item/Task                                                   | Description                                                | Estimation (Hours) | Assigned To | Status |
+|---------------------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------|--------------------|-------------|--------|
+| HU08 - Búsqueda de Abogado                              | W01 Complete "lawyer search" feature in frontend                 | Implementar las pantallas de busqueda de abogado           | 3                  | Bárbara     | Done   |
+| HU09 - Consulta de Perfil de Abogado                    | W02 Create "Lawyers view" feature in frontend                    | Implementar las pantallas de perfiles de abogados          | 5                  | Bárbara     | Done   |
+| HU11 - Visualización de Consultas Pendientes            | W03 Create "consults view" feature in the frontend               | Implementar las pantallas de vista de consultas pendientes | 6                  | Gonzalo     | Done   |
+| HU12 - Visualización de Historial de Consultas          | W04 Create "consults history" feature in frontend                | Implementar las pantallas de historial de consultas        | 5                  | Gonzalo     | Done   |
+| HU13 - Visualización de Progreso de Caso                | W05 Create "case progress" feature in frontend                   | Implementar las pantallas de busqueda de abogado           | 6                  | Camila      | Done   |
+| HU21 - Consulta de Disponibilidad de Abogados           | W06 Create "Lawyers availability" feature in frontend            | Implementar las pantallas de busqueda de abogado           | 4                  | Johan       | Done   |
+| HU22 - Solicitud de Cita con Abogado                    | W07 Create "appointment with lawyer" feature in frontend         | Implementar las pantallas de busqueda de abogado           | 5                  | Camila      | Done   |
+| HU23 - Solicitud de Cita con Abogado por número celular | W08 Create "appointment with lawyer´s phone" feature in frontend | Implementar las pantallas de busqueda de abogado           | 5                  | Camila      | Done   |
+| HU24 - Revisión del Progreso del Caso                   | W09 Create "Case progress review" feature in frontend            | Implementar las pantallas de busqueda de abogado           | 5                  | Johan       | Done   |
 
 
 ##### 6.2.2.3. Development Evidence for Sprint Review
 ##### 6.2.2.4. Testing Suite Evidence for Sprint Review
+
+| **Repository**             | 	**Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------------------|-------------|---------------|--------------------|-------------------------|------------------------|
+| LawConnect-AcceptanceTests | main        | 429b823       | docs: add HU02     | -                       | 16/05/2025             |
+| LawConnect-AcceptanceTests | main        | 75d69e1       | docs: add HU03     | -                       | 16/05/2025             |
+| LawConnect-AcceptanceTests | main        | 35d3daf       | docs: add HU05     | -                       | 16/05/2025             |
+| LawConnect-AcceptanceTests | main        | 3cc8808       | docs: add HU07     | -                       | 16/05/2025             |
+| LawConnect-AcceptanceTests | main        | d16684d       | docs: add HU17     | -                       | 16/05/2025             |
+| LawConnect-AcceptanceTests | main        | 032f6d4       | docs: add HU18     | -                       | 16/05/2025             |
+| LawConnect-AcceptanceTests | main        | 20b5b68       | docs: add HU19     | -                       | 16/05/2025             |
+| LawConnect-AcceptanceTests | main        | 1d2cc0c       | docs: add HU20     | -                       | 16/05/2025             |
+| LawConnect-AcceptanceTests | main        | 131097c       | docs: add HU26     | -                       | 16/05/2025             |
+
+Link de GitHub: https://github.com/DartlinWave/LawConnect-AcceptanceTests
 ##### 6.2.2.5. Execution Evidence for Sprint Review
 ##### 6.2.2.6. Services Documentation Evidence for Sprint Review
 ##### 6.2.2.7. Software Deployment Evidence for Sprint Review
