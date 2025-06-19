@@ -3940,9 +3940,58 @@ Aquí se encuentra la captura de las contribuciones de la landing page
 ##### 6.2.2.7. Software Deployment Evidence for Sprint Review
 ##### 6.2.2.8. Team Collaboration Insights during Sprint
 
-### 6.3. Validation Interviews
+### 6.3. Validation Interviews  
+En esta sección se presentará el proceso de diseño de las entrevistas, su respectivo registro y las evaluaciones según las heurísticas para entender la perspectiva de nuestros segmentos objetivos respecto a nuestra aplicación. Aprenderemos qué necesitamos cambiar, mejorar y qué debemos mantener para cumplir con el objetivo que tenemos planteado para el éxito del producto.
+#### 6.3.1. Diseño de Entrevistas  
+En esta parte se listan las preguntas a realizar a nuestros entrevistados de ambos segmentos objetivos. De esta manera, conoceremos su opinión sobre la landing page y aplicación móvil; así, podremos mejorar o mantener algunos aspectos de nuestros productos.
 
-#### 6.3.1. Diseño de Entrevistas
+**SEGMENTO OBJETIVO 1:** Personas con problemas legales
+**Preguntas específicas sobre su situación actual** (Para recapitular la entrevista anterior)
+1. ¿Ha necesitado asesorías legales en los últimos seis meses? ¿Cómo las consiguió?
+2. ¿Cuáles son sus criterios para confiar en un abogado? ¿Podrías listarlo?
+3. ¿Qué dificultades encuentras al intentar contactar a un abogado?
+
+**Preguntas sobre la Landing Page**  
+1. ¿Qué le parece la apariencia general de nuestra página web? 
+2. ¿Considera que falta información?  
+3. ¿Las funcionalidades de la aplicación a utilizar están claras?  
+4. ¿Hay algún aspecto en la página web que le parezca confuso?  
+5. ¿Hay algo que mejoraría de la presentación de la página web?  
+  
+**Preguntas sobre la aplicación móvil**  
+1. ¿Tuvo dificultades para crear un caso y escoger un abogado de su elección?  
+2. ¿Considera relevante la funcionalidad de invitar un abogado de su preferencia a su caso?  
+3. ¿La aplicación le transmite confianza al momento de tomar decisiones?  
+4. ¿Pudo identificar fácilmente los estados de su caso?  
+5. ¿Cómo calificaría su experiencia de usuario? ¿Fue una navegación intuitiva?  
+6. ¿Pudo completar las tareas sin ayuda?  
+7. ¿Considera que los tiempos de carga o interacciones razonable?  
+8. ¿Recomendaría esta solución a alguien en su situación?  
+9. ¿Qué características le gustaría ver en una versión futura?  
+
+**SEGMENTO OBJETIVO 2:** Abogados egresados  
+**Preguntas específicas sobre su situación actual** (Para recapitular la entrevista anterior)  
+1. ¿Qué medios utiliza actualmente para conseguir clientes o casos?  
+2. ¿Cuáles son sus mayores frustraciones al intentar conseguir trabajo en el rubro legal?  
+3. ¿Qué características considera que son necesarias para ser contratado?  
+
+**Preguntas sobre la Landing Page**  
+1. ¿Qué le parece la apariencia general de nuestra página web?  
+2. ¿Considera que falta información?  
+3. ¿Las funcionalidades de la aplicación a utilizar están claras?  
+4. ¿Hay algún aspecto en la página web que le parezca confuso?  
+5. ¿Hay algo que mejoraría de la presentación de la página web?  
+
+**Preguntas sobre la aplicación móvil**  
+1. ¿La experiencia fue clara al momento de completar su perfil profesional?  
+2. ¿Qué tan útil le pareció la opción de aceptar o rechazar invitaciones a casos de clientes desde la aplicación?  
+3. ¿La búsqueda de casos y forma de aplicación a los mismo fue entendible a medida que realizó las acciones?  
+4. ¿Pudo identificar fácilmente los estados de su caso?  
+5. ¿Cómo calificaría su experiencia de usuario? ¿Fue una navegación intuitiva?  
+6. ¿Pudo completar las tareas sin ayuda?  
+7. ¿Considera que los tiempos de carga o interacciones fueron razonables?  
+8. ¿Recomendaría esta solución a alguien en su situación?  
+9. ¿Qué características le gustaría ver en una versión futura?  
 
 #### 6.3.2. Registro de Entrevistas
 
