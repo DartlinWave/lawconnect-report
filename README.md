@@ -3988,6 +3988,10 @@ Link de GitHub: https://github.com/DartlinWave/LawConnect-AcceptanceTests
 - Match con abogados
 - Botones de redirección
 
+**No están incluidas en esta versión de la evaluación las siguientes tareas:**
+1. Creación de nuevo caso
+2. Filtrado de casos segun estado
+3. Visibilidad del perfil de usuario
 
 **Escala de severidad**
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
@@ -4073,228 +4077,103 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 **Descripción de problemas**  
 
-**Problema 1:** Los botones de iniciar sesión con Google o Apple no funcionan
+**Problema 1:** El registro no tiene un aviso de aceptación de términos y condiciones
+
+**Severidad:** 3
+
+**Heurística violada:** Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores.
+
+**Problema:** Al registrar una nueva cuenta no hay T&C para aceptar o denegar previos al registro.
+
+**Recomendación:** Se recomienda incluir términos y condiciones que se mostrarán al usuario antes de proceder con su registro.
+
+
+![Problema1](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%201.png)  
+
+
+**Problema 2:** El registro no tiene una opción para agregar una foto de perfil
 
 **Severidad:** 2
 
 **Heurística violada:** Libertad y control del usuario
 
-**Problema:** Cuando se quiere iniciar sesión con Google o Apple, los botones no lo permiten.
+**Problema:** Al momento de registrarse no hay un campo que permita cargar una foto de perfil.
 
-**Recomendación:** Se recomienda hacer que los botones redirijan a la pestana de registro general y permitir que el input deje registrar con cuentas Google o Apple.
-
-
-![Problema1](https://github.com/user-attachments/assets/6e85f96a-b4e0-4fba-af42-7fbcf47e72c8)  
+**Recomendación:** Se recomienda incluir un campo de texto para una url de imagen o una funcionalidad que permita cargar fotos desde la galería.  
 
 
-**Problema 2:** Al registrarse redirige a una ventana vacía
+![Problema2](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%202.png)
+
+
+**Problema 3:** Los perfiles de abogados del apartado "home" no redireccionan a la pantalla de perfil completo de abogado..
+
+**Severidad:** 1
+
+**Heurística violada:** Libertad y control del usuario
+
+**Problema:**En el apartado "Home" se muestran los abogados recomendados pero al dar click no muestra más información de ellos.
+
+**Recomendación:** Se recomienda redireccionar al perfil completo del abogado al dar click a la tarjeta.
+
+
+![Problema3](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%203.png)
+
+
+**Problema 4:** No hay botones de regreso a pantallas anteriores
 
 **Severidad:** 4
 
 **Heurística violada:** Libertad y control del usuario
 
-**Problema:** Al momento de terminar de llenar los datos en el formulario de registro y dar click en registrarte, el botón redirige a una ventana en blanco.
+**Problema:** Cuando se avanza en algunos procesos dentro de la misma sección no se muestra un botón para regresar a pasos anteriores.
 
-**Recomendación:** Se recomienda hacer que el botón redirija a la ventana de inicio de sesión.  
+**Recomendación:** Se recomiendaincluir botones de retroceso.
 
 
-![Problema2](https://github.com/user-attachments/assets/c281ba08-393e-461a-8850-a180b6191dbb)
+![Problema4](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%204.png)
 
 
-![Problema2-3](https://github.com/user-attachments/assets/22a3717d-d95e-47ef-8624-8caabf587612)  
+**Problema 5:** El "Match" de un abogado con un cliente puede resultar confuso.
 
+**Severidad:** 2
 
-**Problema 3:** El registro no tiene validaciones ni alertas para el usuario cuando intenta registrarse poniendo dos contraseñas diferentes o un correo sin formato
+**Heurística violada:** Coincidencia entre el sistema y el mundo real
 
-**Severidad:** 3
+**Problema:** El concepto de "Match" refiere a cuando un abogado acepta o rechaza trabajar en un caso pero puede que este concepto no sea muy entendible en un incio.
 
-**Heurística violada:** Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores
+**Recomendación:** Se recomienda una breve explicación de la funcionalidad cuando se presente la opción de usarla.
 
-**Problema:** Al momento de llenar el formulario con datos erróneos, se permite el registro sin alertar al usuario que esta ingresando datos que no deberían ser válidos.
 
-**Recomendación:** Se recomienda incluir mensajes de error debajo de cada input especificando que los datos que se están ingresando no son válidos.
+![Problema5](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%205.png)
 
 
-![Problema3](https://github.com/user-attachments/assets/44adc02b-e176-4954-b6d0-af20157be40f)
-
-
-**Problema 4:** El botón de login en la ventana de register no redirige
-
-**Severidad:** 4
-
-**Heurística violada:** Libertad y control del usuario
-
-**Problema:** Al momento de terminar de llenar los datos en el formulario de inicio de sesión y dar click en el botón, se redirige a una ventana en blanco.
-
-**Recomendación:** Se recomienda hacer que el botón redirija a la ventana Home.
-
-
-![Problema4](https://github.com/user-attachments/assets/293c59e0-d0ad-41c5-b3df-c211ae14c066)
-
-
-**Problema 5:** La aplicación no es responsiva a pantallas medianas y pequeñas
-
-**Severidad:** 3
-
-**Heurística violada:** Libertad de uso y control
-
-**Problema:** Los componentes de la aplicación se sobreponen en lugar de acomodarse al reducir el tamaño de la pantalla
-
-**Recomendación:** Se recomienda el uso de prime flex o media queries para controlar el tamaño y posición de los componentes cuando la pantalla es reducida.
-
-
-![Problema5](https://github.com/user-attachments/assets/85effa13-20ce-44f5-87c0-e796108d8906)
-
-
-**Problema 6:** El botón de confirmar reserva al ser presionado no notifica si se realizó la reserva o hubo algún error.
-
-**Severidad:** 3
-
-**Heurística violada:** Visibilidad del estado del sistema
-
-**Problema:** Al momento de haber acabado de llenar los datos de la reserva, no hay manera de saber si la reserva se realizó u ocurrió algún error.
-
-**Recomendación:** Se recomienda incluir un componente de notificación o popup que le pueda indicar al usuario el estado de la creación de una nueva reserva.
-
-
-![Problema6](https://github.com/user-attachments/assets/758c057a-0f03-45ab-bb27-621ccc13b213)
-
-
-**Problema 7:** El botón de Manage Subscription no muestra la suscripción comprada
-
-**Severidad:** 3
-
-**Heurística violada:** Reconocimiento en lugar de recordar
-
-**Problema:** Al momento de dar click en Manage Subscription, no muestra la suscripción comprada o si el usuario no ha comprado ninguna.
-
-**Recomendación:** Se recomienda incluir un componente que muestre los datos de la suscripción adquirida.
-
-
-![Problema7](https://github.com/user-attachments/assets/d1e1ee5c-ca37-42fc-9f4e-a32bb179b55b)
-
-
-**Problema 8:** El buscador no funciona
-
-**Severidad:** 4
-
-**Heurística violada:** Libertad y control del usuario
-
-**Problema:** Al momento de querer buscar una ubicación, este no muestra nada.
-
-**Recomendación:** Se recomienda que el componente del buscador pueda tener acceso al componente que muestre los lugares para que sean mostrados únicamente los lugares que tengan un nombre que coincida.
-
-
-![Problema8](https://github.com/user-attachments/assets/9701f7e7-7c98-44e7-a9e2-4dbd6ccf831e)
-
-
-**Problema 9:** El Payment Form no tiene validaciones
-
-**Severidad:** 3
-
-**Heurística violada:** Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores
-
-**Problema:** Al momento de llenar el formulario con datos erróneos, se permite el pago sin alertar al usuario que esta ingresando datos que no deberían ser válidos.
-
-**Recomendación:** Se recomienda incluir mensajes de error debajo de cada input especificando que los datos que se están ingresando no son válidos.
-
-
-![Problema9](https://github.com/user-attachments/assets/f1be1fa7-ad15-451f-9f0f-7db5fe7d37bc)
-
-
-**Problema 10:** El perfil muestra datos de un usuario por defecto enves de los datos del usuario con el que se inició sesión
-
-**Severidad:** 3
-
-**Heurística violada:** Visibilidad del estado del sistema
-
-**Problema:** Al momento de iniciar sesión con una cuenta recién creada y dirigrse al perfil, se muestran datos por defecto y no los datos con los que se inició sesión
-
-**Recomendación:** Se recomienda que los componentes tengan acceso a los datos almacenados en el local storage cuando se inicie sesión o que los datos se obtengan desde la api.
-
-
-![Problema10](https://github.com/user-attachments/assets/e6184f93-0877-4c98-9236-04774a2bf173)
-
-
-**Problema 11:** Los botones de edición de datos del perfil no funcionan
+**Problema 6:** El botón de contactar a un abogado no muestra opciones diversas de contacto.
 
 **Severidad:** 3
 
 **Heurística violada:** Libertad y control del usuario
 
-**Problema:** Al momento de querer editar datos, el botón no permite la acción ni notifica al usuario sobre algún error.
+**Problema:** Al momento depresionar el botón de contactar abogado, no muestra varias opciones de contacto.
 
-**Recomendación:** Se recomienda manejar una solicitud POST y notificar al usuario cuando se editaron los datos o si ocurrió algún error.
-
-
-![Problema11](https://github.com/user-attachments/assets/ac55d5fd-d1c3-4ead-926f-9b3137e3953f)
+**Recomendación:** Se recomienda incluir diversas opciones de contacto con el abogado, por ejemplo celular, teléfono, correo, redes sociales, etc.
 
 
-**Problema 12:** Los settings no funcionan
-
-**Severidad:** 3
-
-**Heurística violada:** Libertad y control del usuario
-
-**Problema:** Al momento de querer configurar la vista de la aplicación, no guarda los cambios y la vista se sigue viendo igual.
-
-**Recomendación:** Se recomienda manejar una solicitud PUT y notificar al usuario cuando se editaron los datos o si ocurrió algún error.
+![Problema6](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%206.png)
 
 
-![Problema12](https://github.com/user-attachments/assets/f805f40b-aa77-4a98-8a9c-8818e9691ee8)
-
-
-**Problema 13:** No se muestran las notificaciones
+**Problema 7:** El buscador de abogados no refresca automaticamente la busqueda al cambiar los filtros.
 
 **Severidad:** 2
 
 **Heurística violada:** Visibilidad del estado del sistema
 
-**Problema:** Al momento de haber acabado de registrar una nueva cuenta, la aplicación no indica al usuario si la cuenta fue creada con éxito o no.
+**Problema:** Al momento de filtrar, buscar, ingresar al perfil de un abogado y regresar, el buscador no muestra la lista anterior hasta que se vuelva a usar el filtro.
 
-**Recomendación:** Se recomienda incluir alertas al realizar acciones, guardarlas y mostrarse y guardarse en notificaciones.
-
-
-![Problema13](https://github.com/user-attachments/assets/41aadac4-6957-41b2-ac86-8feb2589686c)
+**Recomendación:** Se recomienda hacer que el buscador y los filtros funcionen aún cuando se cambia de pantalla.
 
 
-**Problema 14:** No permite cerrar sesión
+![Problema7](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%207.png)
 
-**Severidad:** 3
-
-**Heurística violada:** Libertad y control del usuario
-
-**Problema:** Al momento de haber acabado de registrar una nueva cuenta, la aplicación no indica al usuario si la cuenta fue creada con éxito o no.
-
-**Recomendación:** Se recomienda que el botón redirija a la ventana de inicio de sesión y limpie el local storage.
-
-
-![Problema14](https://github.com/user-attachments/assets/4bd7ba93-3a24-4204-a695-34f3877e2a56)
-
-
-**Problema 15:** No permite desactivar la cuenta
-
-**Severidad:** 3
-
-**Heurística violada:** Libertad y control del usuario
-
-**Problema:** Al momento de haber acabado de registrar una nueva cuenta, la aplicación no indica al usuario si la cuenta fue creada con éxito o no.
-
-**Recomendación:** Se recomienda manejar una solicitud DELETE y notificar al usuario cuando se borraron los datos o si ocurrió algún error.
-
-
-![Problema15](https://github.com/user-attachments/assets/45c9ecb6-2284-4d8c-b50b-4e309390668c)
-
-
-**Problema 16:** Muestra reservas por defecto y no las reservas hechas por el usuario
-
-**Severidad:** 3
-
-**Heurística violada:** Visibilidad del estado del sistema
-
-**Problema:** Se muestran reservas que no hizo el usuario con el que se inicia sesión y no guarda las reservas que se realizan con la cuenta logeada.
-
-**Recomendación:** Se recomienda manejar una solicitud POST y mostrar la lista de reservas creadas.
 
 
 ### 6.4. Video About-the-Product
