@@ -3930,10 +3930,83 @@ Aquí se encuentra la captura de las contribuciones de la landing page
 
 ##### 6.2.2.2. Sprint Backlog 2
 
+| User Story                                              | Work-item/Task                                                   | Description                                                | Estimation (Hours) | Assigned To | Status |
+|---------------------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------|--------------------|-------------|--------|
+| HU08 - Búsqueda de Abogado                              | W01 Complete "lawyer search" feature in frontend                 | Implementar las pantallas de busqueda de abogado           | 3                  | Bárbara     | Done   |
+| HU09 - Consulta de Perfil de Abogado                    | W02 Create "Lawyers view" feature in frontend                    | Implementar las pantallas de perfiles de abogados          | 5                  | Bárbara     | Done   |
+| HU11 - Visualización de Consultas Pendientes            | W03 Create "consults view" feature in the frontend               | Implementar las pantallas de vista de consultas pendientes | 6                  | Gonzalo     | Done   |
+| HU12 - Visualización de Historial de Consultas          | W04 Create "consults history" feature in frontend                | Implementar las pantallas de historial de consultas        | 5                  | Gonzalo     | Done   |
+| HU13 - Visualización de Progreso de Caso                | W05 Create "case progress" feature in frontend                   | Implementar las pantallas de busqueda de abogado           | 6                  | Camila      | Done   |
+| HU21 - Consulta de Disponibilidad de Abogados           | W06 Create "Lawyers availability" feature in frontend            | Implementar las pantallas de busqueda de abogado           | 4                  | Johan       | Done   |
+| HU22 - Solicitud de Cita con Abogado                    | W07 Create "appointment with lawyer" feature in frontend         | Implementar las pantallas de busqueda de abogado           | 5                  | Camila      | Done   |
+| HU23 - Solicitud de Cita con Abogado por número celular | W08 Create "appointment with lawyer´s phone" feature in frontend | Implementar las pantallas de busqueda de abogado           | 5                  | Camila      | Done   |
+| HU24 - Revisión del Progreso del Caso                   | W09 Create "Case progress review" feature in frontend            | Implementar las pantallas de busqueda de abogado           | 5                  | Johan       | Done   |
 
 
 ##### 6.2.2.3. Development Evidence for Sprint Review
+
+| **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+|----------------|------------|---------------|--------------------|-----------------------|------------------------|
+| LawConnect-Mobile-Flutter | feature/case-lawyer | d0d13fc | chore: update README.md with the repository's description | | 31/05/2025 |
+| LawConnect-Mobile-Flutter | feature/case-lawyer | 123215c | feat: add color palette | | 31/05/2025 |
+| LawConnect-Mobile-Flutter | feature/case-lawyer | 4d23e4b | feat: add a new color to the color palette | | 31/05/2025 |
+| LawConnect-Mobile-Flutter | feature/case-lawyer | 0813725 | feat: add main page for the bottom navigation bar | | 31/05/2025 |
+| LawConnect-Mobile-Flutter | feature/case-lawyer | fd3c5ef | feat: add the name of the application and home | | 31/05/2025 |
+| LawConnect-Mobile-Flutter | feature/case-lawyer | e7541b7 | feat: add custom button | | 31/05/2025 |
+| LawConnect-Mobile-Flutter | feature/case-lawyer | 13fc8bd | feat: add main page and home page (to test buttons) | | 31/05/2025 |
+| LawConnect-Mobile-Flutter | feature/screen-client | bb6c412 | feat: add font family to main.dart | | 03/06/2025 |
+| LawConnect-Mobile-Flutter | feature/screen-client | b6df9db | chore: add family font Plus Jakarta Sans | | 03/06/2025 |
+| LawConnect-Mobile-Flutter | feature/screen-client | 5b48b68 | fix: change directories for the files and add the logo | | 03/06/2025 |
+| LawConnect-Mobile-Flutter | feature/screen-client | e22752a | feat: add entity for client to mock data | | 05/06/2025 |
+| LawConnect-Mobile-Flutter | feature/screen-client | 2ef2789 | feat: add custom widget for app bar in all pages | | 06/06/2025 |
+| LawConnect-Mobile-Flutter | feature/screen-client | 329c32e | feat: add variable for image | | 06/06/2025 |
+| LawConnect-Mobile-Flutter | feature/screen-client | e479f8a | chore: add image for testing | | 06/06/2025 |
+| LawConnect-Mobile-Flutter | feature/screen-client | 7cc3bbe | feat: add profile page for client | | 06/06/2025 |
+| LawConnect-Mobile-Flutter | feature/screen-client | 29fe1cf | feat: add profile page and data view | | 07/06/2025 |
+| LawConnect-Mobile-Flutter | feature/screen-client | 18c1bc8 | feat: change text to actual page for profile | | 07/06/2025 |
+| LawConnect-Mobile-Flutter | feature/screen-client | 18c1bc8 | feat: add a custom app bar | | 07/06/2025 |
+| LawConnect-Mobile-Flutter | feature/screen-client | 2338ffb | fix: fix issue with column | | 07/06/2025 |
+| LawConnect-Mobile-Flutter | feature/screen-client | d94eac2 | feat: add visibility check box for profile | | 07/06/2025 |
+| LawConnect-Mobile-Flutter | feature/screen-client | b78ec19 | feat: add data | | 07/06/2025 |
+| LawConnect-Mobile-Flutter | feature/screen-client | b9fcbf1 | chore: lightened the color for the text boxes | | 07/06/2025 |
+| LawConnect-Mobile-Flutter | feature/screen-client | 5b9cb7f | chore: add some space between the client's name and last name | | 07/06/2025 |
+| LawConnect-Mobile-Flutter | feature/case-lawyer | 1ec3b33 | feat: add case-page, create-case,tracking-case and lawyer-profile | | 15/06/2025 |
+| LawConnect-Mobile-Flutter | origin/feature/client-home-lawyers-view | 1f800eb | feat: add home page | | 15/06/2025 |
+| LawConnect-Mobile-Flutter | origin/feature/client-home-lawyers-view | 73acf84 | feat: add customers and lawyers details | | 15/06/2025 |
+| lawconnect-android | main | 8b7751d | refactor: update AppTopBar styling to use white background with shadow and display username only | | 19/06/2025 |
+| lawconnect-android | main | ee66d9f | refactor: decouple profileNavGraph from AuthViewModel and simplify auth navigation callbacks | | 19/06/2025 |
+| lawconnect-android | main | dc36aa1 | refactor(auth): move AuthPreferences to data.di and update related imports in AuthInterceptor and AuthRepositoryImpl | | 19/06/2025 |
+| lawconnect-android | main | 2d65de4 | refactor(core): remove provideOkHttpClient and provideAuthApiService | | 19/06/2025 |
+| lawconnect-android | main | 591befe | feat(core): add LoggingInterceptorModule to provide HttpLoggingInterceptor | | 19/06/2025 |
+| lawconnect-android | main | 5db48bc | refactor(home): remove sign-out functionality and simplify HomeView and homeNavGraph | | 19/06/2025 |
+| lawconnect-android | main | 6980653 | feat: add support for providing a username stream and displaying it in the top-bar | | 19/06/2025 |
+| lawconnect-android | main | 7b9636b | feat(profile): add profileNavGraph and ProfileView composable | | 19/06/2025 |
+| lawconnect-android | main | b2cd8aa | feat(auth): add GetUsernameUseCase to provide username flow | | 19/06/2025 |
+| lawconnect-android | main | 18c702d | feat: add support for login flow | | 19/06/2025 |
+| lawconnect-android | main | 95a1685 | style(ui): refine design, update color palette and component styling | | 19/06/2025 |
+| lawconnect-android | main | 8343b80 | feat(ui-components): introduce themed ActionButton variants | | 19/06/2025 |
+| lawconnect-android | main | b320c17 | feat(core): default CustomTextField modifier to fillMaxWidth | | 19/06/2025 |
+| lawconnect-android | main | 877529d | feat(auth): add authentication support | | 19/06/2025 |
+| lawconnect-android | main | e2fb692 | refactor(navigation): move navigation classes from core.navigation to navigation package | | 19/06/2025 |
+| lawconnect-android | main | 843f209 | feat(core): add Root route to Graph sealed class | | 19/06/2025 |
+| lawconnect-android | main | 63e5a87 | feat(core): add enabled parameter to CustomButton composable | | 19/06/2025 |
+| lawconnect-android | main | f28a267 | feat(core): add UiConstants with BASE_URL constant | | 19/06/2025 |
+
 ##### 6.2.2.4. Testing Suite Evidence for Sprint Review
+
+| **Repository**             | 	**Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|----------------------------|-------------|---------------|--------------------|-------------------------|------------------------|
+| LawConnect-AcceptanceTests | main        | bac474e       | docs: add HU08     | -                       | 17/06/2025             |
+| LawConnect-AcceptanceTests | main        | e5d9801       | docs: add HU09     | -                       | 17/06/2025             |
+| LawConnect-AcceptanceTests | main        | 191d1bf       | docs: add HU11     | -                       | 17/06/2025             |
+| LawConnect-AcceptanceTests | main        | 740fa2b       | docs: add HU12     | -                       | 17/06/2025             |
+| LawConnect-AcceptanceTests | main        | 7f88066       | docs: add HU13     | -                       | 17/06/2025             |
+| LawConnect-AcceptanceTests | main        | 1d991dd       | docs: add HU21     | -                       | 17/06/2025             |
+| LawConnect-AcceptanceTests | main        | 468c8e0       | docs: add HU22     | -                       | 17/06/2025             |
+| LawConnect-AcceptanceTests | main        | b32125f       | docs: add HU23     | -                       | 17/06/2025             |
+| LawConnect-AcceptanceTests | main        | 354bd88       | docs: add HU24     | -                       | 17/06/2025             |
+
+Link de GitHub: https://github.com/DartlinWave/LawConnect-AcceptanceTests
 ##### 6.2.2.5. Execution Evidence for Sprint Review
 ##### 6.2.2.6. Services Documentation Evidence for Sprint Review
 ##### 6.2.2.7. Software Deployment Evidence for Sprint Review
@@ -3995,6 +4068,213 @@ En esta parte se listan las preguntas a realizar a nuestros entrevistados de amb
 #### 6.3.2. Registro de Entrevistas
 
 #### 6.3.3. Evaluaciones según heurísticas
+
+### 5.3.3. Evaluaciones según heurísticas
+
+**Carrera**: Ingeniería de Software </p>  
+**Curso**: NRC7128  
+**Profesor**: Jorge Luis Mayta Guillermo  
+**Auditor**:  Grupo 1 - DartlinWave </p>  
+**Cliente**:  Grupo 1 - DartlinWave  
+
+**SITE o APP evaluar:** **LawConnect**
+
+**Tareas a evaluar**
+- Mobile Application
+- Registro de un nuevo usuario
+- Inicio de sesión de usuario existente
+- Mostrar listado de casos/abogados
+- Prueba de buscador de abogados
+- Match con abogados
+- Botones de redirección
+
+**No están incluidas en esta versión de la evaluación las siguientes tareas:**
+1. Creación de nuevo caso
+2. Filtrado de casos segun estado
+3. Visibilidad del perfil de usuario
+
+**Escala de severidad**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+<table>
+  <tr>
+    <th><strong>Nivel</strong></th>
+    <th><strong>Descripción</strong></th>
+  </tr>
+  <tr>
+    <td><strong>1</strong></td>
+    <td><p>Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</p></td>
+  </tr>
+  <tr>
+    <td><strong>2</strong></td>
+    <td><p>Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente lanzamiento.</p></td>
+  </tr>
+  <tr>
+    <td><strong>3</strong></td>
+    <td><p>Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta.</p></td>
+  </tr>
+  <tr>
+    <td><strong>4</strong></td>
+    <td><p>Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.</p></td>
+  </tr>
+</table>
+
+
+**Tabla de resumen**  
+
+<table>
+  <tr>
+    <th><strong>#</strong></th>
+    <th><strong>Problema</strong></th>
+    <th><strong>Escala de severidad</strong></th>
+    <th><strong>Heurística/Principio violada(o)</strong></th>
+  </tr>
+  <tr>
+    <td><strong>1</strong></td>
+    <td>El registro no tiene un aviso de aceptación de términos y condiciones</td>
+    <td>3</td>
+    <td>Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores.</td>
+  </tr>
+  <tr>
+    <td><strong>2</strong></td>
+    <td>El registro no tiene una opción para agregar una foto de perfil</td>
+    <td>2</td>
+    <td>Libertad y control del usuario</td>
+  </tr>
+  <tr>
+    <td><strong>3</strong></td>
+    <td>Los perfiles de abogados del apartado "home" no redireccionan a la pantalla de perfil completo de abogado.</td>
+    <td>1</td>
+    <td>Libertad y control del usuario</td>
+  </tr>
+  <tr>
+    <td><strong>4</strong></td>
+    <td>No hay botones de regreso a pantallas anteriores</td>
+    <td>4</td>
+    <td>Libertad y control del usuario</td>
+  </tr>
+  <tr>
+    <td><strong>5</strong></td>
+    <td>El "Match" de un abogado con un cliente puede resultar confuso.</td>
+    <td>2</td>
+    <td>Coincidencia entre el sistema y el mundo real</td>
+  </tr>
+    <tr>
+    <td><strong>6</strong></td>
+    <td>El botón de contactar a un abogado no muestra opciones diversas de contacto.</td>
+    <td>2</td>
+    <td>Libertad y control del usuario</td>
+  </tr>
+    <tr>
+    <td><strong>7</strong></td>
+    <td>El buscador de abogados no refresca automaticamente la busqueda al cambiar los filtros.</td>
+    <td>2</td>
+    <td>Visibilidad del estado del sistema</td>
+  </tr>
+</table>
+
+
+
+**Descripción de problemas**  
+
+**Problema 1:** El registro no tiene un aviso de aceptación de términos y condiciones
+
+**Severidad:** 3
+
+**Heurística violada:** Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores.
+
+**Problema:** Al registrar una nueva cuenta no hay T&C para aceptar o denegar previos al registro.
+
+**Recomendación:** Se recomienda incluir términos y condiciones que se mostrarán al usuario antes de proceder con su registro.
+
+
+![Problema1](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%201.png)  
+
+
+**Problema 2:** El registro no tiene una opción para agregar una foto de perfil
+
+**Severidad:** 2
+
+**Heurística violada:** Libertad y control del usuario
+
+**Problema:** Al momento de registrarse no hay un campo que permita cargar una foto de perfil.
+
+**Recomendación:** Se recomienda incluir un campo de texto para una url de imagen o una funcionalidad que permita cargar fotos desde la galería.  
+
+
+![Problema2](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%202.png)
+
+
+**Problema 3:** Los perfiles de abogados del apartado "home" no redireccionan a la pantalla de perfil completo de abogado..
+
+**Severidad:** 1
+
+**Heurística violada:** Libertad y control del usuario
+
+**Problema:**En el apartado "Home" se muestran los abogados recomendados pero al dar click no muestra más información de ellos.
+
+**Recomendación:** Se recomienda redireccionar al perfil completo del abogado al dar click a la tarjeta.
+
+
+![Problema3](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%203.png)
+
+
+**Problema 4:** No hay botones de regreso a pantallas anteriores
+
+**Severidad:** 4
+
+**Heurística violada:** Libertad y control del usuario
+
+**Problema:** Cuando se avanza en algunos procesos dentro de la misma sección no se muestra un botón para regresar a pasos anteriores.
+
+**Recomendación:** Se recomiendaincluir botones de retroceso.
+
+
+![Problema4](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%204.png)
+
+
+**Problema 5:** El "Match" de un abogado con un cliente puede resultar confuso.
+
+**Severidad:** 2
+
+**Heurística violada:** Coincidencia entre el sistema y el mundo real
+
+**Problema:** El concepto de "Match" refiere a cuando un abogado acepta o rechaza trabajar en un caso pero puede que este concepto no sea muy entendible en un incio.
+
+**Recomendación:** Se recomienda una breve explicación de la funcionalidad cuando se presente la opción de usarla.
+
+
+![Problema5](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%205.png)
+
+
+**Problema 6:** El botón de contactar a un abogado no muestra opciones diversas de contacto.
+
+**Severidad:** 3
+
+**Heurística violada:** Libertad y control del usuario
+
+**Problema:** Al momento depresionar el botón de contactar abogado, no muestra varias opciones de contacto.
+
+**Recomendación:** Se recomienda incluir diversas opciones de contacto con el abogado, por ejemplo celular, teléfono, correo, redes sociales, etc.
+
+
+![Problema6](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%206.png)
+
+
+**Problema 7:** El buscador de abogados no refresca automaticamente la busqueda al cambiar los filtros.
+
+**Severidad:** 2
+
+**Heurística violada:** Visibilidad del estado del sistema
+
+**Problema:** Al momento de filtrar, buscar, ingresar al perfil de un abogado y regresar, el buscador no muestra la lista anterior hasta que se vuelva a usar el filtro.
+
+**Recomendación:** Se recomienda hacer que el buscador y los filtros funcionen aún cuando se cambia de pantalla.
+
+
+![Problema7](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%207.png)
+
+
 
 ### 6.4. Video About-the-Product
 
