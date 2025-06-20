@@ -3971,11 +3971,11 @@ Link de GitHub: https://github.com/DartlinWave/LawConnect-AcceptanceTests
 
 ### 5.3.3. Evaluaciones según heurísticas
 
-**Carrera**: Ingeniería de Software </p>
-**Curso**: NRC7128
-**Profesor**: Jorge Luis Mayta Guillermo
-**Auditor**:  Grupo 1 - DartlinWave </p>
-**Cliente**:  Grupo 1 - DartlinWave
+**Carrera**: Ingeniería de Software </p>  
+**Curso**: NRC7128  
+**Profesor**: Jorge Luis Mayta Guillermo  
+**Auditor**:  Grupo 1 - DartlinWave </p>  
+**Cliente**:  Grupo 1 - DartlinWave  
 
 **SITE o APP evaluar:** **LawConnect**
 
@@ -3983,8 +3983,7 @@ Link de GitHub: https://github.com/DartlinWave/LawConnect-AcceptanceTests
 - Mobile Application
 - Registro de un nuevo usuario
 - Inicio de sesión de usuario existente
-- Registro de un caso
-- Mostrar listado de casos
+- Mostrar listado de casos/abogados
 - Prueba de buscador de abogados
 - Match con abogados
 - Botones de redirección
@@ -4028,98 +4027,44 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
   </tr>
   <tr>
     <td><strong>1</strong></td>
-    <td>Los botones de iniciar sesión con Google o Apple no funcionan</td>
+    <td>El registro no tiene un aviso de aceptación de términos y condiciones</td>
+    <td>3</td>
+    <td>Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores.</td>
+  </tr>
+  <tr>
+    <td><strong>2</strong></td>
+    <td>El registro no tiene una opción para agregar una foto de perfil</td>
     <td>2</td>
     <td>Libertad y control del usuario</td>
   </tr>
   <tr>
-    <td><strong>2</strong></td>
-    <td>Al registrarse redirige a una ventana vacía</td>
-    <td>4</td>
-    <td>Libertad de uso y control</td>
-  </tr>
-  <tr>
     <td><strong>3</strong></td>
-    <td>El registro no tiene validaciones ni alertas para el usuario cuando intenta registrarse poniendo dos contraseñas diferentes o un correo sin formato</td>
-    <td>3</td>
-    <td>Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores</td>
+    <td>Los perfiles de abogados del apartado "home" no redireccionan a la pantalla de perfil completo de abogado.</td>
+    <td>1</td>
+    <td>Libertad y control del usuario</td>
   </tr>
   <tr>
     <td><strong>4</strong></td>
-    <td>El botón de login en la ventana de register no redirige</td>
+    <td>No hay botones de regreso a pantallas anteriores</td>
     <td>4</td>
     <td>Libertad y control del usuario</td>
   </tr>
   <tr>
     <td><strong>5</strong></td>
-    <td>La aplicación no es responsiva a pantallas medianas y pequeñas</td>
-    <td>3</td>
-    <td>Libertad de uso y control</td>
-  </tr>
-  <tr>
-    <td><strong>6</strong></td>
-    <td>El botón de confirmar reserva al ser presionado no notifica si se realizó la reserva o hubo algún error.</td>
-    <td>3</td>
-    <td>Visibilidad del estado del sistema</td>
-  </tr>
-  <tr>
-    <td><strong>7</strong></td>
-    <td>El botón de Manage Subscription no muestra la suscripción comprada</td>
-    <td>3</td>
-    <td>Reconocimiento en lugar de recordar</td>
-  </tr>
-  <tr>
-    <td><strong>8</strong></td>
-    <td>El buscador no funciona</td>
-    <td>4</td>
-    <td>Libertad y control del usuario</td>
-  </tr>
-  <tr>
-    <td><strong>9</strong></td>
-    <td>El Payment Form no tiene validaciones</td>
-    <td>3</td>
-    <td>Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores</td>
-  </tr>
-  <tr>
-    <td><strong>10</strong></td>
-    <td>El perfil muestra datos de un usuario por defecto enves de los datos del usuario con el que se inició sesión</td>
-    <td>3</td>
-    <td>Visibilidad del estado del sistema</td>
-  </tr>
-  <tr>
-    <td><strong>11</strong></td>
-    <td>Los botones de edición de datos del perfil no funcionan.</td>
-    <td>3</td>
-    <td>Libertad y control del usuario</td>
-  </tr>
-  <tr>
-    <td><strong>12</strong></td>
-    <td>Los settings no funcionan</td>
-    <td>3</td>
-    <td>Libertad y control del usuario</td>
-  </tr>
-  <tr>
-    <td><strong>13</strong></td>
-    <td>No se muestran las notificaciones</td>
+    <td>El "Match" de un abogado con un cliente puede resultar confuso.</td>
     <td>2</td>
-    <td>Visibilidad del estado del sistema</td>
+    <td>Coincidencia entre el sistema y el mundo real</td>
   </tr>
-  <tr>
-    <td><strong>14</strong></td>
-    <td>No permite cerrar sesión</td>
-    <td>3</td>
+    <tr>
+    <td><strong>6</strong></td>
+    <td>El botón de contactar a un abogado no muestra opciones diversas de contacto.</td>
+    <td>2</td>
     <td>Libertad y control del usuario</td>
   </tr>
-  <tr>
-    <td><strong>15</strong></td>
-    <td>No permite desactivar la cuenta</td>
-    <td>3</td>
-    <td>Libertad y control del usuario</td>
-  </tr>
-   <tr>
-    <td><strong>16</strong></td>
-    <td>Muestra reservas por defecto y no las reservas hechas por el usuario</td>
-    <td>3</td></td>
+    <tr>
+    <td><strong>7</strong></td>
+    <td>El buscador de abogados no refresca automaticamente la busqueda al cambiar los filtros.</td>
+    <td>2</td>
     <td>Visibilidad del estado del sistema</td>
   </tr>
 </table>
