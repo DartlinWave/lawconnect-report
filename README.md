@@ -4050,4 +4050,9 @@ Link de la organización DartlinWave: https://github.com/DartlinWave
         <td>https://github.com/DartlinWave/LawConnect</td>
         <td>Repositorio principal con el código fuente de la aplicación LawConnect.</td>
     </tr>
+    <tr>
+        <td>Law Connect Flutter</td>
+        <td>https://github.com/DartlinWave/LawConnect-Mobile-Flutter</td>
+        <td>Repositorio del código de la aplicación LawConnect en Flutter.</td>
+    </tr>
 </table>
