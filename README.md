@@ -4024,11 +4024,15 @@ Para la aplicación cross-platform (desarrollada en Flutter):
 
 **Figura .** Pantalla de visualización del caso en estado de aceptado
 
-![case_state_accepted.png](assets/images/chapter-VI/screenshots-apps/client/case_state_accepted.png)
+![Accepted case](assets/images/chapter-VI/screenshots-apps/client/case_state_accepted.png)
 
 **Figura .** Pantalla de visualización del caso en estado de cerrado
 
-![case_state_close.png](assets/images/chapter-VI/screenshots-apps/client/case_state_close.png)
+![Closed case](assets/images/chapter-VI/screenshots-apps/client/case_state_close.png)
+
+**Figura .** Mock data utilizada para el cliente
+
+![db.json](assets/images/chapter-VI/screenshots-apps/client/db_json.png)
 
 ##### 6.2.2.6. Services Documentation Evidence for Sprint Review
 ##### 6.2.2.7. Software Deployment Evidence for Sprint Review
