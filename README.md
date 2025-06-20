@@ -3945,52 +3945,52 @@ Aquí se encuentra la captura de las contribuciones de la landing page
 
 ##### 6.2.2.3. Development Evidence for Sprint Review
 
-| **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
-|----------------|------------|---------------|--------------------|-----------------------|------------------------|
-| LawConnect-Mobile-Flutter | feature/case-lawyer | d0d13fc | chore: update README.md with the repository's description | | 31/05/2025 |
-| LawConnect-Mobile-Flutter | feature/case-lawyer | 123215c | feat: add color palette | | 31/05/2025 |
-| LawConnect-Mobile-Flutter | feature/case-lawyer | 4d23e4b | feat: add a new color to the color palette | | 31/05/2025 |
-| LawConnect-Mobile-Flutter | feature/case-lawyer | 0813725 | feat: add main page for the bottom navigation bar | | 31/05/2025 |
-| LawConnect-Mobile-Flutter | feature/case-lawyer | fd3c5ef | feat: add the name of the application and home | | 31/05/2025 |
-| LawConnect-Mobile-Flutter | feature/case-lawyer | e7541b7 | feat: add custom button | | 31/05/2025 |
-| LawConnect-Mobile-Flutter | feature/case-lawyer | 13fc8bd | feat: add main page and home page (to test buttons) | | 31/05/2025 |
-| LawConnect-Mobile-Flutter | feature/screen-client | bb6c412 | feat: add font family to main.dart | | 03/06/2025 |
-| LawConnect-Mobile-Flutter | feature/screen-client | b6df9db | chore: add family font Plus Jakarta Sans | | 03/06/2025 |
-| LawConnect-Mobile-Flutter | feature/screen-client | 5b48b68 | fix: change directories for the files and add the logo | | 03/06/2025 |
-| LawConnect-Mobile-Flutter | feature/screen-client | e22752a | feat: add entity for client to mock data | | 05/06/2025 |
-| LawConnect-Mobile-Flutter | feature/screen-client | 2ef2789 | feat: add custom widget for app bar in all pages | | 06/06/2025 |
-| LawConnect-Mobile-Flutter | feature/screen-client | 329c32e | feat: add variable for image | | 06/06/2025 |
-| LawConnect-Mobile-Flutter | feature/screen-client | e479f8a | chore: add image for testing | | 06/06/2025 |
-| LawConnect-Mobile-Flutter | feature/screen-client | 7cc3bbe | feat: add profile page for client | | 06/06/2025 |
-| LawConnect-Mobile-Flutter | feature/screen-client | 29fe1cf | feat: add profile page and data view | | 07/06/2025 |
-| LawConnect-Mobile-Flutter | feature/screen-client | 18c1bc8 | feat: change text to actual page for profile | | 07/06/2025 |
-| LawConnect-Mobile-Flutter | feature/screen-client | 18c1bc8 | feat: add a custom app bar | | 07/06/2025 |
-| LawConnect-Mobile-Flutter | feature/screen-client | 2338ffb | fix: fix issue with column | | 07/06/2025 |
-| LawConnect-Mobile-Flutter | feature/screen-client | d94eac2 | feat: add visibility check box for profile | | 07/06/2025 |
-| LawConnect-Mobile-Flutter | feature/screen-client | b78ec19 | feat: add data | | 07/06/2025 |
-| LawConnect-Mobile-Flutter | feature/screen-client | b9fcbf1 | chore: lightened the color for the text boxes | | 07/06/2025 |
-| LawConnect-Mobile-Flutter | feature/screen-client | 5b9cb7f | chore: add some space between the client's name and last name | | 07/06/2025 |
-| LawConnect-Mobile-Flutter | feature/case-lawyer | 1ec3b33 | feat: add case-page, create-case,tracking-case and lawyer-profile | | 15/06/2025 |
-| LawConnect-Mobile-Flutter | origin/feature/client-home-lawyers-view | 1f800eb | feat: add home page | | 15/06/2025 |
-| LawConnect-Mobile-Flutter | origin/feature/client-home-lawyers-view | 73acf84 | feat: add customers and lawyers details | | 15/06/2025 |
-| lawconnect-android | main | 8b7751d | refactor: update AppTopBar styling to use white background with shadow and display username only | | 19/06/2025 |
-| lawconnect-android | main | ee66d9f | refactor: decouple profileNavGraph from AuthViewModel and simplify auth navigation callbacks | | 19/06/2025 |
-| lawconnect-android | main | dc36aa1 | refactor(auth): move AuthPreferences to data.di and update related imports in AuthInterceptor and AuthRepositoryImpl | | 19/06/2025 |
-| lawconnect-android | main | 2d65de4 | refactor(core): remove provideOkHttpClient and provideAuthApiService | | 19/06/2025 |
-| lawconnect-android | main | 591befe | feat(core): add LoggingInterceptorModule to provide HttpLoggingInterceptor | | 19/06/2025 |
-| lawconnect-android | main | 5db48bc | refactor(home): remove sign-out functionality and simplify HomeView and homeNavGraph | | 19/06/2025 |
-| lawconnect-android | main | 6980653 | feat: add support for providing a username stream and displaying it in the top-bar | | 19/06/2025 |
-| lawconnect-android | main | 7b9636b | feat(profile): add profileNavGraph and ProfileView composable | | 19/06/2025 |
-| lawconnect-android | main | b2cd8aa | feat(auth): add GetUsernameUseCase to provide username flow | | 19/06/2025 |
-| lawconnect-android | main | 18c702d | feat: add support for login flow | | 19/06/2025 |
-| lawconnect-android | main | 95a1685 | style(ui): refine design, update color palette and component styling | | 19/06/2025 |
-| lawconnect-android | main | 8343b80 | feat(ui-components): introduce themed ActionButton variants | | 19/06/2025 |
-| lawconnect-android | main | b320c17 | feat(core): default CustomTextField modifier to fillMaxWidth | | 19/06/2025 |
-| lawconnect-android | main | 877529d | feat(auth): add authentication support | | 19/06/2025 |
-| lawconnect-android | main | e2fb692 | refactor(navigation): move navigation classes from core.navigation to navigation package | | 19/06/2025 |
-| lawconnect-android | main | 843f209 | feat(core): add Root route to Graph sealed class | | 19/06/2025 |
-| lawconnect-android | main | 63e5a87 | feat(core): add enabled parameter to CustomButton composable | | 19/06/2025 |
-| lawconnect-android | main | f28a267 | feat(core): add UiConstants with BASE_URL constant | | 19/06/2025 |
+| **Repository**            | **Branch**                              | **Commit ID** | **Commit Message**                                                                                                   | **Commit Message Body** | **Committed on (Date)** |
+|---------------------------|-----------------------------------------|---------------|----------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------------|
+| LawConnect-Mobile-Flutter | feature/case-lawyer                     | d0d13fc       | chore: update README.md with the repository's description                                                            |                         | 31/05/2025              |
+| LawConnect-Mobile-Flutter | feature/case-lawyer                     | 123215c       | feat: add color palette                                                                                              |                         | 31/05/2025              |
+| LawConnect-Mobile-Flutter | feature/case-lawyer                     | 4d23e4b       | feat: add a new color to the color palette                                                                           |                         | 31/05/2025              |
+| LawConnect-Mobile-Flutter | feature/case-lawyer                     | 0813725       | feat: add main page for the bottom navigation bar                                                                    |                         | 31/05/2025              |
+| LawConnect-Mobile-Flutter | feature/case-lawyer                     | fd3c5ef       | feat: add the name of the application and home                                                                       |                         | 31/05/2025              |
+| LawConnect-Mobile-Flutter | feature/case-lawyer                     | e7541b7       | feat: add custom button                                                                                              |                         | 31/05/2025              |
+| LawConnect-Mobile-Flutter | feature/case-lawyer                     | 13fc8bd       | feat: add main page and home page (to test buttons)                                                                  |                         | 31/05/2025              |
+| LawConnect-Mobile-Flutter | feature/screen-client                   | bb6c412       | feat: add font family to main.dart                                                                                   |                         | 03/06/2025              |
+| LawConnect-Mobile-Flutter | feature/screen-client                   | b6df9db       | chore: add family font Plus Jakarta Sans                                                                             |                         | 03/06/2025              |
+| LawConnect-Mobile-Flutter | feature/screen-client                   | 5b48b68       | fix: change directories for the files and add the logo                                                               |                         | 03/06/2025              |
+| LawConnect-Mobile-Flutter | feature/screen-client                   | e22752a       | feat: add entity for client to mock data                                                                             |                         | 05/06/2025              |
+| LawConnect-Mobile-Flutter | feature/screen-client                   | 2ef2789       | feat: add custom widget for app bar in all pages                                                                     |                         | 06/06/2025              |
+| LawConnect-Mobile-Flutter | feature/screen-client                   | 329c32e       | feat: add variable for image                                                                                         |                         | 06/06/2025              |
+| LawConnect-Mobile-Flutter | feature/screen-client                   | e479f8a       | chore: add image for testing                                                                                         |                         | 06/06/2025              |
+| LawConnect-Mobile-Flutter | feature/screen-client                   | 7cc3bbe       | feat: add profile page for client                                                                                    |                         | 06/06/2025              |
+| LawConnect-Mobile-Flutter | feature/screen-client                   | 29fe1cf       | feat: add profile page and data view                                                                                 |                         | 07/06/2025              |
+| LawConnect-Mobile-Flutter | feature/screen-client                   | 18c1bc8       | feat: change text to actual page for profile                                                                         |                         | 07/06/2025              |
+| LawConnect-Mobile-Flutter | feature/screen-client                   | 18c1bc8       | feat: add a custom app bar                                                                                           |                         | 07/06/2025              |
+| LawConnect-Mobile-Flutter | feature/screen-client                   | 2338ffb       | fix: fix issue with column                                                                                           |                         | 07/06/2025              |
+| LawConnect-Mobile-Flutter | feature/screen-client                   | d94eac2       | feat: add visibility check box for profile                                                                           |                         | 07/06/2025              |
+| LawConnect-Mobile-Flutter | feature/screen-client                   | b78ec19       | feat: add data                                                                                                       |                         | 07/06/2025              |
+| LawConnect-Mobile-Flutter | feature/screen-client                   | b9fcbf1       | chore: lightened the color for the text boxes                                                                        |                         | 07/06/2025              |
+| LawConnect-Mobile-Flutter | feature/screen-client                   | 5b9cb7f       | chore: add some space between the client's name and last name                                                        |                         | 07/06/2025              |
+| LawConnect-Mobile-Flutter | feature/case-lawyer                     | 1ec3b33       | feat: add case-page, create-case,tracking-case and lawyer-profile                                                    |                         | 15/06/2025              |
+| LawConnect-Mobile-Flutter | origin/feature/client-home-lawyers-view | 1f800eb       | feat: add home page                                                                                                  |                         | 15/06/2025              |
+| LawConnect-Mobile-Flutter | origin/feature/client-home-lawyers-view | 73acf84       | feat: add customers and lawyers details                                                                              |                         | 15/06/2025              |
+| lawconnect-android        | main                                    | 8b7751d       | refactor: update AppTopBar styling to use white background with shadow and display username only                     |                         | 19/06/2025              |
+| lawconnect-android        | main                                    | ee66d9f       | refactor: decouple profileNavGraph from AuthViewModel and simplify auth navigation callbacks                         |                         | 19/06/2025              |
+| lawconnect-android        | main                                    | dc36aa1       | refactor(auth): move AuthPreferences to data.di and update related imports in AuthInterceptor and AuthRepositoryImpl |                         | 19/06/2025              |
+| lawconnect-android        | main                                    | 2d65de4       | refactor(core): remove provideOkHttpClient and provideAuthApiService                                                 |                         | 19/06/2025              |
+| lawconnect-android        | main                                    | 591befe       | feat(core): add LoggingInterceptorModule to provide HttpLoggingInterceptor                                           |                         | 19/06/2025              |
+| lawconnect-android        | main                                    | 5db48bc       | refactor(home): remove sign-out functionality and simplify HomeView and homeNavGraph                                 |                         | 19/06/2025              |
+| lawconnect-android        | main                                    | 6980653       | feat: add support for providing a username stream and displaying it in the top-bar                                   |                         | 19/06/2025              |
+| lawconnect-android        | main                                    | 7b9636b       | feat(profile): add profileNavGraph and ProfileView composable                                                        |                         | 19/06/2025              |
+| lawconnect-android        | main                                    | b2cd8aa       | feat(auth): add GetUsernameUseCase to provide username flow                                                          |                         | 19/06/2025              |
+| lawconnect-android        | main                                    | 18c702d       | feat: add support for login flow                                                                                     |                         | 19/06/2025              |
+| lawconnect-android        | main                                    | 95a1685       | style(ui): refine design, update color palette and component styling                                                 |                         | 19/06/2025              |
+| lawconnect-android        | main                                    | 8343b80       | feat(ui-components): introduce themed ActionButton variants                                                          |                         | 19/06/2025              |
+| lawconnect-android        | main                                    | b320c17       | feat(core): default CustomTextField modifier to fillMaxWidth                                                         |                         | 19/06/2025              |
+| lawconnect-android        | main                                    | 877529d       | feat(auth): add authentication support                                                                               |                         | 19/06/2025              |
+| lawconnect-android        | main                                    | e2fb692       | refactor(navigation): move navigation classes from core.navigation to navigation package                             |                         | 19/06/2025              |
+| lawconnect-android        | main                                    | 843f209       | feat(core): add Root route to Graph sealed class                                                                     |                         | 19/06/2025              |
+| lawconnect-android        | main                                    | 63e5a87       | feat(core): add enabled parameter to CustomButton composable                                                         |                         | 19/06/2025              |
+| lawconnect-android        | main                                    | f28a267       | feat(core): add UiConstants with BASE_URL constant                                                                   |                         | 19/06/2025              |
 
 ##### 6.2.2.4. Testing Suite Evidence for Sprint Review
 
@@ -4008,6 +4008,28 @@ Aquí se encuentra la captura de las contribuciones de la landing page
 
 Link de GitHub: https://github.com/DartlinWave/LawConnect-AcceptanceTests
 ##### 6.2.2.5. Execution Evidence for Sprint Review
+En esta sección presentaremos la evidencia de ejecución de este sprint, lo que incluye capturas de pantalla de la aplicación nativa ya completa (para los abogados egresados) y un avance de la aplicación cross-platform (para los clientes con problemas legales).
+
+Para la aplicación nativa (desarrollada en Kotlin):
+
+Para la aplicación cross-platform (desarrollada en Flutter):
+
+**Figura .** Pantalla de visualización de perfil del cliente.
+
+![Client Profile](assets/images/chapter-VI/screenshots-apps/client/profile_client.png)
+
+**Figura .** Pantalla de visualización de la lista de casos de el cliente
+
+![Cases list](assets/images/chapter-VI/screenshots-apps/client/list_cases.png)
+
+**Figura .** Pantalla de visualización del caso en estado de aceptado
+
+![case_state_accepted.png](assets/images/chapter-VI/screenshots-apps/client/case_state_accepted.png)
+
+**Figura .** Pantalla de visualización del caso en estado de cerrado
+
+![case_state_close.png](assets/images/chapter-VI/screenshots-apps/client/case_state_close.png)
+
 ##### 6.2.2.6. Services Documentation Evidence for Sprint Review
 ##### 6.2.2.7. Software Deployment Evidence for Sprint Review
 
@@ -4100,7 +4122,7 @@ En esta parte se listan las preguntas a realizar a nuestros entrevistados de amb
 **Preguntas sobre la aplicación móvil**  
 1. ¿La experiencia fue clara al momento de completar su perfil profesional?  
 2. ¿Qué tan útil le pareció la opción de aceptar o rechazar invitaciones a casos de clientes desde la aplicación?  
-3. ¿La búsqueda de casos y forma de aplicación a los mismo fue entendible a medida que realizó las acciones?  
+3. ¿La búsqueda de casos y forma de aplicación a uno fue entendible a medida que realizó las acciones?  
 4. ¿Pudo identificar fácilmente los estados de su caso?  
 5. ¿Cómo calificaría su experiencia de usuario? ¿Fue una navegación intuitiva?  
 6. ¿Pudo completar las tareas sin ayuda?  
@@ -4111,8 +4133,6 @@ En esta parte se listan las preguntas a realizar a nuestros entrevistados de amb
 #### 6.3.2. Registro de Entrevistas
 
 #### 6.3.3. Evaluaciones según heurísticas
-
-### 5.3.3. Evaluaciones según heurísticas
 
 **Carrera**: Ingeniería de Software </p>  
 **Curso**: NRC7128  
