@@ -4010,6 +4010,49 @@ Link de GitHub: https://github.com/DartlinWave/LawConnect-AcceptanceTests
 ##### 6.2.2.5. Execution Evidence for Sprint Review
 ##### 6.2.2.6. Services Documentation Evidence for Sprint Review
 ##### 6.2.2.7. Software Deployment Evidence for Sprint Review
+
+Para la presentación para la aplicación native y cross-platform dentro de las tiendas de aplicaciones, se tuvo en cuenta la paleta de colores y las principales funcionalidades de cada aplicación enfocada a un tipo de segmento objetivo (clientes con problemas legales y abogados egresados)
+
+***Figura .*** Imagen promocional principal, para ambas aplicaciones
+
+![main-image.png](assets/images/chapter-VI/app-store-screenshots/main-image.png)
+
+**Cliente con problemas legales (cross-platform)**
+
+***Figura .*** Imagen promocional que muestra la funcionalidad de conectar con un abogado
+
+![Connect with a lawyer](assets/images/chapter-VI/app-store-screenshots/native/screenshot-client-1.png)  
+
+***Figura .*** Imagen promocional que muestra la funcionalidad para crear un caso
+
+![Create a case](assets/images/chapter-VI/app-store-screenshots/native/screenshot-client-2.png)  
+
+***Figura .*** Imagen promocional que muestra la funcionalidad para hacer el seguimiento de cada caso
+
+![Track a case](assets/images/chapter-VI/app-store-screenshots/native/screenshot-client-3.png)  
+
+***Figura .*** Imagen promocional que muestra la funcionalidad de invitar a un abogado a un caso o aceptar la postulación de uno
+
+![Invite a lawyer to a case or accept a postulation](assets/images/chapter-VI/app-store-screenshots/native/screenshot-client-4.png)  
+
+**Abogado egresado (native)**
+
+***Figura .*** Imagen promocional que muestra la funcionalidad de manejar los casos que tiene
+
+![Case management](assets/images/chapter-VI/app-store-screenshots/cross-platform/screenshot-lawyer-1.png)  
+
+***Figura .*** Imagen promocional que muestra la funcionalidad de buscar casos  
+
+![Search cases](assets/images/chapter-VI/app-store-screenshots/cross-platform/screenshot-lawyer-2.png)  
+
+***Figura .*** Imagen promocional que muestra la funcionalidad de aplicar a un caso o aceptar invitaciones a uno
+
+![Apply to a case or accept an invitation to one](assets/images/chapter-VI/app-store-screenshots/cross-platform/screenshot-lawyer-3.png)  
+
+***Figura .*** Imagen promocional que muestra la funcionalidad de hacer el seguimiento de cada caso
+
+![Track a case](assets/images/chapter-VI/app-store-screenshots/cross-platform/screenshot-lawyer-4.png)
+
 ##### 6.2.2.8. Team Collaboration Insights during Sprint
 
 ### 6.3. Validation Interviews  
