@@ -4255,7 +4255,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 **Recomendación:** Se recomienda incluir términos y condiciones que se mostrarán al usuario antes de proceder con su registro.
 
 
-![Problema1](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%201.png)  
+![Problema1](https://raw.githubusercontent.com/DartlinWave/lawconnect-report/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%201.png)  
 
 
 **Problema 2:** El registro no tiene una opción para agregar una foto de perfil
@@ -4269,7 +4269,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 **Recomendación:** Se recomienda incluir un campo de texto para una url de imagen o una funcionalidad que permita cargar fotos desde la galería.  
 
 
-![Problema2](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%202.png)
+![Problema2](https://raw.githubusercontent.com/DartlinWave/lawconnect-report/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%202.png)
 
 
 **Problema 3:** Los perfiles de abogados del apartado "home" no redireccionan a la pantalla de perfil completo de abogado..
@@ -4283,7 +4283,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 **Recomendación:** Se recomienda redireccionar al perfil completo del abogado al dar click a la tarjeta.
 
 
-![Problema3](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%203.png)
+![Problema3](https://raw.githubusercontent.com/DartlinWave/lawconnect-report/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%203.png)
 
 
 **Problema 4:** No hay botones de regreso a pantallas anteriores
@@ -4297,7 +4297,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 **Recomendación:** Se recomiendaincluir botones de retroceso.
 
 
-![Problema4](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%204.png)
+![Problema4](https://raw.githubusercontent.com/DartlinWave/lawconnect-report/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%204.png)
 
 
 **Problema 5:** El "Match" de un abogado con un cliente puede resultar confuso.
@@ -4311,7 +4311,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 **Recomendación:** Se recomienda una breve explicación de la funcionalidad cuando se presente la opción de usarla.
 
 
-![Problema5](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%205.png)
+![Problema5](https://raw.githubusercontent.com/DartlinWave/lawconnect-report/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%205.png)
 
 
 **Problema 6:** El botón de contactar a un abogado no muestra opciones diversas de contacto.
@@ -4325,7 +4325,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 **Recomendación:** Se recomienda incluir diversas opciones de contacto con el abogado, por ejemplo celular, teléfono, correo, redes sociales, etc.
 
 
-![Problema6](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%206.png)
+![Problema6](https://raw.githubusercontent.com/DartlinWave/lawconnect-report/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%206.png)
 
 
 **Problema 7:** El buscador de abogados no refresca automaticamente la busqueda al cambiar los filtros.
@@ -4339,7 +4339,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 **Recomendación:** Se recomienda hacer que el buscador y los filtros funcionen aún cuando se cambia de pantalla.
 
 
-![Problema7](https://github.com/DartlinWave/lawconnect-report/blob/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%207.png)
+![Problema7](https://raw.githubusercontent.com/DartlinWave/lawconnect-report/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%207.png)
 
 
 
