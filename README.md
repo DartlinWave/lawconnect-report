@@ -235,6 +235,17 @@ En esta entrega el equipo definió los wireframes, mockups, prototypes y product
 [6.2.2.7. Software Deployment Evidence for Sprint Review](#6227-software-deployment-evidence-for-sprint-review)    
 [6.2.2.8. Team Collaboration Insights during Sprint](#6228-team-collaboration-insights-during-sprint)
 
+[6.2.2. Sprint 3](#623-sprint-3)  
+[6.2.2.1. Sprint Planning 2](#6231-sprint-planning-3)  
+[6.2.2.2. Sprint Backlog 2](#6232-sprint-backlog-3)  
+[6.2.2.3. Development Evidence for Sprint Review](#6233-development-evidence-for-sprint-review)  
+[6.2.2.4. Testing Suite Evidence for Sprint Review](#6234-testing-suite-evidence-for-sprint-review)  
+[6.2.2.5. Execution Evidence for Sprint Review](#6235-execution-evidence-for-sprint-review)  
+[6.2.2.6. Services Documentation Evidence for Sprint Review](#6236-services-documentation-evidence-for-sprint-review)  
+[6.2.2.7. Software Deployment Evidence for Sprint Review](#6237-software-deployment-evidence-for-sprint-review)    
+[6.2.2.8. Team Collaboration Insights during Sprint](#6238-team-collaboration-insights-during-sprint)
+
+
 [6.3. Validation Interviews](#63-validation-interviews)  
 
 [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)  
