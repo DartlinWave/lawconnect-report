@@ -182,7 +182,7 @@ En esta entrega el equipo definió los wireframes, mockups, prototypes y product
 
 [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)  
 
-[5.1. Product design](#51-product-design)
+[5.1. Product design](#51-product-design)  
 [5.1.1. Style Guidelines](#511-style-guidelines)  
 [5.1.1.1. General Style Guidelines](#5111-general-style-guidelines)
 
