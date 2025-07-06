@@ -4111,6 +4111,16 @@ Para la presentación para la aplicación native y cross-platform dentro de las 
 
 ##### 6.2.3.2. Sprint Backlog 3
 
+| User Story                                   | Work-item / Task                                                                                       | Description                                                                  | Estimation (Hours) | Assigned To | Status |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | ------------------ | ----------- | ------ |
+| HU01 - Registro de Abogado                   | W01 Crear un signup con manejo de identidad, que determine que esa cuenta es de abogado                | Permitir al abogado registrarse de manera fácil a la aplicación móvil nativa | 5                  | Gonzalo     | Done   |
+| HU16 - Visualización de servicios destacados | W02 Implementar sección de servicios destacados en landing page                                        | Mostrar los servicios legales clave de forma visual en la landing page       | 4                  | Camila      | Done   |
+| HU25 - Evaluación y Calificación del Abogado | W03 Crear funcionalidad para poner un comentario al abogado del caso                                   | Permitir que el cliente deje un comentario al abogado al cerrar el caso      | 6                  | Camila      | Done   |
+| HU27 - Monitorización de Actividad           | W04 Implementar logs en el backend                                                                     | Permitir al administrador revisar actividades sospechosas mediante los logs  | 6                  | Gonzalo     | To Do  |
+| HU29 - Respaldo y recuperación de Datos      | W05 Mantener una versión local de la aplicación                                                        | Asegurarse de que cada integrante tenga una versión local de la aplicación   | 5                  | Todos       | Done   |
+| HU30 - Actualización de seguridad            | W06 Agregar medidas básicas de seguridad como Token                                                    | Manejar el log in con un token en el backend                                 | 4                  | Gonzalo     | Done   |
+| HU31 - Implementación de Diseño Responsivo   | W07 Asegurar que la app web/landing page se vea bien en diferentes resoluciones y dispositivos móviles | Aplicar media queries y testear en otros dispositivos                        | 5                  | Johan       | Done   |
+| HU32 - Mejoras en la Interacción del Usuario | W08 Pulir interacciones visuales, y experiencia del usuario                                            | Ajustes pequeños de interfaz para mejor fluidez                              | 5                  | Bárbara     | Done   |
 
 ##### 6.2.3.3. Development Evidence for Sprint Review
 
