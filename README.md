@@ -4130,6 +4130,30 @@ Se incluyeron los términos y condiciones, y la política de privacidad a la lan
 
 ![privacy-policy-en](assets/images/chapter-VI/privacy-policy-en.png)
 
+En la landing page también se añadió una sección para mostrar las funcionalidades para cada segmento objetivo y un botón para cada uno.
+
+**Figura .** Funcionalidades para clientes
+
+![features for clients](assets/images/chapter-VI/features-for-clients.png)
+
+**Figura .** Funcionalidades para abogados
+
+![features for lawyers](assets/images/chapter-VI/features-for-lawyers.png)
+
+También se hizo el despliegue de la aplicación móvil para abogados (kotlin) en Firebase. Se subió generó el APK firmada y se subió a Firebase:
+
+Enlace al APK de Android: https://appdistribution.firebase.dev/i/1d6235cebac1a086
+
+**Figura .** APK de la aplicación móvil para abogados (kotlin) en Firebase
+
+![App (Kotlin) in Firebase](assets/images/chapter-VI/app-in-firebase.png)
+
+![App in Kotlin](assets/images/chapter-VI/AppDistributionKotlin.png)
+
+**Figura .** App móvil para abogados (kotlin) en celular
+
+![App in phone](assets/images/chapter-VI/app-in-phone.png)
+
 ##### 6.2.3.8. Team Collaboration Insights during Sprint
 
 ### 6.3. Validation Interviews  
