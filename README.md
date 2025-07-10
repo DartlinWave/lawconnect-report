@@ -4365,7 +4365,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 **Problema:** Cuando se avanza en algunos procesos dentro de la misma sección no se muestra un botón para regresar a pasos anteriores.
 
-**Recomendación:** Se recomiendaincluir botones de retroceso.
+**Recomendación:** Se recomienda incluir botones de retroceso.
 
 
 ![Problema4](https://raw.githubusercontent.com/DartlinWave/lawconnect-report/e9c80014232eeab9536699db5bee621b817e24a0/assets/images/chapter-iv/Problema%204.png)
@@ -4417,18 +4417,25 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 ### 6.4. Video About-the-Product
 
 ## Conclusiones
+
+### Conclusiones y recomendaciones 
+**Conclusiones**
+<p align="justify">  
+A partir del proceso para completar la primera entrega del proyecto, entendemos que necesitamos una base concisa y clara para poder empezar con la creación de nuestro producto. Empezamos con el Lean UX Process, lo que nos permitió conocer de forma exacta nuestro público objetivo. Continuamos con los gráficos AS-IS y TO-BE, de esta manera pudimos representar el estado actual y futuro del flujo que habrá dentro de la aplicación. Asimismo, con las entrevistas a nuestros segmentos objetivos previamente identificados, logramos entender sus necesidades y reforzar nuestro diseño de aplicación web. A partir de ello, pudimos crear nuestras User Stories que definirán cómo continuaremos el proyecto y qué debemos cumplir al momento de finalizarlo.   
+</p>
+<p align="justify">  
+Desde la primera entrega, se consolidó una base sólida en TB1 al definir de forma precisa los segmentos objetivo, establecer las bases del Lean UX y actualizar conceptos esenciales que permitieron identificar las necesidades y retos del mercado, mientras que en TP se avanzó en la concreción de la solución mediante wireframes, mockups y prototipos, lo que evidenció un fuerte compromiso con la usabilidad y la experiencia del usuario. En conjunto, ambas fases reflejan la sinergia entre el análisis profundo y la materialización de ideas, permitiendo no solo validar las suposiciones iniciales sino también ofrecer una visión clara y coherente del producto final, orientado a conectar de manera efectiva a abogados egresados con clientes que requieren asesoría legal. Este enfoque integral sienta las bases para futuras iteraciones, garantizando que la solución tecnológica se ajuste a las necesidades reales de los usuarios y promueva un desarrollo ágil y enfocado en la mejora continua. Es por ello que pudimos definir los bounded contexts necesarios para desarrollar las aplicaciones y que permitan al usuario tener todas las herramientas que esperan de LawConnect.
+</p>  
+
 <p align="justify">
-A partir de la primera entrega, se consolidó una base sólida en TB1 al definir de forma precisa los segmentos objetivo, establecer las bases del Lean UX y actualizar conceptos esenciales que permitieron identificar las necesidades y retos del mercado, mientras que en TP se avanzó en la concreción de la solución mediante wireframes, mockups y prototipos, lo que evidenció un fuerte compromiso con la usabilidad y la experiencia del usuario. En conjunto, ambas fases reflejan la sinergia entre el análisis profundo y la materialización de ideas, permitiendo no solo validar las suposiciones iniciales sino también ofrecer una visión clara y coherente del producto final, orientado a conectar de manera efectiva a abogados egresados con clientes que requieren asesoría legal. Este enfoque integral sienta las bases para futuras iteraciones, garantizando que la solución tecnológica se ajuste a las necesidades reales de los usuarios y promueva un desarrollo ágil y enfocado en la mejora continua.
+Finalmente, con la última entrega, hemos podido completar ambas aplicaciones y que puedan consumir información sincronizada en tiempo real, sin necesidad de actualizar toda la aplicación. Asimismo, nos enfocamos en mejorar la experiencia del usuario mediante prácticas como uso de patrones de navegación, uso de distintos colores para definir la importancia de cada elemento en la pantalla, entre otros. Este proyecto no solo ha permitido que aprendamos a materializar la idea que se planteó de la aplicación, sino también nuevas técnicas de programación. Investigamos nuevas maneras programar las aplicaciones para así poder tener un eficaz funcionamiento y que el código sea entendible cuando haya la necesidad de escalar el proyecto. 
 </p>
 
-## Conclusiones y recomendaciones 
-<p align="justify">
-A partir del proceso para completar la primera entrega del proyecto, entendemos que necesitamos una base concisa y clara para poder empezar con la creación de nuestro producto. Empezamos con el Lean UX Process, lo que nos permitió conocer de forma exacta nuestro público objetivo. Continuamos con los gráficos AS-IS y TO-BE, de esta manera pudimos representar el estado actual y futuro del flujo que habrá dentro de la aplicación. Asimismo, con las entrevistas a nuestros segmentos objetivos previamente identificados, logramos entender sus necesidades y reforzar nuestro diseño de aplicación web. A partir de ello, pudimos crear nuestras User Stories que definirán cómo continuaremos el proyecto y qué debemos cumplir al momento de finalizarlo. 
-</p>
-
-<p align="justify">
-Y finalmente cada integrante se encargó de definir las clases que tendra cada Bounded Context y realizar los diagramas solicitados. En resumen, esta primera entrega nos permitió tener una base firme, que se alinea con nuestras metas como empresa y los beneficios que esperamos brindar a los usuarios. 
-</p>
+**Recomendaciones**
+* Se recomienda probar la aplicación constantemente luego de cada nueva implementación para procurar que funciona correctamente antes de publicarla y crear un backup oficial en caso haya algún bug o un error, de esta manera, se evitan posibles pérdidas de usuarios y brindamos una mejor experiencia para los mismos.
+* Acorde al Roadmap, es posible escalar la aplicación. Por ello, se recomienda agregar nuevas funcionalidades como la subida y lectura de documentos, creación de foros que permitan, por ejemplo, a los abogados compartir el éxito de sus casos; asimismo, se podría implementar la funcionalidad de calendario. Esto permitirá al cliente reservar una fecha con el abogado de antemano para dialogar el caso y que este último pueda aceptar o rechazar dicha invitación. Asimismo. añadir una pasarela de pago, de esta manera, el cliente puede tener un historial de los pagos que ha realizado por caso. Por último, se puede incluir la validación de los datos, que sería un microservicio con RENIEC, y otra para validar el código de abogado que tiene cada profesional.
+* Se recomienda incluir autenticación multifactor, para añadir otra capa de seguridad a la cuenta del usuario. Así, nuestros segmentos objetivos pueden estar seguros de que sus cuentas tienen menos probabilidad de ser vulneradas.
+* Finalmente, se recomienda tener reuniones constantes en el equipo para desarrollar el proyecto y utilizar el marco de trabajo Scrum, de esta forma, se manejarán los avances de manera apropiada y se podrá cumplir con los plazos definidos a tiempo, acorde a las capacidades del equipo y de cada integrante.
 
 ## Video About-the-Team
 
