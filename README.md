@@ -4199,7 +4199,7 @@ Enlace al APK de Android: https://appdistribution.firebase.dev/i/1d6235cebac1a08
 
 En la misma sección, se hizo el despliegue de la aplicación móvil para clientes (flutter) en Firebase. Se subió generó el APK firmada y se subió a Firebase:
 
-Enlace al APK de Cross-Platform (Flutter): 
+Enlace al APK de Cross-Platform (Flutter): https://appdistribution.firebase.dev/i/1b70f0cc733c9dbf
 
 **Figura .** Ingreso a la plataforma Firebase
 
