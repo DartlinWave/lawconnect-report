@@ -3901,7 +3901,7 @@ Aquí se encuentra la captura de las contribuciones de la landing page
     <tr align="justify">
         <td>Sprint 1 – 2 Review Summary</td>
         <td>
-            Durante el Sprint 1, se entregó el informe del proyecto con los capítulos desarrollados para la actividad. Asimismo, se implementaron funcionalidades clave para la creación de la aplicación móvil: autenticación, creación de cuentas para los segmentos objetivos (cliente y abogado) y la visualización del mismo. También, avanzó el desarrolló de la landing page. Por último, el Product Owner expresó satisfacción con el avance que se presentó. Brindó un feedback respecto al desarrollo del backend y del backlog para el sprint anterior.
+            Durante la planificación del sprint 2, identificamos como objetivos principales mejorar la experiencia del usuario dentro de la aplicación móvil, avanzar en la implementación de funcionalidades clave (como el seguimiento de casos y el historial del cliente) y estabilizar el backend. Se asignaron tareas específicas a cada integrante considerando la carga de trabajo previa y sus especialidades técnicas. La duración del sprint se fijó en dos semanas.
         </td>
     </tr>
     <tr align="justify">
@@ -3993,6 +3993,25 @@ En esta parte se listan las preguntas a realizar a nuestros entrevistados de amb
 9. ¿Qué características le gustaría ver en una versión futura?  
 
 #### 6.3.2. Registro de Entrevistas
+
+**Entrevista 1**
+
+| Screenshot | <img src="/assets/images/chapter-VI/ValidationInterview-Christian.png" alt="ValidationInterview-Christian"/> |
+|----------------|----------------|
+| Nombres Completos | Christian Andre, Matos Fernandez |
+| Edad           | 24 |
+| Distrito       | San Juan de Lurigancho |
+| URL            | https://drive.google.com/file/d/12NVEEReAAEyh59aqLFRVzExzt5zEzasT/view?usp=sharing |
+| Duración       | 7:56 |
+
+**Entrevista 2**
+
+| Nombres Completos |  |
+|----------------|----------------|
+| Edad           |  |
+| Distrito       |  |
+| URL            |  |
+| Duración       |  |
 
 #### 6.3.3. Evaluaciones según heurísticas
 
