@@ -57,11 +57,15 @@
 **TB1:**  
 En esta entrega el equipo definió las bases del tema que se trabajará en el ciclo, sus segmentos objetivo, Lean UX, requisitos y bounded contexts.
 
+***Figura 4.*** Commits del reporte TB1, mostrando la colaboración del equipo en el desarrollo inicial del proyecto.
+
 <img src="/assets/images/chapter-I/Commits tb1 report.png" alt="Commits TB1 Report" width="600"/>
 
 ## Project Report Collaboration Insights  
 **TP:**  
 En esta entrega el equipo definió los wireframes, mockups, prototypes y product implementation, validation & deployment.
+
+***Figura 5.*** Commits del reporte TP, evidenciando el progreso del equipo en las fases de diseño e implementación.
 
 <img src="/assets/images/chapter-I/CommitsTP.png" alt="Commits TP Report" width="600"/>
 
@@ -339,9 +343,7 @@ DartlinWave es una startup compuesta por un grupo de estudiantes de la carrera d
 #### 1.1.2. Perfiles de integrantes del equipo
 A continuación, se presentará a cada miembro del equipo de DartlinWave:
 
-***Tabla 1***
-
-*Perfiles de integrantes del equipo*
+***Tabla 1.*** Perfiles de integrantes del equipo de DartlinWave.
 
 <table>
     <th>
@@ -599,9 +601,7 @@ En esta sección explicaremos quienes son nuestros principales competidores y de
 manejar una buena estrategia y planeación de nuestro producto, ya que es importante saber a quienes nos enfretaremos en el rubro.
 </p>
 
-***Tabla 3.***
-
-*Competidores de LawConnect*
+***Tabla 2.*** Competidores de LawConnect y sus características principales.
 
 <table border="1">
     <tr>
@@ -657,6 +657,8 @@ En esta sección analizaremos nuestros competidores de manera profunda. Investig
 
 *Análisis competitivo de nuestros competidores*
 
+***Tabla 3.*** Análisis competitivo - Información general.
+
 <table border="1">
   <tr>
     <th colspan="2">Competitive analysis landscape</th>
@@ -673,6 +675,8 @@ En esta sección analizaremos nuestros competidores de manera profunda. Investig
     </td>
   </tr>
 </table>
+
+***Tabla 4.*** Matriz de análisis competitivo comparando LawConnect con la competencia.
 
 <table border="1">
   <tr>
@@ -965,7 +969,7 @@ En esta sección se presentan las fichas de User Persona, las cuales representan
 La siguiente imagen representa a un abogado <b>egresado</b> que utiliza la tecnología para encontrar alguna oportunidad laboral.
 </p>
 
-***Figura 7.*** *User Persona: Lucia Martinez*
+***Figura 18.*** User Persona de Lucía Martínez, representando el segmento de abogados egresados.
 
 <img src="/assets/images/chapter-II/userpersona-lucia-martinez.png" 
     alt="User Persona Lucia Martinez" width="700px"/>
@@ -977,10 +981,10 @@ La siguiente imagen representa a un abogado <b>egresado</b> que utiliza la tecno
 La siguiente imagen representa cliente <b>con problemas legales</b> que utiliza la tecnología para encontrar algún abogado especializado en su caso.
 </p>
 
-***Figura 8.*** *User Persona: Jean Patrick*
+***Figura 6.*** User Persona de Jean Patrick, representando el segmento de clientes con problemas legales.
 
 <img src="/assets/images/chapter-II/userpersona-jean-patrick.png" 
-    alt="User Persona Lucia Martinez" width="700px"/>
+    alt="User Persona Jean Patrick" width="700px"/>
 
 *Nota.* Este user persona representa al segmento: cliente con problemas legales.
 
@@ -1008,9 +1012,7 @@ Low (Baja) Medium (Media) High (Alta)
 Esta herramienta ayuda a visualizar qué tareas y objetivos son más relevantes para los usuarios, permitiendo así una mejor planificación y priorización en el desarrollo del producto.
 </p>
 
-***Tabla 6.***
-
-*User Task Matrix*
+***Tabla 5.*** User Task Matrix comparando las tareas de ambos segmentos objetivo.
 
 <table border="1">
   <tr>
@@ -1085,14 +1087,14 @@ Esta herramienta ayuda a visualizar qué tareas y objetivos son más relevantes 
  
 #### 2.3.3. User Journey Mapping
 
-***Figura 9.*** *User Journey Mapping 1: Abogado*
+***Figura 20.*** User Journey Mapping del segmento abogado egresado.
 
 <img src="/assets/images/chapter-II/journey-mapping-abogado.png" 
     alt="User Persona Lucia Martinez" width="980px"/>
 
 *Nota.* Representación visual de la experiencia de un abogado egresado en la aplicación móvil.
 
-***Figura 10.*** *User Journey Mapping 2: Cliente*
+***Figura 21.*** User Journey Mapping del segmento cliente con problemas legales.
 
 <img src="/assets/images/chapter-II/journey-mapping-cliente.png" 
     alt="User Persona Lucia Martinez" width="980px"/>
@@ -1121,14 +1123,14 @@ Para la elaboración de estos diagramas, se ha utilizado la herramienta UXPressi
 Este enfoque permite una comprensión más rica y matizada de los usuarios, facilitando la creación de soluciones que realmente respondan a sus necesidades y expectativas.
 </p>
 
-***Figura 11.*** *Empathy Mapping 1: Abogado que busca expandir su clientela*
+***Figura 22.*** Empathy Mapping del segmento abogado egresado.
 
 <img src="/assets/images/chapter-II/empathy-mapping-abogado.png" 
     alt="User Persona Lucia Martinez" width="700px"/>
 
 *Nota.* Mapa de empatía para entender los sentimientos, pensamientos y comportamientos de nuestro segmento objetivo: abogado egresado.
 
-***Figura 12.*** *Empathy Mapping 2: Cliente en busca de asesoría legal*
+***Figura 23.*** Empathy Mapping del segmento cliente con problemas legales.
 
 <img src="/assets/images/chapter-II/empathy-mapping-cliente.png" 
     alt="User Persona Lucia Martinez" width="700px"/>
@@ -1163,14 +1165,14 @@ El As-Is Scenario Mapping incluye:
 Estos mapas ayudan a visualizar el flujo actual de interacción del usuario, permitiendo identificar áreas críticas que necesitan ser optimizadas para mejorar la experiencia general del usuario.
 </p>
 
-***Figura 13.*** *As-is Scenario Mapping 1: Abogado que busca expandir su clientela*
+***Figura 24.*** As-is Scenario Mapping del segmento abogado egresado.
 
 <img src="/assets/images/chapter-II/as-is-mapping-abogado.png" 
     alt="User Persona Lucia Martinez" width="980px"/>
 
 *Nota.* Mapa hecho para entender la situación actual del abogado egresado.
 
-***Figura 14.*** *As-is Scenario Mapping 2: Cliente en busca de asesoría legal*
+***Figura 25.*** As-is Scenario Mapping del segmento cliente con problemas legales.
 
 <img src="/assets/images/chapter-II/as-is-mapping-cliente.png" 
     alt="User Persona Lucia Martinez" width="980px"/>
@@ -1181,9 +1183,7 @@ Estos mapas ayudan a visualizar el flujo actual de interacción del usuario, per
 
 En esta sección se presenta el glosario de términos utilizados en el dominio del producto **LawConnect**, el cual busca facilitar la comunicación clara y sin ambigüedades entre todos los stakeholders del proyecto.
 
-***Tabla 7.***
-
-*Glosario de términos utilizados para el Ubiquitous Language de LawConnect*
+***Tabla 6.*** Glosario de términos para el Ubiquitous Language de LawConnect.
 
 <table border="1">
   <tr>
@@ -1273,13 +1273,13 @@ En esta sección se presenta el glosario de términos utilizados en el dominio d
 ### 3.1. To-Be Scenario Mapping    
 Luego de realizar el as-is con sus fases propuestas, para el to-be se realizaron nuevos procesos enfocados en mejorar las fases de los segmentos objetivos con nuestro proyecto.
 
-***Figura 15.*** *Segmento Objetivo 1: Lucía Martinez - Abogada*
+***Figura 26.*** To-Be Scenario Mapping del segmento abogado egresado.
 
 <img src="/assets/images/chapter-III/To Be Abogado.png" alt="To Be Lawyer" width="980px"/>
 
 *Nota.* Mapa hecho para entender la situación futura del abogado egresado dentro de la aplicación móvil.
 
-***Figura 16.*** *Segmento Objetivo 2: Jean Patrick Sanchez Rios - Cliente*
+***Figura 27.*** To-Be Scenario Mapping del segmento cliente con problemas legales.
 
 <img src="/assets/images/chapter-III/To Be Cliente.png" alt="To Be Customer" width="980px"/>
 
@@ -1292,9 +1292,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 
 #### Epic Stories
 
-***Tabla 8.***
-
-*Epic Stories para la aplicación móvil*
+***Tabla 7.*** Epic Stories para la aplicación móvil LawConnect.
 
 <table> 
     <tr> 
@@ -1395,9 +1393,7 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 
 #### User Stories
 
-***Tabla 9.***
-
-*User Stories para la aplicación móvil*
+***Tabla 8.*** User Stories para la aplicación móvil LawConnect.
 
 <table> 
     <tr> 
@@ -2303,13 +2299,13 @@ Los User Stories sirven para describir de manera más detallada las diferentes f
 ### 3.3. Impact Mapping 
 En esta sección, se plantearon metas de negocio utilizando los criterios SMART para elaborar el Impact Mapping en base a nuestras User Personas y User Stories.
 
-***Figura 17.*** *Segmento Objetivo 1: Lucía Martinez - Abogada Impact Mapping*
+***Figura 28.*** Impact Mapping del segmento abogado egresado.
 
 <img src="https://github.com/DartlinWave/LawConnect-report/blob/eedbb12caafdb4b15be9aa3bd406d5e90c2af924/assets/images/chapter-III/Impact%20Map%20Abogado.jpg"></img>
 
 *Nota. Mapa realizado para ver cómo los procesos del proyecto se alinean con los objetivos SMART de la startup para los abogados egresados.*
 
-***Figura 18.*** *Segmento Objetivo 2: Jean Patrick Sanchez Rios - Cliente*
+***Figura 29.*** Impact Mapping del segmento cliente con problemas legales.
 
 <img src="https://github.com/DartlinWave/LawConnect-report/blob/eedbb12caafdb4b15be9aa3bd406d5e90c2af924/assets/images/chapter-III/Impact%20Map%20Cliente.jpg"></img>
 
@@ -2317,9 +2313,7 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 
 ### 3.4. Product Backlog 
 
-***Tabla 10***
-
-*Product Backlog de la aplicación móvil*
+***Tabla 9.*** Product Backlog de la aplicación móvil LawConnect.
 
 <table>
     <tr>
@@ -2574,7 +2568,7 @@ El diseño estratégico en Domain-Driven Design se enfoca en definir los límite
 EventStorming es una técnica visual y colaborativa que permite descubrir y entender procesos del dominio a través de eventos clave. Fue utilizada para alinear al equipo y definir los flujos principales del sistema desde una perspectiva de negocio.
 </p>
 
-***Figura 19.*** *Event Storming del proyecto*
+***Figura 30.*** Event Storming del proyecto LawConnect.
 
 <img src="/assets/images/chapter-iv/event-storming.jpg" alt="Event Storming" width="750"/>
 
@@ -2626,7 +2620,7 @@ El enfoque se basó en describir casos reales de uso desde la perspectiva de los
 Cada uno de estos escenarios fue representado en <b>Miro</b> como un diagrama de Domain Storytelling, utilizando íconos, actores y flechas que describen la interacción paso a paso. Esta visualización ayudó al equipo a identificar claramente qué Bounded Contexts se comunican, qué datos deben compartirse y en qué orden ocurren las acciones.
 </p>
 
-***Figura 20.*** *Domain Storytelling del proyecto*
+***Figura 31.*** Domain Storytelling del proyecto LawConnect.
 
 <img src="/assets/images/chapter-iv/storytelling.png" alt="Domain Storytelling" width="700"/>
 
@@ -2637,7 +2631,7 @@ Cada uno de estos escenarios fue representado en <b>Miro</b> como un diagrama de
 En esta sección se presentan los Canvases de los bounded contexts identificados durante las actividades previas. Cada Canvas detalla su propósito, reglas de negocio, lenguaje ubicuo, capacidades, dependencias, y una revisión crítica de su diseño, siguiendo un proceso iterativo para refinar su definición.
 </p>
 
-***Figura 21.*** *Bounded Context Cases*
+***Figura 32.*** Bounded Context Canvas del contexto Cases.
 
 <img src="/assets/images/chapter-iv/canvas-cases.png" alt="Canvas Bounded Context Cases" width="800"/>
 
@@ -2648,7 +2642,7 @@ En esta sección se presentan los Canvases de los bounded contexts identificados
 En esta sección veremos ell proceso se llevó a cabo en <b>Miro</b> mediante sesiones de análisis colaborativo que incluyeron preguntas clave que nos ayudaron a evaluar posibles reorganizaciones de capacidades.
 </p>
 
-***Figura 22.*** *Context Mapping del proyecto*
+***Figura 33.*** Context Mapping del proyecto LawConnect.
 
 <img src="/assets/images/chapter-iv/context-mapping.png" alt="Context Mapping" width="650"/>
 
@@ -2664,7 +2658,7 @@ Esta sección describe la arquitectura del sistema utilizando el modelo C4, alin
 Este apartado muestra el diagrama de contexto, donde se representa cómo el sistema interactúa con los actores y sistemas externos. Define los límites del sistema y su relación con el entorno.
 </p>
 
-***Figura 23.*** *Context Level Diagram del proyecto*
+***Figura 34.*** Context Level Diagram del proyecto LawConnect.
 
 <img src="/assets/images/chapter-iv/context-level-diagram.png" alt="Context Level Diagram" width="500"/>
 
@@ -2675,7 +2669,7 @@ Este apartado muestra el diagrama de contexto, donde se representa cómo el sist
 Aquí se presenta el diagrama de contenedores, detallando los componentes principales del sistema, su organización interna y cómo colaboran para cumplir los objetivos funcionales.
 </p>
 
-***Figura 24.*** *Container Level Diagram del proyecto*
+***Figura 35.*** Container Level Diagram del proyecto LawConnect.
 
 <img src="/assets/images/chapter-iv/container-level-diagram.png" alt="Container Level Diagram" width="500"/>
 
@@ -3023,6 +3017,8 @@ Encargado de propagar eventos de dominio al sistema de mensajería.
 
 ##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams  
 
+***Figura 36.*** Component Diagram del Bounded Context Cases.
+
 <img src="/assets/images/chapter-IV/bc-cases/cases-component-diagram.png" alt="bc-cases-component-diagram"/>
 
 Este diagrama de componentes representa la estructura interna del módulo de gestión de casos legales en LawConnect, organizado en capas. El flujo comienza con el Cases Controller que recibe peticiones HTTP y las deriva al Case Service, el cual orquesta la lógica principal utilizando los modelos del Domain Layer (entidades como LegalCase y CaseApplication). El servicio interactúa con múltiples repositorios (Case Repository, Application Repository, Client Repository y Lawyer Repository) para persistir datos en la base de datos, manteniendo una separación clara entre la lógica de negocio y el acceso a datos. Este diseño sigue principios DDD, con componentes especializados que permiten escalabilidad y facilitan la integración con otros contextos del sistema, todo ello representado visualmente mediante relaciones que muestran el flujo de datos y dependencias entre los distintos elementos arquitectónicos.
@@ -3030,6 +3026,8 @@ Este diagrama de componentes representa la estructura interna del módulo de ges
 ##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams  
+
+***Figura 37.*** Class Diagram del Domain Layer del Bounded Context Cases.
 
 <center>
 <img src="/assets/images/chapter-IV/bc-cases/cases-class-diagram.png" alt="bc-cases-class-diagram" width="450px"/>
@@ -3090,9 +3088,12 @@ Para la creación del logo nos enfocamos en determinar que sea representativo a 
 Para la tipografía de los productos, se ha escogido Plus Jakarta Sans debido a la legibilidad que presenta y facilidad al momento de leer. Asimismo, es llamativo a plena vista del usuario. Para su implementación, hemos utilizado los cuatro niveles de encabezado como guía, los subtítulos, botones, cuerpo de texto, descripciones, etc.
 </p>
 
-***Figura .*** Type scale de Plus Jakarta Sans.
+***Figura 38.*** Type scale de Plus Jakarta Sans - Parte 1.
 
-![Type Scale of Plus Jakarta Sans Part 1](assets/images/chapter-V/TypeScaleP1.png)  
+![Type Scale of Plus Jakarta Sans Part 1](assets/images/chapter-V/TypeScaleP1.png)
+
+***Figura 39.*** Type scale de Plus Jakarta Sans - Parte 2.
+
 ![Type Scale of Plus Jakarta Sans Part 2](assets/images/chapter-V/TypeScaleP2.png)
 
 *Nota.* Listado de la representación de la fuente Plus Jakarta Sans. Tomado de _The type system_, por Google (https://m2.material.io/design/typography/the-type-system.html#type-scale), 2025.
@@ -3106,13 +3107,13 @@ Para la elección de los colores representativos para los productos, escogimos i
 Enlace al diseño en Figma: 
 https://www.figma.com/design/JZae3tfE2O0QIgquMoexvX/DesignProduct?node-id=8-2&t=eLq4SylKlmEwIeqj-1
 
-***Figura .*** Paleta de Colores creada con Material Design
+***Figura 40.*** Paleta de Colores creada con Material Design.
 
 ![Color Palette made in Material Design](assets/images/chapter-V/ColorPaletteMaterialDesign.png)  
 
 *Nota.* Demostración usable creada por Google para cumplir el estándar de accesibilidad al momento de crear la paleta de colores. Tomado de _The color system_, por Google (https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors), 2025.
 
-***Figura .*** Paleta de Colores completa.
+***Figura 41.*** Paleta de Colores completa de LawConnect.
 
 ![Color Palette](assets/images/chapter-V/ColorPaletteLawConnect.png)
 
@@ -3268,13 +3269,13 @@ En esta sección se presentará el wireframe para la landing page, este es un es
 
 Para navegador de escritorio:
 
-***Figura .*** Wireframe de Landing Page de LawConnect para navegador de escritorio.
+***Figura 42.*** Wireframe de Landing Page de LawConnect para navegador de escritorio.
 
 ![Wireframe of Landing Page for Desktop](assets/images/chapter-V/WireframeLandingPageDesktop.png)
 
 Para navegador de móvil:
 
-***Figura .*** Wireframe de Landing Page de LawConnect para navegador de móvil.
+***Figura 43.*** Wireframe de Landing Page de LawConnect para navegador de móvil.
 
 ![Wireframe of Landing Page for Mobile](assets/images/chapter-V/WireframeLandingPageMobile.png)
 
@@ -3284,13 +3285,13 @@ En esta parte se presentará el mock-up de la landing page, que es el equema de 
 
 Para navegador de escritorio:
 
-***Figura .*** Mock-up de Landing Page de LawConnect para navegador de escritorio.
+***Figura 44.*** Mock-up de Landing Page de LawConnect para navegador de escritorio.
 
 ![Mock-up of Landing Page for Desktop](assets/images/chapter-V/MockUpLandingPageDesktop.png)
 
 Para navegador de móvil:
 
-***Figura .*** Mock-up de Landing Page de LawConnect para navegador de móvil.
+***Figura 45.*** Mock-up de Landing Page de LawConnect para navegador de móvil.
 
 ![Mock-up of Landing Page for Mobile](assets/images/chapter-V/MockUpLandingPageMobile.png)
 
@@ -3299,7 +3300,7 @@ Para navegador de móvil:
 
 ##### 5.1.4.1. Mobile Applications Wireframes
 
-***Figura .*** Wireframes de la aplicación móvil.
+***Figura 46.*** Wireframes de la aplicación móvil LawConnect.
 
 ![Mobile Wireframes](assets/images/chapter-V/MobileWireframes.png)
 
@@ -3312,25 +3313,25 @@ Abogados egresados:
 
 User goal 1: Como abogado quiero poder iniciar sesión, inscribirme a Law Connect, recuperar mi contraseña, crear mi perfil, incluir mi descripción y especialidad para ingresar a la aplicación móvil.  
 
-***Figura .*** Representación del User Goal 1 de abogado egresado en la aplicación móvil.
+***Figura 47.*** Representación del User Goal 1 de abogado egresado en la aplicación móvil.
 
 ![User Goal 1 | Abogados egresados](assets/images/chapter-V/WireflowDiagrams/Wireflow1.png)
 
 User goal 2: Como abogado quiero ver la lista de casos disponibles y aplicar a uno para poder trabajar con diferentes clientes.
 
-***Figura .*** Representación del User Goal 2 de abogado egresado en la aplicación móvil.
+***Figura 48.*** Representación del User Goal 2 de abogado egresado en la aplicación móvil.
 
 ![User Goal 2 | Abogados egresados](assets/images/chapter-V/WireflowDiagrams/Wireflow2.png)
 
 User goal 3: Como abogado quiero poder ver la lista de invitaciones a casos y poder aceptar o declinar uno para poder tener un manejo de los casos que llevo en la aplicación.
 
-***Figura .*** Representación del User Goal 3 de abogado egresado en la aplicación móvil.
+***Figura 49.*** Representación del User Goal 3 de abogado egresado en la aplicación móvil.
 
 ![User Goal 3 | Abogados egresados](assets/images/chapter-V/WireflowDiagrams/Wireflow3.png)
 
 User goal 4: Como abogado quiero tener un seguimiento de los casos que llevo y actualizar su estado para tener una línea de tiempo sobre cómo van los casos y para gestionar un debido tiempo para cada uno.
 
-***Figura .*** Representación del User Goal 4 de abogado egresado en la aplicación móvil.
+***Figura 50.*** Representación del User Goal 4 de abogado egresado en la aplicación móvil.
 
 ![User Goal 4 | Abogados egresados](assets/images/chapter-V/WireflowDiagrams/Wireflow4.png)
 
@@ -3338,47 +3339,49 @@ Clientes:
 
 User goal 1: Como cliente quiero poder iniciar sesión, inscribirme a Law Connect, recuperar mi contraseña, crear mi perfil para ingresar a la aplicación móvil.
 
-***Figura .*** Representación del User Goal 1 de cliente en la aplicación móvil.
+***Figura 51.*** Representación del User Goal 1 de cliente en la aplicación móvil.
 
 ![User Goal 1 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow5.png)
 
 User goal 2: Como cliente quiero poder crear un caso para poder conectar con un abogado calificado.
 
-***Figura .*** Representación del User Goal 2 de cliente en la aplicación móvil.
+***Figura 52.*** Representación del User Goal 2 de cliente en la aplicación móvil.
 
 ![User Goal 2 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow6.png)
 
 User goal 3: Como cliente quiero visualizar mi lista de casos y ver el seguimiento de los mismos para manejar de manera organizada los tiempos de cada uno.
 
-***Figura .*** Representación del User Goal 3 de cliente en la aplicación móvil.
+***Figura 53.*** Representación del User Goal 3 de cliente en la aplicación móvil.
 
 ![User Goal 3 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow7.png)
 
 User goal 4: Como cliente quiero cambiar el estado del caso para poder seguir el caso con un abogado y no se muestre como disponible para otros abogados.
 
-***Figura .*** Representación del User Goal 4 de cliente en la aplicación móvil.
+***Figura 54.*** Representación del User Goal 4 de cliente en la aplicación móvil.
 
 ![User Goal 4 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow8.png)
 
 User goal 5: Como cliente quiero ver la lista de abogados, utilizar filtros, e invitar a un abogado al caso creado para llevarlo con el abogado de mi elección.
 
-***Figura .*** Representación del User Goal 5 de cliente en la aplicación móvil.
+***Figura 55.*** Representación del User Goal 5 de cliente en la aplicación móvil.
 
 ![User Goal 5 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow9.png)
 
 User goal 6: Como cliente quiero tener una lista de postulantes para mi caso, para escoger uno de ellos acorde a mis preferencias.
 
-***Figura .*** Representación del User Goal 6 de cliente en la aplicación móvil.
+***Figura 56.*** Representación del User Goal 6 de cliente en la aplicación móvil.
 
 ![User Goal 6 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow10.png)
 
 User goal 7: Como cliente quiero poder cerrar un caso para señalar que el proceso legal a terminado.
 
-***Figura .*** Representación del User Goal 7 de cliente en la aplicación móvil.
+***Figura 57.*** Representación del User Goal 7 de cliente en la aplicación móvil.
 
 ![User Goal 7 | Clientes](assets/images/chapter-V/WireflowDiagrams/Wireflow11.png)
 
 ##### 5.1.4.3. Mobile Applications Mock-ups 
+
+***Figura 58.*** Mock-ups de la aplicación móvil LawConnect.
 
 ![Mobile Mockups](assets/images/chapter-V/MobileMockups.png)
 
@@ -3390,28 +3393,26 @@ Abogados egresados:
 
 User goal 1: Como abogado quiero poder iniciar sesión, inscribirme a Law Connect, recuperar mi contraseña, crear mi perfil, incluir mi descripción y especialidad para ingresar a la aplicación móvil.  
 
-***Figura .*** Representación del User Goal 1 de abogado egresado en la aplicación móvil.
+***Figura 59.*** User Flow del User Goal 1 de abogado egresado en la aplicación móvil.
 
 ![User Goal 1 | Abogados egresados](assets/images/chapter-V/Userflow1.jpg)
 
-
 User goal 2: Como abogado quiero ver la lista de casos disponibles y aplicar a uno para poder trabajar con diferentes clientes.
 
-***Figura .*** Representación del User Goal 2 de abogado egresado en la aplicación móvil.
+***Figura 60.*** User Flow del User Goal 2 de abogado egresado en la aplicación móvil.
 
 ![User Goal 2 | Abogados egresados](assets/images/chapter-V/Userflow2.jpg)
 
 
 User goal 3: Como abogado quiero poder ver la lista de invitaciones a casos y poder aceptar o declinar uno para poder tener un manejo de los casos que llevo en la aplicación.
 
-***Figura .*** Representación del User Goal 3 de abogado egresado en la aplicación móvil.
+***Figura 61.*** User Flow del User Goal 3 de abogado egresado en la aplicación móvil.
 
 ![User Goal 3 | Abogados egresados](assets/images/chapter-V/Userflow3.jpg)
 
-
 User goal 4: Como abogado quiero tener un seguimiento de los casos que llevo y actualizar su estado para tener una línea de tiempo sobre cómo van los casos y para gestionar un debido tiempo para cada uno.
 
-***Figura .*** Representación del User Goal 4 de abogado egresado en la aplicación móvil.
+***Figura 62.*** User Flow del User Goal 4 de abogado egresado en la aplicación móvil.
 
 ![User Goal 4 | Abogados egresados](assets/images/chapter-V/Userflow4.jpg)
 
@@ -3420,54 +3421,51 @@ Clientes:
 
 User goal 1: Como cliente quiero poder iniciar sesión, inscribirme a Law Connect, recuperar mi contraseña, crear mi perfil para ingresar a la aplicación móvil.
 
-***Figura .*** Representación del User Goal 1 de cliente en la aplicación móvil.
+***Figura 63.*** User Flow del User Goal 1 de cliente en la aplicación móvil.
 
 ![User Goal 1 | Clientes](assets/images/chapter-V/Userflow6.jpg)
 
-
 User goal 2: Como cliente quiero poder crear un caso para poder conectar con un abogado calificado.
 
-***Figura .*** Representación del User Goal 2 de cliente en la aplicación móvil.
+***Figura 64.*** User Flow del User Goal 2 de cliente en la aplicación móvil.
 
 ![User Goal 2 | Clientes](assets/images/chapter-V/Userflow5.png)
 
-
 User goal 3: Como cliente quiero visualizar mi lista de casos y ver el seguimiento de los mismos para manejar de manera organizada los tiempos de cada uno.
 
-***Figura .*** Representación del User Goal 3 de cliente en la aplicación móvil.
+***Figura 65.*** User Flow del User Goal 3 de cliente en la aplicación móvil.
 
 ![User Goal 3 | Clientes](assets/images/chapter-V/Userflow7.jpg)
 
 
 User goal 4: Como cliente quiero cambiar el estado del caso para poder seguir el caso con un abogado y no se muestre como disponible para otros abogados.
 
-***Figura .*** Representación del User Goal 4 de cliente en la aplicación móvil.
+***Figura 66.*** User Flow del User Goal 4 de cliente en la aplicación móvil.
 
 ![User Goal 4 | Clientes](assets/images/chapter-V/Userflow8.jpg)
 
-
 User goal 5: Como cliente quiero ver la lista de abogados, utilizar filtros, e invitar a un abogado al caso creado para llevarlo con el abogado de mi elección.
 
-***Figura .*** Representación del User Goal 5 de cliente en la aplicación móvil.
+***Figura 67.*** User Flow del User Goal 5 de cliente en la aplicación móvil.
 
 ![User Goal 5 | Clientes](assets/images/chapter-V/Userflow9.jpg)
 
-
 User goal 6: Como cliente quiero tener una lista de postulantes para mi caso, para escoger uno de ellos acorde a mis preferencias.
 
-***Figura .*** Representación del User Goal 6 de cliente en la aplicación móvil.
+***Figura 68.*** User Flow del User Goal 6 de cliente en la aplicación móvil.
 
 ![User Goal 6 | Clientes](assets/images/chapter-V/Userflow10.jpg)
 
 
 User goal 7: Como cliente quiero poder cerrar un caso para señalar que el proceso legal a terminado.
 
-***Figura .*** Representación del User Goal 7 de cliente en la aplicación móvil.
+***Figura 69.*** User Flow del User Goal 7 de cliente en la aplicación móvil.
 
 ![User Goal 7 | Clientes](assets/images/chapter-V/Userflow11.jpg)
 
-
 ##### 5.1.4.5. Mobile Applications Prototyping
+
+***Figura 70.*** Prototipo de la aplicación móvil LawConnect.
 
 ![Mobile protoype](assets/images/chapter-V/CapturaPrototipo.png)
 
@@ -4278,7 +4276,7 @@ En esta parte se listan las preguntas a realizar a nuestros entrevistados de amb
 
 #### 6.3.2. Registro de Entrevistas
 
-**Entrevista 1**
+**Entrevista**
 
 | Screenshot | <img src="/assets/images/chapter-VI/ValidationInterview-Christian.png" alt="ValidationInterview-Christian"/> |
 |----------------|----------------|
@@ -4287,15 +4285,6 @@ En esta parte se listan las preguntas a realizar a nuestros entrevistados de amb
 | Distrito       | San Juan de Lurigancho |
 | URL            | https://drive.google.com/file/d/12NVEEReAAEyh59aqLFRVzExzt5zEzasT/view?usp=sharing |
 | Duración       | 7:56 |
-
-**Entrevista 2**
-
-| Nombres Completos |  |
-|----------------|----------------|
-| Edad           |  |
-| Distrito       |  |
-| URL            |  |
-| Duración       |  |
 
 #### 6.3.3. Evaluaciones según heurísticas
 
