@@ -27,7 +27,7 @@
 | Barbara Antonella Espinoza Delgado | u201911727 |
 | Johan Jorge Quiñones Tintaya       | U202218183 |
 
-<br> Junio 2025
+<br> Julio 2025
 </center>  
 
 
@@ -47,6 +47,10 @@
 | 1.6.1   | 17/05/2025 | Camila Cristina Loli Ramirez       | Desarrollo parcial del **Capítulo V y VI**       |
 | 1.6.2   | 17/05/2025 | Johan Jorge Quiñones Tintaya       | Desarrollo parcial del **Capítulo VI**           |
 | 1.6.3   | 17/05/2025 | Zavala Quedena Gonzalo Andre       | Desarrollo parcial del **Capítulo V**            |
+| 1.7.0   | 10/07/2025 | Barbara Antonella Espinoza Delgado | Desarrollo parcial del **Capítulo VI**           |
+| 1.7.1   | 10/07/2025 | Camila Cristina Loli Ramirez       | Desarrollo parcial del **Capítulo V y VI**       |
+| 1.7.2   | 10/07/2025 | Johan Jorge Quiñones Tintaya       | Desarrollo parcial del **Capítulo VI**           |
+| 1.7.3   | 10/07/2025 | Zavala Quedena Gonzalo Andre       | Desarrollo parcial del **Capítulo V**            |
 
 
 ## Project Report Collaboration Insights  
