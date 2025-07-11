@@ -4108,9 +4108,11 @@ Para la presentación para la aplicación native y cross-platform dentro de las 
 
 ##### 6.2.3.5. Execution Evidence for Sprint Review
 
-##### 6.2.3.6. Services Documentation Evidence for Sprint Review
+Se realizó la imagen para la aplicación en Flutter para los clientes: 
 
-##### 6.2.3.7. Software Deployment Evidence for Sprint Review
+**Figura .** Imagen de la aplicación móvil para clientes
+
+![Logo In Flutter](assets/images/chapter-VI/app-logo-in-flutter.png)
 
 Se incluyeron los términos y condiciones, y la política de privacidad a la landing page. De esta manera, los usuarios estarán al tanto de las condiciones que hay para el uso de nuestros servicios y conocer cómo se almacenan sus datos. De esta manera, mantenemos la transparencia con nuestros usuarios y cumplimos con las normativas de protección de datos.
 
@@ -4140,7 +4142,44 @@ En la landing page también se añadió una sección para mostrar las funcionali
 
 ![features for lawyers](assets/images/chapter-VI/features-for-lawyers.png)
 
-También se hizo el despliegue de la aplicación móvil para abogados (kotlin) en Firebase. Se subió generó el APK firmada y se subió a Firebase:
+
+##### 6.2.3.6. Services Documentation Evidence for Sprint Review
+
+##### 6.2.3.7. Software Deployment Evidence for Sprint Review
+
+Para descargar el APK, se debe certificar con una llave especial, esta debe ser guardada en un lugar seguro y fácil de acceder por el equipo debido a que nos servirá para subir actualizaciones:
+
+**Figura .** Llave de firma para el APK en Kotlin
+
+![Creation of Key](assets/images/chapter-VI/key-for-app.png)
+
+**Figura .** Generación del APK en Kotlin
+
+![Native APK](assets/images/chapter-VI/create-apk-native.png)
+
+**Figura .** Ingreso de contraseña para certificar el APK
+
+![Certify APK (Kotlin)](assets/images/chapter-VI/certify-apk-kotlin.png)
+
+**Figura .** Descarga del APK en Kotlin como release
+
+![Create APK for native](assets/images/chapter-VI/release-apk-kotlin.png)
+
+Para la creación del APK en Flutter fue otro proceso:
+
+**Figura .** Creación del APK en Flutter
+
+![Create APK](assets/images/chapter-VI/apk-flutter.png)
+
+**Figura. ** Proceso completado
+
+![Done build](assets/images/chapter-VI/done-build-flutter.png)
+
+**Figura. ** APK generado en Flutter
+
+![img.png](assets/images/chapter-VI/apk-in-folder.png)
+
+Se hizo el despliegue de la aplicación móvil para abogados (kotlin) en Firebase. Se subió generó el APK firmada y se subió a Firebase:
 
 Enlace al APK de Android: https://appdistribution.firebase.dev/i/1d6235cebac1a086
 
@@ -4153,6 +4192,30 @@ Enlace al APK de Android: https://appdistribution.firebase.dev/i/1d6235cebac1a08
 **Figura .** App móvil para abogados (kotlin) en celular
 
 ![App in phone](assets/images/chapter-VI/app-in-phone.png)
+
+En la misma sección, se hizo el despliegue de la aplicación móvil para clientes (flutter) en Firebase. Se subió generó el APK firmada y se subió a Firebase:
+
+Enlace al APK de Cross-Platform (Flutter): 
+
+**Figura .** Ingreso a la plataforma Firebase
+
+![main page](assets/images/chapter-VI/main-page-firebase.png)
+
+**Figura .** Registro de la aplicación
+
+![registration in firebase](assets/images/chapter-VI/app-infirebase.png)
+
+**Figura .** Ingreso a App Distribution
+
+![App Distribution](assets/images/chapter-VI/app-distribution.png)
+
+**Figura .** Invitación a los integrantes luego de subir el APK
+
+![Invite members](assets/images/chapter-VI/invite-members.png)
+
+**Figura .** Creación del vínculo para agregarlo en la landing page
+
+![Link to download](assets/images/chapter-VI/link-to-download.png)
 
 ##### 6.2.3.8. Team Collaboration Insights during Sprint
 
