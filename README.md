@@ -4551,4 +4551,14 @@ Link de la organización DartlinWave: https://github.com/DartlinWave
         <td>https://github.com/DartlinWave/LawConnect-Mobile-Flutter</td>
         <td>Repositorio del código de la aplicación LawConnect en Flutter.</td>
     </tr>
+    <tr>
+        <td>LawConnect for Lawyers</td>
+        <td>https://appdistribution.firebase.dev/i/1d6235cebac1a086</td>
+        <td>Link for testing the app for lawyers</td>
+    </tr>
+    <tr>
+        <td>LawConnect for Clients</td>
+        <td>https://appdistribution.firebase.dev/i/1b70f0cc733c9dbf</td>
+        <td>Link for testing the app for clients</td>
+    </tr>
 </table>
