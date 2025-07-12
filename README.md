@@ -4545,6 +4545,20 @@ Pontificia Universidad Católica del Perú. (2019). _Informe del mercado laboral
 
 Vallecilla, C. (21 de marzo de 2024). El desempleo en Perú dic. 2023 - feb. 2024 no varió, pero se recuperaron casi 640 mil empleos. _tyba- ¡La app de las inversiones en el Perú!_ https://tyba.pe/blog/tasa-de-desempleo-en-peru-dic-2023-feb-2024/
 
+### Papers
+
+Tran, A.-D., Nguyen, M.-Q., Phan, G.-H., & Tran, M.-T. (2021). _Security issues in Android application development and plug-in for Android Studio to support secure programming_. En T. K. Dang et al. (Eds.), _FDSE 2021, CCIS 1500_ (pp. 105–122). Singapore: Springer Nature Singapore Pte Ltd. (https://www.researchgate.net/publication/356200788_Security_Issues_in_Android_Application_Development_and_Plug-in_for_Android_Studio_to_Support_Secure_Programming)
+
+Whalen, R. (2022). _Defining legal technology and its implications_. _International Journal of Law and Information Technology, 30_(1), 47–67. [https://doi.org/10.1093/ijlit/eaac005](https://doi.org/10.1093/ijlit/eaac005)
+
+Mania, K. (2023). _Legal Technology: Assessment of the Legal Tech Industry’s Potential_. _Journal of the Knowledge Economy, 14_, 595–619. [https://doi.org/10.1007/s13132-022-00924-z](https://doi.org/10.1007/s13132-022-00924-z)
+
+Zulistiyan, M., Monterico, A., & Wibowo, Y. F. A. (2024). _Performance analysis of BLoC and GetX state management library on Flutter_. _Journal of Information System Research (JOSH), 5_(2), 583–591. [https://doi.org/10.47065/josh.v5i2.4698](https://doi.org/10.47065/josh.v5i2.4698)
+
+Natural Language Processing for Legal Document Analysis: Opportunities and Challenges. (2023). _Research-Gate Journal_, _9_(9). [https://research-gate.in/index.php/Rgj/article/view/36](https://research-gate.in/index.php/Rgj/article/view/36)
+
+
+
 ## Anexos 
 ### Anexo A. GitHub Repositories
 Link de la organización DartlinWave: https://github.com/DartlinWave
