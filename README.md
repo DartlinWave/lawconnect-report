@@ -4495,6 +4495,14 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ### 6.4. Video About-the-Product
 
+<p align="justify">
+En esta sección se presenta un video que muestra las funcionalidades de la aplicación móvil para abogados y clientes. El objetivo es brindar una visión general del producto y cómo este puede ayudar a los usuarios a resolver sus problemas legales de manera eficiente.
+</p>
+
+<img src="/assets/images/about-the/product.png" alt="About the Team"/>
+
+Link al video: [https://youtu.be/ISNkKHbYhsc](https://youtu.be/ISNkKHbYhsc)
+
 ## Conclusiones
 
 ### Conclusiones y recomendaciones 
@@ -4517,6 +4525,14 @@ Finalmente, con la última entrega, hemos podido completar ambas aplicaciones y 
 * Finalmente, se recomienda tener reuniones constantes en el equipo para desarrollar el proyecto y utilizar el marco de trabajo SCRUM, de esta forma, se manejarán los avances de manera apropiada y se podrá cumplir con los plazos definidos a tiempo, acorde a las capacidades del equipo y de cada integrante.
 
 ## Video About-the-Team
+
+<p align="justify">
+En esta sección presentamos un video donde cada integrante del equipo de DartlinWave se presenta y comparte su experiencia trabajando en el proyecto LawConnect.
+</p>
+
+<img src="/assets/images/about-the/team.png" alt="About the Team"/>
+
+Link al video: [https://youtu.be/0b1a2c3d4e5f](https://www.youtube.com/watch?v=3Ax7-C-F-cU)
 
 ## Bibliografía
 
